@@ -1,0 +1,16 @@
+img {
+    width:100px;
+    border-radius: 8px;
+}
+
+.groupPicList {
+    width: 300px;
+}
+
+.groupPicIndividual {
+    width: 400px;
+}
+
+.personPicIndividual {
+    width: 210px;
+}
