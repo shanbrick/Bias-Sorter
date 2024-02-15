@@ -24,7 +24,7 @@
     <div class="groupPageBox">
         <img class="groupPicIndividual" src="xdinary.jpeg"></img>
         <p class="directory" style="font-size: 25px; margin-bottom:40px;">Xdinary Heroes</p>
-        
+
         <div class="groupPageDivs">
             <img class="personPicIndividual" src="ode.jpeg"></img>
             <p id="stageName1" class="idolNameGroupPage">O.de</p>
@@ -34,20 +34,8 @@
     </div>
 
     <script>
-        const unsortedList = [
-            {
-                "groupName" : "Xdinary Heroes",
-                "#" : 4,
-                "stageName" : "O.de",
-                "fullName" : "Oh Seungmin",
-                "birthday" : "June 11, 2002",
-                "imgLink" : "ode.jpeg"
-            }
-        ]
         const stageName = document.getElementById("stageName1");
         stageName.innerHTML = unsortedList[0].stageName;
-
-        console.log(unsortedList)
     </script>
 
 </body>

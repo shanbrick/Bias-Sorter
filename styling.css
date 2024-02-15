@@ -64,8 +64,8 @@ body {
 }
 
 .unsorted {
-    height: 50%;
-    width: 282px;
+    height: 60%;
+    width: 342px;
     position: fixed;
     z-index: 1;
     overflow-x: hidden; /* disable horizontal scroll */
@@ -83,7 +83,7 @@ body {
 
 .boxHeaderUnsorted {
     height: 45px;
-    width: 282px;
+    width: 342px;
     background-color: #b3b8e9;
     border-top: 1px solid #B0B0B0;
     border-left: 1px solid #B0B0B0;
@@ -98,7 +98,7 @@ body {
 
 .categories {
     margin: 20px;
-    margin-left: 332px;
+    margin-left: 387px;
     margin-top: 65px;
     position: relative;
     background-color: #ffffff;
@@ -134,18 +134,19 @@ body {
 
 .peopleUnsorted {
     float: left;
-    height:170px;
-    width: fit-content;
+    height:200px;
+    width:170px;
     text-align: center;
     padding:10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* border: 1px solid red; */
 }
 
 .peopleCategories {
     float: left;
-    height:170px;
-    width:fit-content;
+    height:200px;
+    width:170px;
     text-align: center;
     padding:10px;
     padding-left: 20px;

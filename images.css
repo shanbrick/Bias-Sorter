@@ -1,6 +1,8 @@
-img {
-    width:100px;
+.homePage {
+    width:130px;
     border-radius: 8px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .groupPicList {
