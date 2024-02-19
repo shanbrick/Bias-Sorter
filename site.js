@@ -55,9 +55,9 @@ const unsortedList = [
     }
 ]
 
+let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
+
 function homePageDiv2(category) {
-    localStorage.setItem('unsorted',JSON.stringify(unsortedList));
-    let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 
     unsortedArray.forEach(person => {
 
@@ -100,6 +100,8 @@ function addToUnsorted(groupName, id, stageName, fullName, birthday, imgLink) {
             "imgLink": imgLink
         }
     )
+
+    localStorage.setItem('unsorted',JSON.stringify(unsortedList));
 
     console.log(unsortedList);
 }
