@@ -1,6 +1,6 @@
 fetch('Groups.json')
   .then(response => response.json())
-  .then(archive => console.log(archive))
+//   .then(archive => console.log(archive))
 .catch(error => console.error('Error fetching JSON:', error));
 
 function homePageDiv(list, category) {
@@ -29,36 +29,12 @@ function homePageDiv(list, category) {
 }
 
 const unsortedList = [
-    {
-        "groupName": "Xdinary Heroes",
-        "#": 4,
-        "stageName": "O.de",
-        "fullName": "Oh Seungmin",
-        "birthday": "June 11, 2002",
-        "imgLink": "ode.jpeg"
-    },
-    {
-        "groupName": "BOYNEXTDOOR",
-        "#": 3,
-        "stageName": "Myung Jaehyun",
-        "fullName": "Myung Jaehyun",
-        "birthday": "December 4, 2003",
-        "imgLink": "myungJaehyun.jpeg"
-    },
-    {
-        "groupName": "RIIZE",
-        "#": 4,
-        "stageName": "Wonbin",
-        "fullName": "Park Wonbin",
-        "birthday": "March 2, 2002",
-        "imgLink": "wonbin.jpeg"
-    }
+
 ]
 
 let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 
 function homePageDiv2(category) {
-
     unsortedArray.forEach(person => {
 
         const div = document.createElement('div');
@@ -90,6 +66,7 @@ function homePageDiv2(category) {
 // </div>
 
 function addToUnsorted(groupName, id, stageName, fullName, birthday, imgLink) {
+    console.log(unsortedList);
     unsortedList.push(
         {
             "groupName": groupName,
@@ -103,9 +80,10 @@ function addToUnsorted(groupName, id, stageName, fullName, birthday, imgLink) {
 
     localStorage.setItem('unsorted',JSON.stringify(unsortedList));
 
-    console.log(unsortedList);
+    console.log("hey", JSON.parse(localStorage.getItem('unsorted')));
 }
 
+let ultListArray = JSON.parse(localStorage.getItem('ults'));
 const ultList = [
     {
         "groupName": "Xdinary Heroes",
