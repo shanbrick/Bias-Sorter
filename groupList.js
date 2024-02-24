@@ -1,4 +1,4 @@
-export const groupList = 
+const groupsList = 
 [
     {
         "Group": "&TEAM",

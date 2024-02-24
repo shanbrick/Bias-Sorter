@@ -7,12 +7,15 @@
 
 .groupPicList {
     width: 300px;
+    border-radius: 8px;
 }
 
 .groupPicIndividual {
     width: 400px;
+    border-radius: 8px;
 }
 
 .personPicIndividual {
     width: 210px;
+    border-radius: 8px;
 }
