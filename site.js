@@ -1,7 +1,14 @@
+let fileData = null
+
 fetch('groupList.json')
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => {
+        fileData = data
+        console.log("file data inside:", fileData)
+    })
 .catch(error => console.error('Error fetching JSON:', error));
+
+console.log("fileData outside: ",fileData)
 
 function homePageDiv(category, array) {
     array.forEach(person => {
