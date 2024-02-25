@@ -5,11 +5,8 @@ fetch('groupList.json')
     .then(data => {
         fileData = data
         groupPageDiv()
-        console.log("file data inside:", fileData)
     })
 .catch(error => console.error('Error fetching JSON:', error));
-
-console.log("fileData outside: ",fileData)
 
 function homePageDiv(category, array) {
     array.forEach(person => {
@@ -37,15 +34,15 @@ function homePageDiv(category, array) {
 
 let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 
-function addToUnsorted(groupName, id, stageName, fullName, birthday, imgLink) {
+function addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
     unsortedArray.push(
         {
-            "groupName": groupName,
-            "#": id,
-            "stageName": stageName,
-            "fullName": fullName,
-            "birthday": birthday,
-            "imgLink": imgLink
+            "groupName" : groupName,
+            "num" : num,
+            "stageName" : stageName,
+            "fullName" : fullName,
+            "birthday" : birthday,
+            "imgLink" : imgLink
         }
     )
 
@@ -63,18 +60,27 @@ function groupPageDiv() {
             const div = document.createElement('div');
             div.setAttribute('class','groupPageDivs');
     
+            groupName = person.groupName;
+            num = person.num;
+            stageName = person.stageName;
+            fullName = person.fullName;
+            birthday = person.birthday;
+            imgLink = person.imgLink;
+            console.log(groupName,stageName,fullName,birthday,imgLink);
+
             const picture = document.createElement('img');
             picture.setAttribute('class','personPicIndividual');
-            picture.src = person.imgLink;
+            picture.src = imgLink;
             div.appendChild(picture);
     
             const name = document.createElement('p');
             name.setAttribute('class','idolNameGroupPage');
-            name.textContent = person.stageName;
+            name.textContent = stageName;
             div.appendChild(name);
 
             const add = document.createElement('button');
-            add.setAttribute("onclick", "addToUnsorted('BOYNEXTDOOR', 3, 'Myung Jaehyun', 'Myung Jaehyun', 'December 4, 2003', 'myungJaehyun.jpeg')");
+            add.setAttribute('id',num);
+            add.setAttribute('onclick', 'addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink)');
             add.textContent = 'Add';
             div.appendChild(add);
 
