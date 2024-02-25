@@ -4,6 +4,7 @@ fetch('groupList.json')
     .then(response => response.json())
     .then(data => {
         fileData = data
+        groupPageDiv()
         console.log("file data inside:", fileData)
     })
 .catch(error => console.error('Error fetching JSON:', error));
@@ -56,10 +57,9 @@ let ultListArray = JSON.parse(localStorage.getItem('ults'));
 let semiListArray = JSON.parse(localStorage.getItem('semi'));
 let regListArray = JSON.parse(localStorage.getItem('regs'));
 
-
 function groupPageDiv() {
-    unsortedArray.forEach(person => {
-        if (person.groupName === 'BOYNEXTDOOR') {
+    fileData.forEach(person => {
+        if (person.groupName === 'Xdinary Heroes') {
             const div = document.createElement('div');
             div.setAttribute('class','groupPageDivs');
     
@@ -74,7 +74,7 @@ function groupPageDiv() {
             div.appendChild(name);
 
             const add = document.createElement('button');
-            add.setAttribute("onclick", "addToUnsorted");
+            add.setAttribute("onclick", "addToUnsorted('BOYNEXTDOOR', 3, 'Myung Jaehyun', 'Myung Jaehyun', 'December 4, 2003', 'myungJaehyun.jpeg')");
             add.textContent = 'Add';
             div.appendChild(add);
 
