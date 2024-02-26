@@ -58,7 +58,7 @@ let regListArray = JSON.parse(localStorage.getItem('regs'));
 
 function groupPageDiv() {
     fileData.forEach(person => {
-        if (person.groupName === 'Xdinary Heroes') {
+        if (person.groupName === '&TEAM') {
             const div = document.createElement('div');
             div.setAttribute('class','groupPageDivs');
     
@@ -81,24 +81,7 @@ function groupPageDiv() {
 
             const add = document.createElement('button');
             add.setAttribute('id',num);
-            // add.setAttribute('onclick', 'addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink)');
-            
-            add.setAttribute('onclick', function(groupName, num, stageName, fullName, birthday, imgLink) {
-                unsortedArray.push(
-                    {
-                        "groupName" : groupName,
-                        "num" : num,
-                        "stageName" : stageName,
-                        "fullName" : fullName,
-                        "birthday" : birthday,
-                        "imgLink" : imgLink
-                    }
-                )
-            
-                localStorage.setItem('unsorted',JSON.stringify(unsortedArray));
-                console.log("JSON parse unsorted: ", JSON.parse(localStorage.getItem('unsorted')));
-            });
-
+            add.setAttribute('onclick', 'addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink)');
             add.textContent = 'Add';
             div.appendChild(add);
 
