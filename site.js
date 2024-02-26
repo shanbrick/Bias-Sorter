@@ -58,7 +58,7 @@ let regListArray = JSON.parse(localStorage.getItem('regs'));
 
 function groupPageDiv() {
     fileData.forEach(person => {
-        if (person.groupName === '&TEAM') {
+        if (person.groupName === 'aespa') {
             const div = document.createElement('div');
             div.setAttribute('class','groupPageDivs');
     
