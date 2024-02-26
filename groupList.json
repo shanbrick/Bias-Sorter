@@ -208,6 +208,62 @@
         "imgLink": "/imageArchive/aespa/Ningning.jpeg"
     },
     {
+        "groupName": "AMPERS&ONE",
+        "num": "1",
+        "stageName": "Kamden",
+        "fullName": "Na Doobin",
+        "birthday": "June 09, 2001",
+        "imgLink": "/imageArchive/AMPERS&ONE/Kamden.jpeg"
+    },
+    {
+        "groupName": "AMPERS&ONE",
+        "num": "2",
+        "stageName": "Brian",
+        "fullName": "He Tingwei",
+        "birthday": "August 27, 2002",
+        "imgLink": "/imageArchive/AMPERS&ONE/Brian.jpeg"
+    },
+    {
+        "groupName": "AMPERS&ONE",
+        "num": "3",
+        "stageName": "Jiho",
+        "fullName": "Choi Jiho",
+        "birthday": "June 10, 2004",
+        "imgLink": "/imageArchive/AMPERS&ONE/Jiho.jpeg"
+    },
+    {
+        "groupName": "AMPERS&ONE",
+        "num": "4",
+        "stageName": "Siyun",
+        "fullName": "Yoon Siyun",
+        "birthday": "January 08, 2005",
+        "imgLink": "/imageArchive/AMPERS&ONE/Siyun.jpeg"
+    },
+    {
+        "groupName": "AMPERS&ONE",
+        "num": "5",
+        "stageName": "Mackiah",
+        "fullName": "Choi Young",
+        "birthday": "July 03, 2005",
+        "imgLink": "/imageArchive/AMPERS&ONE/Mackiah.jpeg"
+    },
+    {
+        "groupName": "AMPERS&ONE",
+        "num": "6",
+        "stageName": "Kyrell",
+        "fullName": "Lee Yejun",
+        "birthday": "January 21, 2006",
+        "imgLink": "/imageArchive/AMPERS&ONE/Kyrell.jpeg"
+    },
+    {
+        "groupName": "AMPERS&ONE",
+        "num": "7",
+        "stageName": "Seungmo",
+        "fullName": "Kim Seungmo",
+        "birthday": "July 03, 2006",
+        "imgLink": "/imageArchive/AMPERS&ONE/Seungmo.jpeg"
+    },
+    {
         "groupName": "ASTRO",
         "num": "1",
         "stageName": "MJ",
@@ -3088,6 +3144,46 @@
         "imgLink": "/imageArchive/SF9/Chani.jpeg"
     },
     {
+        "groupName": "SHINee",
+        "num": "1",
+        "stageName": "Onew",
+        "fullName": "Lee Jinki",
+        "birthday": "December 14, 1989",
+        "imgLink": "/imageArchive/SHINee/Onew.jpeg"
+    },
+    {
+        "groupName": "SHINee",
+        "num": "2",
+        "stageName": "Jonghyun",
+        "fullName": "Kim Jonghyun",
+        "birthday": "April 08, 1990",
+        "imgLink": "/imageArchive/SHINee/Jonghyun.jpeg"
+    },
+    {
+        "groupName": "SHINee",
+        "num": "3",
+        "stageName": "Key",
+        "fullName": "Kim Kibum",
+        "birthday": "September 23, 1991",
+        "imgLink": "/imageArchive/SHINee/Key.jpeg"
+    },
+    {
+        "groupName": "SHINee",
+        "num": "4",
+        "stageName": "Minho",
+        "fullName": "Choi Minho",
+        "birthday": "December 09, 1991",
+        "imgLink": "/imageArchive/SHINee/Minho.jpeg"
+    },
+    {
+        "groupName": "SHINee",
+        "num": "5",
+        "stageName": "Taemin",
+        "fullName": "Lee Taemin",
+        "birthday": "July 18, 1993",
+        "imgLink": "/imageArchive/SHINee/Taemin.jpeg"
+    },
+    {
         "groupName": "Stray Kids",
         "num": "1",
         "stageName": "Bang Chan",
@@ -3702,6 +3798,54 @@
         "fullName": "Chou Tzuyu",
         "birthday": "June 14, 1999",
         "imgLink": "/imageArchive/TWICE/Tzuyu.jpeg"
+    },
+    {
+        "groupName": "TWS",
+        "num": "1",
+        "stageName": "Shinyu",
+        "fullName": "Shin Junghwan",
+        "birthday": "November 07, 2003",
+        "imgLink": "/imageArchive/TWS/Shinyu.jpeg"
+    },
+    {
+        "groupName": "TWS",
+        "num": "2",
+        "stageName": "Dohoon",
+        "fullName": "Kim Dohoon",
+        "birthday": "January 30, 2005",
+        "imgLink": "/imageArchive/TWS/Dohoon.jpeg"
+    },
+    {
+        "groupName": "TWS",
+        "num": "3",
+        "stageName": "Youngjae",
+        "fullName": "Choi Youngjae",
+        "birthday": "May 31, 2005",
+        "imgLink": "/imageArchive/TWS/Youngjae.jpeg"
+    },
+    {
+        "groupName": "TWS",
+        "num": "4",
+        "stageName": "Hanjin",
+        "fullName": "Han Zhen",
+        "birthday": "January 05, 2006",
+        "imgLink": "/imageArchive/TWS/Hanjin.jpeg"
+    },
+    {
+        "groupName": "TWS",
+        "num": "5",
+        "stageName": "Jihoon",
+        "fullName": "Han Jihoon",
+        "birthday": "March 28, 2006",
+        "imgLink": "/imageArchive/TWS/Jihoon.jpeg"
+    },
+    {
+        "groupName": "TWS",
+        "num": "6",
+        "stageName": "Kyungmin",
+        "fullName": "Lee Kyungmin",
+        "birthday": "October 02, 2007",
+        "imgLink": "/imageArchive/TWS/Kyungmin.jpeg"
     },
     {
         "groupName": "TXT",
