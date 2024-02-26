@@ -397,7 +397,7 @@
         "stageName": "Moon Sua",
         "fullName": "Moon Sua",
         "birthday": "September 09, 1999",
-        "imgLink": "/imageArchive/Billlie/Moon Sua.jpeg"
+        "imgLink": "/imageArchive/Billlie/MoonSua.jpeg"
     },
     {
         "groupName": "Billlie",
@@ -2634,14 +2634,6 @@
     {
         "groupName": "NMIXX",
         "num": "4",
-        "stageName": "Jinni",
-        "fullName": "Choi Yunjin",
-        "birthday": "April 16, 2004",
-        "imgLink": "/imageArchive/NMIXX/Jinni.jpeg"
-    },
-    {
-        "groupName": "NMIXX",
-        "num": "5",
         "stageName": "BAE",
         "fullName": "Bae Jinsol",
         "birthday": "December 28, 2004",
@@ -2649,7 +2641,7 @@
     },
     {
         "groupName": "NMIXX",
-        "num": "6",
+        "num": "5",
         "stageName": "Jiwoo",
         "fullName": "Kim Jiwoo",
         "birthday": "April 13, 2005",
@@ -2657,7 +2649,7 @@
     },
     {
         "groupName": "NMIXX",
-        "num": "7",
+        "num": "6",
         "stageName": "Kyujin",
         "fullName": "Jang Kyujin",
         "birthday": "May 26, 2006",
@@ -3997,7 +3989,7 @@
         "stageName": "Zhang Hao",
         "fullName": "Zhang Hao",
         "birthday": "July 25, 2000",
-        "imgLink": "/imageArchive/ZEROBASEONE/Zhang Hao.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/ZhangHao.jpeg"
     },
     {
         "groupName": "ZEROBASEONE",

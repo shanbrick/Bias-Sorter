@@ -10,25 +10,27 @@ fetch('groupList.json')
 
 function homePageDiv(category, array) {
     array.forEach(person => {
-        const div = document.createElement('div');
-        div.setAttribute('class','peopleUnsorted');
+        if (person.stageName !== 'stage') {
+            const div = document.createElement('div');
+            div.setAttribute('class','peopleUnsorted');
     
-        const picture = document.createElement('img');
-        picture.setAttribute('class','homePage');
-        picture.src = person.imgLink;
-        div.appendChild(picture);
+            const picture = document.createElement('img');
+            picture.setAttribute('class','homePage');
+            picture.src = person.imgLink;
+            div.appendChild(picture);
     
-        const name = document.createElement('p');
-        name.setAttribute('class','idolName');
-        name.textContent = person.stageName;
-        div.appendChild(name);
+            const name = document.createElement('p');
+            name.setAttribute('class','idolName');
+            name.textContent = person.stageName;
+            div.appendChild(name);
     
-        const group = document.createElement('p');
-        group.setAttribute('class','groupName');
-        group.textContent = person.groupName;
-        div.appendChild(group);
+            const group = document.createElement('p');
+            group.setAttribute('class','groupName');
+            group.textContent = person.groupName;
+            div.appendChild(group);
 
-        document.getElementById(category).appendChild(div);
+            document.getElementById(category).appendChild(div);
+        }
     })
 }
 
@@ -66,7 +68,6 @@ function groupPageDiv() {
             fullName = person.fullName;
             birthday = person.birthday;
             imgLink = person.imgLink;
-            console.log(groupName,stageName,fullName,birthday,imgLink);
 
             const picture = document.createElement('img');
             picture.setAttribute('class','personPicIndividual');
@@ -80,7 +81,24 @@ function groupPageDiv() {
 
             const add = document.createElement('button');
             add.setAttribute('id',num);
-            add.setAttribute('onclick', 'addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink)');
+            // add.setAttribute('onclick', 'addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink)');
+            
+            add.setAttribute('onclick', function(groupName, num, stageName, fullName, birthday, imgLink) {
+                unsortedArray.push(
+                    {
+                        "groupName" : groupName,
+                        "num" : num,
+                        "stageName" : stageName,
+                        "fullName" : fullName,
+                        "birthday" : birthday,
+                        "imgLink" : imgLink
+                    }
+                )
+            
+                localStorage.setItem('unsorted',JSON.stringify(unsortedArray));
+                console.log("JSON parse unsorted: ", JSON.parse(localStorage.getItem('unsorted')));
+            });
+
             add.textContent = 'Add';
             div.appendChild(add);
 
