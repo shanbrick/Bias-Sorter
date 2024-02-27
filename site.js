@@ -6,26 +6,26 @@ fetch('groupList.json')
         fileData = data
         groupPageDiv()
     })
-.catch(error => console.error('Error fetching JSON:', error));
+    .catch(error => console.error('Error fetching JSON:', error));
 
 function homePageDiv(category, array) {
     array.forEach(person => {
         if (person.stageName !== 'stage') {
             const div = document.createElement('div');
-            div.setAttribute('class','peopleUnsorted');
-    
+            div.setAttribute('class', 'peopleUnsorted');
+
             const picture = document.createElement('img');
-            picture.setAttribute('class','homePage');
+            picture.setAttribute('class', 'homePage');
             picture.src = person.imgLink;
             div.appendChild(picture);
-    
+
             const name = document.createElement('p');
-            name.setAttribute('class','idolName');
+            name.setAttribute('class', 'idolName');
             name.textContent = person.stageName;
             div.appendChild(name);
-    
+
             const group = document.createElement('p');
-            group.setAttribute('class','groupName');
+            group.setAttribute('class', 'groupName');
             group.textContent = person.groupName;
             div.appendChild(group);
 
@@ -37,18 +37,22 @@ function homePageDiv(category, array) {
 let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 
 function addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
+    if (unsortedArray === null) {
+        unsortedArray = []
+        localStorage.setItem('unsorted', JSON.stringify(fillerArray));
+    }
     unsortedArray.push(
         {
-            "groupName" : groupName,
-            "num" : num,
-            "stageName" : stageName,
-            "fullName" : fullName,
-            "birthday" : birthday,
-            "imgLink" : imgLink
+            "groupName": groupName,
+            "num": num,
+            "stageName": stageName,
+            "fullName": fullName,
+            "birthday": birthday,
+            "imgLink": imgLink
         }
     )
 
-    localStorage.setItem('unsorted',JSON.stringify(unsortedArray));
+    localStorage.setItem('unsorted', JSON.stringify(unsortedArray));
     console.log("JSON parse unsorted: ", JSON.parse(localStorage.getItem('unsorted')));
 }
 
@@ -60,8 +64,8 @@ function groupPageDiv() {
     fileData.forEach(person => {
         if (person.groupName === 'aespa') {
             const div = document.createElement('div');
-            div.setAttribute('class','groupPageDivs');
-    
+            div.setAttribute('class', 'groupPageDivs');
+
             groupName = person.groupName;
             num = person.num;
             stageName = person.stageName;
@@ -70,17 +74,17 @@ function groupPageDiv() {
             imgLink = person.imgLink;
 
             const picture = document.createElement('img');
-            picture.setAttribute('class','personPicIndividual');
+            picture.setAttribute('class', 'personPicIndividual');
             picture.src = imgLink;
             div.appendChild(picture);
-    
+
             const name = document.createElement('p');
-            name.setAttribute('class','idolNameGroupPage');
+            name.setAttribute('class', 'idolNameGroupPage');
             name.textContent = stageName;
             div.appendChild(name);
 
             const add = document.createElement('button');
-            add.setAttribute('id',num);
+            add.setAttribute('id', num);
             add.setAttribute('onclick', 'addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink)');
             add.textContent = 'Add';
             div.appendChild(add);
