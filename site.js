@@ -39,7 +39,6 @@ let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 function addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
     if (unsortedArray === null) {
         unsortedArray = []
-        localStorage.setItem('unsorted', JSON.stringify(fillerArray));
     }
     unsortedArray.push(
         {
