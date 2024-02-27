@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
+import BGView from '../views/BGView.vue'
+import GGView from '../views/GGView.vue'
+import SoloView from '../views/Solo.vue'
+import GroupPageView from '../views/GroupPageView.vue'
 
 const routes = [
   {
@@ -9,12 +12,24 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: AboutView
+    path: '/boy-groups',
+    name: 'boyGroups',
+    component: BGView
+  },
+  {
+    path: '/girl-groups',
+    name: 'girlGroups',
+    component: GGView
+  },
+  {
+    path: '/solo',
+    name: 'solo',
+    component: SoloView
+  },
+  {
+    path: '/groupPage',
+    name: 'groupPage',
+    component: GroupPageView
   }
 ]
 

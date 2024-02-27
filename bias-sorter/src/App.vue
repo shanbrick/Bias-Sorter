@@ -13,13 +13,7 @@
 </template>
 
 <script>
-import groupList from './groupList.json'
-
-export default {
-  data() {
-    return { groupData: groupList }
-  }
-}
+let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 </script>
 
 <style>

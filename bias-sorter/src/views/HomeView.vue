@@ -40,7 +40,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-import groupList from '../groupList.json'
+import groupList from '@/groupList.json'
 
 export default {
   name: 'HomeView',
