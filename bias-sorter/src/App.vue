@@ -13,7 +13,20 @@
 </template>
 
 <script>
+import groupList from '@/groupList.json'
 let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
+
+export default {
+  name: "App",
+  data() {
+    return { groupData: groupList };
+  },
+  methods: {
+    getData() {
+      this.groupData = JSON.parse(localStorage.getItem("groupData"));
+    },
+  },
+}
 </script>
 
 <style>

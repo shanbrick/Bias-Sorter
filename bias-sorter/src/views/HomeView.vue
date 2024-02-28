@@ -14,7 +14,7 @@
   <div id="unsorted" class="unsorted">
     <div class="boxHeaderUnsorted">
       <p class="categoryTitle">Unsorted</p>
-      <p class="idolName" v-for="person in groupData">{{ person.groupName }}</p>
+      <p class="idolName" v-for="person in unsortedArray">{{ person.groupName }}</p>
     </div>
   </div>
 
@@ -41,6 +41,7 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 import groupList from '@/groupList.json'
+import unsortedArray from './GroupPageView.vue'
 
 export default {
   name: 'HomeView',

@@ -5,7 +5,7 @@
 
         <div class="groupPageDivs" v-for="person in groupData">
             <p class="idolName">{{ person.stageName }}</p>
-            <button @onclick="addToUnsorted(person.groupName,person.num,person.stageName,person.fullName,person.birthday,person.imgLink)">Add</button>
+            <button @click="addToUnsorted(person.groupName,person.num,person.stageName,person.fullName,person.birthday,person.imgLink)">Add</button>
         </div>
     </div>
 </template>
@@ -14,11 +14,15 @@
 import groupList from '@/groupList.json'
 
 export default {
+    name: 'GroupPageView',
     data() {
         return { groupData: groupList }
     },
     methods: {
         addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
+            if (unsortedArray === null) {
+                unsortedArray = []
+            }
             unsortedArray.push(
                 {
                     "groupName": groupName,
@@ -29,6 +33,12 @@ export default {
                     "imgLink": imgLink
                 }
             )
+
+            localStorage.setItem('unsorted', JSON.stringify(unsortedArray));
+            console.log("unsorted: ", JSON.parse(localStorage.getItem('unsorted')));
+        },
+        println() {
+            console.log("i work")
         }
     }
 }
