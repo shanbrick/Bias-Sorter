@@ -14,7 +14,6 @@
 
 <script>
 import groupList from '@/groupList.json'
-let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 
 export default {
   name: "App",
@@ -22,9 +21,7 @@ export default {
     return { groupData: groupList };
   },
   methods: {
-    getData() {
-      this.groupData = JSON.parse(localStorage.getItem("groupData"));
-    },
+    
   },
 }
 </script>

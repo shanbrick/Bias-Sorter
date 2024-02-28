@@ -4,7 +4,10 @@
         <p class="directory" style="font-size: 25px; margin-bottom:40px;">Xdinary Heroes</p>
 
         <div class="groupPageDivs" v-for="person in groupData">
+            <!-- <img class="personPicIndividual" src="'../assets' + person.imgLink"> -->
+            <img class="personPicIndividual" :src="require('./assets' + person.imgLink)">
             <p class="idolName">{{ person.stageName }}</p>
+            <p class="idolName">{{ person.birthday }}</p>
             <button @click="addToUnsorted(person.groupName,person.num,person.stageName,person.fullName,person.birthday,person.imgLink)">Add</button>
         </div>
     </div>
@@ -12,6 +15,7 @@
 
 <script>
 import groupList from '@/groupList.json'
+let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 
 export default {
     name: 'GroupPageView',
@@ -36,9 +40,6 @@ export default {
 
             localStorage.setItem('unsorted', JSON.stringify(unsortedArray));
             console.log("unsorted: ", JSON.parse(localStorage.getItem('unsorted')));
-        },
-        println() {
-            console.log("i work")
         }
     }
 }
