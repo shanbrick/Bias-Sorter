@@ -3,7 +3,7 @@
     <h1>Bias Sorter</h1>
   </div>
   <nav>
-    <router-link to="/">Home</router-link>
+    <router-link id="li" to="/">Home</router-link>
     <router-link to="/boy-groups">Boy Groups</router-link>
     <router-link to="/girl-groups">Girl Groups</router-link>
     <router-link to="/solo">Solo</router-link>
@@ -21,7 +21,7 @@ export default {
     return { groupData: groupList };
   },
   methods: {
-    
+
   },
 }
 </script>
@@ -32,7 +32,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+  color: black;
   background: #ededed;
 }
 
@@ -60,8 +60,11 @@ nav a {
   font-weight: 700;
 }
 
-.nav a:hover {
+nav li:hover,
+nav li.router-link-active,
+nav li.router-link-exact-active {
   background-color: #8d91b7;
+  cursor: pointer;
 }
 
 nav a.router-link-exact-active {

@@ -14,7 +14,11 @@
   <div id="unsorted" class="unsorted">
     <div class="boxHeaderUnsorted">
       <p class="categoryTitle">Unsorted</p>
-      <p class="idolName" v-for="person in unsortedArray">{{ person.groupName }}</p>
+    </div>
+    <div v-for="person in unsorted" class="peopleUnsorted">
+      <img class="homePage" :src="require('../assets' + person.imgLink)">
+      <p class="idolName">{{ person.stageName }}</p>
+      <p class="groupName">{{ person.groupName }}</p>
     </div>
   </div>
 
@@ -40,8 +44,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-import groupList from '@/groupList.json'
-import unsortedArray from './GroupPageView.vue'
+let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
 
 export default {
   name: 'HomeView',
@@ -55,9 +58,7 @@ export default {
 
   },
   data() {
-    return {
-      groupData: groupList
-    }
+    return { unsorted: unsortedArray }
   },
   computed: {
 
@@ -123,12 +124,12 @@ export default {
 }
 
 .categoryTitle {
-    top: -8px;
-    position: absolute;
-    z-index: 1;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
+  top: -8px;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .categories:after {
@@ -160,5 +161,29 @@ export default {
   margin: 5px;
   font-weight: bold;
   color: black;
+}
+
+.groupName {
+  text-align: center;
+  margin: 5px;
+  font-size: 0.75em;
+}
+
+.peopleUnsorted {
+  float: left;
+  height: fit-content;
+  width: 170px;
+  text-align: center;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  /* border: 1px solid red; */
+}
+
+.homePage {
+  width: 130px;
+  border-radius: 8px;
+  margin: 0px;
+  padding: 0px;
 }
 </style>

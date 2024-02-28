@@ -1,14 +1,16 @@
 <template>
     <div id='groupPage' class="groupPageBox">
-        <!-- <img class="groupPicIndividual" src="xdinary.jpeg"> -->
-        <p class="directory" style="font-size: 25px; margin-bottom:40px;">Xdinary Heroes</p>
+        <img class="groupPicIndividual" :src="require('../assets/default.jpeg')">
+        <p class="groupName">Xdinary Heroes</p>
 
-        <div class="groupPageDivs" v-for="person in groupData">
-            <!-- <img class="personPicIndividual" src="'../assets' + person.imgLink"> -->
-            <img class="personPicIndividual" :src="require('./assets' + person.imgLink)">
-            <p class="idolName">{{ person.stageName }}</p>
-            <p class="idolName">{{ person.birthday }}</p>
-            <button @click="addToUnsorted(person.groupName,person.num,person.stageName,person.fullName,person.birthday,person.imgLink)">Add</button>
+        <div v-for="person in groupData">
+            <div class="groupPageDivs" v-if="person.groupName === 'Xdinary Heroes'">
+                <img class="personPicIndividual" :src="require('../assets' + person.imgLink)">
+                <p class="idolName">{{ person.stageName }}</p>
+                <p class="idolInfo"><i>Full Name:</i> {{ person.fullName }}</p>
+                <p class="idolInfo"><i>Birthday:</i> {{ person.birthday }}</p>
+                <button @click="addToUnsorted(person.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
+            </div>
         </div>
     </div>
 </template>
@@ -47,12 +49,12 @@ export default {
 
 <style scoped>
 .groupPageBox {
-    width: 800px;
+    width: 832px;
     margin: auto;
     margin-top: 20px;
     text-align: center;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     border: 1px solid #B0B0B0;
 }
@@ -65,18 +67,36 @@ export default {
 
 .groupPageDivs {
     float: left;
-    height: 310px;
-    width: fit-content;
+    height: fit-content;
+    width: 250px;
+    /* width: fit-content; */
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    /* border: 1px solid red; */
+    margin: 10px;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+    background-color: #edecff;
+}
+
+.groupPicIndividual {
+    width: 400px;
+    border-radius: 8px;
+}
+
+.groupName {
+    padding-left: 0px;
+    padding-top: 0px;
+    line-height: 0px;
+    font-size: 25px;
+    margin-bottom:40px;
 }
 
 .personPicIndividual {
     width: 210px;
     border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 .idolName {
@@ -84,7 +104,13 @@ export default {
     text-align: center;
     margin: 5px;
     font-weight: bold;
-    color: black;
+    text-decoration: underline;
+}
+
+.idolInfo {
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
 }
 
 button {
