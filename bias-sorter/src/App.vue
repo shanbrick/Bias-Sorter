@@ -60,15 +60,10 @@ nav a {
   font-weight: 700;
 }
 
-nav li:hover,
-nav li.router-link-active,
-nav li.router-link-exact-active {
+nav a:hover {
   background-color: #8d91b7;
-  cursor: pointer;
-}
-
-nav a.router-link-exact-active {
   color: white;
+  cursor: pointer;
 }
 
 input {
