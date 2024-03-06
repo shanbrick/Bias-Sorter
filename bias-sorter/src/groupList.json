@@ -5,7 +5,8 @@
         "stageName": "K",
         "fullName": "Koga Yudai",
         "birthday": "October 21, 1997",
-        "imgLink": "/imageArchive/&TEAM/K.jpeg"
+        "imgLink": "/imageArchive/&TEAM/K.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "&TEAM",
@@ -13,7 +14,8 @@
         "stageName": "Fuma",
         "fullName": "Murata Fuma",
         "birthday": "June 29, 1998",
-        "imgLink": "/imageArchive/&TEAM/Fuma.jpeg"
+        "imgLink": "/imageArchive/&TEAM/Fuma.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "&TEAM",
@@ -21,7 +23,8 @@
         "stageName": "Nicholas",
         "fullName": "Wang Yuxiang",
         "birthday": "July 09, 2002",
-        "imgLink": "/imageArchive/&TEAM/Nicholas.jpeg"
+        "imgLink": "/imageArchive/&TEAM/Nicholas.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "&TEAM",
@@ -29,7 +32,8 @@
         "stageName": "EJ",
         "fullName": "Byun Euijoo",
         "birthday": "September 07, 2002",
-        "imgLink": "/imageArchive/&TEAM/EJ.jpeg"
+        "imgLink": "/imageArchive/&TEAM/EJ.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "&TEAM",
@@ -37,7 +41,8 @@
         "stageName": "Yuma",
         "fullName": "Nakakita Yuma",
         "birthday": "February 07, 2004",
-        "imgLink": "/imageArchive/&TEAM/Yuma.jpeg"
+        "imgLink": "/imageArchive/&TEAM/Yuma.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "&TEAM",
@@ -45,7 +50,8 @@
         "stageName": "Jo",
         "fullName": "Asakura Jo",
         "birthday": "July 08, 2004",
-        "imgLink": "/imageArchive/&TEAM/Jo.jpeg"
+        "imgLink": "/imageArchive/&TEAM/Jo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "&TEAM",
@@ -53,7 +59,8 @@
         "stageName": "Harua",
         "fullName": "Shigeta Harua",
         "birthday": "May 01, 2005",
-        "imgLink": "/imageArchive/&TEAM/Harua.jpeg"
+        "imgLink": "/imageArchive/&TEAM/Harua.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "&TEAM",
@@ -61,7 +68,8 @@
         "stageName": "Taki",
         "fullName": "Takayama Riki",
         "birthday": "May 04, 2005",
-        "imgLink": "/imageArchive/&TEAM/Taki.jpeg"
+        "imgLink": "/imageArchive/&TEAM/Taki.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "&TEAM",
@@ -69,7 +77,8 @@
         "stageName": "Maki",
         "fullName": "Hirota Riki",
         "birthday": "February 17, 2006",
-        "imgLink": "/imageArchive/&TEAM/Maki.jpeg"
+        "imgLink": "/imageArchive/&TEAM/Maki.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "8TURN",
@@ -77,7 +86,8 @@
         "stageName": "Myungho",
         "fullName": "Ji Myungho",
         "birthday": "October 12, 2001",
-        "imgLink": "/imageArchive/8TURN/Myungho.jpeg"
+        "imgLink": "/imageArchive/8TURN/Myungho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "8TURN",
@@ -85,7 +95,8 @@
         "stageName": "Jaeyun",
         "fullName": "Moon Jaeyun",
         "birthday": "July 02, 2002",
-        "imgLink": "/imageArchive/8TURN/Jaeyun.jpeg"
+        "imgLink": "/imageArchive/8TURN/Jaeyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "8TURN",
@@ -93,7 +104,8 @@
         "stageName": "Minho",
         "fullName": "Yang Minho",
         "birthday": "October 14, 2002",
-        "imgLink": "/imageArchive/8TURN/Minho.jpeg"
+        "imgLink": "/imageArchive/8TURN/Minho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "8TURN",
@@ -101,7 +113,8 @@
         "stageName": "Yoonsung",
         "fullName": "Cho Yoonsung",
         "birthday": "November 13, 2003",
-        "imgLink": "/imageArchive/8TURN/Yoonsung.jpeg"
+        "imgLink": "/imageArchive/8TURN/Yoonsung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "8TURN",
@@ -109,7 +122,8 @@
         "stageName": "Haemin",
         "fullName": "Jung Haemin",
         "birthday": "March 14, 2004",
-        "imgLink": "/imageArchive/8TURN/Haemin.jpeg"
+        "imgLink": "/imageArchive/8TURN/Haemin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "8TURN",
@@ -117,7 +131,8 @@
         "stageName": "Kyungmin",
         "fullName": "Cho Kyungmin",
         "birthday": "October 28, 2004",
-        "imgLink": "/imageArchive/8TURN/Kyungmin.jpeg"
+        "imgLink": "/imageArchive/8TURN/Kyungmin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "8TURN",
@@ -125,7 +140,8 @@
         "stageName": "Yungyu",
         "fullName": "Lee Yungyu",
         "birthday": "September 07, 2005",
-        "imgLink": "/imageArchive/8TURN/Yungyu.jpeg"
+        "imgLink": "/imageArchive/8TURN/Yungyu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "8TURN",
@@ -133,7 +149,8 @@
         "stageName": "Seungheon",
         "fullName": "Lee Seungheon",
         "birthday": "May 15, 2007",
-        "imgLink": "/imageArchive/8TURN/Seungheon.jpeg"
+        "imgLink": "/imageArchive/8TURN/Seungheon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "A.C.E",
@@ -141,7 +158,8 @@
         "stageName": "Donghun",
         "fullName": "Lee Donghun",
         "birthday": "February 28, 1993",
-        "imgLink": "/imageArchive/ACE/Donghun.jpeg"
+        "imgLink": "/imageArchive/ACE/Donghun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "A.C.E",
@@ -149,7 +167,8 @@
         "stageName": "Wow",
         "fullName": "Kim Seyoon",
         "birthday": "May 15, 1993",
-        "imgLink": "/imageArchive/ACE/Wow.jpeg"
+        "imgLink": "/imageArchive/ACE/Wow.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "A.C.E",
@@ -157,7 +176,8 @@
         "stageName": "Junhee",
         "fullName": "Park Junhee",
         "birthday": "June 02, 1994",
-        "imgLink": "/imageArchive/ACE/Junhee.jpeg"
+        "imgLink": "/imageArchive/ACE/Junhee.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "A.C.E",
@@ -165,7 +185,8 @@
         "stageName": "Byeongkwan",
         "fullName": "Kim Byeongkwan",
         "birthday": "August 13, 1996",
-        "imgLink": "/imageArchive/ACE/Byeongkwan.jpeg"
+        "imgLink": "/imageArchive/ACE/Byeongkwan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "A.C.E",
@@ -173,7 +194,8 @@
         "stageName": "Yuchan",
         "fullName": "Kang Yuchan",
         "birthday": "December 31, 1997",
-        "imgLink": "/imageArchive/ACE/Yuchan.jpeg"
+        "imgLink": "/imageArchive/ACE/Yuchan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "aespa",
@@ -181,7 +203,8 @@
         "stageName": "Karina",
         "fullName": "Yu Jimin",
         "birthday": "April 11, 2000",
-        "imgLink": "/imageArchive/aespa/Karina.jpeg"
+        "imgLink": "/imageArchive/aespa/Karina.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "aespa",
@@ -189,7 +212,8 @@
         "stageName": "Giselle",
         "fullName": "Uchinaga Aeri",
         "birthday": "October 30, 2000",
-        "imgLink": "/imageArchive/aespa/Giselle.jpeg"
+        "imgLink": "/imageArchive/aespa/Giselle.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "aespa",
@@ -197,7 +221,8 @@
         "stageName": "Winter",
         "fullName": "Kim Minjeong",
         "birthday": "January 01, 2001",
-        "imgLink": "/imageArchive/aespa/Winter.jpeg"
+        "imgLink": "/imageArchive/aespa/Winter.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "aespa",
@@ -205,7 +230,8 @@
         "stageName": "Ningning",
         "fullName": "Ning Yizhuo",
         "birthday": "October 23, 2002",
-        "imgLink": "/imageArchive/aespa/Ningning.jpeg"
+        "imgLink": "/imageArchive/aespa/Ningning.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "AMPERS&ONE",
@@ -213,7 +239,8 @@
         "stageName": "Kamden",
         "fullName": "Na Doobin",
         "birthday": "June 09, 2001",
-        "imgLink": "/imageArchive/AMPERS&ONE/Kamden.jpeg"
+        "imgLink": "/imageArchive/AMPERS&ONE/Kamden.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "AMPERS&ONE",
@@ -221,7 +248,8 @@
         "stageName": "Brian",
         "fullName": "He Tingwei",
         "birthday": "August 27, 2002",
-        "imgLink": "/imageArchive/AMPERS&ONE/Brian.jpeg"
+        "imgLink": "/imageArchive/AMPERS&ONE/Brian.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "AMPERS&ONE",
@@ -229,7 +257,8 @@
         "stageName": "Jiho",
         "fullName": "Choi Jiho",
         "birthday": "June 10, 2004",
-        "imgLink": "/imageArchive/AMPERS&ONE/Jiho.jpeg"
+        "imgLink": "/imageArchive/AMPERS&ONE/Jiho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "AMPERS&ONE",
@@ -237,7 +266,8 @@
         "stageName": "Siyun",
         "fullName": "Yoon Siyun",
         "birthday": "January 08, 2005",
-        "imgLink": "/imageArchive/AMPERS&ONE/Siyun.jpeg"
+        "imgLink": "/imageArchive/AMPERS&ONE/Siyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "AMPERS&ONE",
@@ -245,7 +275,8 @@
         "stageName": "Mackiah",
         "fullName": "Choi Young",
         "birthday": "July 03, 2005",
-        "imgLink": "/imageArchive/AMPERS&ONE/Mackiah.jpeg"
+        "imgLink": "/imageArchive/AMPERS&ONE/Mackiah.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "AMPERS&ONE",
@@ -253,7 +284,8 @@
         "stageName": "Kyrell",
         "fullName": "Lee Yejun",
         "birthday": "January 21, 2006",
-        "imgLink": "/imageArchive/AMPERS&ONE/Kyrell.jpeg"
+        "imgLink": "/imageArchive/AMPERS&ONE/Kyrell.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "AMPERS&ONE",
@@ -261,7 +293,8 @@
         "stageName": "Seungmo",
         "fullName": "Kim Seungmo",
         "birthday": "July 03, 2006",
-        "imgLink": "/imageArchive/AMPERS&ONE/Seungmo.jpeg"
+        "imgLink": "/imageArchive/AMPERS&ONE/Seungmo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ASTRO",
@@ -269,7 +302,8 @@
         "stageName": "MJ",
         "fullName": "Kim Myungjun",
         "birthday": "March 05, 1994",
-        "imgLink": "/imageArchive/ASTRO/MJ.jpeg"
+        "imgLink": "/imageArchive/ASTRO/MJ.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ASTRO",
@@ -277,7 +311,8 @@
         "stageName": "JinJin",
         "fullName": "Park Jinwoo",
         "birthday": "March 15, 1996",
-        "imgLink": "/imageArchive/ASTRO/JinJin.jpeg"
+        "imgLink": "/imageArchive/ASTRO/JinJin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ASTRO",
@@ -285,7 +320,8 @@
         "stageName": "Cha Eunwoo",
         "fullName": "Lee Dongmin",
         "birthday": "March 30, 1997",
-        "imgLink": "/imageArchive/ASTRO/ChaEunwoo.jpeg"
+        "imgLink": "/imageArchive/ASTRO/ChaEunwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ASTRO",
@@ -293,7 +329,8 @@
         "stageName": "Moonbin",
         "fullName": "Moon Bin",
         "birthday": "January 26, 1998",
-        "imgLink": "/imageArchive/ASTRO/Moonbin.jpeg"
+        "imgLink": "/imageArchive/ASTRO/Moonbin.jpeg",
+        "status": "(Eternal)"
     },
     {
         "groupName": "ASTRO",
@@ -301,7 +338,8 @@
         "stageName": "Rocky",
         "fullName": "Park Minhyuk",
         "birthday": "February 25, 1999",
-        "imgLink": "/imageArchive/ASTRO/Rocky.jpeg"
+        "imgLink": "/imageArchive/ASTRO/Rocky.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "ASTRO",
@@ -309,7 +347,8 @@
         "stageName": "Sanha",
         "fullName": "Yoon Sanha",
         "birthday": "March 21, 2000",
-        "imgLink": "/imageArchive/ASTRO/Sanha.jpeg"
+        "imgLink": "/imageArchive/ASTRO/Sanha.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ATEEZ",
@@ -317,7 +356,8 @@
         "stageName": "Seonghwa",
         "fullName": "Park Seonghwa",
         "birthday": "April 03, 1998",
-        "imgLink": "/imageArchive/ATEEZ/Seonghwa.jpeg"
+        "imgLink": "/imageArchive/ATEEZ/Seonghwa.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ATEEZ",
@@ -325,7 +365,8 @@
         "stageName": "Hongjoong",
         "fullName": "Kim Hongjoong",
         "birthday": "November 07, 1998",
-        "imgLink": "/imageArchive/ATEEZ/Hongjoong.jpeg"
+        "imgLink": "/imageArchive/ATEEZ/Hongjoong.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ATEEZ",
@@ -333,7 +374,8 @@
         "stageName": "Yunho",
         "fullName": "Jung Yunho",
         "birthday": "March 23, 1999",
-        "imgLink": "/imageArchive/ATEEZ/Yunho.jpeg"
+        "imgLink": "/imageArchive/ATEEZ/Yunho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ATEEZ",
@@ -341,7 +383,8 @@
         "stageName": "Yeosang",
         "fullName": "Kang Yeosang",
         "birthday": "June 15, 1999",
-        "imgLink": "/imageArchive/ATEEZ/Yeosang.jpeg"
+        "imgLink": "/imageArchive/ATEEZ/Yeosang.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ATEEZ",
@@ -349,7 +392,8 @@
         "stageName": "San",
         "fullName": "Choi San",
         "birthday": "July 10, 1999",
-        "imgLink": "/imageArchive/ATEEZ/San.jpeg"
+        "imgLink": "/imageArchive/ATEEZ/San.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ATEEZ",
@@ -357,7 +401,8 @@
         "stageName": "Mingi",
         "fullName": "Song Mingi",
         "birthday": "August 09, 1999",
-        "imgLink": "/imageArchive/ATEEZ/Mingi.jpeg"
+        "imgLink": "/imageArchive/ATEEZ/Mingi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ATEEZ",
@@ -365,7 +410,8 @@
         "stageName": "Wooyoung",
         "fullName": "Jung Wooyoung",
         "birthday": "November 26, 1999",
-        "imgLink": "/imageArchive/ATEEZ/Wooyoung.jpeg"
+        "imgLink": "/imageArchive/ATEEZ/Wooyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ATEEZ",
@@ -373,7 +419,8 @@
         "stageName": "Jongho",
         "fullName": "Choi Jongho",
         "birthday": "October 12, 2000",
-        "imgLink": "/imageArchive/ATEEZ/Jongho.jpeg"
+        "imgLink": "/imageArchive/ATEEZ/Jongho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -381,7 +428,8 @@
         "stageName": "J-Min",
         "fullName": "Jeon Minwook",
         "birthday": "October 16, 1999",
-        "imgLink": "/imageArchive/BAE173/JMin.jpeg"
+        "imgLink": "/imageArchive/BAE173/JMin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -389,7 +437,8 @@
         "stageName": "Hangyul",
         "fullName": "Lee Hangyul",
         "birthday": "December 07, 1999",
-        "imgLink": "/imageArchive/BAE173/Hangyul.jpeg"
+        "imgLink": "/imageArchive/BAE173/Hangyul.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -397,7 +446,8 @@
         "stageName": "Yoojun",
         "fullName": "Jung Gun",
         "birthday": "December 22, 2000",
-        "imgLink": "/imageArchive/BAE173/Yoojun.jpeg"
+        "imgLink": "/imageArchive/BAE173/Yoojun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -405,7 +455,8 @@
         "stageName": "Muzin",
         "fullName": "Kim Hyunwoo",
         "birthday": "March 29, 2001",
-        "imgLink": "/imageArchive/BAE173/Muzin.jpeg"
+        "imgLink": "/imageArchive/BAE173/Muzin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -413,7 +464,8 @@
         "stageName": "Junseo",
         "fullName": "Park Junseo",
         "birthday": "December 28, 2001",
-        "imgLink": "/imageArchive/BAE173/Junseo.jpeg"
+        "imgLink": "/imageArchive/BAE173/Junseo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -421,7 +473,8 @@
         "stageName": "Youngseo",
         "fullName": "Ryu Youngseo",
         "birthday": "June 13, 2002",
-        "imgLink": "/imageArchive/BAE173/Youngseo.jpeg"
+        "imgLink": "/imageArchive/BAE173/Youngseo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -429,7 +482,8 @@
         "stageName": "Doha",
         "fullName": "Na Gyumin",
         "birthday": "March 07, 2004",
-        "imgLink": "/imageArchive/BAE173/Doha.jpeg"
+        "imgLink": "/imageArchive/BAE173/Doha.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -437,7 +491,8 @@
         "stageName": "Bit",
         "fullName": "No Minjae",
         "birthday": "July 21, 2004",
-        "imgLink": "/imageArchive/BAE173/Bit.jpeg"
+        "imgLink": "/imageArchive/BAE173/Bit.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BAE173",
@@ -445,7 +500,8 @@
         "stageName": "Dohyun",
         "fullName": "Nam Dohyun",
         "birthday": "November 10, 2004",
-        "imgLink": "/imageArchive/BAE173/Dohyun.jpeg"
+        "imgLink": "/imageArchive/BAE173/Dohyun.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "Billlie",
@@ -453,7 +509,8 @@
         "stageName": "Moon Sua",
         "fullName": "Moon Sua",
         "birthday": "September 09, 1999",
-        "imgLink": "/imageArchive/Billlie/MoonSua.jpeg"
+        "imgLink": "/imageArchive/Billlie/MoonSua.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Billlie",
@@ -461,7 +518,8 @@
         "stageName": "Suhyeon",
         "fullName": "Kim Suhyeon",
         "birthday": "January 15, 2000",
-        "imgLink": "/imageArchive/Billlie/Suhyeon.jpeg"
+        "imgLink": "/imageArchive/Billlie/Suhyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Billlie",
@@ -469,7 +527,8 @@
         "stageName": "Haram",
         "fullName": "Kim Haram",
         "birthday": "January 13, 2001",
-        "imgLink": "/imageArchive/Billlie/Haram.jpeg"
+        "imgLink": "/imageArchive/Billlie/Haram.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Billlie",
@@ -477,7 +536,8 @@
         "stageName": "Tsuki",
         "fullName": "Fukutomi Tsuki",
         "birthday": "September 21, 2002",
-        "imgLink": "/imageArchive/Billlie/Tsuki.jpeg"
+        "imgLink": "/imageArchive/Billlie/Tsuki.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Billlie",
@@ -485,7 +545,8 @@
         "stageName": "Sheon",
         "fullName": "Kim Suyeon",
         "birthday": "January 28, 2003",
-        "imgLink": "/imageArchive/Billlie/Sheon.jpeg"
+        "imgLink": "/imageArchive/Billlie/Sheon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Billlie",
@@ -493,7 +554,8 @@
         "stageName": "Siyoon",
         "fullName": "Kim Siyoon",
         "birthday": "February 16, 2005",
-        "imgLink": "/imageArchive/Billlie/Siyoon.jpeg"
+        "imgLink": "/imageArchive/Billlie/Siyoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Billlie",
@@ -501,7 +563,8 @@
         "stageName": "Haruna",
         "fullName": "Osato Haruna",
         "birthday": "January 30, 2006",
-        "imgLink": "/imageArchive/Billlie/Haruna.jpeg"
+        "imgLink": "/imageArchive/Billlie/Haruna.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLACKPINK",
@@ -509,7 +572,8 @@
         "stageName": "Jisoo",
         "fullName": "Kim Jisoo",
         "birthday": "January 03, 1995",
-        "imgLink": "/imageArchive/BLACKPINK/Jisoo.jpeg"
+        "imgLink": "/imageArchive/BLACKPINK/Jisoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLACKPINK",
@@ -517,7 +581,8 @@
         "stageName": "Jennie",
         "fullName": "Kim Jennie",
         "birthday": "January 16, 1996",
-        "imgLink": "/imageArchive/BLACKPINK/Jennie.jpeg"
+        "imgLink": "/imageArchive/BLACKPINK/Jennie.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLACKPINK",
@@ -525,7 +590,8 @@
         "stageName": "Rosé",
         "fullName": "Park Chaeyoung",
         "birthday": "February 11, 1997",
-        "imgLink": "/imageArchive/BLACKPINK/Rose.jpeg"
+        "imgLink": "/imageArchive/BLACKPINK/Rose.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLACKPINK",
@@ -533,7 +599,8 @@
         "stageName": "Lisa",
         "fullName": "Lalisa Manobal",
         "birthday": "March 27, 1997",
-        "imgLink": "/imageArchive/BLACKPINK/Lisa.jpeg"
+        "imgLink": "/imageArchive/BLACKPINK/Lisa.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLITZERS",
@@ -541,7 +608,8 @@
         "stageName": "Go_U",
         "fullName": "Jang Junho",
         "birthday": "June 15, 2001",
-        "imgLink": "/imageArchive/BLITZERS/GoU.jpeg"
+        "imgLink": "/imageArchive/BLITZERS/GoU.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "BLITZERS",
@@ -549,7 +617,8 @@
         "stageName": "Juhan",
         "fullName": "Hong Seunghyun",
         "birthday": "June 21, 2001",
-        "imgLink": "/imageArchive/BLITZERS/Juhan.jpeg"
+        "imgLink": "/imageArchive/BLITZERS/Juhan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLITZERS",
@@ -557,7 +626,8 @@
         "stageName": "Jinhwa",
         "fullName": "Choi Jinhwa",
         "birthday": "January 15, 2002",
-        "imgLink": "/imageArchive/BLITZERS/Jinhwa.jpeg"
+        "imgLink": "/imageArchive/BLITZERS/Jinhwa.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLITZERS",
@@ -565,7 +635,8 @@
         "stageName": "Sya",
         "fullName": "Lee Junyoung",
         "birthday": "September 09, 2002",
-        "imgLink": "/imageArchive/BLITZERS/Sya.jpeg"
+        "imgLink": "/imageArchive/BLITZERS/Sya.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLITZERS",
@@ -573,7 +644,8 @@
         "stageName": "Chris",
         "fullName": "Han Jongmyeong",
         "birthday": "November 19, 2002",
-        "imgLink": "/imageArchive/BLITZERS/Chris.jpeg"
+        "imgLink": "/imageArchive/BLITZERS/Chris.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLITZERS",
@@ -581,7 +653,8 @@
         "stageName": "Lutan",
         "fullName": "Choi Gyeongseok",
         "birthday": "December 06, 2003",
-        "imgLink": "/imageArchive/BLITZERS/Lutan.jpeg"
+        "imgLink": "/imageArchive/BLITZERS/Lutan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BLITZERS",
@@ -589,7 +662,8 @@
         "stageName": "Wooju",
         "fullName": "Cho Wooju",
         "birthday": "January 21, 2004",
-        "imgLink": "/imageArchive/BLITZERS/Wooju.jpeg"
+        "imgLink": "/imageArchive/BLITZERS/Wooju.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BOYNEXTDOOR",
@@ -597,7 +671,8 @@
         "stageName": "Sungho",
         "fullName": "Park Sungho",
         "birthday": "September 04, 2003",
-        "imgLink": "/imageArchive/BOYNEXTDOOR/Sungho.jpeg"
+        "imgLink": "/imageArchive/BOYNEXTDOOR/Sungho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BOYNEXTDOOR",
@@ -605,7 +680,8 @@
         "stageName": "Riwoo",
         "fullName": "Lee Sanghyuk",
         "birthday": "October 22, 2003",
-        "imgLink": "/imageArchive/BOYNEXTDOOR/Riwoo.jpeg"
+        "imgLink": "/imageArchive/BOYNEXTDOOR/Riwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BOYNEXTDOOR",
@@ -613,7 +689,8 @@
         "stageName": "Myung Jaehyun",
         "fullName": "Myung Jaehyun",
         "birthday": "December 04, 2003",
-        "imgLink": "/imageArchive/BOYNEXTDOOR/MyungJaehyun.jpeg"
+        "imgLink": "/imageArchive/BOYNEXTDOOR/MyungJaehyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BOYNEXTDOOR",
@@ -621,15 +698,17 @@
         "stageName": "Taesan",
         "fullName": "Hong Dongmin",
         "birthday": "August 10, 2004",
-        "imgLink": "/imageArchive/BOYNEXTDOOR/Taesan.jpeg"
+        "imgLink": "/imageArchive/BOYNEXTDOOR/Taesan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BOYNEXTDOOR",
         "num": "5",
         "stageName": "Leehan",
-        "fullName": "Lee Donghyun",
+        "fullName": "Kim Donghyun",
         "birthday": "October 20, 2004",
-        "imgLink": "/imageArchive/BOYNEXTDOOR/Leehan.jpeg"
+        "imgLink": "/imageArchive/BOYNEXTDOOR/Leehan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BOYNEXTDOOR",
@@ -637,7 +716,8 @@
         "stageName": "Woonhak",
         "fullName": "Kim Woonhak",
         "birthday": "November 29, 2006",
-        "imgLink": "/imageArchive/BOYNEXTDOOR/Woonhak.jpeg"
+        "imgLink": "/imageArchive/BOYNEXTDOOR/Woonhak.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BTS",
@@ -645,7 +725,8 @@
         "stageName": "Jin",
         "fullName": "Kim Seokjin",
         "birthday": "December 04, 1992",
-        "imgLink": "/imageArchive/BTS/Jin.jpeg"
+        "imgLink": "/imageArchive/BTS/Jin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BTS",
@@ -653,7 +734,8 @@
         "stageName": "Suga",
         "fullName": "Min Yoongi",
         "birthday": "March 09, 1993",
-        "imgLink": "/imageArchive/BTS/Suga.jpeg"
+        "imgLink": "/imageArchive/BTS/Suga.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BTS",
@@ -661,7 +743,8 @@
         "stageName": "J-Hope",
         "fullName": "Jung Hoseok",
         "birthday": "February 18, 1994",
-        "imgLink": "/imageArchive/BTS/JHope.jpeg"
+        "imgLink": "/imageArchive/BTS/JHope.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BTS",
@@ -669,7 +752,8 @@
         "stageName": "RM",
         "fullName": "Kim Namjoon",
         "birthday": "September 12, 1994",
-        "imgLink": "/imageArchive/BTS/RM.jpeg"
+        "imgLink": "/imageArchive/BTS/RM.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BTS",
@@ -677,7 +761,8 @@
         "stageName": "Jimin",
         "fullName": "Park Jimin",
         "birthday": "October 13, 1995",
-        "imgLink": "/imageArchive/BTS/Jimin.jpeg"
+        "imgLink": "/imageArchive/BTS/Jimin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BTS",
@@ -685,7 +770,8 @@
         "stageName": "V",
         "fullName": "Kim Taehyung",
         "birthday": "December 30, 1995",
-        "imgLink": "/imageArchive/BTS/V.jpeg"
+        "imgLink": "/imageArchive/BTS/V.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "BTS",
@@ -693,7 +779,8 @@
         "stageName": "Jungkook",
         "fullName": "Jeon Jungkook",
         "birthday": "September 01, 1997",
-        "imgLink": "/imageArchive/BTS/Jungkook.jpeg"
+        "imgLink": "/imageArchive/BTS/Jungkook.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CIX",
@@ -701,7 +788,8 @@
         "stageName": "BX",
         "fullName": "Lee Byounggon",
         "birthday": "March 05, 1998",
-        "imgLink": "/imageArchive/CIX/BX.jpeg"
+        "imgLink": "/imageArchive/CIX/BX.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CIX",
@@ -709,7 +797,8 @@
         "stageName": "Seunghun",
         "fullName": "Kim Seunghun",
         "birthday": "February 26, 1999",
-        "imgLink": "/imageArchive/CIX/Seunghun.jpeg"
+        "imgLink": "/imageArchive/CIX/Seunghun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CIX",
@@ -717,7 +806,8 @@
         "stageName": "Yonghee",
         "fullName": "Kim Yonghee",
         "birthday": "February 17, 2000",
-        "imgLink": "/imageArchive/CIX/Yonghee.jpeg"
+        "imgLink": "/imageArchive/CIX/Yonghee.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CIX",
@@ -725,7 +815,8 @@
         "stageName": "Jinyoung",
         "fullName": "Bae Jinyoung",
         "birthday": "May 10, 2000",
-        "imgLink": "/imageArchive/CIX/Jinyoung.jpeg"
+        "imgLink": "/imageArchive/CIX/Jinyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CIX",
@@ -733,7 +824,8 @@
         "stageName": "Hyunsuk",
         "fullName": "Yoon Hyunsuk",
         "birthday": "September 08, 2001",
-        "imgLink": "/imageArchive/CIX/Hyunsuk.jpeg"
+        "imgLink": "/imageArchive/CIX/Hyunsuk.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -741,7 +833,8 @@
         "stageName": "Serim",
         "fullName": "Park Serim",
         "birthday": "March 03, 1999",
-        "imgLink": "/imageArchive/CRAVITY/Serim.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Serim.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -749,7 +842,8 @@
         "stageName": "Allen",
         "fullName": "Ma Shiquan",
         "birthday": "April 26, 1999",
-        "imgLink": "/imageArchive/CRAVITY/Allen.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Allen.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -757,7 +851,8 @@
         "stageName": "Jungmo",
         "fullName": "Koo Jungmo",
         "birthday": "February 05, 2000",
-        "imgLink": "/imageArchive/CRAVITY/Jungmo.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Jungmo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -765,7 +860,8 @@
         "stageName": "Woobin",
         "fullName": "Seo Woobin",
         "birthday": "October 16, 2000",
-        "imgLink": "/imageArchive/CRAVITY/Woobin.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Woobin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -773,7 +869,8 @@
         "stageName": "Wonjin",
         "fullName": "Ham Wonjin",
         "birthday": "March 22, 2001",
-        "imgLink": "/imageArchive/CRAVITY/Wonjin.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Wonjin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -781,7 +878,8 @@
         "stageName": "Minhee",
         "fullName": "Kang Minhee",
         "birthday": "September 17, 2002",
-        "imgLink": "/imageArchive/CRAVITY/Minhee.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Minhee.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -789,7 +887,8 @@
         "stageName": "Hyeongjun",
         "fullName": "Song Hyeongjun",
         "birthday": "November 30, 2002",
-        "imgLink": "/imageArchive/CRAVITY/Hyeongjun.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Hyeongjun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -797,7 +896,8 @@
         "stageName": "Taeyoung",
         "fullName": "Kim Taeyoung",
         "birthday": "January 27, 2003",
-        "imgLink": "/imageArchive/CRAVITY/Taeyoung.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Taeyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "CRAVITY",
@@ -805,7 +905,8 @@
         "stageName": "Seongmin",
         "fullName": "An Seongmin",
         "birthday": "August 01, 2003",
-        "imgLink": "/imageArchive/CRAVITY/Seongmin.jpeg"
+        "imgLink": "/imageArchive/CRAVITY/Seongmin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DAY6",
@@ -813,7 +914,8 @@
         "stageName": "Sungjin",
         "fullName": "Park Sungjin",
         "birthday": "January 16, 1993",
-        "imgLink": "/imageArchive/DAY6/Sungjin.jpeg"
+        "imgLink": "/imageArchive/DAY6/Sungjin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DAY6",
@@ -821,7 +923,8 @@
         "stageName": "Young K",
         "fullName": "Kang Younghyun",
         "birthday": "December 19, 1993",
-        "imgLink": "/imageArchive/DAY6/Young K.jpeg"
+        "imgLink": "/imageArchive/DAY6/Young K.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DAY6",
@@ -829,7 +932,8 @@
         "stageName": "Wonpil",
         "fullName": "Kim Wonpil",
         "birthday": "April 28, 1994",
-        "imgLink": "/imageArchive/DAY6/Wonpil.jpeg"
+        "imgLink": "/imageArchive/DAY6/Wonpil.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DAY6",
@@ -837,7 +941,8 @@
         "stageName": "Dowoon",
         "fullName": "Yoon Dowoon",
         "birthday": "August 25, 1995",
-        "imgLink": "/imageArchive/DAY6/Dowoon.jpeg"
+        "imgLink": "/imageArchive/DAY6/Dowoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DKB",
@@ -845,7 +950,8 @@
         "stageName": "E-Chan",
         "fullName": "Lee Changmin",
         "birthday": "February 19, 1997",
-        "imgLink": "/imageArchive/DKB/EChan.jpeg"
+        "imgLink": "/imageArchive/DKB/EChan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DKB",
@@ -853,7 +959,8 @@
         "stageName": "Teo",
         "fullName": "Jang Seongsik",
         "birthday": "October 22, 1997",
-        "imgLink": "/imageArchive/DKB/Teo.jpeg"
+        "imgLink": "/imageArchive/DKB/Teo.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "DKB",
@@ -861,7 +968,8 @@
         "stageName": "D1",
         "fullName": "Jang Dongil",
         "birthday": "February 15, 1998",
-        "imgLink": "/imageArchive/DKB/D1.jpeg"
+        "imgLink": "/imageArchive/DKB/D1.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DKB",
@@ -869,7 +977,8 @@
         "stageName": "GK",
         "fullName": "Kim Gwanghyun",
         "birthday": "September 29, 1998",
-        "imgLink": "/imageArchive/DKB/GK.jpeg"
+        "imgLink": "/imageArchive/DKB/GK.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DKB",
@@ -877,7 +986,8 @@
         "stageName": "Heechan",
         "fullName": "Yang Heechan",
         "birthday": "July 31, 1999",
-        "imgLink": "/imageArchive/DKB/Heechan.jpeg"
+        "imgLink": "/imageArchive/DKB/Heechan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DKB",
@@ -885,7 +995,8 @@
         "stageName": "Lune",
         "fullName": "Jung Sungmin",
         "birthday": "February 27, 2000",
-        "imgLink": "/imageArchive/DKB/Lune.jpeg"
+        "imgLink": "/imageArchive/DKB/Lune.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DKB",
@@ -893,7 +1004,8 @@
         "stageName": "Junseo",
         "fullName": "Hwang Junseo",
         "birthday": "January 16, 2001",
-        "imgLink": "/imageArchive/DKB/Junseo.jpeg"
+        "imgLink": "/imageArchive/DKB/Junseo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DKB",
@@ -901,7 +1013,8 @@
         "stageName": "Yuku",
         "fullName": "Amanuma Yuku",
         "birthday": "May 12, 2002",
-        "imgLink": "/imageArchive/DKB/Yuku.jpeg"
+        "imgLink": "/imageArchive/DKB/Yuku.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DKB",
@@ -909,7 +1022,8 @@
         "stageName": "Harry June",
         "fullName": "Han Harry June",
         "birthday": "January 01, 2004",
-        "imgLink": "/imageArchive/DKB/Harry June.jpeg"
+        "imgLink": "/imageArchive/DKB/HarryJune.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Dreamcatcher",
@@ -917,7 +1031,8 @@
         "stageName": "JiU",
         "fullName": "Kim Minji",
         "birthday": "May 17, 1994",
-        "imgLink": "/imageArchive/Dreamcatcher/JiU.jpeg"
+        "imgLink": "/imageArchive/Dreamcatcher/JiU.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Dreamcatcher",
@@ -925,7 +1040,8 @@
         "stageName": "SuA",
         "fullName": "Kim Bora",
         "birthday": "August 10, 1994",
-        "imgLink": "/imageArchive/Dreamcatcher/SuA.jpeg"
+        "imgLink": "/imageArchive/Dreamcatcher/SuA.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Dreamcatcher",
@@ -933,7 +1049,8 @@
         "stageName": "Siyeon",
         "fullName": "Lee Siyeon",
         "birthday": "October 01, 1995",
-        "imgLink": "/imageArchive/Dreamcatcher/Siyeon.jpeg"
+        "imgLink": "/imageArchive/Dreamcatcher/Siyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Dreamcatcher",
@@ -941,7 +1058,8 @@
         "stageName": "Handong",
         "fullName": "Han Dong",
         "birthday": "March 26, 1996",
-        "imgLink": "/imageArchive/Dreamcatcher/Handong.jpeg"
+        "imgLink": "/imageArchive/Dreamcatcher/Handong.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Dreamcatcher",
@@ -949,7 +1067,8 @@
         "stageName": "Yoohyeon",
         "fullName": "Kim Yoohyeon",
         "birthday": "January 07, 1997",
-        "imgLink": "/imageArchive/Dreamcatcher/Yoohyeon.jpeg"
+        "imgLink": "/imageArchive/Dreamcatcher/Yoohyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Dreamcatcher",
@@ -957,7 +1076,8 @@
         "stageName": "Dami",
         "fullName": "Lee Yubin",
         "birthday": "March 07, 1997",
-        "imgLink": "/imageArchive/Dreamcatcher/Dami.jpeg"
+        "imgLink": "/imageArchive/Dreamcatcher/Dami.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Dreamcatcher",
@@ -965,7 +1085,8 @@
         "stageName": "Gahyeon",
         "fullName": "Lee Gahyeon",
         "birthday": "February 03, 1999",
-        "imgLink": "/imageArchive/Dreamcatcher/Gahyeon.jpeg"
+        "imgLink": "/imageArchive/Dreamcatcher/Gahyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DRIPPIN",
@@ -973,7 +1094,8 @@
         "stageName": "Hyeop",
         "fullName": "Lee Hyeop",
         "birthday": "August 13, 1999",
-        "imgLink": "/imageArchive/DRIPPIN/Hyeop.jpeg"
+        "imgLink": "/imageArchive/DRIPPIN/Hyeop.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DRIPPIN",
@@ -981,7 +1103,8 @@
         "stageName": "Yunseong",
         "fullName": "Hwang Yunseong",
         "birthday": "October 30, 2000",
-        "imgLink": "/imageArchive/DRIPPIN/Yunseong.jpeg"
+        "imgLink": "/imageArchive/DRIPPIN/Yunseong.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DRIPPIN",
@@ -989,7 +1112,8 @@
         "stageName": "Changuk",
         "fullName": "Joo Changuk",
         "birthday": "July 25, 2001",
-        "imgLink": "/imageArchive/DRIPPIN/Changuk.jpeg"
+        "imgLink": "/imageArchive/DRIPPIN/Changuk.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DRIPPIN",
@@ -997,7 +1121,8 @@
         "stageName": "Dongyun",
         "fullName": "Kim Dongyun",
         "birthday": "February 18, 2002",
-        "imgLink": "/imageArchive/DRIPPIN/Dongyun.jpeg"
+        "imgLink": "/imageArchive/DRIPPIN/Dongyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DRIPPIN",
@@ -1005,7 +1130,8 @@
         "stageName": "Minseo",
         "fullName": "Kim Minseo",
         "birthday": "May 13, 2002",
-        "imgLink": "/imageArchive/DRIPPIN/Minseo.jpeg"
+        "imgLink": "/imageArchive/DRIPPIN/Minseo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DRIPPIN",
@@ -1013,7 +1139,8 @@
         "stageName": "Junho",
         "fullName": "Cha Junho",
         "birthday": "July 09, 2002",
-        "imgLink": "/imageArchive/DRIPPIN/Junho.jpeg"
+        "imgLink": "/imageArchive/DRIPPIN/Junho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "DRIPPIN",
@@ -1021,7 +1148,8 @@
         "stageName": "Alex",
         "fullName": "Lee Hayoung",
         "birthday": "October 06, 2004",
-        "imgLink": "/imageArchive/DRIPPIN/Alex.jpeg"
+        "imgLink": "/imageArchive/DRIPPIN/Alex.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "ENHYPEN",
@@ -1029,7 +1157,8 @@
         "stageName": "Heeseung",
         "fullName": "Lee Heeseung",
         "birthday": "October 15, 2001",
-        "imgLink": "/imageArchive/ENHYPEN/Heeseung.jpeg"
+        "imgLink": "/imageArchive/ENHYPEN/Heeseung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ENHYPEN",
@@ -1037,7 +1166,8 @@
         "stageName": "Jay",
         "fullName": "Park Jongseong",
         "birthday": "April 20, 2002",
-        "imgLink": "/imageArchive/ENHYPEN/Jay.jpeg"
+        "imgLink": "/imageArchive/ENHYPEN/Jay.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ENHYPEN",
@@ -1045,7 +1175,8 @@
         "stageName": "Jake",
         "fullName": "Sim Jaeyun",
         "birthday": "November 15, 2002",
-        "imgLink": "/imageArchive/ENHYPEN/Jake.jpeg"
+        "imgLink": "/imageArchive/ENHYPEN/Jake.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ENHYPEN",
@@ -1053,7 +1184,8 @@
         "stageName": "Sunghoon",
         "fullName": "Park Sunghoon",
         "birthday": "December 08, 2002",
-        "imgLink": "/imageArchive/ENHYPEN/Sunghoon.jpeg"
+        "imgLink": "/imageArchive/ENHYPEN/Sunghoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ENHYPEN",
@@ -1061,7 +1193,8 @@
         "stageName": "Sunoo",
         "fullName": "Kim Sunoo",
         "birthday": "June 24, 2003",
-        "imgLink": "/imageArchive/ENHYPEN/Sunoo.jpeg"
+        "imgLink": "/imageArchive/ENHYPEN/Sunoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ENHYPEN",
@@ -1069,7 +1202,8 @@
         "stageName": "Jungwon",
         "fullName": "Yang Jungwon",
         "birthday": "February 09, 2004",
-        "imgLink": "/imageArchive/ENHYPEN/Jungwon.jpeg"
+        "imgLink": "/imageArchive/ENHYPEN/Jungwon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ENHYPEN",
@@ -1077,7 +1211,8 @@
         "stageName": "Niki",
         "fullName": "Nishimura Riki",
         "birthday": "December 09, 2005",
-        "imgLink": "/imageArchive/ENHYPEN/Niki.jpeg"
+        "imgLink": "/imageArchive/ENHYPEN/Niki.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EPEX",
@@ -1085,7 +1220,8 @@
         "stageName": "Wish",
         "fullName": "Kwak Dawit",
         "birthday": "June 11, 2002",
-        "imgLink": "/imageArchive/EPEX/Wish.jpeg"
+        "imgLink": "/imageArchive/EPEX/Wish.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EPEX",
@@ -1093,7 +1229,8 @@
         "stageName": "Keum",
         "fullName": "Keum Donghyun",
         "birthday": "May 14, 2003",
-        "imgLink": "/imageArchive/EPEX/Keum.jpeg"
+        "imgLink": "/imageArchive/EPEX/Keum.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EPEX",
@@ -1101,7 +1238,8 @@
         "stageName": "MU",
         "fullName": "Suh Kyungmin",
         "birthday": "September 14, 2003",
-        "imgLink": "/imageArchive/EPEX/MU.jpeg"
+        "imgLink": "/imageArchive/EPEX/MU.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EPEX",
@@ -1109,7 +1247,8 @@
         "stageName": "A-Min",
         "fullName": "Cho Minwoo",
         "birthday": "May 22, 2004",
-        "imgLink": "/imageArchive/EPEX/AMin.jpeg"
+        "imgLink": "/imageArchive/EPEX/AMin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EPEX",
@@ -1117,7 +1256,8 @@
         "stageName": "Baekseung",
         "fullName": "Kim Hyunwoo",
         "birthday": "October 05, 2004",
-        "imgLink": "/imageArchive/EPEX/Baekseung.jpeg"
+        "imgLink": "/imageArchive/EPEX/Baekseung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EPEX",
@@ -1125,7 +1265,8 @@
         "stageName": "Ayden",
         "fullName": "Kwon Yejun",
         "birthday": "January 24, 2005",
-        "imgLink": "/imageArchive/EPEX/Ayden.jpeg"
+        "imgLink": "/imageArchive/EPEX/Ayden.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EPEX",
@@ -1133,7 +1274,8 @@
         "stageName": "Yewang",
         "fullName": "Seo Yewang",
         "birthday": "March 12, 2005",
-        "imgLink": "/imageArchive/EPEX/Yewang.jpeg"
+        "imgLink": "/imageArchive/EPEX/Yewang.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EPEX",
@@ -1141,7 +1283,8 @@
         "stageName": "Jeff",
         "fullName": "Lee Jaeho",
         "birthday": "April 21, 2005",
-        "imgLink": "/imageArchive/EPEX/Jeff.jpeg"
+        "imgLink": "/imageArchive/EPEX/Jeff.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EVERGLOW",
@@ -1149,7 +1292,8 @@
         "stageName": "E:U",
         "fullName": "Park Jiwon",
         "birthday": "May 19, 1998",
-        "imgLink": "/imageArchive/EVERGLOW/EU.jpeg"
+        "imgLink": "/imageArchive/EVERGLOW/EU.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EVERGLOW",
@@ -1157,7 +1301,8 @@
         "stageName": "Sihyeon",
         "fullName": "Kim Sihyeon",
         "birthday": "August 05, 1999",
-        "imgLink": "/imageArchive/EVERGLOW/Sihyeon.jpeg"
+        "imgLink": "/imageArchive/EVERGLOW/Sihyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EVERGLOW",
@@ -1165,7 +1310,8 @@
         "stageName": "Mia",
         "fullName": "Han Eunji",
         "birthday": "January 13, 2000",
-        "imgLink": "/imageArchive/EVERGLOW/Mia.jpeg"
+        "imgLink": "/imageArchive/EVERGLOW/Mia.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EVERGLOW",
@@ -1173,7 +1319,8 @@
         "stageName": "Onda",
         "fullName": "Jo Serim",
         "birthday": "May 18, 2000",
-        "imgLink": "/imageArchive/EVERGLOW/Onda.jpeg"
+        "imgLink": "/imageArchive/EVERGLOW/Onda.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EVERGLOW",
@@ -1181,7 +1328,8 @@
         "stageName": "Aisha",
         "fullName": "Heo Yoorim",
         "birthday": "July 21, 2000",
-        "imgLink": "/imageArchive/EVERGLOW/Aisha.jpeg"
+        "imgLink": "/imageArchive/EVERGLOW/Aisha.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EVERGLOW",
@@ -1189,7 +1337,71 @@
         "stageName": "Yiren",
         "fullName": "Wang Yiren",
         "birthday": "December 29, 2000",
-        "imgLink": "/imageArchive/EVERGLOW/Yiren.jpeg"
+        "imgLink": "/imageArchive/EVERGLOW/Yiren.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "EVNNE",
+        "num": "1",
+        "stageName": "Keita",
+        "fullName": "Terazono Keita",
+        "birthday": "July 04, 2001",
+        "imgLink": "/imageArchive/EVNNE/Keita.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "EVNNE",
+        "num": "2",
+        "stageName": "Park Hanbin",
+        "fullName": "Park Hanbin",
+        "birthday": "March 01, 2002",
+        "imgLink": "/imageArchive/EVNNE/Hanbin.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "EVNNE",
+        "num": "3",
+        "stageName": "Lee Jeonghyeon",
+        "fullName": "Lee Jeonghyeon",
+        "birthday": "September 11, 2002",
+        "imgLink": "/imageArchive/EVNNE/Jeonghyeon.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "EVNNE",
+        "num": "4",
+        "stageName": "Yoo Seungeon",
+        "fullName": "Yoo Seungeon",
+        "birthday": "January 02, 2004",
+        "imgLink": "/imageArchive/EVNNE/Seungeon.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "EVNNE",
+        "num": "5",
+        "stageName": "Ji Yunseo",
+        "fullName": "Ji Yunseo",
+        "birthday": "October 15, 2004",
+        "imgLink": "/imageArchive/EVNNE/Yunseo.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "EVNNE",
+        "num": "6",
+        "stageName": "Mun Junghyun",
+        "fullName": "Mun Junghyun",
+        "birthday": "March 31, 2005",
+        "imgLink": "/imageArchive/EVNNE/Junghyun.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "EVNNE",
+        "num": "7",
+        "stageName": "Park Jihoo",
+        "fullName": "Park Jihoo",
+        "birthday": "July 14, 2006",
+        "imgLink": "/imageArchive/EVNNE/Jihoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1197,7 +1409,8 @@
         "stageName": "Xiumin",
         "fullName": "Kim Minseok",
         "birthday": "March 26, 1990",
-        "imgLink": "/imageArchive/EXO/Xiumin.jpeg"
+        "imgLink": "/imageArchive/EXO/Xiumin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1205,7 +1418,8 @@
         "stageName": "Luhan",
         "fullName": "Lu Han",
         "birthday": "April 20, 1990",
-        "imgLink": "/imageArchive/EXO/Luhan.jpeg"
+        "imgLink": "/imageArchive/EXO/Luhan.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "EXO",
@@ -1213,7 +1427,8 @@
         "stageName": "Suho",
         "fullName": "Kim Junmyeon",
         "birthday": "May 22, 1991",
-        "imgLink": "/imageArchive/EXO/Suho.jpeg"
+        "imgLink": "/imageArchive/EXO/Suho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1221,7 +1436,8 @@
         "stageName": "Lay",
         "fullName": "Zhang Yixing",
         "birthday": "October 07, 1991",
-        "imgLink": "/imageArchive/EXO/Lay.jpeg"
+        "imgLink": "/imageArchive/EXO/Lay.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1229,7 +1445,8 @@
         "stageName": "Baekhyun",
         "fullName": "Byun Baekhyun",
         "birthday": "May 06, 1992",
-        "imgLink": "/imageArchive/EXO/Baekhyun.jpeg"
+        "imgLink": "/imageArchive/EXO/Baekhyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1237,7 +1454,8 @@
         "stageName": "Chen",
         "fullName": "Kim Jongdae",
         "birthday": "September 21, 1992",
-        "imgLink": "/imageArchive/EXO/Chen.jpeg"
+        "imgLink": "/imageArchive/EXO/Chen.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1245,7 +1463,8 @@
         "stageName": "Chanyeol",
         "fullName": "Park Chanyeol",
         "birthday": "November 27, 1992",
-        "imgLink": "/imageArchive/EXO/Chanyeol.jpeg"
+        "imgLink": "/imageArchive/EXO/Chanyeol.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1253,7 +1472,8 @@
         "stageName": "D.O",
         "fullName": "Do Kyungsoo",
         "birthday": "January 12, 1993",
-        "imgLink": "/imageArchive/EXO/D.O.jpeg"
+        "imgLink": "/imageArchive/EXO/D.O.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1261,7 +1481,8 @@
         "stageName": "Tao",
         "fullName": "Huang Zitao",
         "birthday": "May 02, 1993",
-        "imgLink": "/imageArchive/EXO/Tao.jpeg"
+        "imgLink": "/imageArchive/EXO/Tao.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "EXO",
@@ -1269,7 +1490,8 @@
         "stageName": "Kai",
         "fullName": "Kim Jongin",
         "birthday": "January 14, 1994",
-        "imgLink": "/imageArchive/EXO/Kai.jpeg"
+        "imgLink": "/imageArchive/EXO/Kai.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "EXO",
@@ -1277,7 +1499,8 @@
         "stageName": "Sehun",
         "fullName": "Oh Sehun",
         "birthday": "April 12, 1994",
-        "imgLink": "/imageArchive/EXO/Sehun.jpeg"
+        "imgLink": "/imageArchive/EXO/Sehun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GHOST9",
@@ -1285,7 +1508,8 @@
         "stageName": "Dongjun",
         "fullName": "Hwang Dongjun",
         "birthday": "September 07, 1999",
-        "imgLink": "/imageArchive/GHOST9/Dongjun.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Dongjun.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "GHOST9",
@@ -1293,7 +1517,8 @@
         "stageName": "Shin",
         "fullName": "Kim Suhyun",
         "birthday": "March 18, 2000",
-        "imgLink": "/imageArchive/GHOST9/Shin.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Shin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GHOST9",
@@ -1301,7 +1526,8 @@
         "stageName": "Junhyung",
         "fullName": "Son Junhyung",
         "birthday": "October 21, 2000",
-        "imgLink": "/imageArchive/GHOST9/Junhyung.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Junhyung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GHOST9",
@@ -1309,7 +1535,8 @@
         "stageName": "Kangsung",
         "fullName": "Lee Kangsung",
         "birthday": "August 08, 2002",
-        "imgLink": "/imageArchive/GHOST9/Kangsung.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Kangsung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GHOST9",
@@ -1317,7 +1544,8 @@
         "stageName": "Junseong",
         "fullName": "Choi Junseong",
         "birthday": "September 29, 2002",
-        "imgLink": "/imageArchive/GHOST9/Junseong.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Junseong.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GHOST9",
@@ -1325,7 +1553,8 @@
         "stageName": "Prince",
         "fullName": "Pasidh Vataniyapramote",
         "birthday": "January 10, 2003",
-        "imgLink": "/imageArchive/GHOST9/Prince.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Prince.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GHOST9",
@@ -1333,7 +1562,8 @@
         "stageName": "Woojin",
         "fullName": "Lee Woojin",
         "birthday": "April 07, 2003",
-        "imgLink": "/imageArchive/GHOST9/Woojin.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Woojin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GHOST9",
@@ -1341,7 +1571,8 @@
         "stageName": "Taeseung",
         "fullName": "Lee Taeseung",
         "birthday": "December 19, 2003",
-        "imgLink": "/imageArchive/GHOST9/Taeseung.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Taeseung.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "GHOST9",
@@ -1349,7 +1580,8 @@
         "stageName": "Jinwoo",
         "fullName": "Lee Jinwoo",
         "birthday": "September 13, 2004",
-        "imgLink": "/imageArchive/GHOST9/Jinwoo.jpeg"
+        "imgLink": "/imageArchive/GHOST9/Jinwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "(G)I-DLE",
@@ -1357,7 +1589,8 @@
         "stageName": "Miyeon",
         "fullName": "Cho Miyeon",
         "birthday": "January 31, 1997",
-        "imgLink": "/imageArchive/GIDLE/Miyeon.jpeg"
+        "imgLink": "/imageArchive/GIDLE/Miyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "(G)I-DLE",
@@ -1365,7 +1598,8 @@
         "stageName": "Minnie",
         "fullName": "Nicha Yontararak",
         "birthday": "October 23, 1997",
-        "imgLink": "/imageArchive/GIDLE/Minnie.jpeg"
+        "imgLink": "/imageArchive/GIDLE/Minnie.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "(G)I-DLE",
@@ -1373,7 +1607,8 @@
         "stageName": "Soojin",
         "fullName": "Seo Soojin",
         "birthday": "March 09, 1998",
-        "imgLink": "/imageArchive/GIDLE/Soojin.jpeg"
+        "imgLink": "/imageArchive/GIDLE/Soojin.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "(G)I-DLE",
@@ -1381,7 +1616,8 @@
         "stageName": "Soyeon",
         "fullName": "Jeon Soyeon",
         "birthday": "August 26, 1998",
-        "imgLink": "/imageArchive/GIDLE/Soyeon.jpeg"
+        "imgLink": "/imageArchive/GIDLE/Soyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "(G)I-DLE",
@@ -1389,7 +1625,8 @@
         "stageName": "Yuqi",
         "fullName": "Song Yuqi",
         "birthday": "September 23, 1999",
-        "imgLink": "/imageArchive/GIDLE/Yuqi.jpeg"
+        "imgLink": "/imageArchive/GIDLE/Yuqi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "(G)I-DLE",
@@ -1397,7 +1634,8 @@
         "stageName": "Shuhua",
         "fullName": "Yeh Shuhua",
         "birthday": "January 06, 2000",
-        "imgLink": "/imageArchive/GIDLE/Shuhua.jpeg"
+        "imgLink": "/imageArchive/GIDLE/Shuhua.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1405,7 +1643,8 @@
         "stageName": "Daeyeol",
         "fullName": "Lee Daeyeol",
         "birthday": "February 11, 1993",
-        "imgLink": "/imageArchive/GoldenChild/Daeyeol.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Daeyeol.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1413,7 +1652,8 @@
         "stageName": "Y",
         "fullName": "Choi Sungyoon",
         "birthday": "July 31, 1995",
-        "imgLink": "/imageArchive/GoldenChild/Y.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Y.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1421,7 +1661,8 @@
         "stageName": "Jangjun",
         "fullName": "Lee Jangjun",
         "birthday": "March 03, 1997",
-        "imgLink": "/imageArchive/GoldenChild/Jangjun.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Jangjun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1429,7 +1670,8 @@
         "stageName": "Tag",
         "fullName": "Son Youngtaek",
         "birthday": "April 13, 1998",
-        "imgLink": "/imageArchive/GoldenChild/Tag.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Tag.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1437,7 +1679,8 @@
         "stageName": "Seungmin",
         "fullName": "Bae Seungmin",
         "birthday": "October 13, 1998",
-        "imgLink": "/imageArchive/GoldenChild/Seungmin.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Seungmin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1445,7 +1688,8 @@
         "stageName": "Jaehyun",
         "fullName": "Bong Jaehyun",
         "birthday": "January 04, 1999",
-        "imgLink": "/imageArchive/GoldenChild/Jaehyun.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Jaehyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1453,7 +1697,8 @@
         "stageName": "Jibeom",
         "fullName": "Kim Jibeom",
         "birthday": "February 03, 1999",
-        "imgLink": "/imageArchive/GoldenChild/Jibeom.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Jibeom.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1461,7 +1706,8 @@
         "stageName": "Donghyun",
         "fullName": "Kim Donghyun",
         "birthday": "February 23, 1999",
-        "imgLink": "/imageArchive/GoldenChild/Donghyun.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Donghyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1469,7 +1715,8 @@
         "stageName": "Joochan",
         "fullName": "Hong Joochan",
         "birthday": "July 31, 1999",
-        "imgLink": "/imageArchive/GoldenChild/Joochan.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Joochan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Golden Child",
@@ -1477,7 +1724,8 @@
         "stageName": "Bomin",
         "fullName": "Choi Bomin",
         "birthday": "August 24, 2000",
-        "imgLink": "/imageArchive/GoldenChild/Bomin.jpeg"
+        "imgLink": "/imageArchive/GoldenChild/Bomin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GOT7",
@@ -1485,7 +1733,8 @@
         "stageName": "Mark",
         "fullName": "Tuan Yi En",
         "birthday": "September 04, 1993",
-        "imgLink": "/imageArchive/GOT7/Mark.jpeg"
+        "imgLink": "/imageArchive/GOT7/Mark.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GOT7",
@@ -1493,7 +1742,8 @@
         "stageName": "Jay B",
         "fullName": "Im Jaebeom",
         "birthday": "January 06, 1994",
-        "imgLink": "/imageArchive/GOT7/Jay B.jpeg"
+        "imgLink": "/imageArchive/GOT7/Jay B.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GOT7",
@@ -1501,7 +1751,8 @@
         "stageName": "Jackson",
         "fullName": "Wang Kayee",
         "birthday": "March 28, 1994",
-        "imgLink": "/imageArchive/GOT7/Jackson.jpeg"
+        "imgLink": "/imageArchive/GOT7/Jackson.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GOT7",
@@ -1509,7 +1760,8 @@
         "stageName": "Jinyoung",
         "fullName": "Park Jinyoung",
         "birthday": "September 22, 1994",
-        "imgLink": "/imageArchive/GOT7/Jinyoung.jpeg"
+        "imgLink": "/imageArchive/GOT7/Jinyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GOT7",
@@ -1517,7 +1769,8 @@
         "stageName": "Youngjae",
         "fullName": "Choi Youngjae",
         "birthday": "September 17, 1996",
-        "imgLink": "/imageArchive/GOT7/Youngjae.jpeg"
+        "imgLink": "/imageArchive/GOT7/Youngjae.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GOT7",
@@ -1525,7 +1778,8 @@
         "stageName": "BamBam",
         "fullName": "Kunpimook Bhuwakul",
         "birthday": "May 02, 1997",
-        "imgLink": "/imageArchive/GOT7/BamBam.jpeg"
+        "imgLink": "/imageArchive/GOT7/BamBam.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "GOT7",
@@ -1533,7 +1787,8 @@
         "stageName": "Yugyeom",
         "fullName": "Kim Yugyeom",
         "birthday": "November 17, 1997",
-        "imgLink": "/imageArchive/GOT7/Yugyeom.jpeg"
+        "imgLink": "/imageArchive/GOT7/Yugyeom.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "H1-KEY",
@@ -1541,7 +1796,8 @@
         "stageName": "Seoi",
         "fullName": "Lee Yejin",
         "birthday": "February 12, 2000",
-        "imgLink": "/imageArchive/H1KEY/Seoi.jpeg"
+        "imgLink": "/imageArchive/H1KEY/Seoi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "H1-KEY",
@@ -1549,7 +1805,8 @@
         "stageName": "Riina",
         "fullName": "Lee Seunghyun",
         "birthday": "February 21, 2001",
-        "imgLink": "/imageArchive/H1KEY/Riina.jpeg"
+        "imgLink": "/imageArchive/H1KEY/Riina.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "H1-KEY",
@@ -1557,7 +1814,8 @@
         "stageName": "Hwiseo",
         "fullName": "Jo Hwihyeon",
         "birthday": "July 31, 2002",
-        "imgLink": "/imageArchive/H1KEY/Hwiseo.jpeg"
+        "imgLink": "/imageArchive/H1KEY/Hwiseo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "H1-KEY",
@@ -1565,7 +1823,8 @@
         "stageName": "Yel",
         "fullName": "Han Shinyoung",
         "birthday": "December 25, 2004",
-        "imgLink": "/imageArchive/H1KEY/Yel.jpeg"
+        "imgLink": "/imageArchive/H1KEY/Yel.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ITZY",
@@ -1573,7 +1832,8 @@
         "stageName": "Yeji",
         "fullName": "Hwang Yeji",
         "birthday": "May 26, 2000",
-        "imgLink": "/imageArchive/ITZY/Yeji.jpeg"
+        "imgLink": "/imageArchive/ITZY/Yeji.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ITZY",
@@ -1581,7 +1841,8 @@
         "stageName": "Lia",
         "fullName": "Choi Jisoo",
         "birthday": "July 21, 2000",
-        "imgLink": "/imageArchive/ITZY/Lia.jpeg"
+        "imgLink": "/imageArchive/ITZY/Lia.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ITZY",
@@ -1589,7 +1850,8 @@
         "stageName": "Ryujin",
         "fullName": "Shin Ryujin",
         "birthday": "April 17, 2001",
-        "imgLink": "/imageArchive/ITZY/Ryujin.jpeg"
+        "imgLink": "/imageArchive/ITZY/Ryujin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ITZY",
@@ -1597,7 +1859,8 @@
         "stageName": "Chaeryeong",
         "fullName": "Lee Chaeryeong",
         "birthday": "June 05, 2001",
-        "imgLink": "/imageArchive/ITZY/Chaeryeong.jpeg"
+        "imgLink": "/imageArchive/ITZY/Chaeryeong.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "ITZY",
@@ -1605,7 +1868,8 @@
         "stageName": "Yuna",
         "fullName": "Shin Yuna",
         "birthday": "December 09, 2003",
-        "imgLink": "/imageArchive/ITZY/Yuna.jpeg"
+        "imgLink": "/imageArchive/ITZY/Yuna.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "IVE",
@@ -1613,7 +1877,8 @@
         "stageName": "Gaeul",
         "fullName": "Kim Gaeul",
         "birthday": "September 24, 2002",
-        "imgLink": "/imageArchive/IVE/Gaeul.jpeg"
+        "imgLink": "/imageArchive/IVE/Gaeul.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "IVE",
@@ -1621,7 +1886,8 @@
         "stageName": "Yujin",
         "fullName": "An Yujin",
         "birthday": "September 01, 2003",
-        "imgLink": "/imageArchive/IVE/Yujin.jpeg"
+        "imgLink": "/imageArchive/IVE/Yujin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "IVE",
@@ -1629,7 +1895,8 @@
         "stageName": "Rei",
         "fullName": "Naoi Rei",
         "birthday": "February 03, 2004",
-        "imgLink": "/imageArchive/IVE/Rei.jpeg"
+        "imgLink": "/imageArchive/IVE/Rei.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "IVE",
@@ -1637,7 +1904,8 @@
         "stageName": "Wonyoung",
         "fullName": "Jang Wonyoung",
         "birthday": "August 31, 2004",
-        "imgLink": "/imageArchive/IVE/Wonyoung.jpeg"
+        "imgLink": "/imageArchive/IVE/Wonyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "IVE",
@@ -1645,7 +1913,8 @@
         "stageName": "Liz",
         "fullName": "Kim Jiwon",
         "birthday": "November 21, 2004",
-        "imgLink": "/imageArchive/IVE/Liz.jpeg"
+        "imgLink": "/imageArchive/IVE/Liz.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "IVE",
@@ -1653,7 +1922,8 @@
         "stageName": "Leeseo",
         "fullName": "Lee Hyunseo",
         "birthday": "February 21, 2007",
-        "imgLink": "/imageArchive/IVE/Leeseo.jpeg"
+        "imgLink": "/imageArchive/IVE/Leeseo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1661,7 +1931,8 @@
         "stageName": "Sho",
         "fullName": "Yonashiro Sho",
         "birthday": "October 25, 1995",
-        "imgLink": "/imageArchive/JO1/Sho.jpeg"
+        "imgLink": "/imageArchive/JO1/Sho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1669,7 +1940,8 @@
         "stageName": "Ren",
         "fullName": "Kawashiri Ren",
         "birthday": "March 02, 1997",
-        "imgLink": "/imageArchive/JO1/Ren.jpeg"
+        "imgLink": "/imageArchive/JO1/Ren.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1677,7 +1949,8 @@
         "stageName": "Ruki",
         "fullName": "Shiroiwa Ruki",
         "birthday": "November 19, 1997",
-        "imgLink": "/imageArchive/JO1/Ruki.jpeg"
+        "imgLink": "/imageArchive/JO1/Ruki.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1685,7 +1958,8 @@
         "stageName": "Junki",
         "fullName": "Kono Junki",
         "birthday": "January 20, 1998",
-        "imgLink": "/imageArchive/JO1/Junki.jpeg"
+        "imgLink": "/imageArchive/JO1/Junki.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1693,7 +1967,8 @@
         "stageName": "Keigo",
         "fullName": "Sato Keigo",
         "birthday": "July 29, 1998",
-        "imgLink": "/imageArchive/JO1/Keigo.jpeg"
+        "imgLink": "/imageArchive/JO1/Keigo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1701,7 +1976,8 @@
         "stageName": "Takumi",
         "fullName": "Kawanishi Takumi",
         "birthday": "June 23, 1999",
-        "imgLink": "/imageArchive/JO1/Takumi.jpeg"
+        "imgLink": "/imageArchive/JO1/Takumi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1709,7 +1985,8 @@
         "stageName": "Syoya",
         "fullName": "Kimata Syoya",
         "birthday": "April 05, 2000",
-        "imgLink": "/imageArchive/JO1/Syoya.jpeg"
+        "imgLink": "/imageArchive/JO1/Syoya.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1717,7 +1994,8 @@
         "stageName": "Shosei",
         "fullName": "Ohira Shosei",
         "birthday": "April 13, 2000",
-        "imgLink": "/imageArchive/JO1/Shosei.jpeg"
+        "imgLink": "/imageArchive/JO1/Shosei.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1725,7 +2003,8 @@
         "stageName": "Sukai",
         "fullName": "Kinjo Sukai",
         "birthday": "May 06, 2000",
-        "imgLink": "/imageArchive/JO1/Sukai.jpeg"
+        "imgLink": "/imageArchive/JO1/Sukai.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1733,7 +2012,8 @@
         "stageName": "Shion",
         "fullName": "Tsurubo Shion",
         "birthday": "December 11, 2000",
-        "imgLink": "/imageArchive/JO1/Shion.jpeg"
+        "imgLink": "/imageArchive/JO1/Shion.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JO1",
@@ -1741,7 +2021,8 @@
         "stageName": "Mame",
         "fullName": "Mamehara Issei",
         "birthday": "May 30, 2002",
-        "imgLink": "/imageArchive/JO1/Mame.jpeg"
+        "imgLink": "/imageArchive/JO1/Mame.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JUST B",
@@ -1749,7 +2030,8 @@
         "stageName": "Geonu",
         "fullName": "Lee Geonu",
         "birthday": "February 02, 2001",
-        "imgLink": "/imageArchive/JUSTB/Geonu.jpeg"
+        "imgLink": "/imageArchive/JUSTB/Geonu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JUST B",
@@ -1757,7 +2039,8 @@
         "stageName": "Bain",
         "fullName": "Song Byeonghee",
         "birthday": "May 04, 2001",
-        "imgLink": "/imageArchive/JUSTB/Bain.jpeg"
+        "imgLink": "/imageArchive/JUSTB/Bain.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JUST B",
@@ -1765,7 +2048,8 @@
         "stageName": "Lim Jimin",
         "fullName": "Lim Jimin",
         "birthday": "May 22, 2001",
-        "imgLink": "/imageArchive/JUSTB/LimJimin.jpeg"
+        "imgLink": "/imageArchive/JUSTB/LimJimin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JUST B",
@@ -1773,7 +2057,8 @@
         "stageName": "JM",
         "fullName": "Chu Jimin",
         "birthday": "October 11, 2001",
-        "imgLink": "/imageArchive/JUSTB/JM.jpeg"
+        "imgLink": "/imageArchive/JUSTB/JM.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JUST B",
@@ -1781,7 +2066,8 @@
         "stageName": "DY",
         "fullName": "Jeon Doyum",
         "birthday": "February 21, 2002",
-        "imgLink": "/imageArchive/JUSTB/DY.jpeg"
+        "imgLink": "/imageArchive/JUSTB/DY.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "JUST B",
@@ -1789,7 +2075,8 @@
         "stageName": "Sangwoo",
         "fullName": "Kim Sangwoo",
         "birthday": "September 03, 2002",
-        "imgLink": "/imageArchive/JUSTB/Sangwoo.jpeg"
+        "imgLink": "/imageArchive/JUSTB/Sangwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "KARD",
@@ -1797,7 +2084,8 @@
         "stageName": "J.Seph",
         "fullName": "Kim Taehyung",
         "birthday": "June 21, 1992",
-        "imgLink": "/imageArchive/KARD/JSeph.jpeg"
+        "imgLink": "/imageArchive/KARD/JSeph.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "KARD",
@@ -1805,7 +2093,8 @@
         "stageName": "BM",
         "fullName": "Kim Jinseok",
         "birthday": "October 20, 1992",
-        "imgLink": "/imageArchive/KARD/BM.jpeg"
+        "imgLink": "/imageArchive/KARD/BM.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "KARD",
@@ -1813,7 +2102,8 @@
         "stageName": "Somin",
         "fullName": "Jeon Somin",
         "birthday": "August 22, 1996",
-        "imgLink": "/imageArchive/KARD/Somin.jpeg"
+        "imgLink": "/imageArchive/KARD/Somin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "KARD",
@@ -1821,7 +2111,8 @@
         "stageName": "Jiwoo",
         "fullName": "Jeon Jiwoo",
         "birthday": "October 04, 1996",
-        "imgLink": "/imageArchive/KARD/Jiwoo.jpeg"
+        "imgLink": "/imageArchive/KARD/Jiwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1829,7 +2120,8 @@
         "stageName": "Yujin",
         "fullName": "Choi Yujin",
         "birthday": "August 12, 1996",
-        "imgLink": "/imageArchive/Kep1er/Yujin.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Yujin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1837,7 +2129,8 @@
         "stageName": "Xiaoting",
         "fullName": "Shen Xiaoting",
         "birthday": "November 12, 1999",
-        "imgLink": "/imageArchive/Kep1er/Xiaoting.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Xiaoting.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1845,7 +2138,8 @@
         "stageName": "Mashiro",
         "fullName": "Sakamoto Mashiro",
         "birthday": "December 16, 1999",
-        "imgLink": "/imageArchive/Kep1er/Mashiro.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Mashiro.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1853,7 +2147,8 @@
         "stageName": "Chaehyun",
         "fullName": "Kim Chaehyun",
         "birthday": "April 26, 2002",
-        "imgLink": "/imageArchive/Kep1er/Chaehyun.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Chaehyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1861,7 +2156,8 @@
         "stageName": "Dayeon",
         "fullName": "Kim Dayeon",
         "birthday": "March 02, 2003",
-        "imgLink": "/imageArchive/Kep1er/Dayeon.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Dayeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1869,7 +2165,8 @@
         "stageName": "Hikaru",
         "fullName": "Ezaki Hikaru",
         "birthday": "March 12, 2004",
-        "imgLink": "/imageArchive/Kep1er/Hikaru.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Hikaru.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1877,7 +2174,8 @@
         "stageName": "Huening Bahiyyih",
         "fullName": "Huening Bahiyyih",
         "birthday": "July 27, 2004",
-        "imgLink": "/imageArchive/Kep1er/Bahiyyih.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Bahiyyih.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1885,7 +2183,8 @@
         "stageName": "Youngeun",
         "fullName": "Seo Youngeun",
         "birthday": "December 27, 2004",
-        "imgLink": "/imageArchive/Kep1er/Youngeun.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Youngeun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Kep1er",
@@ -1893,7 +2192,8 @@
         "stageName": "Yeseo",
         "fullName": "Kang Yeseo",
         "birthday": "August 22, 2005",
-        "imgLink": "/imageArchive/Kep1er/Yeseo.jpeg"
+        "imgLink": "/imageArchive/Kep1er/Yeseo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "KISS OF LIFE",
@@ -1901,7 +2201,8 @@
         "stageName": "Julie",
         "fullName": "Han Julie",
         "birthday": "March 29, 2000",
-        "imgLink": "/imageArchive/KISSOFLIFE/Julie.jpeg"
+        "imgLink": "/imageArchive/KISSOFLIFE/Julie.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "KISS OF LIFE",
@@ -1909,7 +2210,8 @@
         "stageName": "Natty",
         "fullName": "Anatchaya Suputtipong",
         "birthday": "May 30, 2002",
-        "imgLink": "/imageArchive/KISSOFLIFE/Natty.jpeg"
+        "imgLink": "/imageArchive/KISSOFLIFE/Natty.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "KISS OF LIFE",
@@ -1917,7 +2219,8 @@
         "stageName": "Belle",
         "fullName": "Shim Hyewon",
         "birthday": "March 20, 2004",
-        "imgLink": "/imageArchive/KISSOFLIFE/Belle.jpeg"
+        "imgLink": "/imageArchive/KISSOFLIFE/Belle.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "KISS OF LIFE",
@@ -1925,7 +2228,8 @@
         "stageName": "Haneul",
         "fullName": "Won Haneul",
         "birthday": "May 25, 2005",
-        "imgLink": "/imageArchive/KISSOFLIFE/Haneul.jpeg"
+        "imgLink": "/imageArchive/KISSOFLIFE/Haneul.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LE SSERAFIM",
@@ -1933,7 +2237,8 @@
         "stageName": "Sakura",
         "fullName": "Miyawaki Sakura",
         "birthday": "March 19, 1998",
-        "imgLink": "/imageArchive/LESSERAFIM/Sakura.jpeg"
+        "imgLink": "/imageArchive/LESSERAFIM/Sakura.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LE SSERAFIM",
@@ -1941,7 +2246,8 @@
         "stageName": "Chaewon",
         "fullName": "Kim Chaewon",
         "birthday": "August 01, 2000",
-        "imgLink": "/imageArchive/LESSERAFIM/Chaewon.jpeg"
+        "imgLink": "/imageArchive/LESSERAFIM/Chaewon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LE SSERAFIM",
@@ -1949,7 +2255,8 @@
         "stageName": "Yunjin",
         "fullName": "Huh Yunjin",
         "birthday": "October 08, 2001",
-        "imgLink": "/imageArchive/LESSERAFIM/Yunjin.jpeg"
+        "imgLink": "/imageArchive/LESSERAFIM/Yunjin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LE SSERAFIM",
@@ -1957,7 +2264,8 @@
         "stageName": "Kazuha",
         "fullName": "Nakamura Kazuha",
         "birthday": "August 09, 2003",
-        "imgLink": "/imageArchive/LESSERAFIM/Kazuha.jpeg"
+        "imgLink": "/imageArchive/LESSERAFIM/Kazuha.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LE SSERAFIM",
@@ -1965,7 +2273,8 @@
         "stageName": "Eunchae",
         "fullName": "Hong Eunchae",
         "birthday": "November 10, 2006",
-        "imgLink": "/imageArchive/LESSERAFIM/Eunchae.jpeg"
+        "imgLink": "/imageArchive/LESSERAFIM/Eunchae.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LOONA",
@@ -1973,7 +2282,8 @@
         "stageName": "Vivi",
         "fullName": "Wong Gaahei",
         "birthday": "December 09, 1996",
-        "imgLink": "/imageArchive/LOONA/Vivi.jpeg"
+        "imgLink": "/imageArchive/LOONA/Vivi.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -1981,7 +2291,8 @@
         "stageName": "Yves",
         "fullName": "Ha Sooyoung",
         "birthday": "May 24, 1997",
-        "imgLink": "/imageArchive/LOONA/Yves.jpeg"
+        "imgLink": "/imageArchive/LOONA/Yves.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -1989,7 +2300,8 @@
         "stageName": "Jinsoul",
         "fullName": "Jung Jinsol",
         "birthday": "June 13, 1997",
-        "imgLink": "/imageArchive/LOONA/Jinsoul.jpeg"
+        "imgLink": "/imageArchive/LOONA/Jinsoul.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -1997,7 +2309,8 @@
         "stageName": "Haseul",
         "fullName": "Jo Haseul",
         "birthday": "August 18, 1997",
-        "imgLink": "/imageArchive/LOONA/Haseul.jpeg"
+        "imgLink": "/imageArchive/LOONA/Haseul.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -2005,7 +2318,8 @@
         "stageName": "Kim Lip",
         "fullName": "Kim Jungeun",
         "birthday": "February 10, 1999",
-        "imgLink": "/imageArchive/LOONA/Kim Lip.jpeg"
+        "imgLink": "/imageArchive/LOONA/Kim Lip.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -2013,7 +2327,8 @@
         "stageName": "Chuu",
         "fullName": "Kim Jiwoo",
         "birthday": "October 20, 1999",
-        "imgLink": "/imageArchive/LOONA/Chuu.jpeg"
+        "imgLink": "/imageArchive/LOONA/Chuu.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -2021,7 +2336,8 @@
         "stageName": "Heejin",
         "fullName": "Jeon Heejin",
         "birthday": "October 19, 2000",
-        "imgLink": "/imageArchive/LOONA/Heejin.jpeg"
+        "imgLink": "/imageArchive/LOONA/Heejin.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -2029,7 +2345,8 @@
         "stageName": "Hyunjin",
         "fullName": "Kim Hyunjin",
         "birthday": "November 15, 2000",
-        "imgLink": "/imageArchive/LOONA/Hyunjin.jpeg"
+        "imgLink": "/imageArchive/LOONA/Hyunjin.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -2037,7 +2354,8 @@
         "stageName": "Gowon",
         "fullName": "Park Chaewon",
         "birthday": "November 19, 2000",
-        "imgLink": "/imageArchive/LOONA/Gowon.jpeg"
+        "imgLink": "/imageArchive/LOONA/Gowon.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -2045,7 +2363,8 @@
         "stageName": "Choerry",
         "fullName": "Choi Yerim",
         "birthday": "June 04, 2001",
-        "imgLink": "/imageArchive/LOONA/Choerry.jpeg"
+        "imgLink": "/imageArchive/LOONA/Choerry.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -2053,7 +2372,8 @@
         "stageName": "Olivia Hye",
         "fullName": "Son Hyejoo",
         "birthday": "November 13, 2001",
-        "imgLink": "/imageArchive/LOONA/Olivia Hye.jpeg"
+        "imgLink": "/imageArchive/LOONA/Olivia Hye.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LOONA",
@@ -2061,7 +2381,8 @@
         "stageName": "Yeojin",
         "fullName": "Im Yeojin",
         "birthday": "November 11, 2002",
-        "imgLink": "/imageArchive/LOONA/Yeojin.jpeg"
+        "imgLink": "/imageArchive/LOONA/Yeojin.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "LUN8",
@@ -2069,7 +2390,8 @@
         "stageName": "Chael",
         "fullName": "Im Junyeop",
         "birthday": "December 07, 2001",
-        "imgLink": "/imageArchive/LUN8/Chael.jpeg"
+        "imgLink": "/imageArchive/LUN8/Chael.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LUN8",
@@ -2077,7 +2399,8 @@
         "stageName": "Jinsu",
         "fullName": "Park Jinsu",
         "birthday": "February 05, 2003",
-        "imgLink": "/imageArchive/LUN8/Jinsu.jpeg"
+        "imgLink": "/imageArchive/LUN8/Jinsu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LUN8",
@@ -2085,7 +2408,8 @@
         "stageName": "Takuma",
         "fullName": "Sato Takuma",
         "birthday": "August 05, 2003",
-        "imgLink": "/imageArchive/LUN8/Takuma.jpeg"
+        "imgLink": "/imageArchive/LUN8/Takuma.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LUN8",
@@ -2093,7 +2417,8 @@
         "stageName": "Junwoo",
         "fullName": "Shim Junwoo",
         "birthday": "September 21, 2003",
-        "imgLink": "/imageArchive/LUN8/Junwoo.jpeg"
+        "imgLink": "/imageArchive/LUN8/Junwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LUN8",
@@ -2101,7 +2426,8 @@
         "stageName": "Dohyun",
         "fullName": "Park Dohyun",
         "birthday": "October 23, 2003",
-        "imgLink": "/imageArchive/LUN8/Dohyun.jpeg"
+        "imgLink": "/imageArchive/LUN8/Dohyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LUN8",
@@ -2109,7 +2435,8 @@
         "stageName": "Ian",
         "fullName": "Noh Sungchul",
         "birthday": "December 11, 2003",
-        "imgLink": "/imageArchive/LUN8/Ian.jpeg"
+        "imgLink": "/imageArchive/LUN8/Ian.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LUN8",
@@ -2117,7 +2444,8 @@
         "stageName": "Ji Eunho",
         "fullName": "Lee Sangmin",
         "birthday": "May 21, 2005",
-        "imgLink": "/imageArchive/LUN8/Ji Eunho.jpeg"
+        "imgLink": "/imageArchive/LUN8/Ji Eunho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "LUN8",
@@ -2125,7 +2453,8 @@
         "stageName": "Eunseop",
         "fullName": "Kim Eunseop",
         "birthday": "June 18, 2006",
-        "imgLink": "/imageArchive/LUN8/Eunseop.jpeg"
+        "imgLink": "/imageArchive/LUN8/Eunseop.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MCND",
@@ -2133,7 +2462,8 @@
         "stageName": "Castle J",
         "fullName": "Son Seongjun",
         "birthday": "May 31, 1999",
-        "imgLink": "/imageArchive/MCND/CastleJ.jpeg"
+        "imgLink": "/imageArchive/MCND/CastleJ.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MCND",
@@ -2141,7 +2471,8 @@
         "stageName": "BIC",
         "fullName": "Nam Seungmin",
         "birthday": "April 25, 2001",
-        "imgLink": "/imageArchive/MCND/BIC.jpeg"
+        "imgLink": "/imageArchive/MCND/BIC.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MCND",
@@ -2149,7 +2480,8 @@
         "stageName": "Minjae",
         "fullName": "Song Minjae",
         "birthday": "August 23, 2003",
-        "imgLink": "/imageArchive/MCND/Minjae.jpeg"
+        "imgLink": "/imageArchive/MCND/Minjae.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MCND",
@@ -2157,7 +2489,8 @@
         "stageName": "Huijun",
         "fullName": "No Huijun",
         "birthday": "October 07, 2003",
-        "imgLink": "/imageArchive/MCND/Huijun.jpeg"
+        "imgLink": "/imageArchive/MCND/Huijun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MCND",
@@ -2165,7 +2498,8 @@
         "stageName": "Win",
         "fullName": "Bang Junhyuk",
         "birthday": "December 19, 2004",
-        "imgLink": "/imageArchive/MCND/Win.jpeg"
+        "imgLink": "/imageArchive/MCND/Win.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MIRAE",
@@ -2173,7 +2507,8 @@
         "stageName": "Lien",
         "fullName": "Shimada Shouu",
         "birthday": "March 11, 1998",
-        "imgLink": "/imageArchive/MIRAE/Lien.jpeg"
+        "imgLink": "/imageArchive/MIRAE/Lien.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MIRAE",
@@ -2181,7 +2516,8 @@
         "stageName": "Junhyuk",
         "fullName": "Lee Junhyuk",
         "birthday": "May 16, 2000",
-        "imgLink": "/imageArchive/MIRAE/Junhyuk.jpeg"
+        "imgLink": "/imageArchive/MIRAE/Junhyuk.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MIRAE",
@@ -2189,7 +2525,8 @@
         "stageName": "Dohyun",
         "fullName": "Yoo Dohyun",
         "birthday": "December 25, 2000",
-        "imgLink": "/imageArchive/MIRAE/Dohyun.jpeg"
+        "imgLink": "/imageArchive/MIRAE/Dohyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MIRAE",
@@ -2197,7 +2534,8 @@
         "stageName": "Khael",
         "fullName": "Lee Sangmin",
         "birthday": "January 18, 2002",
-        "imgLink": "/imageArchive/MIRAE/Khael.jpeg"
+        "imgLink": "/imageArchive/MIRAE/Khael.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MIRAE",
@@ -2205,7 +2543,8 @@
         "stageName": "Dongpyo",
         "fullName": "Son Dongpyo",
         "birthday": "September 09, 2002",
-        "imgLink": "/imageArchive/MIRAE/Dongpyo.jpeg"
+        "imgLink": "/imageArchive/MIRAE/Dongpyo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MIRAE",
@@ -2213,7 +2552,8 @@
         "stageName": "Siyoung",
         "fullName": "Park Siyoung",
         "birthday": "May 06, 2003",
-        "imgLink": "/imageArchive/MIRAE/Siyoung.jpeg"
+        "imgLink": "/imageArchive/MIRAE/Siyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MONSTA X",
@@ -2221,7 +2561,8 @@
         "stageName": "Shownu",
         "fullName": "Son Hyunwoo",
         "birthday": "June 18, 1992",
-        "imgLink": "/imageArchive/MONSTAX/Shownu.jpeg"
+        "imgLink": "/imageArchive/MONSTAX/Shownu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MONSTA X",
@@ -2229,7 +2570,8 @@
         "stageName": "Wonho",
         "fullName": "Shin Hoseok",
         "birthday": "March 01, 1993",
-        "imgLink": "/imageArchive/MONSTAX/Wonho.jpeg"
+        "imgLink": "/imageArchive/MONSTAX/Wonho.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "MONSTA X",
@@ -2237,7 +2579,8 @@
         "stageName": "Minhyuk",
         "fullName": "Lee Minhyuk",
         "birthday": "November 03, 1993",
-        "imgLink": "/imageArchive/MONSTAX/Minhyuk.jpeg"
+        "imgLink": "/imageArchive/MONSTAX/Minhyuk.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MONSTA X",
@@ -2245,7 +2588,8 @@
         "stageName": "Kihyun",
         "fullName": "Yoo Kihyun",
         "birthday": "November 22, 1993",
-        "imgLink": "/imageArchive/MONSTAX/Kihyun.jpeg"
+        "imgLink": "/imageArchive/MONSTAX/Kihyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MONSTA X",
@@ -2253,7 +2597,8 @@
         "stageName": "Hyungwon",
         "fullName": "Chae Hyungwon",
         "birthday": "January 15, 1994",
-        "imgLink": "/imageArchive/MONSTAX/Hyungwon.jpeg"
+        "imgLink": "/imageArchive/MONSTAX/Hyungwon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MONSTA X",
@@ -2261,7 +2606,8 @@
         "stageName": "Joohoney",
         "fullName": "Lee Jooheon",
         "birthday": "October 06, 1994",
-        "imgLink": "/imageArchive/MONSTAX/Joohoney.jpeg"
+        "imgLink": "/imageArchive/MONSTAX/Joohoney.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "MONSTA X",
@@ -2269,7 +2615,8 @@
         "stageName": "I.M",
         "fullName": "Im Changkyun",
         "birthday": "January 26, 1996",
-        "imgLink": "/imageArchive/MONSTAX/IM.jpeg"
+        "imgLink": "/imageArchive/MONSTAX/IM.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "M.O.N.T",
@@ -2277,7 +2624,8 @@
         "stageName": "Bitsaeon",
         "fullName": "Kim Sangyeon",
         "birthday": "June 04, 1995",
-        "imgLink": "/imageArchive/MONT/Bitsaeon.jpeg"
+        "imgLink": "/imageArchive/MONT/Bitsaeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "M.O.N.T",
@@ -2285,7 +2633,8 @@
         "stageName": "Narachan",
         "fullName": "Jung Hyunwoo",
         "birthday": "September 23, 1996",
-        "imgLink": "/imageArchive/MONT/Narachan.jpeg"
+        "imgLink": "/imageArchive/MONT/Narachan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "M.O.N.T",
@@ -2293,7 +2642,8 @@
         "stageName": "Roda",
         "fullName": "Shin Joongmin",
         "birthday": "September 19, 1998",
-        "imgLink": "/imageArchive/MONT/Roda.jpeg"
+        "imgLink": "/imageArchive/MONT/Roda.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2301,7 +2651,8 @@
         "stageName": "Taeil",
         "fullName": "Moon Taeil",
         "birthday": "June 14, 1994",
-        "imgLink": "/imageArchive/NCT/Taeil.jpeg"
+        "imgLink": "/imageArchive/NCT/Taeil.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2309,7 +2660,8 @@
         "stageName": "Johnny",
         "fullName": "Seo Youngho",
         "birthday": "February 09, 1995",
-        "imgLink": "/imageArchive/NCT/Johnny.jpeg"
+        "imgLink": "/imageArchive/NCT/Johnny.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2317,7 +2669,8 @@
         "stageName": "Taeyong",
         "fullName": "Lee Taeyong",
         "birthday": "July 01, 1995",
-        "imgLink": "/imageArchive/NCT/Taeyong.jpeg"
+        "imgLink": "/imageArchive/NCT/Taeyong.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2325,7 +2678,8 @@
         "stageName": "Yuta",
         "fullName": "Nakamoto Yuta",
         "birthday": "October 26, 1995",
-        "imgLink": "/imageArchive/NCT/Yuta.jpeg"
+        "imgLink": "/imageArchive/NCT/Yuta.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2333,7 +2687,8 @@
         "stageName": "Kun",
         "fullName": "Qian Kun",
         "birthday": "January 01, 1996",
-        "imgLink": "/imageArchive/NCT/Kun.jpeg"
+        "imgLink": "/imageArchive/NCT/Kun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2341,7 +2696,8 @@
         "stageName": "Doyoung",
         "fullName": "Kim Dongyoung",
         "birthday": "February 01, 1996",
-        "imgLink": "/imageArchive/NCT/Doyoung.jpeg"
+        "imgLink": "/imageArchive/NCT/Doyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2349,7 +2705,8 @@
         "stageName": "Ten",
         "fullName": "Chittapon Leechaiyapornkul",
         "birthday": "February 27, 1996",
-        "imgLink": "/imageArchive/NCT/Ten.jpeg"
+        "imgLink": "/imageArchive/NCT/Ten.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2357,7 +2714,8 @@
         "stageName": "Jaehyun",
         "fullName": "Jung Yoonoh",
         "birthday": "February 14, 1997",
-        "imgLink": "/imageArchive/NCT/Jaehyun.jpeg"
+        "imgLink": "/imageArchive/NCT/Jaehyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2365,7 +2723,8 @@
         "stageName": "Winwin",
         "fullName": "Dong Sicheng",
         "birthday": "October 28, 1997",
-        "imgLink": "/imageArchive/NCT/Winwin.jpeg"
+        "imgLink": "/imageArchive/NCT/Winwin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2373,7 +2732,8 @@
         "stageName": "Jungwoo",
         "fullName": "Kim Jungwoo",
         "birthday": "February 19, 1998",
-        "imgLink": "/imageArchive/NCT/Jungwoo.jpeg"
+        "imgLink": "/imageArchive/NCT/Jungwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2381,7 +2741,8 @@
         "stageName": "Mark",
         "fullName": "Lee Minhyung",
         "birthday": "August 02, 1999",
-        "imgLink": "/imageArchive/NCT/Mark.jpeg"
+        "imgLink": "/imageArchive/NCT/Mark.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2389,7 +2750,8 @@
         "stageName": "Xiaojun",
         "fullName": "Xiao Dejun",
         "birthday": "August 08, 1999",
-        "imgLink": "/imageArchive/NCT/Xiaojun.jpeg"
+        "imgLink": "/imageArchive/NCT/Xiaojun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2397,7 +2759,8 @@
         "stageName": "Hendery",
         "fullName": "Wong Kunhang",
         "birthday": "September 28, 1999",
-        "imgLink": "/imageArchive/NCT/Hendery.jpeg"
+        "imgLink": "/imageArchive/NCT/Hendery.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2405,7 +2768,8 @@
         "stageName": "Renjun",
         "fullName": "Huang Renjun",
         "birthday": "March 23, 2000",
-        "imgLink": "/imageArchive/NCT/Renjun.jpeg"
+        "imgLink": "/imageArchive/NCT/Renjun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2413,7 +2777,8 @@
         "stageName": "Jeno",
         "fullName": "Lee Jeno",
         "birthday": "April 23, 2000",
-        "imgLink": "/imageArchive/NCT/Jeno.jpeg"
+        "imgLink": "/imageArchive/NCT/Jeno.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2421,7 +2786,8 @@
         "stageName": "Haechan",
         "fullName": "Lee Donghyuck",
         "birthday": "June 06, 2000",
-        "imgLink": "/imageArchive/NCT/Haechan.jpeg"
+        "imgLink": "/imageArchive/NCT/Haechan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2429,7 +2795,8 @@
         "stageName": "Jaemin",
         "fullName": "Na Jaemin",
         "birthday": "August 13, 2000",
-        "imgLink": "/imageArchive/NCT/Jaemin.jpeg"
+        "imgLink": "/imageArchive/NCT/Jaemin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2437,7 +2804,8 @@
         "stageName": "Yangyang",
         "fullName": "Liu Yangyang",
         "birthday": "October 10, 2000",
-        "imgLink": "/imageArchive/NCT/Yangyang.jpeg"
+        "imgLink": "/imageArchive/NCT/Yangyang.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2445,7 +2813,8 @@
         "stageName": "Chenle",
         "fullName": "Zhong Chenle",
         "birthday": "November 22, 2001",
-        "imgLink": "/imageArchive/NCT/Chenle.jpeg"
+        "imgLink": "/imageArchive/NCT/Chenle.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2453,7 +2822,8 @@
         "stageName": "Jisung",
         "fullName": "Park Jisung",
         "birthday": "February 05, 2002",
-        "imgLink": "/imageArchive/NCT/Jisung.jpeg"
+        "imgLink": "/imageArchive/NCT/Jisung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2461,7 +2831,8 @@
         "stageName": "Sion",
         "fullName": "Oh Sion",
         "birthday": "May 11, 2002",
-        "imgLink": "/imageArchive/NCT/Sion.jpeg"
+        "imgLink": "/imageArchive/NCT/Sion.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2469,7 +2840,8 @@
         "stageName": "Riku",
         "fullName": "Maeda Riku",
         "birthday": "June 28, 2003",
-        "imgLink": "/imageArchive/NCT/Riku.jpeg"
+        "imgLink": "/imageArchive/NCT/Riku.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2477,7 +2849,8 @@
         "stageName": "Yushi",
         "fullName": "Tokuno Yushi",
         "birthday": "April 05, 2004",
-        "imgLink": "/imageArchive/NCT/Yushi.jpeg"
+        "imgLink": "/imageArchive/NCT/Yushi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2485,7 +2858,8 @@
         "stageName": "Jaehee",
         "fullName": "Kim Daeyoung",
         "birthday": "June 21, 2005",
-        "imgLink": "/imageArchive/NCT/Jaehee.jpeg"
+        "imgLink": "/imageArchive/NCT/Jaehee.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2493,7 +2867,8 @@
         "stageName": "Ryo",
         "fullName": "Hirose Ryo",
         "birthday": "August 04, 2007",
-        "imgLink": "/imageArchive/NCT/Ryo.jpeg"
+        "imgLink": "/imageArchive/NCT/Ryo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NCT",
@@ -2501,7 +2876,8 @@
         "stageName": "Sakuya",
         "fullName": "Fujinaga Sakuya",
         "birthday": "November 18, 2007",
-        "imgLink": "/imageArchive/NCT/Sakuya.jpeg"
+        "imgLink": "/imageArchive/NCT/Sakuya.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NewJeans",
@@ -2509,7 +2885,8 @@
         "stageName": "Minji",
         "fullName": "Kim Minji",
         "birthday": "May 07, 2004",
-        "imgLink": "/imageArchive/NewJeans/Minji.jpeg"
+        "imgLink": "/imageArchive/NewJeans/Minji.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NewJeans",
@@ -2517,7 +2894,8 @@
         "stageName": "Hanni",
         "fullName": "Phạm Ngọc Hân",
         "birthday": "October 06, 2004",
-        "imgLink": "/imageArchive/NewJeans/Hanni.jpeg"
+        "imgLink": "/imageArchive/NewJeans/Hanni.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NewJeans",
@@ -2525,7 +2903,8 @@
         "stageName": "Danielle",
         "fullName": "Mo Jihye",
         "birthday": "April 11, 2005",
-        "imgLink": "/imageArchive/NewJeans/Danielle.jpeg"
+        "imgLink": "/imageArchive/NewJeans/Danielle.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NewJeans",
@@ -2533,7 +2912,8 @@
         "stageName": "Haerin",
         "fullName": "Kang Haerin",
         "birthday": "May 15, 2006",
-        "imgLink": "/imageArchive/NewJeans/Haerin.jpeg"
+        "imgLink": "/imageArchive/NewJeans/Haerin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NewJeans",
@@ -2541,7 +2921,8 @@
         "stageName": "Hyein",
         "fullName": "Lee Hyein",
         "birthday": "April 21, 2008",
-        "imgLink": "/imageArchive/NewJeans/Hyein.jpeg"
+        "imgLink": "/imageArchive/NewJeans/Hyein.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "N.Flying",
@@ -2549,7 +2930,8 @@
         "stageName": "Seunghyub",
         "fullName": "Lee Seunghyub",
         "birthday": "October 31, 1992",
-        "imgLink": "/imageArchive/NFlying/Seunghyub.jpeg"
+        "imgLink": "/imageArchive/NFlying/Seunghyub.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "N.Flying",
@@ -2557,7 +2939,8 @@
         "stageName": "Hun",
         "fullName": "Cha Hoon",
         "birthday": "July 12, 1994",
-        "imgLink": "/imageArchive/NFlying/Hun.jpeg"
+        "imgLink": "/imageArchive/NFlying/Hun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "N.Flying",
@@ -2565,7 +2948,8 @@
         "stageName": "Jaehyun",
         "fullName": "Kim Jaehyun",
         "birthday": "July 15, 1994",
-        "imgLink": "/imageArchive/NFlying/Jaehyun.jpeg"
+        "imgLink": "/imageArchive/NFlying/Jaehyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "N.Flying",
@@ -2573,7 +2957,8 @@
         "stageName": "Hweseung",
         "fullName": "Yoo Hweseung",
         "birthday": "February 28, 1995",
-        "imgLink": "/imageArchive/NFlying/Hweseung.jpeg"
+        "imgLink": "/imageArchive/NFlying/Hweseung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "N.Flying",
@@ -2581,7 +2966,8 @@
         "stageName": "Dongsung",
         "fullName": "Seo Dongsung",
         "birthday": "April 09, 1996",
-        "imgLink": "/imageArchive/NFlying/Dongsung.jpeg"
+        "imgLink": "/imageArchive/NFlying/Dongsung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2589,7 +2975,8 @@
         "stageName": "Eden",
         "fullName": "Yang Jaewon",
         "birthday": "March 27, 1998",
-        "imgLink": "/imageArchive/NINEi/Eden.jpeg"
+        "imgLink": "/imageArchive/NINEi/Eden.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2597,7 +2984,8 @@
         "stageName": "Winnie",
         "fullName": "Pattipong Kasemsant",
         "birthday": "November 18, 1998",
-        "imgLink": "/imageArchive/NINEi/Winnie.jpeg"
+        "imgLink": "/imageArchive/NINEi/Winnie.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2605,7 +2993,8 @@
         "stageName": "Jewon",
         "fullName": "Woo Jewon",
         "birthday": "November 28, 1998",
-        "imgLink": "/imageArchive/NINEi/Jewon.jpeg"
+        "imgLink": "/imageArchive/NINEi/Jewon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2613,7 +3002,8 @@
         "stageName": "Minjun",
         "fullName": "Kim Minjun",
         "birthday": "February 26, 1999",
-        "imgLink": "/imageArchive/NINEi/Minjun.jpeg"
+        "imgLink": "/imageArchive/NINEi/Minjun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2621,7 +3011,8 @@
         "stageName": "Vahn",
         "fullName": "Kim Jungwoo",
         "birthday": "May 07, 1999",
-        "imgLink": "/imageArchive/NINEi/Vahn.jpeg"
+        "imgLink": "/imageArchive/NINEi/Vahn.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2629,7 +3020,8 @@
         "stageName": "Vari",
         "fullName": "Kim Jaehyun",
         "birthday": "September 03, 2000",
-        "imgLink": "/imageArchive/NINEi/Vari.jpeg"
+        "imgLink": "/imageArchive/NINEi/Vari.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2637,7 +3029,8 @@
         "stageName": "Seowon",
         "fullName": "Seo Won",
         "birthday": "December 18, 2000",
-        "imgLink": "/imageArchive/NINEi/Seowon.jpeg"
+        "imgLink": "/imageArchive/NINEi/Seowon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2645,7 +3038,8 @@
         "stageName": "Taehun",
         "fullName": "Lee Taehun",
         "birthday": "March 21, 2002",
-        "imgLink": "/imageArchive/NINEi/Taehun.jpeg"
+        "imgLink": "/imageArchive/NINEi/Taehun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2653,7 +3047,8 @@
         "stageName": "Joohyoung",
         "fullName": "Kim Joohyoung",
         "birthday": "March 15, 2003",
-        "imgLink": "/imageArchive/NINEi/Joohyoung.jpeg"
+        "imgLink": "/imageArchive/NINEi/Joohyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NINE.i",
@@ -2661,7 +3056,8 @@
         "stageName": "Jiho",
         "fullName": "Jang Jiho",
         "birthday": "August 10, 2004",
-        "imgLink": "/imageArchive/NINEi/Jiho.jpeg"
+        "imgLink": "/imageArchive/NINEi/Jiho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NMIXX",
@@ -2669,7 +3065,8 @@
         "stageName": "Lily",
         "fullName": "Park Jin",
         "birthday": "October 17, 2002",
-        "imgLink": "/imageArchive/NMIXX/Lily.jpeg"
+        "imgLink": "/imageArchive/NMIXX/Lily.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NMIXX",
@@ -2677,7 +3074,8 @@
         "stageName": "Haewon",
         "fullName": "Oh Haewon",
         "birthday": "February 25, 2003",
-        "imgLink": "/imageArchive/NMIXX/Haewon.jpeg"
+        "imgLink": "/imageArchive/NMIXX/Haewon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NMIXX",
@@ -2685,7 +3083,8 @@
         "stageName": "Sullyoon",
         "fullName": "Seol Yoona",
         "birthday": "January 26, 2004",
-        "imgLink": "/imageArchive/NMIXX/Sullyoon.jpeg"
+        "imgLink": "/imageArchive/NMIXX/Sullyoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NMIXX",
@@ -2693,7 +3092,8 @@
         "stageName": "BAE",
         "fullName": "Bae Jinsol",
         "birthday": "December 28, 2004",
-        "imgLink": "/imageArchive/NMIXX/BAE.jpeg"
+        "imgLink": "/imageArchive/NMIXX/BAE.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NMIXX",
@@ -2701,7 +3101,8 @@
         "stageName": "Jiwoo",
         "fullName": "Kim Jiwoo",
         "birthday": "April 13, 2005",
-        "imgLink": "/imageArchive/NMIXX/Jiwoo.jpeg"
+        "imgLink": "/imageArchive/NMIXX/Jiwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "NMIXX",
@@ -2709,7 +3110,152 @@
         "stageName": "Kyujin",
         "fullName": "Jang Kyujin",
         "birthday": "May 26, 2006",
-        "imgLink": "/imageArchive/NMIXX/Kyujin.jpeg"
+        "imgLink": "/imageArchive/NMIXX/Kyujin.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "NOMAD",
+        "num": "1",
+        "stageName": "Sangha",
+        "fullName": "Park Sangha",
+        "birthday": "March 19, 1999",
+        "imgLink": "/imageArchive/NOMAD/Sangha.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "NOMAD",
+        "num": "2",
+        "stageName": "DOY",
+        "fullName": "Hong Doeui",
+        "birthday": "September 16, 1999",
+        "imgLink": "/imageArchive/NOMAD/DOY.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "NOMAD",
+        "num": "3",
+        "stageName": "ONE",
+        "fullName": "Kim Jiwon",
+        "birthday": "April 20, 2001",
+        "imgLink": "/imageArchive/NOMAD/ONE.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "NOMAD",
+        "num": "4",
+        "stageName": "RIVR",
+        "fullName": "Shin Kangsu",
+        "birthday": "May 09, 2002",
+        "imgLink": "/imageArchive/NOMAD/RIVR.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "NOMAD",
+        "num": "5",
+        "stageName": "Junho",
+        "fullName": "Jeong Junho",
+        "birthday": "July 11, 2002",
+        "imgLink": "/imageArchive/NOMAD/Junho.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "1",
+        "stageName": "Jaehan",
+        "fullName": "Kim Jaehan",
+        "birthday": "July 01, 1995",
+        "imgLink": "/imageArchive/OMEGAX/Jaehan.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "2",
+        "stageName": "Hwichan",
+        "fullName": "Lee Hwichan",
+        "birthday": "April 18, 1996",
+        "imgLink": "/imageArchive/OMEGAX/Hwichan.jpeg",
+        "status": "(Former)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "3",
+        "stageName": "Sebin",
+        "fullName": "Jang Sebin",
+        "birthday": "April 24, 1996",
+        "imgLink": "/imageArchive/OMEGAX/Sebin.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "4",
+        "stageName": "Hangyeom",
+        "fullName": "Song Hangyeom",
+        "birthday": "July 17, 1996",
+        "imgLink": "/imageArchive/OMEGAX/Hangyeom.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "5",
+        "stageName": "Taedong",
+        "fullName": "Kim Taedong",
+        "birthday": "November 07, 1997",
+        "imgLink": "/imageArchive/OMEGAX/Taedong.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "6",
+        "stageName": "Xen",
+        "fullName": "Lee Jinwoo",
+        "birthday": "February 20, 1998",
+        "imgLink": "/imageArchive/OMEGAX/Xen.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "7",
+        "stageName": "Jehyun",
+        "fullName": "Moon Jehyun",
+        "birthday": "April 20, 1999",
+        "imgLink": "/imageArchive/OMEGAX/Jehyun.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "8",
+        "stageName": "Kevin",
+        "fullName": "Park Jinwoo",
+        "birthday": "January 12, 2000",
+        "imgLink": "/imageArchive/OMEGAX/Kevin.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "9",
+        "stageName": "Junghoon",
+        "fullName": "Han Junghoon",
+        "birthday": "February 14, 2000",
+        "imgLink": "/imageArchive/OMEGAX/Junghoon.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "10",
+        "stageName": "Hyuk",
+        "fullName": "Yang Hyuk",
+        "birthday": "March 15, 2000",
+        "imgLink": "/imageArchive/OMEGAX/Hyuk.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "OMEGA X",
+        "num": "11",
+        "stageName": "Yechan",
+        "fullName": "Shin Yechan",
+        "birthday": "May 14, 2001",
+        "imgLink": "/imageArchive/OMEGAX/Yechan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "OnlyOneOf",
@@ -2717,7 +3263,8 @@
         "stageName": "KB",
         "fullName": "Shin Kyubin",
         "birthday": "April 23, 1992",
-        "imgLink": "/imageArchive/OnlyOneOf/KB.jpeg"
+        "imgLink": "/imageArchive/OnlyOneOf/KB.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "OnlyOneOf",
@@ -2725,7 +3272,8 @@
         "stageName": "Love",
         "fullName": "Park Jisung",
         "birthday": "January 17, 1994",
-        "imgLink": "/imageArchive/OnlyOneOf/Love.jpeg"
+        "imgLink": "/imageArchive/OnlyOneOf/Love.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "OnlyOneOf",
@@ -2733,7 +3281,8 @@
         "stageName": "Rie",
         "fullName": "Lee Sungho",
         "birthday": "November 06, 1996",
-        "imgLink": "/imageArchive/OnlyOneOf/Rie.jpeg"
+        "imgLink": "/imageArchive/OnlyOneOf/Rie.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "OnlyOneOf",
@@ -2741,7 +3290,8 @@
         "stageName": "Yoojung",
         "fullName": "Lee Taeyeob",
         "birthday": "May 29, 1997",
-        "imgLink": "/imageArchive/OnlyOneOf/Yoojung.jpeg"
+        "imgLink": "/imageArchive/OnlyOneOf/Yoojung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "OnlyOneOf",
@@ -2749,7 +3299,8 @@
         "stageName": "Junji",
         "fullName": "Lee Junhyung",
         "birthday": "April 06, 1998",
-        "imgLink": "/imageArchive/OnlyOneOf/Junji.jpeg"
+        "imgLink": "/imageArchive/OnlyOneOf/Junji.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "OnlyOneOf",
@@ -2757,7 +3308,8 @@
         "stageName": "Mill",
         "fullName": "Lee Yongsoo",
         "birthday": "March 30, 1999",
-        "imgLink": "/imageArchive/OnlyOneOf/Mill.jpeg"
+        "imgLink": "/imageArchive/OnlyOneOf/Mill.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "OnlyOneOf",
@@ -2765,7 +3317,8 @@
         "stageName": "Nine",
         "fullName": "Jung Wookjin",
         "birthday": "December 13, 1999",
-        "imgLink": "/imageArchive/OnlyOneOf/Nine.jpeg"
+        "imgLink": "/imageArchive/OnlyOneOf/Nine.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "P1Harmony",
@@ -2773,7 +3326,8 @@
         "stageName": "Theo",
         "fullName": "Choi Taeyang",
         "birthday": "July 01, 2001",
-        "imgLink": "/imageArchive/P1Harmony/Theo.jpeg"
+        "imgLink": "/imageArchive/P1Harmony/Theo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "P1Harmony",
@@ -2781,7 +3335,8 @@
         "stageName": "Keeho",
         "fullName": "Yoon Keeho",
         "birthday": "September 27, 2001",
-        "imgLink": "/imageArchive/P1Harmony/Keeho.jpeg"
+        "imgLink": "/imageArchive/P1Harmony/Keeho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "P1Harmony",
@@ -2789,7 +3344,8 @@
         "stageName": "Jiung",
         "fullName": "Choi Jiung",
         "birthday": "October 07, 2001",
-        "imgLink": "/imageArchive/P1Harmony/Jiung.jpeg"
+        "imgLink": "/imageArchive/P1Harmony/Jiung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "P1Harmony",
@@ -2797,7 +3353,8 @@
         "stageName": "Intak",
         "fullName": "Hwang Intak",
         "birthday": "August 31, 2003",
-        "imgLink": "/imageArchive/P1Harmony/Intak.jpeg"
+        "imgLink": "/imageArchive/P1Harmony/Intak.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "P1Harmony",
@@ -2805,7 +3362,8 @@
         "stageName": "Soul",
         "fullName": "Haku Shota",
         "birthday": "February 01, 2005",
-        "imgLink": "/imageArchive/P1Harmony/Soul.jpeg"
+        "imgLink": "/imageArchive/P1Harmony/Soul.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "P1Harmony",
@@ -2813,7 +3371,8 @@
         "stageName": "Jongseob",
         "fullName": "Kim Jongseob",
         "birthday": "November 19, 2005",
-        "imgLink": "/imageArchive/P1Harmony/Jongseob.jpeg"
+        "imgLink": "/imageArchive/P1Harmony/Jongseob.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "PURPLE KISS",
@@ -2821,7 +3380,8 @@
         "stageName": "Jieun",
         "fullName": "Park Jieun",
         "birthday": "September 04, 1997",
-        "imgLink": "/imageArchive/PURPLEKISS/Jieun.jpeg"
+        "imgLink": "/imageArchive/PURPLEKISS/Jieun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "PURPLE KISS",
@@ -2829,7 +3389,8 @@
         "stageName": "Goeun",
         "fullName": "Na Goeun",
         "birthday": "September 03, 1999",
-        "imgLink": "/imageArchive/PURPLEKISS/Goeun.jpeg"
+        "imgLink": "/imageArchive/PURPLEKISS/Goeun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "PURPLE KISS",
@@ -2837,7 +3398,8 @@
         "stageName": "Dosie",
         "fullName": "Jang Eunseong",
         "birthday": "February 11, 2000",
-        "imgLink": "/imageArchive/PURPLEKISS/Dosie.jpeg"
+        "imgLink": "/imageArchive/PURPLEKISS/Dosie.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "PURPLE KISS",
@@ -2845,7 +3407,8 @@
         "stageName": "Ireh",
         "fullName": "Cho Seoyoung",
         "birthday": "April 30, 2002",
-        "imgLink": "/imageArchive/PURPLEKISS/Ireh.jpeg"
+        "imgLink": "/imageArchive/PURPLEKISS/Ireh.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "PURPLE KISS",
@@ -2853,7 +3416,8 @@
         "stageName": "Yuki",
         "fullName": "Mori Koyuki",
         "birthday": "November 06, 2002",
-        "imgLink": "/imageArchive/PURPLEKISS/Yuki.jpeg"
+        "imgLink": "/imageArchive/PURPLEKISS/Yuki.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "PURPLE KISS",
@@ -2861,7 +3425,8 @@
         "stageName": "Chaein",
         "fullName": "Lee Chaeyoung",
         "birthday": "December 05, 2002",
-        "imgLink": "/imageArchive/PURPLEKISS/Chaein.jpeg"
+        "imgLink": "/imageArchive/PURPLEKISS/Chaein.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "PURPLE KISS",
@@ -2869,7 +3434,8 @@
         "stageName": "Swan",
         "fullName": "Park Sujin",
         "birthday": "July 11, 2003",
-        "imgLink": "/imageArchive/PURPLEKISS/Swan.jpeg"
+        "imgLink": "/imageArchive/PURPLEKISS/Swan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Red Velvet",
@@ -2877,7 +3443,8 @@
         "stageName": "Irene",
         "fullName": "Bae Juhyun",
         "birthday": "March 29, 1991",
-        "imgLink": "/imageArchive/RedVelvet/Irene.jpeg"
+        "imgLink": "/imageArchive/RedVelvet/Irene.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Red Velvet",
@@ -2885,7 +3452,8 @@
         "stageName": "Seulgi",
         "fullName": "Kang Seulgi",
         "birthday": "February 10, 1994",
-        "imgLink": "/imageArchive/RedVelvet/Seulgi.jpeg"
+        "imgLink": "/imageArchive/RedVelvet/Seulgi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Red Velvet",
@@ -2893,7 +3461,8 @@
         "stageName": "Wendy",
         "fullName": "Son Seungwan",
         "birthday": "February 21, 1994",
-        "imgLink": "/imageArchive/RedVelvet/Wendy.jpeg"
+        "imgLink": "/imageArchive/RedVelvet/Wendy.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Red Velvet",
@@ -2901,7 +3470,8 @@
         "stageName": "Joy",
         "fullName": "Park Sooyoung",
         "birthday": "September 03, 1996",
-        "imgLink": "/imageArchive/RedVelvet/Joy.jpeg"
+        "imgLink": "/imageArchive/RedVelvet/Joy.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Red Velvet",
@@ -2909,7 +3479,8 @@
         "stageName": "Yeri",
         "fullName": "Kim Yerim",
         "birthday": "March 05, 1999",
-        "imgLink": "/imageArchive/RedVelvet/Yeri.jpeg"
+        "imgLink": "/imageArchive/RedVelvet/Yeri.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "RIIZE",
@@ -2917,7 +3488,8 @@
         "stageName": "Shotaro",
         "fullName": "Osaki Shotaro",
         "birthday": "November 25, 2000",
-        "imgLink": "/imageArchive/RIIZE/Shotaro.jpeg"
+        "imgLink": "/imageArchive/RIIZE/Shotaro.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "RIIZE",
@@ -2925,7 +3497,8 @@
         "stageName": "Eunseok",
         "fullName": "Song Eunseok",
         "birthday": "March 19, 2001",
-        "imgLink": "/imageArchive/RIIZE/Eunseok.jpeg"
+        "imgLink": "/imageArchive/RIIZE/Eunseok.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "RIIZE",
@@ -2933,7 +3506,8 @@
         "stageName": "Sungchan",
         "fullName": "Jung Sungchan",
         "birthday": "September 13, 2001",
-        "imgLink": "/imageArchive/RIIZE/Sungchan.jpeg"
+        "imgLink": "/imageArchive/RIIZE/Sungchan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "RIIZE",
@@ -2941,7 +3515,8 @@
         "stageName": "Wonbin",
         "fullName": "Park Wonbin",
         "birthday": "March 02, 2002",
-        "imgLink": "/imageArchive/RIIZE/Wonbin.jpeg"
+        "imgLink": "/imageArchive/RIIZE/Wonbin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "RIIZE",
@@ -2949,7 +3524,8 @@
         "stageName": "Seunghan",
         "fullName": "Hong Seunghan",
         "birthday": "October 02, 2003",
-        "imgLink": "/imageArchive/RIIZE/Seunghan.jpeg"
+        "imgLink": "/imageArchive/RIIZE/Seunghan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "RIIZE",
@@ -2957,7 +3533,8 @@
         "stageName": "Sohee",
         "fullName": "Lee Sohee",
         "birthday": "November 21, 2003",
-        "imgLink": "/imageArchive/RIIZE/Sohee.jpeg"
+        "imgLink": "/imageArchive/RIIZE/Sohee.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "RIIZE",
@@ -2965,7 +3542,8 @@
         "stageName": "Anton",
         "fullName": "Lee Chanyoung",
         "birthday": "March 21, 2004",
-        "imgLink": "/imageArchive/RIIZE/Anton.jpeg"
+        "imgLink": "/imageArchive/RIIZE/Anton.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -2973,7 +3551,8 @@
         "stageName": "S.Coups",
         "fullName": "Choi Seungcheol",
         "birthday": "August 08, 1995",
-        "imgLink": "/imageArchive/Seventeen/SCoups.jpeg"
+        "imgLink": "/imageArchive/Seventeen/SCoups.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -2981,7 +3560,8 @@
         "stageName": "Jeonghan",
         "fullName": "Yoon Jeonghan",
         "birthday": "October 04, 1995",
-        "imgLink": "/imageArchive/Seventeen/Jeonghan.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Jeonghan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -2989,7 +3569,8 @@
         "stageName": "Joshua",
         "fullName": "Hong Jisoo",
         "birthday": "December 30, 1995",
-        "imgLink": "/imageArchive/Seventeen/Joshua.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Joshua.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -2997,7 +3578,8 @@
         "stageName": "Jun",
         "fullName": "Wen Junhui",
         "birthday": "June 10, 1996",
-        "imgLink": "/imageArchive/Seventeen/Jun.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Jun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -3005,7 +3587,8 @@
         "stageName": "Hoshi",
         "fullName": "Kwon Soonyoung",
         "birthday": "June 15, 1996",
-        "imgLink": "/imageArchive/Seventeen/Hoshi.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Hoshi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -3013,7 +3596,8 @@
         "stageName": "Wonwoo",
         "fullName": "Jeon Wonwoo",
         "birthday": "July 17, 1996",
-        "imgLink": "/imageArchive/Seventeen/Wonwoo.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Wonwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -3021,7 +3605,8 @@
         "stageName": "Woozi",
         "fullName": "Lee Jihoon",
         "birthday": "November 22, 1996",
-        "imgLink": "/imageArchive/Seventeen/Woozi.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Woozi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -3029,7 +3614,8 @@
         "stageName": "DK",
         "fullName": "Lee Seokmin",
         "birthday": "February 18, 1997",
-        "imgLink": "/imageArchive/Seventeen/DK.jpeg"
+        "imgLink": "/imageArchive/Seventeen/DK.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "Seventeen",
@@ -3037,7 +3623,8 @@
         "stageName": "Mingyu",
         "fullName": "Kim Mingyu",
         "birthday": "April 06, 1997",
-        "imgLink": "/imageArchive/Seventeen/Mingyu.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Mingyu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -3045,7 +3632,8 @@
         "stageName": "The8",
         "fullName": "Xu Minghao",
         "birthday": "November 07, 1997",
-        "imgLink": "/imageArchive/Seventeen/The8.jpeg"
+        "imgLink": "/imageArchive/Seventeen/The8.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -3053,7 +3641,8 @@
         "stageName": "Seungkwan",
         "fullName": "Boo Seungkwan",
         "birthday": "January 16, 1998",
-        "imgLink": "/imageArchive/Seventeen/Seungkwan.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Seungkwan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -3061,7 +3650,8 @@
         "stageName": "Vernon",
         "fullName": "Choi Hansol",
         "birthday": "February 18, 1998",
-        "imgLink": "/imageArchive/Seventeen/Vernon.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Vernon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Seventeen",
@@ -3069,7 +3659,8 @@
         "stageName": "Dino",
         "fullName": "Lee Chan",
         "birthday": "February 11, 1999",
-        "imgLink": "/imageArchive/Seventeen/Dino.jpeg"
+        "imgLink": "/imageArchive/Seventeen/Dino.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3077,7 +3668,8 @@
         "stageName": "Inseong",
         "fullName": "Kim Inseong",
         "birthday": "July 12, 1993",
-        "imgLink": "/imageArchive/SF9/Inseong.jpeg"
+        "imgLink": "/imageArchive/SF9/Inseong.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3085,7 +3677,8 @@
         "stageName": "Youngbin",
         "fullName": "Kim Youngbin",
         "birthday": "November 23, 1993",
-        "imgLink": "/imageArchive/SF9/Youngbin.jpeg"
+        "imgLink": "/imageArchive/SF9/Youngbin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3093,7 +3686,8 @@
         "stageName": "Jaeyoon",
         "fullName": "Lee Jaeyoon",
         "birthday": "August 09, 1994",
-        "imgLink": "/imageArchive/SF9/Jaeyoon.jpeg"
+        "imgLink": "/imageArchive/SF9/Jaeyoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3101,7 +3695,8 @@
         "stageName": "Dawon",
         "fullName": "Lee Sanghyuk",
         "birthday": "July 24, 1995",
-        "imgLink": "/imageArchive/SF9/Dawon.jpeg"
+        "imgLink": "/imageArchive/SF9/Dawon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3109,7 +3704,8 @@
         "stageName": "Zuho",
         "fullName": "Baek Juho",
         "birthday": "July 04, 1996",
-        "imgLink": "/imageArchive/SF9/Zuho.jpeg"
+        "imgLink": "/imageArchive/SF9/Zuho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3117,7 +3713,8 @@
         "stageName": "Rowoon",
         "fullName": "Kim Seokwoo",
         "birthday": "August 07, 1996",
-        "imgLink": "/imageArchive/SF9/Rowoon.jpeg"
+        "imgLink": "/imageArchive/SF9/Rowoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3125,7 +3722,8 @@
         "stageName": "Taeyang",
         "fullName": "Yoo Taeyang",
         "birthday": "February 28, 1997",
-        "imgLink": "/imageArchive/SF9/Taeyang.jpeg"
+        "imgLink": "/imageArchive/SF9/Taeyang.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3133,7 +3731,8 @@
         "stageName": "Hwiyoung",
         "fullName": "Kim Youngkyun",
         "birthday": "May 11, 1999",
-        "imgLink": "/imageArchive/SF9/Hwiyoung.jpeg"
+        "imgLink": "/imageArchive/SF9/Hwiyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SF9",
@@ -3141,7 +3740,8 @@
         "stageName": "Chani",
         "fullName": "Kang Chanhee",
         "birthday": "January 17, 2000",
-        "imgLink": "/imageArchive/SF9/Chani.jpeg"
+        "imgLink": "/imageArchive/SF9/Chani.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SHINee",
@@ -3149,7 +3749,8 @@
         "stageName": "Onew",
         "fullName": "Lee Jinki",
         "birthday": "December 14, 1989",
-        "imgLink": "/imageArchive/SHINee/Onew.jpeg"
+        "imgLink": "/imageArchive/SHINee/Onew.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SHINee",
@@ -3157,7 +3758,8 @@
         "stageName": "Jonghyun",
         "fullName": "Kim Jonghyun",
         "birthday": "April 08, 1990",
-        "imgLink": "/imageArchive/SHINee/Jonghyun.jpeg"
+        "imgLink": "/imageArchive/SHINee/Jonghyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SHINee",
@@ -3165,7 +3767,8 @@
         "stageName": "Key",
         "fullName": "Kim Kibum",
         "birthday": "September 23, 1991",
-        "imgLink": "/imageArchive/SHINee/Key.jpeg"
+        "imgLink": "/imageArchive/SHINee/Key.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SHINee",
@@ -3173,7 +3776,8 @@
         "stageName": "Minho",
         "fullName": "Choi Minho",
         "birthday": "December 09, 1991",
-        "imgLink": "/imageArchive/SHINee/Minho.jpeg"
+        "imgLink": "/imageArchive/SHINee/Minho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "SHINee",
@@ -3181,7 +3785,8 @@
         "stageName": "Taemin",
         "fullName": "Lee Taemin",
         "birthday": "July 18, 1993",
-        "imgLink": "/imageArchive/SHINee/Taemin.jpeg"
+        "imgLink": "/imageArchive/SHINee/Taemin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Stray Kids",
@@ -3189,7 +3794,8 @@
         "stageName": "Bang Chan",
         "fullName": "Bang Chan",
         "birthday": "October 03, 1997",
-        "imgLink": "/imageArchive/StrayKids/Bangchan.jpeg"
+        "imgLink": "/imageArchive/StrayKids/Bangchan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Stray Kids",
@@ -3197,7 +3803,8 @@
         "stageName": "Lee Know",
         "fullName": "Lee Minho",
         "birthday": "October 25, 1998",
-        "imgLink": "/imageArchive/StrayKids/LeeKnow.jpeg"
+        "imgLink": "/imageArchive/StrayKids/LeeKnow.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Stray Kids",
@@ -3205,7 +3812,8 @@
         "stageName": "Changbin",
         "fullName": "Seo Changbin",
         "birthday": "August 11, 1999",
-        "imgLink": "/imageArchive/StrayKids/Changbin.jpeg"
+        "imgLink": "/imageArchive/StrayKids/Changbin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Stray Kids",
@@ -3213,7 +3821,8 @@
         "stageName": "Hyunjin",
         "fullName": "Hwang Hyunjin",
         "birthday": "March 20, 2000",
-        "imgLink": "/imageArchive/StrayKids/Hyunjin.jpeg"
+        "imgLink": "/imageArchive/StrayKids/Hyunjin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Stray Kids",
@@ -3221,7 +3830,8 @@
         "stageName": "Han",
         "fullName": "Han Jisung",
         "birthday": "September 14, 2000",
-        "imgLink": "/imageArchive/StrayKids/Han.jpeg"
+        "imgLink": "/imageArchive/StrayKids/Han.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Stray Kids",
@@ -3229,7 +3839,8 @@
         "stageName": "Felix",
         "fullName": "Lee Yongbok",
         "birthday": "September 15, 2000",
-        "imgLink": "/imageArchive/StrayKids/Felix.jpeg"
+        "imgLink": "/imageArchive/StrayKids/Felix.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Stray Kids",
@@ -3237,7 +3848,8 @@
         "stageName": "Seungmin",
         "fullName": "Kim Seungmin",
         "birthday": "September 22, 2000",
-        "imgLink": "/imageArchive/StrayKids/Seungmin.jpeg"
+        "imgLink": "/imageArchive/StrayKids/Seungmin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Stray Kids",
@@ -3245,7 +3857,8 @@
         "stageName": "I.N",
         "fullName": "Yang Jeongin",
         "birthday": "February 08, 2001",
-        "imgLink": "/imageArchive/StrayKids/IN.jpeg"
+        "imgLink": "/imageArchive/StrayKids/IN.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TEMPEST",
@@ -3253,7 +3866,8 @@
         "stageName": "Hanbin",
         "fullName": "Ngô Ngọc Hưng",
         "birthday": "January 19, 1998",
-        "imgLink": "/imageArchive/TEMPEST/Hanbin.jpeg"
+        "imgLink": "/imageArchive/TEMPEST/Hanbin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TEMPEST",
@@ -3261,7 +3875,8 @@
         "stageName": "Hyeongseop",
         "fullName": "Ahn Hyeongseop",
         "birthday": "August 09, 1999",
-        "imgLink": "/imageArchive/TEMPEST/Hyeongseop.jpeg"
+        "imgLink": "/imageArchive/TEMPEST/Hyeongseop.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TEMPEST",
@@ -3269,7 +3884,8 @@
         "stageName": "Hyuk",
         "fullName": "Koo Bonhyuk",
         "birthday": "April 17, 2000",
-        "imgLink": "/imageArchive/TEMPEST/Hyuk.jpeg"
+        "imgLink": "/imageArchive/TEMPEST/Hyuk.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TEMPEST",
@@ -3277,7 +3893,8 @@
         "stageName": "Eunchan",
         "fullName": "Choi Byeongseop",
         "birthday": "February 27, 2001",
-        "imgLink": "/imageArchive/TEMPEST/Eunchan.jpeg"
+        "imgLink": "/imageArchive/TEMPEST/Eunchan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TEMPEST",
@@ -3285,7 +3902,8 @@
         "stageName": "LEW",
         "fullName": "Lee Euiwoong",
         "birthday": "April 05, 2001",
-        "imgLink": "/imageArchive/TEMPEST/LEW.jpeg"
+        "imgLink": "/imageArchive/TEMPEST/LEW.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TEMPEST",
@@ -3293,7 +3911,8 @@
         "stageName": "Hwarang",
         "fullName": "Song Jaewon",
         "birthday": "April 23, 2001",
-        "imgLink": "/imageArchive/TEMPEST/Hwarang.jpeg"
+        "imgLink": "/imageArchive/TEMPEST/Hwarang.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TEMPEST",
@@ -3301,7 +3920,8 @@
         "stageName": "Taerae",
         "fullName": "Kim Taerae",
         "birthday": "May 09, 2002",
-        "imgLink": "/imageArchive/TEMPEST/Taerae.jpeg"
+        "imgLink": "/imageArchive/TEMPEST/Taerae.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TFN",
@@ -3309,7 +3929,8 @@
         "stageName": "Noa",
         "fullName": "Choi Yubin",
         "birthday": "August 02, 2000",
-        "imgLink": "/imageArchive/TFN/Noa.jpeg"
+        "imgLink": "/imageArchive/TFN/Noa.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TFN",
@@ -3317,7 +3938,8 @@
         "stageName": "Sian",
         "fullName": "Choi Changmin",
         "birthday": "February 02, 2001",
-        "imgLink": "/imageArchive/TFN/Sian.jpeg"
+        "imgLink": "/imageArchive/TFN/Sian.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TFN",
@@ -3325,7 +3947,8 @@
         "stageName": "Kevin",
         "fullName": "Baek Seungbin",
         "birthday": "April 08, 2001",
-        "imgLink": "/imageArchive/TFN/Kevin.jpeg"
+        "imgLink": "/imageArchive/TFN/Kevin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TFN",
@@ -3333,7 +3956,8 @@
         "stageName": "Gunwoo",
         "fullName": "Kim Gunwoo",
         "birthday": "May 28, 2002",
-        "imgLink": "/imageArchive/TFN/Gunwoo.jpeg"
+        "imgLink": "/imageArchive/TFN/Gunwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TFN",
@@ -3341,7 +3965,8 @@
         "stageName": "Leo",
         "fullName": "Hayase Reo",
         "birthday": "October 08, 2002",
-        "imgLink": "/imageArchive/TFN/Leo.jpeg"
+        "imgLink": "/imageArchive/TFN/Leo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TFN",
@@ -3349,7 +3974,8 @@
         "stageName": "On",
         "fullName": "Choi Juhwan",
         "birthday": "October 16, 2002",
-        "imgLink": "/imageArchive/TFN/On.jpeg"
+        "imgLink": "/imageArchive/TFN/On.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TFN",
@@ -3357,7 +3983,8 @@
         "stageName": "Zero",
         "fullName": "Nasukawa Shota",
         "birthday": "January 20, 2003",
-        "imgLink": "/imageArchive/TFN/Zero.jpeg"
+        "imgLink": "/imageArchive/TFN/Zero.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TFN",
@@ -3365,7 +3992,8 @@
         "stageName": "Kairi",
         "fullName": "Imai Kairi",
         "birthday": "February 24, 2003",
-        "imgLink": "/imageArchive/TFN/Kairi.jpeg"
+        "imgLink": "/imageArchive/TFN/Kairi.jpeg",
+        "status": "(Former)"
     },
     {
         "groupName": "TFN",
@@ -3373,7 +4001,8 @@
         "stageName": "Kio",
         "fullName": "Udo Masahi",
         "birthday": "November 25, 2004",
-        "imgLink": "/imageArchive/TFN/Kio.jpeg"
+        "imgLink": "/imageArchive/TFN/Kio.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3381,7 +4010,8 @@
         "stageName": "Sangyeon",
         "fullName": "Lee Sangyeon",
         "birthday": "November 04, 1996",
-        "imgLink": "/imageArchive/THEBOYZ/Sangyeon.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Sangyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3389,7 +4019,8 @@
         "stageName": "Jacob",
         "fullName": "Bae Junyoung",
         "birthday": "May 30, 1997",
-        "imgLink": "/imageArchive/THEBOYZ/Jacob.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Jacob.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3397,7 +4028,8 @@
         "stageName": "Younghoon",
         "fullName": "Kim Younghoon",
         "birthday": "August 08, 1997",
-        "imgLink": "/imageArchive/THEBOYZ/Younghoon.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Younghoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3405,7 +4037,8 @@
         "stageName": "Hyunjae",
         "fullName": "Lee Jaehyun",
         "birthday": "September 13, 1997",
-        "imgLink": "/imageArchive/THEBOYZ/Hyunjae.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Hyunjae.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3413,7 +4046,8 @@
         "stageName": "Juyeon",
         "fullName": "Lee Juyeon",
         "birthday": "January 15, 1998",
-        "imgLink": "/imageArchive/THEBOYZ/Juyeon.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Juyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3421,7 +4055,8 @@
         "stageName": "Kevin",
         "fullName": "Moon Hyungseo",
         "birthday": "February 23, 1998",
-        "imgLink": "/imageArchive/THEBOYZ/Kevin.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Kevin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3429,7 +4064,8 @@
         "stageName": "New",
         "fullName": "Choi Chanhee",
         "birthday": "April 26, 1998",
-        "imgLink": "/imageArchive/THEBOYZ/New.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/New.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3437,7 +4073,8 @@
         "stageName": "Q",
         "fullName": "Ji Changmin",
         "birthday": "November 05, 1998",
-        "imgLink": "/imageArchive/THEBOYZ/Q.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Q.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3445,7 +4082,8 @@
         "stageName": "Haknyeon",
         "fullName": "Ju Haknyeon",
         "birthday": "March 09, 1999",
-        "imgLink": "/imageArchive/THEBOYZ/Haknyeon.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Haknyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3453,7 +4091,8 @@
         "stageName": "Hwall",
         "fullName": "Heo Hyunjun",
         "birthday": "March 09, 2000",
-        "imgLink": "/imageArchive/THEBOYZ/Hwall.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Hwall.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3461,7 +4100,8 @@
         "stageName": "Sunwoo",
         "fullName": "Kim Sunwoo",
         "birthday": "April 12, 2000",
-        "imgLink": "/imageArchive/THEBOYZ/Sunwoo.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Sunwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "THE BOYZ",
@@ -3469,7 +4109,62 @@
         "stageName": "Eric",
         "fullName": "Son Youngjae",
         "birthday": "December 22, 2000",
-        "imgLink": "/imageArchive/THEBOYZ/Eric.jpeg"
+        "imgLink": "/imageArchive/THEBOYZ/Eric.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "THE NEW SIX",
+        "num": "1",
+        "stageName": "Kyungjun",
+        "fullName": "Woo Kyungjun",
+        "birthday": "August 30, 2002",
+        "imgLink": "/imageArchive/TNX/Kyungjun.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "THE NEW SIX",
+        "num": "2",
+        "stageName": "Taehun",
+        "fullName": "Choi Taehun",
+        "birthday": "November 19, 2002",
+        "imgLink": "/imageArchive/TNX/Taehun.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "THE NEW SIX",
+        "num": "3",
+        "stageName": "Hyunsoo",
+        "fullName": "Jang Hyunsoo",
+        "birthday": "September 16, 2003",
+        "imgLink": "/imageArchive/TNX/Hyunsoo.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "THE NEW SIX",
+        "num": "4",
+        "stageName": "Junhyeok",
+        "fullName": "Cheon Junhyeok",
+        "birthday": "September 20, 2004",
+        "imgLink": "/imageArchive/TNX/Junhyeok.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "THE NEW SIX",
+        "num": "5",
+        "stageName": "Hwi",
+        "fullName": "Eun Hwi",
+        "birthday": "November 11, 2004",
+        "imgLink": "/imageArchive/TNX/Hwi.jpeg",
+        "status": "(Active)"
+    },
+    {
+        "groupName": "THE NEW SIX",
+        "num": "6",
+        "stageName": "Sungjun",
+        "fullName": "Oh Sungjun",
+        "birthday": "August 30, 2005",
+        "imgLink": "/imageArchive/TNX/Sungjun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3477,7 +4172,8 @@
         "stageName": "Hyunsuk",
         "fullName": "Choi Hyunsuk",
         "birthday": "April 21, 1999",
-        "imgLink": "/imageArchive/TREASURE/Hyunsuk.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Hyunsuk.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3485,7 +4181,8 @@
         "stageName": "Jihoon",
         "fullName": "Park Jihoon",
         "birthday": "March 14, 2000",
-        "imgLink": "/imageArchive/TREASURE/Jihoon.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Jihoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3493,7 +4190,8 @@
         "stageName": "Yoshi",
         "fullName": "Kanemoto Yoshinori",
         "birthday": "May 15, 2000",
-        "imgLink": "/imageArchive/TREASURE/Yoshi.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Yoshi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3501,7 +4199,8 @@
         "stageName": "Junkyu",
         "fullName": "Kim Junkyu",
         "birthday": "September 09, 2000",
-        "imgLink": "/imageArchive/TREASURE/Junkyu.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Junkyu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3509,7 +4208,8 @@
         "stageName": "Mashiho",
         "fullName": "Takata Mashiho",
         "birthday": "March 25, 2001",
-        "imgLink": "/imageArchive/TREASURE/Mashiho.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Mashiho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3517,7 +4217,8 @@
         "stageName": "Jaehyuk",
         "fullName": "Yoon Jaehyuk",
         "birthday": "July 23, 2001",
-        "imgLink": "/imageArchive/TREASURE/Jaehyuk.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Jaehyuk.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3525,7 +4226,8 @@
         "stageName": "Asahi",
         "fullName": "Hamada Asahi",
         "birthday": "August 20, 2001",
-        "imgLink": "/imageArchive/TREASURE/Asahi.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Asahi.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3533,7 +4235,8 @@
         "stageName": "Yedam",
         "fullName": "Bang Yedam",
         "birthday": "May 07, 2002",
-        "imgLink": "/imageArchive/TREASURE/Yedam.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Yedam.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3541,7 +4244,8 @@
         "stageName": "Doyoung",
         "fullName": "Kim Doyoung",
         "birthday": "December 04, 2003",
-        "imgLink": "/imageArchive/TREASURE/Doyoung.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Doyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3549,7 +4253,8 @@
         "stageName": "Haruto",
         "fullName": "Watanabe Haruto",
         "birthday": "April 05, 2004",
-        "imgLink": "/imageArchive/TREASURE/Haruto.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Haruto.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3557,7 +4262,8 @@
         "stageName": "Jeongwoo",
         "fullName": "Park Jeongwoo",
         "birthday": "September 28, 2004",
-        "imgLink": "/imageArchive/TREASURE/Jeongwoo.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Jeongwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TREASURE",
@@ -3565,7 +4271,8 @@
         "stageName": "Junghwan",
         "fullName": "So Junghwan",
         "birthday": "February 18, 2005",
-        "imgLink": "/imageArchive/TREASURE/Junghwan.jpeg"
+        "imgLink": "/imageArchive/TREASURE/Junghwan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3573,7 +4280,8 @@
         "stageName": "Yooyeon",
         "fullName": "Kim Yooyeon",
         "birthday": "February 09, 2001",
-        "imgLink": "/imageArchive/tripleS/Yooyeon.jpeg"
+        "imgLink": "/imageArchive/tripleS/Yooyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3581,7 +4289,8 @@
         "stageName": "Mayu",
         "fullName": "Koma Mayu",
         "birthday": "May 12, 2002",
-        "imgLink": "/imageArchive/tripleS/Mayu.jpeg"
+        "imgLink": "/imageArchive/tripleS/Mayu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3589,7 +4298,8 @@
         "stageName": "Xinyu",
         "fullName": "Zhou Xinyu",
         "birthday": "May 25, 2002",
-        "imgLink": "/imageArchive/tripleS/Xinyu.jpeg"
+        "imgLink": "/imageArchive/tripleS/Xinyu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3597,7 +4307,8 @@
         "stageName": "Nakyoung",
         "fullName": "Kim Nakyoung",
         "birthday": "October 13, 2002",
-        "imgLink": "/imageArchive/tripleS/Nakyoung.jpeg"
+        "imgLink": "/imageArchive/tripleS/Nakyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3605,7 +4316,8 @@
         "stageName": "Sohyun",
         "fullName": "Park Sohyun",
         "birthday": "October 13, 2002",
-        "imgLink": "/imageArchive/tripleS/Sohyun.jpeg"
+        "imgLink": "/imageArchive/tripleS/Sohyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3613,7 +4325,8 @@
         "stageName": "Dahyun",
         "fullName": "Seo Dahyun",
         "birthday": "January 08, 2003",
-        "imgLink": "/imageArchive/tripleS/Dahyun.jpeg"
+        "imgLink": "/imageArchive/tripleS/Dahyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3621,7 +4334,8 @@
         "stageName": "Nien",
         "fullName": "Hsu Nientzu",
         "birthday": "June 02, 2003",
-        "imgLink": "/imageArchive/tripleS/Nien.jpeg"
+        "imgLink": "/imageArchive/tripleS/Nien.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3629,7 +4343,8 @@
         "stageName": "Seoyeon",
         "fullName": "Yoon Seoyeon",
         "birthday": "August 06, 2003",
-        "imgLink": "/imageArchive/tripleS/Seoyeon.jpeg"
+        "imgLink": "/imageArchive/tripleS/Seoyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3637,7 +4352,8 @@
         "stageName": "Kotone",
         "fullName": "Kamimoto Kotone",
         "birthday": "March 10, 2004",
-        "imgLink": "/imageArchive/tripleS/Kotone.jpeg"
+        "imgLink": "/imageArchive/tripleS/Kotone.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3645,7 +4361,8 @@
         "stageName": "Chaeyeon",
         "fullName": "Kim Chaeyeon",
         "birthday": "December 04, 2004",
-        "imgLink": "/imageArchive/tripleS/Chaeyeon.jpeg"
+        "imgLink": "/imageArchive/tripleS/Chaeyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3653,7 +4370,8 @@
         "stageName": "Yubin",
         "fullName": "Gong Yubin",
         "birthday": "February 03, 2005",
-        "imgLink": "/imageArchive/tripleS/Yubin.jpeg"
+        "imgLink": "/imageArchive/tripleS/Yubin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3661,7 +4379,8 @@
         "stageName": "Jiwoo",
         "fullName": "Lee Jiwoo",
         "birthday": "October 24, 2005",
-        "imgLink": "/imageArchive/tripleS/Jiwoo.jpeg"
+        "imgLink": "/imageArchive/tripleS/Jiwoo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3669,7 +4388,8 @@
         "stageName": "Kaede",
         "fullName": "Yamada Kaede",
         "birthday": "December 20, 2005",
-        "imgLink": "/imageArchive/tripleS/Kaede.jpeg"
+        "imgLink": "/imageArchive/tripleS/Kaede.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3677,7 +4397,8 @@
         "stageName": "Shion",
         "fullName": "Park Shion",
         "birthday": "April 03, 2006",
-        "imgLink": "/imageArchive/tripleS/Shion.jpeg"
+        "imgLink": "/imageArchive/tripleS/Shion.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3685,7 +4406,8 @@
         "stageName": "Lynn",
         "fullName": "Kawakami Lynn",
         "birthday": "April 12, 2006",
-        "imgLink": "/imageArchive/tripleS/Lynn.jpeg"
+        "imgLink": "/imageArchive/tripleS/Lynn.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3693,7 +4415,8 @@
         "stageName": "Hyerin",
         "fullName": "Jeong Hyerin",
         "birthday": "April 12, 2007",
-        "imgLink": "/imageArchive/tripleS/Hyerin.jpeg"
+        "imgLink": "/imageArchive/tripleS/Hyerin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3701,7 +4424,8 @@
         "stageName": "Hayeon",
         "fullName": "Jeong Hayeon",
         "birthday": "August 01, 2007",
-        "imgLink": "/imageArchive/tripleS/Hayeon.jpeg"
+        "imgLink": "/imageArchive/tripleS/Hayeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3709,7 +4433,8 @@
         "stageName": "Soomin",
         "fullName": "Kim Soomin",
         "birthday": "October 03, 2007",
-        "imgLink": "/imageArchive/tripleS/Soomin.jpeg"
+        "imgLink": "/imageArchive/tripleS/Soomin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3717,7 +4442,8 @@
         "stageName": "Yeonji",
         "fullName": "Kwak Yeonji",
         "birthday": "January 08, 2008",
-        "imgLink": "/imageArchive/tripleS/Yeonji.jpeg"
+        "imgLink": "/imageArchive/tripleS/Yeonji.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "tripleS",
@@ -3725,7 +4451,8 @@
         "stageName": "Joo Bin",
         "fullName": "Joo Bin",
         "birthday": "January 16, 2009",
-        "imgLink": "/imageArchive/tripleS/Joobin.jpeg"
+        "imgLink": "/imageArchive/tripleS/Joobin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3733,7 +4460,8 @@
         "stageName": "Nayeon",
         "fullName": "Im Nayeon",
         "birthday": "September 22, 1995",
-        "imgLink": "/imageArchive/TWICE/Nayeon.jpeg"
+        "imgLink": "/imageArchive/TWICE/Nayeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3741,7 +4469,8 @@
         "stageName": "Jeongyeon",
         "fullName": "Yoo Jeongyeon",
         "birthday": "November 01, 1996",
-        "imgLink": "/imageArchive/TWICE/Jeongyeon.jpeg"
+        "imgLink": "/imageArchive/TWICE/Jeongyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3749,7 +4478,8 @@
         "stageName": "Momo",
         "fullName": "Hirai Momo",
         "birthday": "November 09, 1996",
-        "imgLink": "/imageArchive/TWICE/Momo.jpeg"
+        "imgLink": "/imageArchive/TWICE/Momo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3757,7 +4487,8 @@
         "stageName": "Sana",
         "fullName": "Minatozaki Sana",
         "birthday": "December 29, 1996",
-        "imgLink": "/imageArchive/TWICE/Sana.jpeg"
+        "imgLink": "/imageArchive/TWICE/Sana.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3765,7 +4496,8 @@
         "stageName": "Jihyo",
         "fullName": "Park Jihyo",
         "birthday": "February 01, 1997",
-        "imgLink": "/imageArchive/TWICE/Jihyo.jpeg"
+        "imgLink": "/imageArchive/TWICE/Jihyo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3773,7 +4505,8 @@
         "stageName": "Mina",
         "fullName": "Myoui Mina",
         "birthday": "March 24, 1997",
-        "imgLink": "/imageArchive/TWICE/Mina.jpeg"
+        "imgLink": "/imageArchive/TWICE/Mina.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3781,7 +4514,8 @@
         "stageName": "Dahyun",
         "fullName": "Kim Dahyun",
         "birthday": "May 28, 1998",
-        "imgLink": "/imageArchive/TWICE/Dahyun.jpeg"
+        "imgLink": "/imageArchive/TWICE/Dahyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3789,7 +4523,8 @@
         "stageName": "Chaeyoung",
         "fullName": "Son Chaeyoung",
         "birthday": "April 23, 1999",
-        "imgLink": "/imageArchive/TWICE/Chaeyoung.jpeg"
+        "imgLink": "/imageArchive/TWICE/Chaeyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWICE",
@@ -3797,7 +4532,8 @@
         "stageName": "Tzuyu",
         "fullName": "Chou Tzuyu",
         "birthday": "June 14, 1999",
-        "imgLink": "/imageArchive/TWICE/Tzuyu.jpeg"
+        "imgLink": "/imageArchive/TWICE/Tzuyu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWS",
@@ -3805,7 +4541,8 @@
         "stageName": "Shinyu",
         "fullName": "Shin Junghwan",
         "birthday": "November 07, 2003",
-        "imgLink": "/imageArchive/TWS/Shinyu.jpeg"
+        "imgLink": "/imageArchive/TWS/Shinyu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWS",
@@ -3813,7 +4550,8 @@
         "stageName": "Dohoon",
         "fullName": "Kim Dohoon",
         "birthday": "January 30, 2005",
-        "imgLink": "/imageArchive/TWS/Dohoon.jpeg"
+        "imgLink": "/imageArchive/TWS/Dohoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWS",
@@ -3821,7 +4559,8 @@
         "stageName": "Youngjae",
         "fullName": "Choi Youngjae",
         "birthday": "May 31, 2005",
-        "imgLink": "/imageArchive/TWS/Youngjae.jpeg"
+        "imgLink": "/imageArchive/TWS/Youngjae.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWS",
@@ -3829,7 +4568,8 @@
         "stageName": "Hanjin",
         "fullName": "Han Zhen",
         "birthday": "January 05, 2006",
-        "imgLink": "/imageArchive/TWS/Hanjin.jpeg"
+        "imgLink": "/imageArchive/TWS/Hanjin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWS",
@@ -3837,7 +4577,8 @@
         "stageName": "Jihoon",
         "fullName": "Han Jihoon",
         "birthday": "March 28, 2006",
-        "imgLink": "/imageArchive/TWS/Jihoon.jpeg"
+        "imgLink": "/imageArchive/TWS/Jihoon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TWS",
@@ -3845,7 +4586,8 @@
         "stageName": "Kyungmin",
         "fullName": "Lee Kyungmin",
         "birthday": "October 02, 2007",
-        "imgLink": "/imageArchive/TWS/Kyungmin.jpeg"
+        "imgLink": "/imageArchive/TWS/Kyungmin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TXT",
@@ -3853,7 +4595,8 @@
         "stageName": "Yeonjun",
         "fullName": "Choi Yeonjun",
         "birthday": "September 13, 1999",
-        "imgLink": "/imageArchive/TXT/Yeonjun.jpeg"
+        "imgLink": "/imageArchive/TXT/Yeonjun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TXT",
@@ -3861,7 +4604,8 @@
         "stageName": "Soobin",
         "fullName": "Choi Soobin",
         "birthday": "December 05, 2000",
-        "imgLink": "/imageArchive/TXT/Soobin.jpeg"
+        "imgLink": "/imageArchive/TXT/Soobin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TXT",
@@ -3869,7 +4613,8 @@
         "stageName": "Beomgyu",
         "fullName": "Choi Beomgyu",
         "birthday": "March 13, 2001",
-        "imgLink": "/imageArchive/TXT/Beomgyu.jpeg"
+        "imgLink": "/imageArchive/TXT/Beomgyu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TXT",
@@ -3877,7 +4622,8 @@
         "stageName": "Taehyun",
         "fullName": "Kang Taehyun",
         "birthday": "February 05, 2002",
-        "imgLink": "/imageArchive/TXT/Taehyun.jpeg"
+        "imgLink": "/imageArchive/TXT/Taehyun.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "TXT",
@@ -3885,7 +4631,8 @@
         "stageName": "Huening Kai",
         "fullName": "Huening Kai",
         "birthday": "August 14, 2002",
-        "imgLink": "/imageArchive/TXT/HueningKai.jpeg"
+        "imgLink": "/imageArchive/TXT/HueningKai.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "VERIVERY",
@@ -3893,7 +4640,8 @@
         "stageName": "Dongheon",
         "fullName": "Lee Dongheon",
         "birthday": "August 04, 1995",
-        "imgLink": "/imageArchive/VERIVERY/Dongheon.jpeg"
+        "imgLink": "/imageArchive/VERIVERY/Dongheon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "VERIVERY",
@@ -3901,7 +4649,8 @@
         "stageName": "Hoyoung",
         "fullName": "Bae Hoyoung",
         "birthday": "August 10, 1998",
-        "imgLink": "/imageArchive/VERIVERY/Hoyoung.jpeg"
+        "imgLink": "/imageArchive/VERIVERY/Hoyoung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "VERIVERY",
@@ -3909,7 +4658,8 @@
         "stageName": "Minchan",
         "fullName": "Hong Minchan",
         "birthday": "September 16, 1998",
-        "imgLink": "/imageArchive/VERIVERY/Minchan.jpeg"
+        "imgLink": "/imageArchive/VERIVERY/Minchan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "VERIVERY",
@@ -3917,7 +4667,8 @@
         "stageName": "Gyehyeon",
         "fullName": "Jo Gyehyeon",
         "birthday": "May 14, 1999",
-        "imgLink": "/imageArchive/VERIVERY/Gyehyeon.jpeg"
+        "imgLink": "/imageArchive/VERIVERY/Gyehyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "VERIVERY",
@@ -3925,7 +4676,8 @@
         "stageName": "Yeonho",
         "fullName": "Ju Yeonho",
         "birthday": "May 31, 2000",
-        "imgLink": "/imageArchive/VERIVERY/Yeonho.jpeg"
+        "imgLink": "/imageArchive/VERIVERY/Yeonho.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "VERIVERY",
@@ -3933,7 +4685,8 @@
         "stageName": "Yongseung",
         "fullName": "Kim Yongseung",
         "birthday": "June 17, 2000",
-        "imgLink": "/imageArchive/VERIVERY/Yongseung.jpeg"
+        "imgLink": "/imageArchive/VERIVERY/Yongseung.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "VERIVERY",
@@ -3941,7 +4694,8 @@
         "stageName": "Kangmin",
         "fullName": "Yoo Kangmin",
         "birthday": "January 25, 2003",
-        "imgLink": "/imageArchive/VERIVERY/Kangmin.jpeg"
+        "imgLink": "/imageArchive/VERIVERY/Kangmin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "WEi",
@@ -3949,7 +4703,8 @@
         "stageName": "Daehyeon",
         "fullName": "Jang Daehyeon",
         "birthday": "February 11, 1997",
-        "imgLink": "/imageArchive/WEi/Daehyeon.jpeg"
+        "imgLink": "/imageArchive/WEi/Daehyeon.jpeg",
+        "status": "(Hiatus)"
     },
     {
         "groupName": "WEi",
@@ -3957,7 +4712,8 @@
         "stageName": "Donghan",
         "fullName": "Kim Donghan",
         "birthday": "July 03, 1998",
-        "imgLink": "/imageArchive/WEi/Donghan.jpeg"
+        "imgLink": "/imageArchive/WEi/Donghan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "WEi",
@@ -3965,7 +4721,8 @@
         "stageName": "Yongha",
         "fullName": "Yoo Yongha",
         "birthday": "January 11, 1999",
-        "imgLink": "/imageArchive/WEi/Yongha.jpeg"
+        "imgLink": "/imageArchive/WEi/Yongha.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "WEi",
@@ -3973,7 +4730,8 @@
         "stageName": "Yohan",
         "fullName": "Kim Yohan",
         "birthday": "September 22, 1999",
-        "imgLink": "/imageArchive/WEi/Yohan.jpeg"
+        "imgLink": "/imageArchive/WEi/Yohan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "WEi",
@@ -3981,7 +4739,8 @@
         "stageName": "Seokhwa",
         "fullName": "Kang Seokhwa",
         "birthday": "December 01, 2000",
-        "imgLink": "/imageArchive/WEi/Seokhwa.jpeg"
+        "imgLink": "/imageArchive/WEi/Seokhwa.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "WEi",
@@ -3989,7 +4748,8 @@
         "stageName": "Junseo",
         "fullName": "Kim Junseo",
         "birthday": "November 20, 2001",
-        "imgLink": "/imageArchive/WEi/Junseo.jpeg"
+        "imgLink": "/imageArchive/WEi/Junseo.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Xdinary Heroes",
@@ -3997,7 +4757,8 @@
         "stageName": "Gunil",
         "fullName": "Goo Gunil",
         "birthday": "July 24, 1998",
-        "imgLink": "/imageArchive/XdinaryHeroes/Gunil.jpeg"
+        "imgLink": "/imageArchive/XdinaryHeroes/Gunil.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Xdinary Heroes",
@@ -4005,7 +4766,8 @@
         "stageName": "Jungsu",
         "fullName": "Kim Jungsu",
         "birthday": "June 26, 2001",
-        "imgLink": "/imageArchive/XdinaryHeroes/Jungsu.jpeg"
+        "imgLink": "/imageArchive/XdinaryHeroes/Jungsu.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Xdinary Heroes",
@@ -4013,7 +4775,8 @@
         "stageName": "Gaon",
         "fullName": "Kwak Jiseok",
         "birthday": "January 14, 2002",
-        "imgLink": "/imageArchive/XdinaryHeroes/Gaon.jpeg"
+        "imgLink": "/imageArchive/XdinaryHeroes/Gaon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Xdinary Heroes",
@@ -4021,7 +4784,8 @@
         "stageName": "O.de",
         "fullName": "Oh Seungmin",
         "birthday": "June 11, 2002",
-        "imgLink": "/imageArchive/XdinaryHeroes/Ode.jpeg"
+        "imgLink": "/imageArchive/XdinaryHeroes/Ode.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Xdinary Heroes",
@@ -4029,7 +4793,8 @@
         "stageName": "Jun Han",
         "fullName": "Han Hyeongjun",
         "birthday": "August 18, 2002",
-        "imgLink": "/imageArchive/XdinaryHeroes/Junhan.jpeg"
+        "imgLink": "/imageArchive/XdinaryHeroes/Junhan.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "Xdinary Heroes",
@@ -4037,7 +4802,8 @@
         "stageName": "Jooyeon",
         "fullName": "Lee Jooyeon",
         "birthday": "September 12, 2002",
-        "imgLink": "/imageArchive/XdinaryHeroes/Jooyeon.jpeg"
+        "imgLink": "/imageArchive/XdinaryHeroes/Jooyeon.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "xikers",
@@ -4045,7 +4811,8 @@
         "stageName": "Minjae",
         "fullName": "Kim Minjae",
         "birthday": "April 10, 2003",
-        "imgLink": "/imageArchive/xikers/Minjae.jpeg"
+        "imgLink": "/imageArchive/xikers/Minjae.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "xikers",
@@ -4053,7 +4820,8 @@
         "stageName": "Junmin",
         "fullName": "Park Junmin",
         "birthday": "May 24, 2003",
-        "imgLink": "/imageArchive/xikers/Junmin.jpeg"
+        "imgLink": "/imageArchive/xikers/Junmin.jpeg",
+        "status": "(Active)"
     },
     {
         "groupName": "xikers",
@@ -4061,7 +4829,8 @@
         "stageName": "Sumin",
         "fullName": "Choi Sumin",
         "birthday": "April 07, 2004",
-        "imgLink": "/imageArchive/xikers/Sumin.jpeg"
+        "imgLink": "/imageArchive/xikers/Sumin.jpeg",
+        "status": null
     },
     {
         "groupName": "xikers",
@@ -4069,7 +4838,8 @@
         "stageName": "Jinsik",
         "fullName": "Ham Jinsik",
         "birthday": "July 30, 2004",
-        "imgLink": "/imageArchive/xikers/Jinsik.jpeg"
+        "imgLink": "/imageArchive/xikers/Jinsik.jpeg",
+        "status": null
     },
     {
         "groupName": "xikers",
@@ -4077,7 +4847,8 @@
         "stageName": "Hyunwoo",
         "fullName": "Choi Hyunwoo",
         "birthday": "December 04, 2004",
-        "imgLink": "/imageArchive/xikers/Hyunwoo.jpeg"
+        "imgLink": "/imageArchive/xikers/Hyunwoo.jpeg",
+        "status": null
     },
     {
         "groupName": "xikers",
@@ -4085,7 +4856,8 @@
         "stageName": "Junghoon",
         "fullName": "Kim Junghoon",
         "birthday": "July 05, 2005",
-        "imgLink": "/imageArchive/xikers/Junghoon.jpeg"
+        "imgLink": "/imageArchive/xikers/Junghoon.jpeg",
+        "status": null
     },
     {
         "groupName": "xikers",
@@ -4093,7 +4865,8 @@
         "stageName": "Seeun",
         "fullName": "Park Seeun",
         "birthday": "August 17, 2005",
-        "imgLink": "/imageArchive/xikers/Seeun.jpeg"
+        "imgLink": "/imageArchive/xikers/Seeun.jpeg",
+        "status": null
     },
     {
         "groupName": "xikers",
@@ -4101,7 +4874,8 @@
         "stageName": "Yujun",
         "fullName": "Jung Yujun",
         "birthday": "October 05, 2005",
-        "imgLink": "/imageArchive/xikers/Yujun.jpeg"
+        "imgLink": "/imageArchive/xikers/Yujun.jpeg",
+        "status": null
     },
     {
         "groupName": "xikers",
@@ -4109,7 +4883,8 @@
         "stageName": "Hunter",
         "fullName": "Pupungkorn Lertkiatdamrong",
         "birthday": "October 05, 2005",
-        "imgLink": "/imageArchive/xikers/Hunter.jpeg"
+        "imgLink": "/imageArchive/xikers/Hunter.jpeg",
+        "status": null
     },
     {
         "groupName": "xikers",
@@ -4117,7 +4892,8 @@
         "stageName": "Yechan",
         "fullName": "Lee Yechan",
         "birthday": "October 21, 2005",
-        "imgLink": "/imageArchive/xikers/Yechan.jpeg"
+        "imgLink": "/imageArchive/xikers/Yechan.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4125,7 +4901,8 @@
         "stageName": "Jiwoong",
         "fullName": "Kim Jiwoong",
         "birthday": "December 14, 1998",
-        "imgLink": "/imageArchive/ZEROBASEONE/Jiwoong.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/Jiwoong.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4133,7 +4910,8 @@
         "stageName": "Zhang Hao",
         "fullName": "Zhang Hao",
         "birthday": "July 25, 2000",
-        "imgLink": "/imageArchive/ZEROBASEONE/ZhangHao.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/ZhangHao.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4141,7 +4919,8 @@
         "stageName": "Hanbin",
         "fullName": "Sung Hanbin",
         "birthday": "June 13, 2001",
-        "imgLink": "/imageArchive/ZEROBASEONE/Hanbin.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/Hanbin.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4149,7 +4928,8 @@
         "stageName": "Matthew",
         "fullName": "Seok Woohyun",
         "birthday": "May 28, 2002",
-        "imgLink": "/imageArchive/ZEROBASEONE/Matthew.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/Matthew.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4157,7 +4937,8 @@
         "stageName": "Taerae",
         "fullName": "Kim Taerae",
         "birthday": "July 14, 2002",
-        "imgLink": "/imageArchive/ZEROBASEONE/Taerae.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/Taerae.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4165,7 +4946,8 @@
         "stageName": "Ricky",
         "fullName": "Shen Quanrui",
         "birthday": "May 20, 2004",
-        "imgLink": "/imageArchive/ZEROBASEONE/Ricky.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/Ricky.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4173,7 +4955,8 @@
         "stageName": "Gyuvin",
         "fullName": "Kim Gyuvin",
         "birthday": "August 30, 2004",
-        "imgLink": "/imageArchive/ZEROBASEONE/Gyuvin.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/Gyuvin.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4181,7 +4964,8 @@
         "stageName": "Gunwook",
         "fullName": "Park Gunwook",
         "birthday": "January 10, 2005",
-        "imgLink": "/imageArchive/ZEROBASEONE/Gunwook.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/Gunwook.jpeg",
+        "status": null
     },
     {
         "groupName": "ZEROBASEONE",
@@ -4189,6 +4973,7 @@
         "stageName": "Yujin",
         "fullName": "Han Yujin",
         "birthday": "March 20, 2007",
-        "imgLink": "/imageArchive/ZEROBASEONE/Yujin.jpeg"
+        "imgLink": "/imageArchive/ZEROBASEONE/Yujin.jpeg",
+        "status": null
     }
 ]

@@ -31,6 +31,12 @@
         </p>
     </div>
 
+    <div class="listBox">
+        <div v-for="group in groupsData" class="groupDiv">
+            <p>hi</p>
+        </div>
+    </div>
+
     <div id="symbol" class="listBox">
         <p class="directory">#</p>
         <div class="groupDiv">
@@ -68,7 +74,7 @@
             </p>
         </div>
         <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/imageArchive/ATEEZ/Group.jpeg"></a>
+            <a href="group.html"><img class="groupPicList" src="../assets/imageArchive/ATEEZ/group.jpeg"></a>
             <p class="groupNameList">
                 <a href="group.html">ATEEZ</a>
             </p>
@@ -106,13 +112,13 @@
     <div id="C" class="listBox">
         <p class="directory">C</p>
         <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/imageArchive/CIX/Group.jpeg"></a>
+            <a href="group.html"><img class="groupPicList" src="../assets/imageArchive/CIX/group.jpeg"></a>
             <p class="groupNameList">
                 <a href="group.html">CIX</a>
             </p>
         </div>
         <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/imageArchive/CRAVITY/Group.jpeg"></a>
+            <a href="group.html"><img class="groupPicList" src="../assets/imageArchive/CRAVITY/group.jpeg"></a>
             <p class="groupNameList">
                 <a href="group.html">CRAVITY</a>
             </p>
@@ -451,6 +457,16 @@
         </div>
     </div>
 </template>
+
+<script>
+import groupListEdit from '@/groupListEdit.json'
+export default {
+    name: 'BGView',
+    data: () => {
+        return { groupsData : groupListEdit }
+    }
+}
+</script>
 
 <style>
 .directoryBox {
