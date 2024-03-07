@@ -33,7 +33,8 @@
 
     <div class="listBox">
         <div v-for="group in groupsData" class="groupDiv">
-            <p>hi</p>
+            <img class="groupPicList" :src="require('../assets' + group.groupImage)">
+            <p class="groupNameList">{{ group.groupName }}</p>
         </div>
     </div>
 
@@ -464,6 +465,9 @@ export default {
     name: 'BGView',
     data: () => {
         return { groupsData : groupListEdit }
+    },
+    mounted() {
+        this.$router.push({ path: '/groupPage', params: { data } })
     }
 }
 </script>
