@@ -31,207 +31,26 @@
         </p>
     </div>
 
-    <div id="symbol" class="listBox">
-        <p class="directory">#</p>
-    </div>
-
-    <div id="A" class="listBox">
-        <p class="directory">A</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">aespa</a>
-            </p>
+    <div class="listBox">
+        <div v-for="group in groupsData">
+            <div class="groupDiv" v-if="group.bgs === 'g'">
+                <img class="groupPicList" :src="require('../assets' + group.groupImage)">
+                <p class="groupNameList">{{ group.groupName }}</p>
+            </div>
         </div>
     </div>
 
-    <div id="B" class="listBox">
-        <p class="directory">B</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">Billlie</a>
-            </p>
-        </div>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">BLACKPINK</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="C" class="listBox">
-        <p class="directory">C</p>
-    </div>
-
-    <div id="D" class="listBox">
-        <p class="directory">D</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">Dreamcatcher</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="E" class="listBox">
-        <p class="directory">E</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">EVERGLOW</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="F" class="listBox">
-        <p class="directory">F</p>
-    </div>
-
-    <div id="G" class="listBox">
-        <p class="directory">G</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">(G)I-DLE</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="H" class="listBox">
-        <p class="directory">H</p>
-    </div>
-
-    <div id="I" class="listBox">
-        <p class="directory">I</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">ITZY</a>
-            </p>
-        </div>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">IVE</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="J" class="listBox">
-        <p class="directory">J</p>
-    </div>
-
-    <div id="K" class="listBox">
-        <p class="directory">K</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">KARD</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="L" class="listBox">
-        <p class="directory">L</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">LE SSERAFIM</a>
-            </p>
-        </div>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">LOONA</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="M" class="listBox">
-        <p class="directory">M</p>
-    </div>
-
-    <div id="N" class="listBox">
-        <p class="directory">N</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">NEWJEANS</a>
-            </p>
-        </div>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">NMIXX</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="O" class="listBox">
-        <p class="directory">O</p>
-    </div>
-
-    <div id="P" class="listBox">
-        <p class="directory">P</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">Purple Kiss</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="Q" class="listBox">
-        <p class="directory">Q</p>
-    </div>
-
-    <div id="R" class="listBox">
-        <p class="directory">R</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">Red Velvet</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="S" class="listBox">
-        <p class="directory">S</p>
-    </div>
-
-    <div id="T" class="listBox">
-        <p class="directory">T</p>
-        <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></a>
-            <p class="groupNameList">
-                <a href="group.html">TWICE</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="U" class="listBox">
-        <p class="directory">U</p>
-    </div>
-
-    <div id="V" class="listBox">
-        <p class="directory">V</p>
-    </div>
-
-    <div id="W" class="listBox">
-        <p class="directory">W</p>
-    </div>
-
-    <div id="X" class="listBox">
-        <p class="directory">X</p>
-    </div>
-
-    <div id="Y" class="listBox">
-        <p class="directory">Y</p>
-    </div>
-
-    <div id="Z" class="listBox">
-        <p class="directory">Z</p>
-    </div>
 </template>
+
+<script>
+import groupListEdit from '@/groupListEdit.json'
+export default {
+    name: 'GGView',
+    data: () => {
+        return { groupsData : groupListEdit }
+    },
+    mounted() {
+        this.$router.push({ path: '/groupPage', params: { data } })
+    }
+}
+</script>

@@ -33,12 +33,6 @@
 
     <div id="symbol" class="listBox">
         <p class="directory">#</p>
-        <!-- <div class="groupDiv">
-            <a href="group.html"><img class="groupPicList" src="../assets/default.jpeg"></img></a>
-            <p class="groupNameList">
-                <a href="group.html">aespa</a>
-            </p>
-        </div> -->
     </div>
 
     <div id="A" class="listBox">
