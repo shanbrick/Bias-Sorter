@@ -1,7 +1,10 @@
 [
     {
         "groupName": "&TEAM",
+        "bgs": "b",
         "groupImage": "/imageArchive/&TEAM/group.jpeg",
+        "company": "HYBE Labels Japan",
+        "debutDate": "December 07, 2022",
         "members": [
             {
                 "num": "1",
@@ -78,7 +81,10 @@
     },
     {
         "groupName": "8TURN",
+        "bgs": "b",
         "groupImage": "/imageArchive/8TURN/group.jpeg",
+        "company": "MNH Entertainment",
+        "debutDate": "January 30, 2023",
         "members": [
             {
                 "num": "1",
@@ -148,7 +154,10 @@
     },
     {
         "groupName": "A.C.E",
+        "bgs": "b",
         "groupImage": "/imageArchive/ACE/group.jpeg",
+        "company": "Beat Interactive",
+        "debutDate": "May 23, 2017",
         "members": [
             {
                 "num": "1",
@@ -194,7 +203,10 @@
     },
     {
         "groupName": "aespa",
+        "bgs": "g",
         "groupImage": "/imageArchive/aespa/group.jpeg",
+        "company": "SM Entertainment",
+        "debutDate": "November 17, 2020",
         "members": [
             {
                 "num": "1",
@@ -232,7 +244,10 @@
     },
     {
         "groupName": "AMPERS&ONE",
+        "bgs": "b",
         "groupImage": "/imageArchive/AMPERS&ONE/group.jpeg",
+        "company": "FNC Entertainment",
+        "debutDate": "November 15, 2023",
         "members": [
             {
                 "num": "1",
@@ -294,7 +309,10 @@
     },
     {
         "groupName": "ASTRO",
+        "bgs": "b",
         "groupImage": "/imageArchive/ASTRO/group.jpeg",
+        "company": "Fantagio Entertainment",
+        "debutDate": "February 23, 2016",
         "members": [
             {
                 "num": "1",
@@ -348,7 +366,10 @@
     },
     {
         "groupName": "ATEEZ",
+        "bgs": "b",
         "groupImage": "/imageArchive/ATEEZ/group.jpeg",
+        "company": "KQ Entertainment",
+        "debutDate": "October 24, 2018",
         "members": [
             {
                 "num": "1",
@@ -418,7 +439,10 @@
     },
     {
         "groupName": "Billlie",
+        "bgs": "g",
         "groupImage": "/imageArchive/Billlie/group.jpeg",
+        "company": "Mystic Story Entertainment",
+        "debutDate": "November 10, 2021",
         "members": [
             {
                 "num": "1",
@@ -480,7 +504,10 @@
     },
     {
         "groupName": "BLACKPINK",
+        "bgs": "g",
         "groupImage": "/imageArchive/BLACKPINK/group.jpeg",
+        "company": "YG Entertainment",
+        "debutDate": "August 08, 2016",
         "members": [
             {
                 "num": "1",
@@ -518,7 +545,10 @@
     },
     {
         "groupName": "BLITZERS",
+        "bgs": "b",
         "groupImage": "/imageArchive/BLITZERS/group.jpeg",
+        "company": "WUZO Entertainment",
+        "debutDate": "May 12, 2021",
         "members": [
             {
                 "num": "1",
@@ -580,7 +610,10 @@
     },
     {
         "groupName": "BOYNEXTDOOR",
+        "bgs": "b",
         "groupImage": "/imageArchive/BOYNEXTDOOR/group.jpeg",
+        "company": "KOZ Entertainment",
+        "debutDate": "May 30, 2023",
         "members": [
             {
                 "num": "1",
@@ -634,7 +667,10 @@
     },
     {
         "groupName": "CIX",
+        "bgs": "b",
         "groupImage": "/imageArchive/CIX/group.jpeg",
+        "company": "C9 Entertainment",
+        "debutDate": "July 23, 2019",
         "members": [
             {
                 "num": "1",
@@ -680,7 +716,10 @@
     },
     {
         "groupName": "CRAVITY",
+        "bgs": "b",
         "groupImage": "/imageArchive/CRAVITY/group.jpeg",
+        "company": "STARSHIP Entertainment",
+        "debutDate": "April 14, 2020",
         "members": [
             {
                 "num": "1",
@@ -758,7 +797,10 @@
     },
     {
         "groupName": "DKB",
+        "bgs": "b",
         "groupImage": "/imageArchive/DKB/group.jpeg",
+        "company": "Brave Entertainment",
+        "debutDate": "February 3, 2020",
         "members": [
             {
                 "num": "1",
@@ -836,7 +878,10 @@
     },
     {
         "groupName": "Dreamcatcher",
+        "bgs": "g",
         "groupImage": "/imageArchive/Dreamcatcher/group.jpeg",
+        "company": "Dreamcatcher Company",
+        "debutDate": "January 13, 2017",
         "members": [
             {
                 "num": "1",
@@ -898,7 +943,10 @@
     },
     {
         "groupName": "DRIPPIN",
+        "bgs": "b",
         "groupImage": "/imageArchive/DRIPPIN/group.jpeg",
+        "company": "Woollim Entertainment",
+        "debutDate": "October 28th, 2020",
         "members": [
             {
                 "num": "1",
@@ -957,5 +1005,509 @@
                 "status": "(Former)"
             }
         ]
+    },
+    {
+        "groupName": "ENHYPEN",
+        "bgs": "b",
+        "groupImage": "/imageArchive/ENHYPEN/group.jpeg",
+        "company": "Belift Lab",
+        "debutDate": "November 30, 2020",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Heeseung",
+                "fullName": "Lee Heeseung",
+                "birthday": "October 15, 2001",
+                "imgLink": "/imageArchive/ENHYPEN/Heeseung.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Jay",
+                "fullName": "Park Jongseong",
+                "birthday": "April 20, 2002",
+                "imgLink": "/imageArchive/ENHYPEN/Jay.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Jake",
+                "fullName": "Sim Jaeyun",
+                "birthday": "November 15, 2002",
+                "imgLink": "/imageArchive/ENHYPEN/Jake.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Sunghoon",
+                "fullName": "Park Sunghoon",
+                "birthday": "December 08, 2002",
+                "imgLink": "/imageArchive/ENHYPEN/Sunghoon.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Sunoo",
+                "fullName": "Kim Sunoo",
+                "birthday": "June 24, 2003",
+                "imgLink": "/imageArchive/ENHYPEN/Sunoo.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Jungwon",
+                "fullName": "Yang Jungwon",
+                "birthday": "February 09, 2004",
+                "imgLink": "/imageArchive/ENHYPEN/Jungwon.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "7",
+                "stageName": "Niki",
+                "fullName": "Nishimura Riki",
+                "birthday": "December 09, 2005",
+                "imgLink": "/imageArchive/ENHYPEN/Niki.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
+        "groupName": "EPEX",
+        "bgs": "b",
+        "groupImage": "/imageArchive/EPEX/group.jpeg",
+        "company": "C9 Entertainment",
+        "debutDate": "June 8, 2021",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Wish",
+                "fullName": "Kwak Dawit",
+                "birthday": "June 11, 2002",
+                "imgLink": "/imageArchive/EPEX/Wish.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Keum",
+                "fullName": "Keum Donghyun",
+                "birthday": "May 14, 2003",
+                "imgLink": "/imageArchive/EPEX/Keum.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "MU",
+                "fullName": "Suh Kyungmin",
+                "birthday": "September 14, 2003",
+                "imgLink": "/imageArchive/EPEX/MU.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "A-Min",
+                "fullName": "Cho Minwoo",
+                "birthday": "May 22, 2004",
+                "imgLink": "/imageArchive/EPEX/AMin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Baekseung",
+                "fullName": "Kim Hyunwoo",
+                "birthday": "October 05, 2004",
+                "imgLink": "/imageArchive/EPEX/Baekseung.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Ayden",
+                "fullName": "Kwon Yejun",
+                "birthday": "January 24, 2005",
+                "imgLink": "/imageArchive/EPEX/Ayden.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "7",
+                "stageName": "Yewang",
+                "fullName": "Seo Yewang",
+                "birthday": "March 12, 2005",
+                "imgLink": "/imageArchive/EPEX/Yewang.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "8",
+                "stageName": "Jeff",
+                "fullName": "Lee Jaeho",
+                "birthday": "April 21, 2005",
+                "imgLink": "/imageArchive/EPEX/Jeff.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
+        "groupName": "EVERGLOW",
+        "bgs": "g",
+        "groupImage": "/imageArchive/EVERGLOW/group.jpeg",
+        "company": "Yuehua Entertainment",
+        "debutDate": "March 18, 2019",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "E:U",
+                "fullName": "Park Jiwon",
+                "birthday": "May 19, 1998",
+                "imgLink": "/imageArchive/EVERGLOW/EU.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Sihyeon",
+                "fullName": "Kim Sihyeon",
+                "birthday": "August 05, 1999",
+                "imgLink": "/imageArchive/EVERGLOW/Sihyeon.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Mia",
+                "fullName": "Han Eunji",
+                "birthday": "January 13, 2000",
+                "imgLink": "/imageArchive/EVERGLOW/Mia.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Onda",
+                "fullName": "Jo Serim",
+                "birthday": "May 18, 2000",
+                "imgLink": "/imageArchive/EVERGLOW/Onda.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Aisha",
+                "fullName": "Heo Yoorim",
+                "birthday": "July 21, 2000",
+                "imgLink": "/imageArchive/EVERGLOW/Aisha.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Yiren",
+                "fullName": "Wang Yiren",
+                "birthday": "December 29, 2000",
+                "imgLink": "/imageArchive/EVERGLOW/Yiren.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
+        "groupName": "EVNNE",
+        "bgs": "b",
+        "groupImage": "/imageArchive/EVNNE/group.jpeg",
+        "company": "Jellyfish Entertainment",
+        "debutDate": "September 19, 2023",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Keita",
+                "fullName": "Terazono Keita",
+                "birthday": "July 04, 2001",
+                "imgLink": "/imageArchive/EVNNE/Keita.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Park Hanbin",
+                "fullName": "Park Hanbin",
+                "birthday": "March 01, 2002",
+                "imgLink": "/imageArchive/EVNNE/Hanbin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Lee Jeonghyeon",
+                "fullName": "Lee Jeonghyeon",
+                "birthday": "September 11, 2002",
+                "imgLink": "/imageArchive/EVNNE/Jeonghyeon.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Yoo Seungeon",
+                "fullName": "Yoo Seungeon",
+                "birthday": "January 02, 2004",
+                "imgLink": "/imageArchive/EVNNE/Seungeon.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Ji Yunseo",
+                "fullName": "Ji Yunseo",
+                "birthday": "October 15, 2004",
+                "imgLink": "/imageArchive/EVNNE/Yunseo.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Mun Junghyun",
+                "fullName": "Mun Junghyun",
+                "birthday": "March 31, 2005",
+                "imgLink": "/imageArchive/EVNNE/Junghyun.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "7",
+                "stageName": "Park Jihoo",
+                "fullName": "Park Jihoo",
+                "birthday": "July 14, 2006",
+                "imgLink": "/imageArchive/EVNNE/Jihoo.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
+        "groupName": "(G)I-DLE",
+        "bgs": "g",
+        "groupImage": "/imageArchive/GIDLE/group.jpeg",
+        "company": "CUBE Entertainment",
+        "debutDate": "May 02, 2018",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Miyeon",
+                "fullName": "Cho Miyeon",
+                "birthday": "January 31, 1997",
+                "imgLink": "/imageArchive/GIDLE/Miyeon.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Minnie",
+                "fullName": "Nicha Yontararak",
+                "birthday": "October 23, 1997",
+                "imgLink": "/imageArchive/GIDLE/Minnie.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Soojin",
+                "fullName": "Seo Soojin",
+                "birthday": "March 09, 1998",
+                "imgLink": "/imageArchive/GIDLE/Soojin.jpeg",
+                "status": "(Former)"
+            },
+            {
+                "num": "4",
+                "stageName": "Soyeon",
+                "fullName": "Jeon Soyeon",
+                "birthday": "August 26, 1998",
+                "imgLink": "/imageArchive/GIDLE/Soyeon.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Yuqi",
+                "fullName": "Song Yuqi",
+                "birthday": "September 23, 1999",
+                "imgLink": "/imageArchive/GIDLE/Yuqi.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Shuhua",
+                "fullName": "Yeh Shuhua",
+                "birthday": "January 06, 2000",
+                "imgLink": "/imageArchive/GIDLE/Shuhua.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
+        "groupName": "Golden Child",
+        "bgs": "b",
+        "groupImage": "/imageArchive/GoldenChild/group.jpeg",
+        "company": "Woollim Entertainment",
+        "debutDate": "August 28, 2017",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Daeyeol",
+                "fullName": "Lee Daeyeol",
+                "birthday": "February 11, 1993",
+                "imgLink": "/imageArchive/GoldenChild/Daeyeol.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Y",
+                "fullName": "Choi Sungyoon",
+                "birthday": "July 31, 1995",
+                "imgLink": "/imageArchive/GoldenChild/Y.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Jangjun",
+                "fullName": "Lee Jangjun",
+                "birthday": "March 03, 1997",
+                "imgLink": "/imageArchive/GoldenChild/Jangjun.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Tag",
+                "fullName": "Son Youngtaek",
+                "birthday": "April 13, 1998",
+                "imgLink": "/imageArchive/GoldenChild/Tag.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Seungmin",
+                "fullName": "Bae Seungmin",
+                "birthday": "October 13, 1998",
+                "imgLink": "/imageArchive/GoldenChild/Seungmin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Jaehyun",
+                "fullName": "Bong Jaehyun",
+                "birthday": "January 04, 1999",
+                "imgLink": "/imageArchive/GoldenChild/Jaehyun.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "7",
+                "stageName": "Jibeom",
+                "fullName": "Kim Jibeom",
+                "birthday": "February 03, 1999",
+                "imgLink": "/imageArchive/GoldenChild/Jibeom.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "8",
+                "stageName": "Donghyun",
+                "fullName": "Kim Donghyun",
+                "birthday": "February 23, 1999",
+                "imgLink": "/imageArchive/GoldenChild/Donghyun.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "9",
+                "stageName": "Joochan",
+                "fullName": "Hong Joochan",
+                "birthday": "July 31, 1999",
+                "imgLink": "/imageArchive/GoldenChild/Joochan.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "10",
+                "stageName": "Bomin",
+                "fullName": "Choi Bomin",
+                "birthday": "August 24, 2000",
+                "imgLink": "/imageArchive/GoldenChild/Bomin.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
+        "groupName": "H1-KEY",
+        "bgs": "g",
+        "groupImage": "/imageArchive/H1KEY/group.jpeg",
+        "company": "Grandline Group",
+        "debutDate": "January 05, 2022",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Seoi",
+                "fullName": "Lee Yejin",
+                "birthday": "February 12, 2000",
+                "imgLink": "/imageArchive/H1KEY/Seoi.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Riina",
+                "fullName": "Lee Seunghyun",
+                "birthday": "February 21, 2001",
+                "imgLink": "/imageArchive/H1KEY/Riina.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Hwiseo",
+                "fullName": "Jo Hwihyeon",
+                "birthday": "July 31, 2002",
+                "imgLink": "/imageArchive/H1KEY/Hwiseo.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Yel",
+                "fullName": "Han Shinyoung",
+                "birthday": "December 25, 2004",
+                "imgLink": "/imageArchive/H1KEY/Yel.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
+        "groupName": "ITZY",
+        "bgs": "g",
+        "groupImage": "/imageArchive/ITZY/group.jpeg",
+        "company": "JYP Entertainment",
+        "debutDate": "February 11, 2019",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Yeji",
+                "fullName": "Hwang Yeji",
+                "birthday": "May 26, 2000",
+                "imgLink": "/imageArchive/ITZY/Yeji.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Lia",
+                "fullName": "Choi Jisoo",
+                "birthday": "July 21, 2000",
+                "imgLink": "/imageArchive/ITZY/Lia.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Ryujin",
+                "fullName": "Shin Ryujin",
+                "birthday": "April 17, 2001",
+                "imgLink": "/imageArchive/ITZY/Ryujin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Chaeryeong",
+                "fullName": "Lee Chaeryeong",
+                "birthday": "June 05, 2001",
+                "imgLink": "/imageArchive/ITZY/Chaeryeong.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Yuna",
+                "fullName": "Shin Yuna",
+                "birthday": "December 09, 2003",
+                "imgLink": "/imageArchive/ITZY/Yuna.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
+        "groupName": "",
+        "bgs": "",
+        "groupImage": "",
+        "company": "",
+        "debutDate": "",
+        "members": []
     }
 ]
