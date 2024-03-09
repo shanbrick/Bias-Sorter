@@ -120,17 +120,20 @@ export default {
 .groupDiv {
     float: left;
     height: fit-content;
-    width: 340px;
+    width: 294px;
     text-align: center;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 5px;
     border: 1px solid red;
 }
 
 .groupPicList {
-    width: 300px;
+    width: 254px;
+    height: 170px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .groupNameList {

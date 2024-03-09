@@ -48,9 +48,6 @@ export default {
     name: 'GGView',
     data: () => {
         return { groupsData: groupListEdit }
-    },
-    mounted() {
-        this.$router.push({ path: '/groupPage', params: { data } })
     }
 }
 </script>

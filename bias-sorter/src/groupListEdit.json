@@ -153,6 +153,63 @@
         ]
     },
     {
+        "groupName": "82MAJOR",
+        "bgs": "b",
+        "groupImage": "/imageArchive/82MAJOR/group.jpeg",
+        "company": "Great M Entertainment",
+        "debutDate": "October 11, 2023",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Seongil",
+                "fullName": "Cho Seongil",
+                "birthday": "March 29, 2004",
+                "imgLink": "/imageArchive/82MAJOR/Seongil.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Yechan",
+                "fullName": "Yoon Yechan",
+                "birthday": "April 16, 2004",
+                "imgLink": "/imageArchive/82MAJOR/Yechan.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Seongmo",
+                "fullName": "Nam Seongmo",
+                "birthday": "April 19, 2004",
+                "imgLink": "/imageArchive/82MAJOR/Seongmo.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Seongbin",
+                "fullName": "Hwang Seongbin",
+                "birthday": "June 22, 2004",
+                "imgLink": "/imageArchive/82MAJOR/Seongbin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Seokjoon",
+                "fullName": "Park Seokjoon",
+                "birthday": "December 15, 2004",
+                "imgLink": "/imageArchive/82MAJOR/Seokjoon.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Dogyun",
+                "fullName": "Kim Dogyun",
+                "birthday": "September 14, 2006",
+                "imgLink": "/imageArchive/82MAJOR/Dogyun.jpeg",
+                "status": "(Active)"
+            }
+        ]
+    },
+    {
         "groupName": "A.C.E",
         "bgs": "b",
         "groupImage": "/imageArchive/ACE/group.jpeg",
@@ -2838,9 +2895,82 @@
     {
         "groupName": "ZEROBASEONE",
         "bgs": "b",
-        "groupImage": "/default.jpeg",
-        "company": "",
-        "debutDate": "",
-        "members": []
+        "groupImage": "/imageArchive/ZEROBASEONE/group.jpeg",
+        "company": "WAKEONE Entertainment",
+        "debutDate": "July 10, 2023",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Jiwoong",
+                "fullName": "Kim Jiwoong",
+                "birthday": "December 14, 1998",
+                "imgLink": "/imageArchive/ZEROBASEONE/Jiwoong.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Zhang Hao",
+                "fullName": "Zhang Hao",
+                "birthday": "July 25, 2000",
+                "imgLink": "/imageArchive/ZEROBASEONE/ZhangHao.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "Hanbin",
+                "fullName": "Sung Hanbin",
+                "birthday": "June 13, 2001",
+                "imgLink": "/imageArchive/ZEROBASEONE/Hanbin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Matthew",
+                "fullName": "Seok Woohyun",
+                "birthday": "May 28, 2002",
+                "imgLink": "/imageArchive/ZEROBASEONE/Matthew.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Taerae",
+                "fullName": "Kim Taerae",
+                "birthday": "July 14, 2002",
+                "imgLink": "/imageArchive/ZEROBASEONE/Taerae.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Ricky",
+                "fullName": "Shen Quanrui",
+                "birthday": "May 20, 2004",
+                "imgLink": "/imageArchive/ZEROBASEONE/Ricky.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "7",
+                "stageName": "Gyuvin",
+                "fullName": "Kim Gyuvin",
+                "birthday": "August 30, 2004",
+                "imgLink": "/imageArchive/ZEROBASEONE/Gyuvin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "8",
+                "stageName": "Gunwook",
+                "fullName": "Park Gunwook",
+                "birthday": "January 10, 2005",
+                "imgLink": "/imageArchive/ZEROBASEONE/Gunwook.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "9",
+                "stageName": "Yujin",
+                "fullName": "Han Yujin",
+                "birthday": "March 20, 2007",
+                "imgLink": "/imageArchive/ZEROBASEONE/Yujin.jpeg",
+                "status": "(Active)"
+            }
+        ]
     }
 ]

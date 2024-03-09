@@ -1,13 +1,17 @@
 <template>
-    <div id='groupPage' class="groupPageBox">
-        <img class="groupPicIndividual" :src="require('../assets' + group.groupImage)">
-        <p class="groupName">{{ group.groupName }}</p>
+    <div id='groupPage' class="bigBox">
+        <div class="groupInfoDiv">
+            <img class="fullGroupPic" :src="require('../assets' + group.groupImage)">
+            <p class="groupName">{{ group.groupName }}</p>
+            <p><i>Company:</i> {{ group.company }}</p>
+            <p><i>Debut:</i> {{ group.debutDate }}</p>
+        </div>
 
-        <div v-for="person in group.members" class="groupPageDivs">
-            <img class="personPicIndividual" :src="require('../assets' + person.imgLink)">
-            <p class="idolName">{{ person.stageName }}</p>
-            <p class="idolInfo"><i>Full Name:</i> {{ person.fullName }}</p>
-            <p class="idolInfo"><i>Birthday:</i> {{ person.birthday }}</p>
+        <div v-for="person in group.members" class="memberDivs">
+            <img class="memberPic" :src="require('../assets' + person.imgLink)">
+            <p class="memberName">{{ person.stageName }}</p>
+            <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
+            <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
             <button
                 @click="addToUnsorted(group.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
         </div>
@@ -47,10 +51,11 @@ export default {
 </script>
 
 <style scoped>
-.groupPageBox {
+.bigBox {
     width: 832px;
     margin: auto;
     margin-top: 20px;
+    align-content: center;
     text-align: center;
     background-color: white;
     padding: 10px;
@@ -58,13 +63,50 @@ export default {
     border: 1px solid #B0B0B0;
 }
 
-.groupPageBox:after {
+.bigBox:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.groupPageDivs {
+.groupInfoDiv {
+    height: fit-content;
+    width: 480px;
+    text-align: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+    background-color: #edecff;
+}
+
+.fullGroupPic {
+    width: 400px;
+    border-radius: 8px;
+}
+
+.groupName {
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    line-height: 0px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.groupInfo {
+    padding-left: 0px;
+    padding-top: 0px;
+    line-height: 0px;
+    font-size: 25px;
+}
+
+.memberDivs {
     float: left;
     height: fit-content;
     width: 250px;
@@ -79,26 +121,13 @@ export default {
     background-color: #edecff;
 }
 
-.groupPicIndividual {
-    width: 400px;
-    border-radius: 8px;
-}
-
-.groupName {
-    padding-left: 0px;
-    padding-top: 0px;
-    line-height: 0px;
-    font-size: 25px;
-    margin-bottom: 40px;
-}
-
-.personPicIndividual {
+.memberPic {
     width: 210px;
     border-radius: 8px;
     margin-bottom: 5px;
 }
 
-.idolName {
+.memberName {
     font-size: 20px;
     text-align: center;
     margin: 5px;
@@ -106,7 +135,7 @@ export default {
     text-decoration: underline;
 }
 
-.idolInfo {
+.memberInfo {
     font-size: 14px;
     text-align: center;
     margin: 5px;
