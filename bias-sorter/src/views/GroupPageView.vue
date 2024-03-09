@@ -1,28 +1,27 @@
 <template>
     <div id='groupPage' class="groupPageBox">
-        <img class="groupPicIndividual" :src="require('../assets/default.jpeg')">
-        <p class="groupName">Xdinary Heroes</p>
+        <img class="groupPicIndividual" :src="require('../assets' + group.groupImage)">
+        <p class="groupName">{{ group.groupName }}</p>
 
-        <div v-for="person in groupData">
-            <div class="groupPageDivs" v-if="person.groupName === 'Xdinary Heroes'">
-                <img class="personPicIndividual" :src="require('../assets' + person.imgLink)">
-                <p class="idolName">{{ person.stageName }}</p>
-                <p class="idolInfo"><i>Full Name:</i> {{ person.fullName }}</p>
-                <p class="idolInfo"><i>Birthday:</i> {{ person.birthday }}</p>
-                <button @click="addToUnsorted(person.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
-            </div>
+        <div v-for="person in group.members" class="groupPageDivs">
+            <img class="personPicIndividual" :src="require('../assets' + person.imgLink)">
+            <p class="idolName">{{ person.stageName }}</p>
+            <p class="idolInfo"><i>Full Name:</i> {{ person.fullName }}</p>
+            <p class="idolInfo"><i>Birthday:</i> {{ person.birthday }}</p>
+            <button
+                @click="addToUnsorted(group.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
         </div>
     </div>
 </template>
 
 <script>
-import groupList from '@/groupList.json'
 let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
+let group = JSON.parse(localStorage.getItem('selectedGroup'));
 
 export default {
     name: 'GroupPageView',
     data() {
-        return { groupData: groupList }
+        return { group }
     },
     methods: {
         addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
@@ -90,7 +89,7 @@ export default {
     padding-top: 0px;
     line-height: 0px;
     font-size: 25px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .personPicIndividual {

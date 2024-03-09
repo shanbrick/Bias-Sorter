@@ -34,8 +34,12 @@
     <div class="listBox">
         <div v-for="group in groupsData">
             <div class="groupDiv" v-if="group.bgs === 'b'">
-                <a href="GroupPageView.vue"><img class="groupPicList" :src="require('../assets' + group.groupImage)"></a>
-                <a href="GroupPageView.vue"><p class="groupNameList">{{ group.groupName }}</p></a>
+                <a href="/groupPage" @click="populateGroupPage(group)">
+                    <img class="groupPicList" :src="require('../assets' + group.groupImage)">
+                </a>
+                <a href="/groupPage" @click="populateGroupPage(group)">
+                    <p class="groupNameList">{{ group.groupName }}</p>
+                </a>
             </div>
         </div>
     </div>
@@ -43,19 +47,20 @@
 
 <script>
 import groupListEdit from '@/groupListEdit.json'
-let groupPageArray = []
-JSON.parse(localStorage.setItem('groupPageArray'));
+let selectedGroupArray = JSON.parse(localStorage.getItem('selectedGroup'));
 
 export default {
     name: 'BGView',
     data: () => {
-        return { groupsData : groupListEdit }
+        return { groupsData: groupListEdit }
     },
     methods: {
-        populateGroupPage() {
-            if (groupPageArray !== null) {
-                groupPageArray = []
+        populateGroupPage(group) {
+            if (selectedGroupArray === null) {
+                selectedGroupArray = []
             }
+            selectedGroupArray = group
+            localStorage.setItem('selectedGroup', JSON.stringify(selectedGroupArray));
         }
     }
 }
@@ -67,20 +72,23 @@ export default {
     width: 100px;
     position: fixed;
     z-index: 1;
-    overflow-x: hidden; /* disable horizontal scroll */
-    overflow-y:auto;
+    overflow-x: hidden;
+    /* disable horizontal scroll */
+    overflow-y: auto;
     background-color: #ffffff;
     border: 1px solid #B0B0B0;
     border-radius: 10px;
     padding: 0px;
     margin: 20px;
 }
+
 .directory {
     padding-left: 0px;
     padding-top: 0px;
     font-size: 30px;
     line-height: 0px;
 }
+
 .directory a {
     float: left;
     font-size: 20px;
@@ -102,6 +110,7 @@ export default {
     border-radius: 10px;
     border: 1px solid #B0B0B0;
 }
+
 .listBox:after {
     content: "";
     display: table;
@@ -113,23 +122,26 @@ export default {
     height: fit-content;
     width: 340px;
     text-align: center;
-    padding:10px;
+    padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border: 1px solid red;
 }
+
 .groupPicList {
     width: 300px;
     border-radius: 8px;
 }
+
 .groupNameList {
     font-size: 18px;
     text-align: center;
     padding: 10px;
     margin: 0px;
 }
+
 .groupNameList a {
-    color:black;
+    color: black;
     text-decoration: none;
 }
 </style>

@@ -64,11 +64,7 @@ export default {
 
   },
   methods: {
-    changeName() {
-      this.name = 'Alex'
 
-      this.people = [...this.people, { name: 'Alex' }]
-    }
   }
 }
 </script>
