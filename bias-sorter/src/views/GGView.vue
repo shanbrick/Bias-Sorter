@@ -33,7 +33,7 @@
 
     <div class="listBox">
         <div v-for="group in groupsData">
-            <div class="groupDiv" v-if="group.bgs === 'g'">
+            <div class="groupDiv" v-if="group.bgs === 'g' || group.bgs === 'bg'">
                 <img class="groupPicList" :src="require('../assets' + group.groupImage)">
                 <p class="groupNameList">{{ group.groupName }}</p>
             </div>
@@ -47,7 +47,7 @@ import groupListEdit from '@/groupListEdit.json'
 export default {
     name: 'GGView',
     data: () => {
-        return { groupsData : groupListEdit }
+        return { groupsData: groupListEdit }
     },
     mounted() {
         this.$router.push({ path: '/groupPage', params: { data } })

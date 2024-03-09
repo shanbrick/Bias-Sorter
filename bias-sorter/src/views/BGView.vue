@@ -33,7 +33,7 @@
 
     <div class="listBox">
         <div v-for="group in groupsData">
-            <div class="groupDiv" v-if="group.bgs === 'b'">
+            <div class="groupDiv" v-if="group.bgs === 'b' || group.bgs === 'bg'">
                 <a href="/groupPage" @click="populateGroupPage(group)">
                     <img class="groupPicList" :src="require('../assets' + group.groupImage)">
                 </a>

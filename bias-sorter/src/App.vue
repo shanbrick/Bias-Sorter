@@ -13,12 +13,11 @@
 </template>
 
 <script>
-import groupList from '@/groupList.json'
 
 export default {
   name: "App",
   data() {
-    return { groupData: groupList };
+
   },
   methods: {
 
