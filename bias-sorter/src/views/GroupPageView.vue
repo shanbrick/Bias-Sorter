@@ -7,11 +7,14 @@
             <p><i>Debut:</i> {{ group.debutDate }}</p>
         </div>
 
-        <div v-for="person in group.members" class="memberDivs">
+        <div v-for="person in  group.members " class="memberDivs">
             <img class="memberPic" :src="require('../assets' + person.imgLink)">
             <p class="memberName">{{ person.stageName }}</p>
             <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
+            <!-- <div class="added">
+                <p>Added</p>
+            </div> -->
             <button
                 @click="addToUnsorted(group.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
         </div>
@@ -146,12 +149,26 @@ button {
     border-radius: 5px;
     color: white;
     background-color: #b3b8e9;
-    padding: 5px 15px;
+    padding: 7px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.added {
+    border: 1px solid #B0B0B0;
+    border-radius: 5px;
+    color: rgb(225, 225, 225);
+    background-color: #9ca0cb;
+    padding: 0px 15px;
+    text-align: center;
+    line-height: 0px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 </style>
