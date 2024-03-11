@@ -7,35 +7,34 @@
             <p><i>Debut:</i> {{ group.debutDate }}</p>
         </div>
 
-        <div v-for="person in  group.members " class="memberDivs">
+        <div v-for="person in   group.members  " class="memberDivs">
             <img class="memberPic" :src="require('../assets' + person.imgLink)">
-            <p class="memberName">{{ person.stageName }}</p>
+            <p class="memberName">{{ person.stageName }} <span class="memberInfo" v-if="person.status !== '(Active)'">
+                    {{ person.status }}</span></p>
             <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
-            <!-- <div class="added">
+            <div v-if="checkPerson(unsortedArray, person.stageName)" class="added">
                 <p>Added</p>
-            </div> -->
-            <button
+            </div>
+            <button v-else
                 @click="addToUnsorted(group.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
         </div>
     </div>
 </template>
 
 <script>
-let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
-let group = JSON.parse(localStorage.getItem('selectedGroup'));
 
 export default {
     name: 'GroupPageView',
     data() {
-        return { group }
+        return { group: JSON.parse(localStorage.getItem('selectedGroup')), unsortedArray: JSON.parse(localStorage.getItem('unsorted')) }
     },
     methods: {
         addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
-            if (unsortedArray === null) {
-                unsortedArray = []
+            if (this.unsortedArray === null) {
+                this.unsortedArray = []
             }
-            unsortedArray.push(
+            this.unsortedArray.push(
                 {
                     "groupName": groupName,
                     "num": num,
@@ -46,8 +45,15 @@ export default {
                 }
             )
 
-            localStorage.setItem('unsorted', JSON.stringify(unsortedArray));
-            console.log("unsorted: ", JSON.parse(localStorage.getItem('unsorted')));
+            localStorage.setItem('unsorted', JSON.stringify(this.unsortedArray));
+        },
+        checkPerson(array, value) {
+            for (var i = 0; i < array.length; i++) {
+                if (array[i].stageName === value) {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
@@ -89,6 +95,7 @@ export default {
 
 .fullGroupPic {
     width: 400px;
+    border: 1px solid #B0B0B0;
     border-radius: 8px;
 }
 
@@ -111,7 +118,7 @@ export default {
 
 .memberDivs {
     float: left;
-    height: fit-content;
+    height: 380px;
     width: 250px;
     /* width: fit-content; */
     text-align: center;
@@ -126,6 +133,7 @@ export default {
 
 .memberPic {
     width: 210px;
+    border: 1px solid #B0B0B0;
     border-radius: 8px;
     margin-bottom: 5px;
 }
@@ -159,10 +167,10 @@ button {
 }
 
 .added {
-    border: 1px solid #B0B0B0;
+    border: 1px solid #8f8f8f;
     border-radius: 5px;
-    color: rgb(225, 225, 225);
-    background-color: #9ca0cb;
+    color: rgb(184, 184, 184);
+    background-color: #7c7fa1;
     padding: 0px 15px;
     text-align: center;
     line-height: 0px;

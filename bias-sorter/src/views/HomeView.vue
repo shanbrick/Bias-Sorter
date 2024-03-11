@@ -10,29 +10,28 @@
         </div>
     </div>
 
-    <div id="ult" class="categories">
-        <div class="boxHeaderCategories">
-            <p class="categoryTitle">Ults</p>
+    <div class="sideCats">
+        <div v-for="cat in categoryArray" class="categories">
+            <div class="boxHeaderCategories">
+                <p class="categoryTitle">{{ cat }}</p>
+            </div>
+            <div id="{{cat}}">
+                <p>hi</p>
+            </div>
         </div>
-    </div>
 
-    <div id="semi" class="categories">
-        <div class="boxHeaderCategories">
-            <p class="categoryTitle">Semis</p>
-        </div>
     </div>
-
-    <div id="reg" class="categories">
-        <div class="boxHeaderCategories">
-            <p class="categoryTitle">Regs</p>
-        </div>
+    <div class="sideCats">
+        <button @click="addNewCategory('Untitled')"> + </button>
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-let unsortedArray = JSON.parse(localStorage.getItem('unsorted'));
+
+// let categoryArray = ["Ults", "Semis", "Regs"];
+localStorage.setItem('categories', JSON.stringify(["Ults", "Semis", "Regs"]));
 
 export default {
     name: 'HomeView',
@@ -46,13 +45,16 @@ export default {
 
     },
     data() {
-        return { unsorted: unsortedArray }
+        return { unsorted: JSON.parse(localStorage.getItem('unsorted')), categoryArray: JSON.parse(localStorage.getItem('categories')) }
     },
     computed: {
 
     },
     methods: {
-
+        addNewCategory(title) {
+            this.categoryArray.push(title)
+            localStorage.setItem('categories', JSON.stringify(this.categoryArray));
+        }
     }
 }
 </script>
@@ -92,9 +94,12 @@ export default {
     position: fixed;
 }
 
+.sideCats {
+    margin-left: 375px;
+}
+
 .categories {
     margin: 20px;
-    margin-left: 387px;
     margin-top: 65px;
     position: relative;
     background-color: #ffffff;
@@ -169,5 +174,19 @@ export default {
     border-radius: 8px;
     margin: 0px;
     padding: 0px;
+}
+
+button {
+    border: 1px solid #B0B0B0;
+    border-radius: 5px;
+    color: white;
+    background-color: #b3b8e9;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 </style>

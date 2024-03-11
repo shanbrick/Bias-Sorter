@@ -806,10 +806,67 @@
     {
         "groupName": "BTS",
         "bgs": "b",
-        "groupImage": "/default.jpeg",
-        "company": "",
-        "debutDate": "",
-        "members": []
+        "groupImage": "/imageArchive/BTS/group.jpeg",
+        "company": "Big Hit Music",
+        "debutDate": "June 13, 2013",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Jin",
+                "fullName": "Kim Seokjin",
+                "birthday": "December 04, 1992",
+                "imgLink": "/imageArchive/BTS/Jin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Suga",
+                "fullName": "Min Yoongi",
+                "birthday": "March 09, 1993",
+                "imgLink": "/imageArchive/BTS/Suga.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "3",
+                "stageName": "J-Hope",
+                "fullName": "Jung Hoseok",
+                "birthday": "February 18, 1994",
+                "imgLink": "/imageArchive/BTS/JHope.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "RM",
+                "fullName": "Kim Namjoon",
+                "birthday": "September 12, 1994",
+                "imgLink": "/imageArchive/BTS/RM.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Jimin",
+                "fullName": "Park Jimin",
+                "birthday": "October 13, 1995",
+                "imgLink": "/imageArchive/BTS/Jimin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "V",
+                "fullName": "Kim Taehyung",
+                "birthday": "December 30, 1995",
+                "imgLink": "/imageArchive/BTS/V.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "7",
+                "stageName": "Jungkook",
+                "fullName": "Jeon Jungkook",
+                "birthday": "September 01, 1997",
+                "imgLink": "/imageArchive/BTS/Jungkook.jpeg",
+                "status": "(Active)"
+            }
+        ]
     },
     {
         "groupName": "CIX",
@@ -940,14 +997,6 @@
                 "status": "(Active)"
             }
         ]
-    },
-    {
-        "groupName": "DAY6",
-        "bgs": "b",
-        "groupImage": "/default.jpeg",
-        "company": "",
-        "debutDate": "",
-        "members": []
     },
     {
         "groupName": "DKB",
@@ -1100,7 +1149,7 @@
         "bgs": "b",
         "groupImage": "/imageArchive/DRIPPIN/group.jpeg",
         "company": "Woollim Entertainment",
-        "debutDate": "October 28th, 2020",
+        "debutDate": "October 28, 2020",
         "members": [
             {
                 "num": "1",
@@ -1230,7 +1279,7 @@
         "bgs": "b",
         "groupImage": "/imageArchive/EPEX/group.jpeg",
         "company": "C9 Entertainment",
-        "debutDate": "June 8, 2021",
+        "debutDate": "June 08, 2021",
         "members": [
             {
                 "num": "1",
@@ -1423,10 +1472,99 @@
     {
         "groupName": "EXO",
         "bgs": "b",
-        "groupImage": "/default.jpeg",
-        "company": "",
-        "debutDate": "",
-        "members": []
+        "groupImage": "/imageArchive/EXO/group.jpeg",
+        "company": "SM Entertainment",
+        "debutDate": "April 08, 2012",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Xiumin",
+                "fullName": "Kim Minseok",
+                "birthday": "March 26, 1990",
+                "imgLink": "/imageArchive/EXO/Xiumin.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "2",
+                "stageName": "Luhan",
+                "fullName": "Lu Han",
+                "birthday": "April 20, 1990",
+                "imgLink": "/imageArchive/EXO/Luhan.jpeg",
+                "status": "(Former)"
+            },
+            {
+                "num": "3",
+                "stageName": "Suho",
+                "fullName": "Kim Junmyeon",
+                "birthday": "May 22, 1991",
+                "imgLink": "/imageArchive/EXO/Suho.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "4",
+                "stageName": "Lay",
+                "fullName": "Zhang Yixing",
+                "birthday": "October 07, 1991",
+                "imgLink": "/imageArchive/EXO/Lay.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "5",
+                "stageName": "Baekhyun",
+                "fullName": "Byun Baekhyun",
+                "birthday": "May 06, 1992",
+                "imgLink": "/imageArchive/EXO/Baekhyun.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "6",
+                "stageName": "Chen",
+                "fullName": "Kim Jongdae",
+                "birthday": "September 21, 1992",
+                "imgLink": "/imageArchive/EXO/Chen.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "7",
+                "stageName": "Chanyeol",
+                "fullName": "Park Chanyeol",
+                "birthday": "November 27, 1992",
+                "imgLink": "/imageArchive/EXO/Chanyeol.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "8",
+                "stageName": "D.O",
+                "fullName": "Do Kyungsoo",
+                "birthday": "January 12, 1993",
+                "imgLink": "/imageArchive/EXO/D.O.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "9",
+                "stageName": "Tao",
+                "fullName": "Huang Zitao",
+                "birthday": "May 02, 1993",
+                "imgLink": "/imageArchive/EXO/Tao.jpeg",
+                "status": "(Former)"
+            },
+            {
+                "num": "10",
+                "stageName": "Kai",
+                "fullName": "Kim Jongin",
+                "birthday": "January 14, 1994",
+                "imgLink": "/imageArchive/EXO/Kai.jpeg",
+                "status": "(Active)"
+            },
+            {
+                "num": "11",
+                "stageName": "Sehun",
+                "fullName": "Oh Sehun",
+                "birthday": "April 12, 1994",
+                "imgLink": "/imageArchive/EXO/Sehun.jpeg",
+                "status": "(Active)"
+            }
+        ]
     },
     {
         "groupName": "GHOST9",

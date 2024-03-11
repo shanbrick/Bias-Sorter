@@ -33,6 +33,7 @@ export default {
   text-align: center;
   color: black;
   background: #ededed;
+  margin: 0px;
 }
 
 * {
