@@ -13,16 +13,18 @@
     <div class="sideCats">
         <div v-for="cat in categoryArray" class="categories">
             <div class="boxHeaderCategories">
+                <!-- <input class="boxHeaderCatsInput" type="text" value=cat></input> -->
                 <p class="categoryTitle">{{ cat }}</p>
+                <button class="editCategoryButton"> ✎ </button>
             </div>
-            <div id="{{cat}}">
+            <div id="cat">
                 <p>hi</p>
             </div>
         </div>
 
     </div>
     <div class="sideCats">
-        <button @click="addNewCategory('Untitled')"> + </button>
+        <button @click="addNewCategory('Untitled')" class="addCategoryButton"> + </button>
     </div>
 </template>
 
@@ -30,8 +32,7 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 
-// let categoryArray = ["Ults", "Semis", "Regs"];
-localStorage.setItem('categories', JSON.stringify(["Ults", "Semis", "Regs"]));
+// localStorage.setItem('categories', JSON.stringify(["Ults", "Semis", "Regs"]));
 
 export default {
     name: 'HomeView',
@@ -54,6 +55,8 @@ export default {
         addNewCategory(title) {
             this.categoryArray.push(title)
             localStorage.setItem('categories', JSON.stringify(this.categoryArray));
+        },
+        editMode() {
         }
     }
 }
@@ -66,7 +69,6 @@ export default {
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
-    /* disable horizontal scroll */
     background-color: #ffffff;
     border-bottom: 1px solid #B0B0B0;
     border-left: 1px solid #B0B0B0;
@@ -144,6 +146,24 @@ export default {
     position: relative;
 }
 
+.boxHeaderCatsInput {
+    height: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #8589ad;
+    border: 1px solid #6e6e6e;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: -15px;
+    /*padding categories + boxheader height*/
+    margin-bottom: 10px;
+    margin-left: -15px;
+    /* categories padding*/
+    margin-right: -1px;
+    position: relative;
+    float: left;
+}
+
 .idolName {
     text-align: center;
     font-size: 15px;
@@ -176,7 +196,7 @@ export default {
     padding: 0px;
 }
 
-button {
+.addCategoryButton {
     border: 1px solid #B0B0B0;
     border-radius: 5px;
     color: white;
@@ -187,6 +207,23 @@ button {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    cursor: pointer;
+}
+
+.editCategoryButton {
+    margin-top: -8px;
+    margin-right: -8px;
+    border: 1px solid #6e6e6e;
+    border-radius: 5px;
+    color: white;
+    background-color: #8589ad;
+    /* padding: 7px 15px; */
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    /* display: inline-block; */
+    font-size: 16px;
+    /* margin: 4px 2px; */
     cursor: pointer;
 }
 </style>
