@@ -7,7 +7,7 @@
             <p><i>Debut:</i> {{ group.debutDate }}</p>
         </div>
 
-        <div v-for="person in   group.members  " class="memberDivs">
+        <div v-for="person in group.members" class="memberDivs">
             <img class="memberPic" :src="require('../assets' + person.imgLink)">
             <p class="memberName">{{ person.stageName }} <span class="memberInfo" v-if="person.status !== '(Active)'">
                     {{ person.status }}</span></p>

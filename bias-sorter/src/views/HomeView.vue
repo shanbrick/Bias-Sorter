@@ -18,7 +18,7 @@
                 <button class="editCategoryButton"> ✎ </button>
             </div>
             <div id="cat">
-                <p>hi</p>
+                <p></p>
             </div>
         </div>
 
