@@ -1807,7 +1807,7 @@
                 "fullName": "Seo Soojin",
                 "birthday": "March 09, 1998",
                 "imgLink": "/imageArchive/GIDLE/Soojin.jpeg",
-                "afr": "r"
+                "afr": "'Soojin'"
             },
             {
                 "num": "4",
@@ -2532,7 +2532,7 @@
                 "fullName": "Wong Gaahei",
                 "birthday": "December 09, 1996",
                 "imgLink": "/imageArchive/LOONA/Vivi.jpeg",
-                "afr": "r"
+                "afr": "'Loossemble'"
             },
             {
                 "num": "2",
@@ -2548,7 +2548,7 @@
                 "fullName": "Jung Jinsol",
                 "birthday": "June 13, 1997",
                 "imgLink": "/imageArchive/LOONA/Jinsoul.jpeg",
-                "afr": "r"
+                "afr": "'ARTMS'"
             },
             {
                 "num": "4",
@@ -2556,7 +2556,7 @@
                 "fullName": "Jo Haseul",
                 "birthday": "August 18, 1997",
                 "imgLink": "/imageArchive/LOONA/Haseul.jpeg",
-                "afr": "r"
+                "afr": "'ARTMS'"
             },
             {
                 "num": "5",
@@ -2564,7 +2564,7 @@
                 "fullName": "Kim Jungeun",
                 "birthday": "February 10, 1999",
                 "imgLink": "/imageArchive/LOONA/KimLip.jpeg",
-                "afr": "r"
+                "afr": "'ARTMS'"
             },
             {
                 "num": "6",
@@ -2572,7 +2572,7 @@
                 "fullName": "Kim Jiwoo",
                 "birthday": "October 20, 1999",
                 "imgLink": "/imageArchive/LOONA/Chuu.jpeg",
-                "afr": "r"
+                "afr": "'Chuu'"
             },
             {
                 "num": "7",
@@ -2580,7 +2580,7 @@
                 "fullName": "Jeon Heejin",
                 "birthday": "October 19, 2000",
                 "imgLink": "/imageArchive/LOONA/Heejin.jpeg",
-                "afr": "r"
+                "afr": "'ARTMS'"
             },
             {
                 "num": "8",
@@ -2588,7 +2588,7 @@
                 "fullName": "Kim Hyunjin",
                 "birthday": "November 15, 2000",
                 "imgLink": "/imageArchive/LOONA/Hyunjin.jpeg",
-                "afr": "r"
+                "afr": "'Loossemble'"
             },
             {
                 "num": "9",
@@ -2596,7 +2596,7 @@
                 "fullName": "Park Chaewon",
                 "birthday": "November 19, 2000",
                 "imgLink": "/imageArchive/LOONA/Gowon.jpeg",
-                "afr": "r"
+                "afr": "'Loossemble'"
             },
             {
                 "num": "10",
@@ -2604,7 +2604,7 @@
                 "fullName": "Choi Yerim",
                 "birthday": "June 04, 2001",
                 "imgLink": "/imageArchive/LOONA/Choerry.jpeg",
-                "afr": "r"
+                "afr": "'ARTMS'"
             },
             {
                 "num": "11",
@@ -2612,7 +2612,7 @@
                 "fullName": "Son Hyejoo",
                 "birthday": "November 13, 2001",
                 "imgLink": "/imageArchive/LOONA/OliviaHye.jpeg",
-                "afr": "r"
+                "afr": "'Loossemble'"
             },
             {
                 "num": "12",
@@ -2620,7 +2620,7 @@
                 "fullName": "Im Yeojin",
                 "birthday": "November 11, 2002",
                 "imgLink": "/imageArchive/LOONA/Yeojin.jpeg",
-                "afr": "r"
+                "afr": "'Loossemble'"
             }
         ]
     },
@@ -2873,7 +2873,7 @@
                 "fullName": "Shin Hoseok",
                 "birthday": "March 01, 1993",
                 "imgLink": "/imageArchive/MONSTAX/Wonho.jpeg",
-                "afr": "r"
+                "afr": "'Wonho'"
             },
             {
                 "num": "3",
@@ -3387,11 +3387,11 @@
             },
             {
                 "num": "4",
-                "stageName": "Jini",
+                "stageName": "Jinni",
                 "fullName": "Choi Yunjin",
                 "birthday": "April 16, 2004",
-                "imgLink": "/imageArchive/NMIXX/Jini.jpeg",
-                "afr": "r"
+                "imgLink": "/imageArchive/NMIXX/Jinni.jpeg",
+                "afr": "'Jinni'"
             },
             {
                 "num": "5",
@@ -4576,7 +4576,7 @@
                 "fullName": "Bang Yedam",
                 "birthday": "May 07, 2002",
                 "imgLink": "/imageArchive/TREASURE/Yedam.jpeg",
-                "afr": "r"
+                "afr": "'Yedam'"
             },
             {
                 "num": "9",

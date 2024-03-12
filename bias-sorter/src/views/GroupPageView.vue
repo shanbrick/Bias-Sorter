@@ -16,6 +16,8 @@
             <div v-if="checkPerson(unsortedArray, person.stageName)" class="added">
                 <p>Added</p>
             </div>
+            <!-- <button v-else-if="person.afr !== 'a' && person.afr !== 'f'"
+                @click="populateGroupPage(person.afr)">➜</button> -->
             <button v-else
                 @click="addToUnsorted(group.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
         </div>
@@ -54,6 +56,13 @@ export default {
                 }
             }
             return false;
+        },
+        populateGroupPage(groupInput) {
+            if (group === null) {
+                group = []
+            }
+            group = groupInput
+            localStorage.setItem('selectedGroup', JSON.stringify(this.group));
         }
     }
 }
