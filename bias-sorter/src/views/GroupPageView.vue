@@ -16,8 +16,8 @@
             <div v-if="checkPerson(unsortedArray, person.stageName)" class="added">
                 <p>Added</p>
             </div>
-            <button v-else-if="person.afr !== 'a' && person.afr !== 'f'"
-                @click="populateGroupPage(person.afr)">➜</button>
+            <!-- <button v-else-if="person.afr !== 'a' && person.afr !== 'f'"
+                @click="populateGroupPage(person.afr)">➜</button> -->
             <button v-else
                 @click="addToUnsorted(group.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
         </div>
@@ -58,18 +58,18 @@ export default {
             }
             return false;
         },
-        populateGroupPage(groupInput) {
-            if (this.group === null) {
-                this.group = []
-            }
-            let groupArray = []
-            for (var i = 0; i < this.groupList.length; i++) {
-                if (this.groupList[i].groupName === groupInput) {
-                    groupArray = this.groupList[i]
-                }
-            }
-            localStorage.setItem('selectedGroup', JSON.stringify(groupArray));
-        }
+        // populateGroupPage(groupInput) {
+        //     if (this.group === null) {
+        //         this.group = []
+        //     }
+        //     let groupArray = []
+        //     for (var i = 0; i < this.groupList.length; i++) {
+        //         if (this.groupList[i].groupName === groupInput) {
+        //             groupArray = this.groupList[i]
+        //         }
+        //     }
+        //     localStorage.setItem('selectedGroup', JSON.stringify(groupArray));
+        // }
     }
 }
 </script>
@@ -81,7 +81,7 @@ export default {
     margin-top: 20px;
     align-content: center;
     text-align: center;
-    background-color: white;
+    background-color: #ededed;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #B0B0B0;
@@ -106,11 +106,12 @@ export default {
     border: 1px solid #B0B0B0;
     border-radius: 8px;
     background-color: #edecff;
+    background-image: linear-gradient(#747fe6, #b3b8e9);
 }
 
 .fullGroupPic {
     width: 400px;
-    border: 1px solid #B0B0B0;
+    border: 1px solid #848484;
     border-radius: 8px;
 }
 
@@ -144,11 +145,12 @@ export default {
     border: 1px solid #B0B0B0;
     border-radius: 8px;
     background-color: #edecff;
+    background-image: linear-gradient(#747fe6, #b3b8e9);
 }
 
 .memberPic {
     width: 210px;
-    border: 1px solid #B0B0B0;
+    border: 1px solid #848484;
     border-radius: 8px;
     margin-bottom: 5px;
 }
@@ -168,10 +170,10 @@ export default {
 }
 
 button {
-    border: 1px solid #B0B0B0;
+    border: 1px solid #848484;
     border-radius: 5px;
-    color: white;
-    background-color: #b3b8e9;
+    color: rgb(0, 0, 0);
+    background-color: #ededed;
     padding: 7px 15px;
     text-align: center;
     text-decoration: none;
@@ -182,10 +184,10 @@ button {
 }
 
 .added {
-    border: 1px solid #8f8f8f;
+    border: 1px solid #898989;
     border-radius: 5px;
-    color: rgb(184, 184, 184);
-    background-color: #7c7fa1;
+    color: #474747;
+    background-color: #747fe6;
     padding: 0px 15px;
     text-align: center;
     line-height: 0px;

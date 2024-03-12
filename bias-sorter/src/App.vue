@@ -32,18 +32,20 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: black;
-  background: #ededed;
-  margin: 0px;
-  height: fit-content;
+  background: #ffffff;
 }
 
 * {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0px
+}
+
 nav {
   overflow: hidden;
-  background-color: #b3b8e9;
+  background-color: #747fe6;
   font-weight: bold;
   font-size: 16px;
 }
@@ -62,7 +64,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #8d91b7;
+  background-color: #505cc7;
   color: white;
   cursor: pointer;
 }
@@ -74,17 +76,18 @@ input {
   font-weight: 500;
   font-size: 15px;
   font-family: Trebuchet MS;
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 5px;
   border-color: #50a0d900;
-  background-color: #8d91b7;
+  background-color: #ffffff;
   padding: 7px;
 }
 
 .header {
-  padding: 5px;
+  padding: 15px;
   text-align: center;
   background: #b3b8e9;
+  background-image: linear-gradient(#b3b8e9, #747fe6);
   color: white;
 }
 

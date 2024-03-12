@@ -1,5 +1,5 @@
 <template>
-    <div class="directoryBox">
+    <!-- <div class="directoryBox">
         <p class="directory">
             <a href="#symbol">#</a>
             <a href="#A">A</a>
@@ -29,7 +29,7 @@
             <a href="#Y">Y</a>
             <a href="#Z">Z</a>
         </p>
-    </div>
+    </div> -->
 
     <div class="listBox">
         <div v-for="group in groupsData">
@@ -73,7 +73,7 @@ export default {
     overflow-x: hidden;
     /* disable horizontal scroll */
     overflow-y: auto;
-    background-color: #ffffff;
+    background-color: #ededed;
     border: 1px solid #B0B0B0;
     border-radius: 10px;
     padding: 0px;
@@ -99,9 +99,11 @@ export default {
 }
 
 .listBox {
-    background-color: white;
-    margin: 20px;
-    margin-left: 140px;
+    background-color: #ededed;
+    margin: auto;
+    margin-top: 20px;
+    width: 88%;
+    /* margin-left: 140px; */
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -133,6 +135,7 @@ export default {
     height: 170px;
     border-radius: 8px;
     object-fit: cover;
+    border: 1px solid #848484;
 }
 
 .groupNameList {

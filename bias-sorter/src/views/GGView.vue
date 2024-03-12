@@ -1,5 +1,5 @@
 <template>
-    <div class="directoryBox">
+    <!-- <div class="directoryBox">
         <p class="directory">
             <a href="#symbol">#</a>
             <a href="#A">A</a>
@@ -29,7 +29,7 @@
             <a href="#Y">Y</a>
             <a href="#Z">Z</a>
         </p>
-    </div>
+    </div> -->
 
     <div class="listBox">
         <div v-for="group in groupsData">

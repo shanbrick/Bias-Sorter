@@ -15,7 +15,7 @@
             <div class="boxHeaderCategories">
                 <!-- <input class="boxHeaderCatsInput" type="text" value=cat></input> -->
                 <p class="categoryTitle">{{ cat }}</p>
-                <button class="editCategoryButton"> ✎ </button>
+                <!-- <button class="editCategoryButton"> ✎ </button> -->
             </div>
             <div id="cat">
                 <p></p>
@@ -69,7 +69,7 @@ export default {
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
-    background-color: #ffffff;
+    background-color: #ededed;
     border-bottom: 1px solid #B0B0B0;
     border-left: 1px solid #B0B0B0;
     border-right: 1px solid #B0B0B0;
@@ -85,6 +85,7 @@ export default {
     height: 45px;
     width: 342px;
     background-color: #b3b8e9;
+    background-image: linear-gradient(#b3b8e9, #747fe6);
     border-top: 1px solid #B0B0B0;
     border-left: 1px solid #B0B0B0;
     border-right: 1px solid #B0B0B0;
@@ -104,7 +105,7 @@ export default {
     margin: 20px;
     margin-top: 65px;
     position: relative;
-    background-color: #ffffff;
+    background-color: #ededed;
     padding: 10px;
     padding-left: 0px;
     padding-right: 0px;
@@ -117,7 +118,6 @@ export default {
 .categoryTitle {
     top: -8px;
     position: absolute;
-    z-index: 1;
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -132,6 +132,7 @@ export default {
 .boxHeaderCategories {
     height: 45px;
     background-color: #b3b8e9;
+    background-image: linear-gradient(#b3b8e9, #747fe6);
     border-top: 1px solid B0B0B0;
     border-left: 1px solid #B0B0B0;
     border-right: 1px solid #B0B0B0;
@@ -192,6 +193,7 @@ export default {
 .homePage {
     width: 130px;
     border-radius: 8px;
+    border: 1px solid #848484;
     margin: 0px;
     padding: 0px;
 }
@@ -201,6 +203,7 @@ export default {
     border-radius: 5px;
     color: white;
     background-color: #b3b8e9;
+    background-image: linear-gradient(#b3b8e9, #747fe6);
     padding: 7px 15px;
     text-align: center;
     text-decoration: none;
