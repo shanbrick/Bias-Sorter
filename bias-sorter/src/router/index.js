@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import BGView from '../views/BGView.vue'
 import GGView from '../views/GGView.vue'
-import SoloView from '../views/Solo.vue'
+import SoloView from '../views/SoloView.vue'
 import GroupPageView from '../views/GroupPageView.vue'
 
 const routes = [

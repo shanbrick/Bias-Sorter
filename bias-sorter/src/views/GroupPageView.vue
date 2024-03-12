@@ -9,8 +9,8 @@
 
         <div v-for="person in group.members" class="memberDivs">
             <img class="memberPic" :src="require('../assets' + person.imgLink)">
-            <p class="memberName">{{ person.stageName }} <span class="memberInfo" v-if="person.status !== '(Active)'">
-                    {{ person.status }}</span></p>
+            <p class="memberName">{{ person.stageName }} <span class="memberInfo" v-if="person.afr !== 'a'">
+                    (Former)</span></p>
             <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
             <div v-if="checkPerson(unsortedArray, person.stageName)" class="added">
