@@ -36,8 +36,6 @@
             <div class="groupDiv" v-if="group.bgs === 'b' || group.bgs === 'bg'">
                 <a href="/groupPage" @click="populateGroupPage(group)">
                     <img class="groupPicList" :src="require('../assets' + group.groupImage)">
-                </a>
-                <a href="/groupPage" @click="populateGroupPage(group)">
                     <p class="groupNameList">{{ group.groupName }}</p>
                 </a>
             </div>

@@ -34,7 +34,7 @@ export default {
   color: black;
   background: #ededed;
   margin: 0px;
-  height: 900px;
+  height: fit-content;
 }
 
 * {
