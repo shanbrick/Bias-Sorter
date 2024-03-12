@@ -16,8 +16,8 @@
             <div v-if="checkPerson(unsortedArray, person.stageName)" class="added">
                 <p>Added</p>
             </div>
-            <!-- <button v-else-if="person.afr !== 'a' && person.afr !== 'f'"
-                @click="populateGroupPage(person.afr)">➜</button> -->
+            <button v-else-if="person.afr !== 'a' && person.afr !== 'f'"
+                @click="populateGroupPage(person.afr)">➜</button>
             <button v-else
                 @click="addToUnsorted(group.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
         </div>
@@ -25,11 +25,12 @@
 </template>
 
 <script>
+import groupListEdit from '@/groupListEdit.json'
 
 export default {
     name: 'GroupPageView',
     data() {
-        return { group: JSON.parse(localStorage.getItem('selectedGroup')), unsortedArray: JSON.parse(localStorage.getItem('unsorted')) }
+        return { groupList: groupListEdit, group: JSON.parse(localStorage.getItem('selectedGroup')), unsortedArray: JSON.parse(localStorage.getItem('unsorted')) }
     },
     methods: {
         addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
@@ -58,11 +59,16 @@ export default {
             return false;
         },
         populateGroupPage(groupInput) {
-            if (group === null) {
-                group = []
+            if (this.group === null) {
+                this.group = []
             }
-            group = groupInput
-            localStorage.setItem('selectedGroup', JSON.stringify(this.group));
+            let groupArray = []
+            for (var i = 0; i < this.groupList.length; i++) {
+                if (this.groupList[i].groupName === groupInput) {
+                    groupArray = this.groupList[i]
+                }
+            }
+            localStorage.setItem('selectedGroup', JSON.stringify(groupArray));
         }
     }
 }
