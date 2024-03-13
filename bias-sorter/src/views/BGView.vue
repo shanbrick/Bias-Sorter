@@ -100,6 +100,7 @@ export default {
 
 .listBox {
     background-color: #ededed;
+    background: radial-gradient(#ffffff, #c7c7c7);
     margin: auto;
     margin-top: 40px;
     width: 88%;

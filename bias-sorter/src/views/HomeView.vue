@@ -69,7 +69,7 @@ export default {
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
-    background-color: #ededed;
+    background: radial-gradient(#ffffff, #dadada);
     border-bottom: 1px solid #909090;
     border-left: 1px solid #909090;
     border-right: 1px solid #909090;
@@ -105,7 +105,7 @@ export default {
     margin: 20px;
     margin-top: 65px;
     position: relative;
-    background-color: #ededed;
+    background: radial-gradient(#ffffff, #dadada);
     padding: 10px;
     padding-left: 0px;
     padding-right: 0px;

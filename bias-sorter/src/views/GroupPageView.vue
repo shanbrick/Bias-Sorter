@@ -9,8 +9,7 @@
 
         <div v-for="person in group.members" class="memberDivs">
             <img class="memberPic" :src="require('../assets' + person.imgLink)">
-            <p class="memberName">{{ person.stageName }} <span class="memberInfo" v-if="person.afr !== 'a'">
-                    (Former)</span></p>
+            <p class="memberName">{{ person.stageName }}</p>
             <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
             <div v-if="checkPerson(unsortedArray, person.stageName)" class="added">
@@ -81,7 +80,7 @@ export default {
     margin-top: 20px;
     align-content: center;
     text-align: center;
-    background-color: #ededed;
+    background: radial-gradient(#ffffff, #dadada);
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #B0B0B0;
@@ -167,6 +166,14 @@ export default {
     font-size: 14px;
     text-align: center;
     margin: 5px;
+}
+
+.former {
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+    position: relative;
+    font-style: italic;
 }
 
 button {
