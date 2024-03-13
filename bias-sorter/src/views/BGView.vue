@@ -101,14 +101,15 @@ export default {
 .listBox {
     background-color: #ededed;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 88%;
     /* margin-left: 140px; */
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
-    border: 1px solid #B0B0B0;
+    /* border: 1px solid #B0B0B0; */
+    box-shadow: 0px 0px 5px black;
 }
 
 .listBox:after {
@@ -135,7 +136,8 @@ export default {
     height: 170px;
     border-radius: 8px;
     object-fit: cover;
-    border: 1px solid #848484;
+    /* border: 1px solid #848484; */
+    box-shadow: 0px 0px 5px black;
 }
 
 .groupNameList {

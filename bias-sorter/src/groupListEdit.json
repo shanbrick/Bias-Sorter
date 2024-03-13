@@ -11,7 +11,8 @@
                 "stageName": "K",
                 "fullName": "Koga Yudai",
                 "birthday": "October 21, 1997",
-                "imgLink": "/imageArchive/&TEAM/K.jpeg"
+                "imgLink": "/imageArchive/&TEAM/K.jpeg",
+                "afr": "a"
             },
             {
                 "num": "2",
@@ -1032,6 +1033,71 @@
         ]
     },
     {
+        "groupName": "Cherry Bullet",
+        "bgs": "g",
+        "groupImage": "/imageArchive/CherryBullet/group.jpeg",
+        "company": "FNC Entertainment",
+        "debutDate": "January 21, 2019",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Haeyoon",
+                "fullName": "Park Haeyoon",
+                "birthday": "January 10, 1996",
+                "imgLink": "/imageArchive/CherryBullet/Haeyoon.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Yuju",
+                "fullName": "Choi Yuju",
+                "birthday": "March 05, 1997",
+                "imgLink": "/imageArchive/CherryBullet/Yuju.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Bora",
+                "fullName": "Kim Bora",
+                "birthday": "March 03, 1999",
+                "imgLink": "/imageArchive/CherryBullet/Bora.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Jiwon",
+                "fullName": "Heo Jiwon",
+                "birthday": "September 04, 2000",
+                "imgLink": "/imageArchive/CherryBullet/Jiwon.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Remi",
+                "fullName": "Katsuno Rise",
+                "birthday": "April 26, 2001",
+                "imgLink": "/imageArchive/CherryBullet/Remi.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "6",
+                "stageName": "Chaerin",
+                "fullName": "Park Chaerin",
+                "birthday": "March 13, 2002",
+                "imgLink": "/imageArchive/CherryBullet/Chaerin.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "7",
+                "stageName": "May",
+                "fullName": "Hirokawa Mao",
+                "birthday": "November 16, 2004",
+                "imgLink": "/imageArchive/CherryBullet/May.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "Chuu",
         "bgs": "s",
         "groupImage": "/imageArchive/Solo/ChuuBig.jpeg",
@@ -1125,6 +1191,47 @@
                 "fullName": "An Seongmin",
                 "birthday": "August 01, 2003",
                 "imgLink": "/imageArchive/CRAVITY/Seongmin.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "DAY6",
+        "bgs": "b",
+        "groupImage": "/imageArchive/DAY6/group.jpeg",
+        "company": "Studio J",
+        "debutDate": "September 07, 2015",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Sungjin",
+                "fullName": "Park Sungjin",
+                "birthday": "January 16, 1993",
+                "imgLink": "/imageArchive/DAY6/Sungjin.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Young K",
+                "fullName": "Kang Younghyun",
+                "birthday": "December 19, 1993",
+                "imgLink": "/imageArchive/DAY6/Young K.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Wonpil",
+                "fullName": "Kim Wonpil",
+                "birthday": "April 28, 1994",
+                "imgLink": "/imageArchive/DAY6/Wonpil.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Dowoon",
+                "fullName": "Yoon Dowoon",
+                "birthday": "August 25, 1995",
+                "imgLink": "/imageArchive/DAY6/Dowoon.jpeg",
                 "afr": "a"
             }
         ]
@@ -1337,6 +1444,63 @@
                 "birthday": "October 06, 2004",
                 "imgLink": "/imageArchive/DRIPPIN/Alex.jpeg",
                 "afr": "f"
+            }
+        ]
+    },
+    {
+        "groupName": "DXMON",
+        "bgs": "b",
+        "groupImage": "/imageArchive/DXMON/group.jpeg",
+        "company": "SSQ Entertainment",
+        "debutDate": "January 17, 2024",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Seita",
+                "fullName": "Takizawa Seita",
+                "birthday": "February 21, 2003",
+                "imgLink": "/imageArchive/DXMON/Seita.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Minjae",
+                "fullName": "Baek Minjae",
+                "birthday": "July 09, 2003",
+                "imgLink": "/imageArchive/DXMON/Minjae.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Hee",
+                "fullName": "Shin Youngseo",
+                "birthday": "December 28, 2005",
+                "imgLink": "/imageArchive/DXMON/Hee.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "TK",
+                "fullName": "Kim Taekyu",
+                "birthday": "January 09, 2006",
+                "imgLink": "/imageArchive/DXMON/TK.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Rex",
+                "fullName": "Kim Minjun",
+                "birthday": "July 27, 2007",
+                "imgLink": "/imageArchive/DXMON/Rex.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "6",
+                "stageName": "Jo",
+                "fullName": "Kim Junseong",
+                "birthday": "February 04, 2008",
+                "imgLink": "/imageArchive/DXMON/Jo.jpeg",
+                "afr": "a"
             }
         ]
     },
@@ -1698,6 +1862,87 @@
         ]
     },
     {
+        "groupName": "fromis_9",
+        "bgs": "g",
+        "groupImage": "/imageArchive/fromis_9/group.jpeg",
+        "company": "PLEDIS Entertainment",
+        "debutDate": "January 24, 2018",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Saerom",
+                "fullName": "Lee Saerom",
+                "birthday": "January 07, 1997",
+                "imgLink": "/imageArchive/fromis_9/Saerom.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Hayoung",
+                "fullName": "Song Hayoung",
+                "birthday": "September 29, 1997",
+                "imgLink": "/imageArchive/fromis_9/Hayoung.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Gyuri",
+                "fullName": "Jang Gyuri",
+                "birthday": "December 27, 1997",
+                "imgLink": "/imageArchive/fromis_9/Gyuri.jpeg",
+                "afr": "f"
+            },
+            {
+                "num": "4",
+                "stageName": "Jiwon",
+                "fullName": "Park Jiwon",
+                "birthday": "March 20, 1998",
+                "imgLink": "/imageArchive/fromis_9/Jiwon.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Jisun",
+                "fullName": "Roh Jisun",
+                "birthday": "November 23, 1998",
+                "imgLink": "/imageArchive/fromis_9/Jisun.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "6",
+                "stageName": "Seoyeon",
+                "fullName": "Lee Seoyeon",
+                "birthday": "January 22, 2000",
+                "imgLink": "/imageArchive/fromis_9/Seoyeon.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "7",
+                "stageName": "Chaeyoung",
+                "fullName": "Lee Chaeyoung",
+                "birthday": "May 14, 2000",
+                "imgLink": "/imageArchive/fromis_9/Chaeyoung.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "8",
+                "stageName": "Nagyung",
+                "fullName": "Lee Nagyung",
+                "birthday": "June 01, 2000",
+                "imgLink": "/imageArchive/fromis_9/Nagyung.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "9",
+                "stageName": "Jiheon",
+                "fullName": "Bark Jiheon",
+                "birthday": "April 17, 2003",
+                "imgLink": "/imageArchive/fromis_9/Jiheon.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "GHOST9",
         "bgs": "b",
         "groupImage": "/imageArchive/GHOST9/group.jpeg",
@@ -1807,7 +2052,7 @@
                 "fullName": "Seo Soojin",
                 "birthday": "March 09, 1998",
                 "imgLink": "/imageArchive/GIDLE/Soojin.jpeg",
-                "afr": "'Soojin'"
+                "afr": "Soojin"
             },
             {
                 "num": "4",
@@ -2026,6 +2271,128 @@
                 "fullName": "Han Shinyoung",
                 "birthday": "December 25, 2004",
                 "imgLink": "/imageArchive/H1KEY/Yel.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "ICHILLIN'",
+        "bgs": "g",
+        "groupImage": "/imageArchive/ICHILLIN/group.jpeg",
+        "company": "KM Entertainment",
+        "debutDate": "September 08, 2021",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Jiyoon",
+                "fullName": "Jeong Jiyoon",
+                "birthday": "September 15, 2000",
+                "imgLink": "/imageArchive/ICHILLIN/Jiyoon.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "E.JI",
+                "fullName": "Choi Jiwon",
+                "birthday": "November 08, 2000",
+                "imgLink": "/imageArchive/ICHILLIN/EJI.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Jackie",
+                "fullName": "Kang Chaeyeon",
+                "birthday": "November 17, 2001",
+                "imgLink": "/imageArchive/ICHILLIN/Jackie.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Joonie",
+                "fullName": "Park Joonhee",
+                "birthday": "May 24, 2002",
+                "imgLink": "/imageArchive/ICHILLIN/Joonie.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Chaerin",
+                "fullName": "Park Chaerin",
+                "birthday": "March 31, 2003",
+                "imgLink": "/imageArchive/ICHILLIN/Chaerin.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "6",
+                "stageName": "Sohee",
+                "fullName": "Eom Sohee",
+                "birthday": "January 01, 2004",
+                "imgLink": "/imageArchive/ICHILLIN/Sohee.jpeg",
+                "afr": "f"
+            },
+            {
+                "num": "7",
+                "stageName": "Yeju",
+                "fullName": "Kim Yeju",
+                "birthday": "September 01, 2004",
+                "imgLink": "/imageArchive/ICHILLIN/Yeju.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "8",
+                "stageName": "Chowon",
+                "fullName": "Kim Chowon",
+                "birthday": "August 18, 2005",
+                "imgLink": "/imageArchive/ICHILLIN/Chowon.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "I'LL IT",
+        "bgs": "g",
+        "groupImage": "/imageArchive/ILLIT/group.jpeg",
+        "company": "BE:LIFT Lab",
+        "debutDate": "March 25th, 2024",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Yunah",
+                "fullName": "Roh Yunah",
+                "birthday": "January 15, 2004",
+                "imgLink": "/imageArchive/ILLIT/Yunah.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Minju",
+                "fullName": "Park Minju",
+                "birthday": "May 11, 2004",
+                "imgLink": "/imageArchive/ILLIT/Minju.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Moka",
+                "fullName": "Sakai Moka",
+                "birthday": "October 08, 2004",
+                "imgLink": "/imageArchive/ILLIT/Moka.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Wonhee",
+                "fullName": "Lee Wonhee",
+                "birthday": "June 26, 2007",
+                "imgLink": "/imageArchive/ILLIT/Wonhee.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Iroha",
+                "fullName": "Hokazono Iroha",
+                "birthday": "February 04, 2008",
+                "imgLink": "/imageArchive/ILLIT/Iroha.jpeg",
                 "afr": "a"
             }
         ]
@@ -2532,7 +2899,7 @@
                 "fullName": "Wong Gaahei",
                 "birthday": "December 09, 1996",
                 "imgLink": "/imageArchive/LOONA/Vivi.jpeg",
-                "afr": "'Loossemble'"
+                "afr": "Loossemble"
             },
             {
                 "num": "2",
@@ -2548,7 +2915,7 @@
                 "fullName": "Jung Jinsol",
                 "birthday": "June 13, 1997",
                 "imgLink": "/imageArchive/LOONA/Jinsoul.jpeg",
-                "afr": "'ARTMS'"
+                "afr": "ARTMS"
             },
             {
                 "num": "4",
@@ -2556,7 +2923,7 @@
                 "fullName": "Jo Haseul",
                 "birthday": "August 18, 1997",
                 "imgLink": "/imageArchive/LOONA/Haseul.jpeg",
-                "afr": "'ARTMS'"
+                "afr": "ARTMS"
             },
             {
                 "num": "5",
@@ -2564,7 +2931,7 @@
                 "fullName": "Kim Jungeun",
                 "birthday": "February 10, 1999",
                 "imgLink": "/imageArchive/LOONA/KimLip.jpeg",
-                "afr": "'ARTMS'"
+                "afr": "ARTMS"
             },
             {
                 "num": "6",
@@ -2572,7 +2939,7 @@
                 "fullName": "Kim Jiwoo",
                 "birthday": "October 20, 1999",
                 "imgLink": "/imageArchive/LOONA/Chuu.jpeg",
-                "afr": "'Chuu'"
+                "afr": "Chuu"
             },
             {
                 "num": "7",
@@ -2580,7 +2947,7 @@
                 "fullName": "Jeon Heejin",
                 "birthday": "October 19, 2000",
                 "imgLink": "/imageArchive/LOONA/Heejin.jpeg",
-                "afr": "'ARTMS'"
+                "afr": "ARTMS"
             },
             {
                 "num": "8",
@@ -2588,7 +2955,7 @@
                 "fullName": "Kim Hyunjin",
                 "birthday": "November 15, 2000",
                 "imgLink": "/imageArchive/LOONA/Hyunjin.jpeg",
-                "afr": "'Loossemble'"
+                "afr": "Loossemble"
             },
             {
                 "num": "9",
@@ -2596,7 +2963,7 @@
                 "fullName": "Park Chaewon",
                 "birthday": "November 19, 2000",
                 "imgLink": "/imageArchive/LOONA/Gowon.jpeg",
-                "afr": "'Loossemble'"
+                "afr": "Loossemble"
             },
             {
                 "num": "10",
@@ -2604,7 +2971,7 @@
                 "fullName": "Choi Yerim",
                 "birthday": "June 04, 2001",
                 "imgLink": "/imageArchive/LOONA/Choerry.jpeg",
-                "afr": "'ARTMS'"
+                "afr": "ARTMS"
             },
             {
                 "num": "11",
@@ -2612,7 +2979,7 @@
                 "fullName": "Son Hyejoo",
                 "birthday": "November 13, 2001",
                 "imgLink": "/imageArchive/LOONA/OliviaHye.jpeg",
-                "afr": "'Loossemble'"
+                "afr": "Loossemble"
             },
             {
                 "num": "12",
@@ -2620,7 +2987,7 @@
                 "fullName": "Im Yeojin",
                 "birthday": "November 11, 2002",
                 "imgLink": "/imageArchive/LOONA/Yeojin.jpeg",
-                "afr": "'Loossemble'"
+                "afr": "Loossemble"
             }
         ]
     },
@@ -2873,7 +3240,7 @@
                 "fullName": "Shin Hoseok",
                 "birthday": "March 01, 1993",
                 "imgLink": "/imageArchive/MONSTAX/Wonho.jpeg",
-                "afr": "'Wonho'"
+                "afr": "Wonho"
             },
             {
                 "num": "3",
@@ -3391,7 +3758,7 @@
                 "fullName": "Choi Yunjin",
                 "birthday": "April 16, 2004",
                 "imgLink": "/imageArchive/NMIXX/Jinni.jpeg",
-                "afr": "'Jinni'"
+                "afr": "Jini"
             },
             {
                 "num": "5",
@@ -3566,6 +3933,55 @@
         ]
     },
     {
+        "groupName": "ONE PACT",
+        "bgs": "b",
+        "groupImage": "/imageArchive/ONEPACT/group.jpeg",
+        "company": "Armada Entertainment",
+        "debutDate": "November 30, 2023",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Jongwoo",
+                "fullName": "Yoon Jongwoo",
+                "birthday": "June 12, 2000",
+                "imgLink": "/imageArchive/ONEPACT/Jongwoo.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Jay",
+                "fullName": "Jay Chang",
+                "birthday": "March 08, 2001",
+                "imgLink": "/imageArchive/ONEPACT/Jay.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Seongmin",
+                "fullName": "Oh Seongmin",
+                "birthday": "August 25, 2001",
+                "imgLink": "/imageArchive/ONEPACT/Seongmin.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "TAG",
+                "fullName": "Yeom Taegyun",
+                "birthday": "September 30, 2002",
+                "imgLink": "/imageArchive/ONEPACT/TAG.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Yedam",
+                "fullName": "Lee Yedam",
+                "birthday": "January 19, 2003",
+                "imgLink": "/imageArchive/ONEPACT/Yedam.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "OnlyOneOf",
         "bgs": "b",
         "groupImage": "/imageArchive/OnlyOneOf/group.jpeg",
@@ -3683,6 +4099,55 @@
                 "fullName": "Kim Jongseob",
                 "birthday": "November 19, 2005",
                 "imgLink": "/imageArchive/P1Harmony/Jongseob.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "PLAVE",
+        "bgs": "b",
+        "groupImage": "/imageArchive/PLAVE/group.jpeg",
+        "company": "VLAST",
+        "debutDate": "March 12, 2023",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Noah",
+                "fullName": "Han Noah",
+                "birthday": "February 10, 2001",
+                "imgLink": "/imageArchive/PLAVE/Noah.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Yejun",
+                "fullName": "Nam Yejun",
+                "birthday": "September 12, 2001",
+                "imgLink": "/imageArchive/PLAVE/Yejun.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Bambi",
+                "fullName": "Chae Bonggu",
+                "birthday": "July 15, 2002",
+                "imgLink": "/imageArchive/PLAVE/Bambi.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Eunho",
+                "fullName": "Do Eunho",
+                "birthday": "May 24, 2003",
+                "imgLink": "/imageArchive/PLAVE/Eunho.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Hamin",
+                "fullName": "Yu Hamin",
+                "birthday": "November 01",
+                "imgLink": "/imageArchive/PLAVE/Hamin.jpeg",
                 "afr": "a"
             }
         ]
@@ -3862,6 +4327,63 @@
                 "fullName": "Lee Chanyoung",
                 "birthday": "March 21, 2004",
                 "imgLink": "/imageArchive/RIIZE/Anton.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "Rocket Punch",
+        "bgs": "g",
+        "groupImage": "/imageArchive/RocketPunch/group.jpeg",
+        "company": "Woollim Entertainment",
+        "debutDate": "August 07, 2019",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Juri",
+                "fullName": "Takahashi Juri",
+                "birthday": "October 03, 1997",
+                "imgLink": "/imageArchive/RocketPunch/Juri.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Yeonhee",
+                "fullName": "Kim Yeonhee",
+                "birthday": "December 06, 2000",
+                "imgLink": "/imageArchive/RocketPunch/Yeonhee.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Suyun",
+                "fullName": "Kim Suyun",
+                "birthday": "March 17, 2001",
+                "imgLink": "/imageArchive/RocketPunch/Suyun.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Yunkyoung",
+                "fullName": "Seo Yunkyoung",
+                "birthday": "November 01, 2001",
+                "imgLink": "/imageArchive/RocketPunch/Yunkyoung.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Sohee",
+                "fullName": "Kim Sohee",
+                "birthday": "August 14, 2003",
+                "imgLink": "/imageArchive/RocketPunch/Sohee.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "6",
+                "stageName": "Dahyun",
+                "fullName": "Jeong Dahyun",
+                "birthday": "April 29, 2005",
+                "imgLink": "/imageArchive/RocketPunch/Dahyun.jpeg",
                 "afr": "a"
             }
         ]
@@ -4127,6 +4649,63 @@
         ]
     },
     {
+        "groupName": "STAYC",
+        "bgs": "g",
+        "groupImage": "/imageArchive/STAYC/group.jpeg",
+        "company": "High Up Entertainment",
+        "debutDate": "November 12, 2020",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Sumin",
+                "fullName": "Bae Sumin",
+                "birthday": "March 13, 2001",
+                "imgLink": "/imageArchive/STAYC/Sumin.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Sieun",
+                "fullName": "Park Sieun",
+                "birthday": "August 01, 2001",
+                "imgLink": "/imageArchive/STAYC/Sieun.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Isa",
+                "fullName": "Lee Chaeyoung",
+                "birthday": "January 23, 2002",
+                "imgLink": "/imageArchive/STAYC/Isa.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Seeun",
+                "fullName": "Yoon Seeun",
+                "birthday": "June 14, 2003",
+                "imgLink": "/imageArchive/STAYC/Seeun.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Yoon",
+                "fullName": "Sim Jayun",
+                "birthday": "April 14, 2004",
+                "imgLink": "/imageArchive/STAYC/Yoon.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "6",
+                "stageName": "J",
+                "fullName": "Jang Yeeun",
+                "birthday": "December 09, 2004",
+                "imgLink": "/imageArchive/STAYC/J.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "Stray Kids",
         "bgs": "b",
         "groupImage": "/imageArchive/StrayKids/group.jpeg",
@@ -4195,6 +4774,71 @@
                 "fullName": "Yang Jeongin",
                 "birthday": "February 08, 2001",
                 "imgLink": "/imageArchive/StrayKids/IN.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "TAN",
+        "bgs": "b",
+        "groupImage": "/imageArchive/TAN/group.jpeg",
+        "company": "Think Entertainment",
+        "debutDate": "March 10, 2022",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Changsun",
+                "fullName": "Lee Changsun",
+                "birthday": "March 17, 1996",
+                "imgLink": "/imageArchive/TAN/Changsun.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Jooan",
+                "fullName": "Im Jooan",
+                "birthday": "October 04, 1996",
+                "imgLink": "/imageArchive/TAN/Jooan.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Jaejun",
+                "fullName": "Lee Jaejun",
+                "birthday": "September 25, 1997",
+                "imgLink": "/imageArchive/TAN/Jaejun.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Sunghyuk",
+                "fullName": "Seo Sunghyuk",
+                "birthday": "August 26, 1999",
+                "imgLink": "/imageArchive/TAN/Sunghyuk.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Hyunyeop",
+                "fullName": "Kim Hyunyeop",
+                "birthday": "October 23, 2000",
+                "imgLink": "/imageArchive/TAN/Hyunyeop.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "6",
+                "stageName": "Taehoon",
+                "fullName": "Bang Taehoon",
+                "birthday": "November 11, 2002",
+                "imgLink": "/imageArchive/TAN/Taehoon.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "7",
+                "stageName": "Jiseong",
+                "fullName": "Kim Jiseong",
+                "birthday": "August 23, 2004",
+                "imgLink": "/imageArchive/TAN/Jiseong.jpeg",
                 "afr": "a"
             }
         ]
@@ -5037,6 +5681,71 @@
         ]
     },
     {
+        "groupName": "Weeekly",
+        "bgs": "g",
+        "groupImage": "/imageArchive/Weeekly/group.jpeg",
+        "company": "IST Entertainment",
+        "debutDate": "June 30, 2020",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Soojin",
+                "fullName": "Lee Soojin",
+                "birthday": "December 12, 2001",
+                "imgLink": "/imageArchive/Weeekly/Soojin.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Jiyoon",
+                "fullName": "Shin Jiyoon",
+                "birthday": "March 02, 2002",
+                "imgLink": "/imageArchive/Weeekly/Jiyoon.jpeg",
+                "afr": "f"
+            },
+            {
+                "num": "3",
+                "stageName": "Monday",
+                "fullName": "Kim Jimin",
+                "birthday": "May 10, 2002",
+                "imgLink": "/imageArchive/Weeekly/Monday.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Soeun",
+                "fullName": "Park Soeun",
+                "birthday": "October 26, 2002",
+                "imgLink": "/imageArchive/Weeekly/Soeun.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Jaehee",
+                "fullName": "Lee Jaehee",
+                "birthday": "March 18, 2004",
+                "imgLink": "/imageArchive/Weeekly/Jaehee.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "6",
+                "stageName": "Jihan",
+                "fullName": "Han Jihyo",
+                "birthday": "July 12, 2004",
+                "imgLink": "/imageArchive/Weeekly/Jihan.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "7",
+                "stageName": "Zoa",
+                "fullName": "Jo Hyewon",
+                "birthday": "May 31, 2005",
+                "imgLink": "/imageArchive/Weeekly/Zoa.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "WEi",
         "bgs": "b",
         "groupImage": "/imageArchive/WEi/group.jpeg",
@@ -5089,6 +5798,55 @@
                 "fullName": "Kim Junseo",
                 "birthday": "November 20, 2001",
                 "imgLink": "/imageArchive/WEi/Junseo.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "woo!ah!",
+        "bgs": "g",
+        "groupImage": "/imageArchive/wooah/group.jpeg",
+        "company": "NV Entertainment",
+        "debutDate": "May 13, 2020",
+        "members": [
+            {
+                "num": "1",
+                "stageName": "Nana",
+                "fullName": "Kwon Nayeon",
+                "birthday": "March 09, 2001",
+                "imgLink": "/imageArchive/wooah/Nana.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "2",
+                "stageName": "Wooyeon",
+                "fullName": "Park Jinkyung",
+                "birthday": "February 11, 2003",
+                "imgLink": "/imageArchive/wooah/Wooyeon.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "3",
+                "stageName": "Sora",
+                "fullName": "Sakata Sora",
+                "birthday": "August 30, 2003",
+                "imgLink": "/imageArchive/wooah/Sora.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "4",
+                "stageName": "Lucy",
+                "fullName": "Kim Daeun",
+                "birthday": "April 09, 2004",
+                "imgLink": "/imageArchive/wooah/Lucy.jpeg",
+                "afr": "a"
+            },
+            {
+                "num": "5",
+                "stageName": "Minseo",
+                "fullName": "Kim Minseo",
+                "birthday": "August 12, 2004",
+                "imgLink": "/imageArchive/wooah/Minseo.jpeg",
                 "afr": "a"
             }
         ]

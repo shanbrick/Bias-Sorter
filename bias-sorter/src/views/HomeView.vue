@@ -4,7 +4,7 @@
             <p class="categoryTitle">Unsorted</p>
         </div>
         <div v-for="person in unsorted" class="peopleUnsorted">
-            <img class="homePage" :src="require('../assets' + person.imgLink)">
+            <img class="homePeoplePics" :src="require('../assets' + person.imgLink)">
             <p class="idolName">{{ person.stageName }}</p>
             <p class="groupName">{{ person.groupName }}</p>
         </div>
@@ -70,9 +70,9 @@ export default {
     z-index: 1;
     overflow-x: hidden;
     background-color: #ededed;
-    border-bottom: 1px solid #B0B0B0;
-    border-left: 1px solid #B0B0B0;
-    border-right: 1px solid #B0B0B0;
+    border-bottom: 1px solid #909090;
+    border-left: 1px solid #909090;
+    border-right: 1px solid #909090;
     padding: 10px;
     padding-left: 0px;
     padding-right: 0px;
@@ -86,9 +86,9 @@ export default {
     width: 342px;
     background-color: #b3b8e9;
     background-image: linear-gradient(#b3b8e9, #747fe6);
-    border-top: 1px solid #B0B0B0;
-    border-left: 1px solid #B0B0B0;
-    border-right: 1px solid #B0B0B0;
+    border-top: 1px solid #909090;
+    border-left: 1px solid #909090;
+    border-right: 1px solid #909090;
     border-radius: 10px 10px 0px 0px;
     padding-left: 20px;
     margin-top: -55px;
@@ -110,9 +110,9 @@ export default {
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0px 0px 10px 10px;
-    border-bottom: 1px solid #B0B0B0;
-    border-left: 1px solid #B0B0B0;
-    border-right: 1px solid #B0B0B0;
+    border-bottom: 1px solid #909090;
+    border-left: 1px solid #909090;
+    border-right: 1px solid #909090;
 }
 
 .categoryTitle {
@@ -133,9 +133,9 @@ export default {
     height: 45px;
     background-color: #b3b8e9;
     background-image: linear-gradient(#b3b8e9, #747fe6);
-    border-top: 1px solid B0B0B0;
-    border-left: 1px solid #B0B0B0;
-    border-right: 1px solid #B0B0B0;
+    border-top: 1px solid #909090;
+    border-left: 1px solid #909090;
+    border-right: 1px solid #909090;
     border-radius: 10px 10px 0px 0px;
     padding: 20px;
     margin-top: -55px;
@@ -190,10 +190,10 @@ export default {
     /* border: 1px solid red; */
 }
 
-.homePage {
+.homePeoplePics {
     width: 130px;
     border-radius: 8px;
-    border: 1px solid #848484;
+    box-shadow: 0px 0px 5px black;
     margin: 0px;
     padding: 0px;
 }

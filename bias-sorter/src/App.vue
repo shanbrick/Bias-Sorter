@@ -1,14 +1,14 @@
 <template>
   <div class="header">
     <h1>Bias Sorter</h1>
+    <nav>
+      <router-link id="li" to="/">Home</router-link>
+      <router-link to="/boy-groups">Boy Groups</router-link>
+      <router-link to="/girl-groups">Girl Groups</router-link>
+      <router-link to="/solo">Solo</router-link>
+      <input class="right" type="text" placeholder="Search...">
+    </nav>
   </div>
-  <nav>
-    <router-link id="li" to="/">Home</router-link>
-    <router-link to="/boy-groups">Boy Groups</router-link>
-    <router-link to="/girl-groups">Girl Groups</router-link>
-    <router-link to="/solo">Solo</router-link>
-    <input class="right" type="text" placeholder="Search...">
-  </nav>
   <router-view />
 </template>
 
@@ -45,7 +45,6 @@ body {
 
 nav {
   overflow: hidden;
-  background-color: #747fe6;
   font-weight: bold;
   font-size: 16px;
 }
@@ -85,6 +84,7 @@ input {
 
 .header {
   padding: 15px;
+  padding-bottom: 5px;
   text-align: center;
   background: #b3b8e9;
   background-image: linear-gradient(#b3b8e9, #747fe6);

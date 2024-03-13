@@ -76,13 +76,13 @@ export default {
 
 <style scoped>
 .bigBox {
-    width: 832px;
+    width: 852px;
     margin: auto;
     margin-top: 20px;
     align-content: center;
     text-align: center;
     background-color: #ededed;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     border: 1px solid #B0B0B0;
 }
@@ -102,11 +102,11 @@ export default {
     padding-right: 40px;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #B0B0B0;
+    margin-bottom: 20px;
     border-radius: 8px;
     background-color: #edecff;
     background-image: linear-gradient(#747fe6, #b3b8e9);
+    box-shadow: 0px 0px 5px black;
 }
 
 .fullGroupPic {
@@ -142,10 +142,10 @@ export default {
     padding-left: 20px;
     padding-right: 20px;
     margin: 10px;
-    border: 1px solid #B0B0B0;
     border-radius: 8px;
     background-color: #edecff;
     background-image: linear-gradient(#747fe6, #b3b8e9);
+    box-shadow: 0px 0px 5px black;
 }
 
 .memberPic {
