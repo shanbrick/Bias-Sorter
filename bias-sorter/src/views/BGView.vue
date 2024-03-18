@@ -111,6 +111,11 @@ export default {
     border-radius: 10px;
     /* border: 1px solid #B0B0B0; */
     box-shadow: 0px 0px 5px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .listBox:after {

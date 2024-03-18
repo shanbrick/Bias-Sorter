@@ -1,4 +1,10 @@
 <template>
+    <div class="topBar">
+        <button class="topBarButton" @click="addNewCategory('Untitled')">&nbsp;+&nbsp; Add New Category</button>
+        <button class="topBarButton" @click="toggleEditMode()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit Categories</button>
+        <button class="topBarButton" @click="toggleEditMode()" v-else>&nbsp;✓&nbsp; Save Categories</button>
+    </div>
+
     <div id="unsorted" class="unsorted">
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
@@ -11,20 +17,20 @@
     </div>
 
     <div class="sideCats">
-        <div v-for="cat in categoryArray" class="categories">
-            <div class="boxHeaderCategories">
-                <!-- <input class="boxHeaderCatsInput" type="text" value=cat></input> -->
-                <p class="categoryTitle">{{ cat }}</p>
-                <!-- <button class="editCategoryButton"> ✎ </button> -->
+        <div v-for="(cat, index) in categoryArray" class="categories">
+            <div :id=index class="boxHeaderCategories">
+                <div v-if="!editModeOn">
+                    <p class="categoryTitle">{{ cat }}</p>
+                </div>
+                <div v-else>
+                    <input class="boxHeaderCatsInput" type="text" v-model="inputs[index]"></input>
+                </div>
             </div>
-            <div id="cat">
-                <p></p>
+            <div v-if="!editModeOn" :id=cat>
+                <p>hi</p>
             </div>
         </div>
 
-    </div>
-    <div class="sideCats">
-        <button @click="addNewCategory('Untitled')" class="addCategoryButton"> + </button>
     </div>
 </template>
 
@@ -43,10 +49,15 @@ export default {
 
     ],
     mounted() {
-
+        this.inputs = ['', '', '']
     },
     data() {
-        return { unsorted: JSON.parse(localStorage.getItem('unsorted')), categoryArray: JSON.parse(localStorage.getItem('categories')) }
+        return {
+            unsorted: JSON.parse(localStorage.getItem('unsorted')),
+            categoryArray: JSON.parse(localStorage.getItem('categories')),
+            editModeOn: false,
+            inputs: []
+        }
     },
     computed: {
 
@@ -56,13 +67,44 @@ export default {
             this.categoryArray.push(title)
             localStorage.setItem('categories', JSON.stringify(this.categoryArray));
         },
-        editMode() {
+        toggleEditMode() {
+            this.editModeOn = !this.editModeOn;
         }
     }
 }
 </script>
 
 <style scoped>
+.topBar {
+    background-image: linear-gradient(#b3b8e9, #747fe6);
+    border: 1px solid #909090;
+    height: 50px;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 9px;
+    display: flex;
+    gap: 10px;
+}
+
+.topBarButton {
+    height: 30px;
+    width: fit-content;
+    border: 1px solid #00000000;
+    border-radius: 5px;
+    color: white;
+    background: #00000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+}
+
+.topBarButton:hover {
+    background-color: #505cc7;
+}
+
 .unsorted {
     height: 60%;
     width: 342px;
@@ -77,7 +119,7 @@ export default {
     padding-left: 0px;
     padding-right: 0px;
     margin: 20px;
-    margin-top: 65px;
+    margin-top: 45px;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -116,7 +158,7 @@ export default {
 }
 
 .categoryTitle {
-    top: -8px;
+    top: -9.5px;
     position: absolute;
     color: white;
     font-size: 20px;
@@ -131,7 +173,6 @@ export default {
 
 .boxHeaderCategories {
     height: 45px;
-    background-color: #b3b8e9;
     background-image: linear-gradient(#b3b8e9, #747fe6);
     border-top: 1px solid #909090;
     border-left: 1px solid #909090;
@@ -151,10 +192,12 @@ export default {
     height: 35px;
     font-size: 20px;
     font-weight: 700;
-    background-color: #8589ad;
+    background-image: linear-gradient(#747fe6, #b3b8e9);
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
     border: 1px solid #6e6e6e;
+    color: #fff;
     border-radius: 8px;
-    padding: 15px;
+    padding: 14px;
     margin-top: -15px;
     /*padding categories + boxheader height*/
     margin-bottom: 10px;
@@ -193,7 +236,7 @@ export default {
 .homePeoplePics {
     width: 130px;
     border-radius: 8px;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px #00000080;
     margin: 0px;
     padding: 0px;
 }
@@ -219,7 +262,8 @@ export default {
     border: 1px solid #6e6e6e;
     border-radius: 5px;
     color: white;
-    background-color: #8589ad;
+    background-image: linear-gradient(#747fe6, #b3b8e9);
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
     /* padding: 7px 15px; */
     text-align: center;
     text-decoration: none;

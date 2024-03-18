@@ -144,7 +144,7 @@ export default {
     border-radius: 8px;
     background-color: #edecff;
     background-image: linear-gradient(#747fe6, #b3b8e9);
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px #00000080;
 }
 
 .memberPic {
