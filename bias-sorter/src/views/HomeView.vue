@@ -9,11 +9,15 @@
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
         </div>
-        <div v-for="person in unsorted" class="peopleUnsorted">
-            <img class="homePeoplePics" :src="require('../assets' + person.imgLink)">
-            <p class="idolName">{{ person.stageName }}</p>
-            <p class="groupName">{{ person.groupName }}</p>
-        </div>
+        <draggable :list="unsorted">
+            <template #item="{ element: unsorted }">
+                <div class="peopleUnsorted">
+                    <img class="homePeoplePics" :src="require('../assets' + unsorted.imgLink)">
+                    <p class="idolName">{{ unsorted.stageName }}</p>
+                    <p class="groupName">{{ unsorted.groupName }}</p>
+                </div>
+            </template>
+        </draggable>
     </div>
 
     <div class="sideCats">
@@ -35,21 +39,21 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 // localStorage.setItem('categories', JSON.stringify(["Ults", "Semis", "Regs"]));
+import { ref } from 'vue';
+import draggable from 'vuedraggable';
+const people = ref(JSON.parse(localStorage.getItem('unsorted')))
 
 export default {
     name: 'HomeView',
     components: {
-        HelloWorld
+        draggable
     },
     props: [
 
     ],
     mounted() {
-        this.inputs = ['', '', '']
+        this.inputs = ['Ults', 'Semis', 'Regs']
     },
     data() {
         return {
