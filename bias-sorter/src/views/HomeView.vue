@@ -9,9 +9,9 @@
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
         </div>
-        <draggable :list="unsorted">
+        <draggable :list="unsorted" group="people" :animation="300">
             <template #item="{ element: unsorted }">
-                <div class="peopleUnsorted">
+                <div class="peopleUnsorted" :key="unsorted.stageName">
                     <img class="homePeoplePics" :src="require('../assets' + unsorted.imgLink)">
                     <p class="idolName">{{ unsorted.stageName }}</p>
                     <p class="groupName">{{ unsorted.groupName }}</p>
@@ -31,7 +31,15 @@
                 </div>
             </div>
             <div v-if="!editModeOn" :id=cat>
-                <p>hi</p>
+                <draggable :list="cat1" group="people" :animations="300">
+                    <template #item="{ element: cat1 }">
+                        <div class="peopleUnsorted" :key="unsorted.stageName">
+                            <img class="homePeoplePics" :src="require('../assets' + cat1.imgLink)">
+                            <p class="idolName">{{ cat1.stageName }}</p>
+                            <p class="groupName">{{ cat1.groupName }}</p>
+                        </div>
+                    </template>
+                </draggable>
             </div>
         </div>
 
@@ -42,10 +50,10 @@
 // localStorage.setItem('categories', JSON.stringify(["Ults", "Semis", "Regs"]));
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
-const people = ref(JSON.parse(localStorage.getItem('unsorted')))
 
 export default {
     name: 'HomeView',
+    order: 1,
     components: {
         draggable
     },
@@ -58,6 +66,7 @@ export default {
     data() {
         return {
             unsorted: JSON.parse(localStorage.getItem('unsorted')),
+            cat1: JSON.parse(localStorage.getItem('cat1')),
             categoryArray: JSON.parse(localStorage.getItem('categories')),
             editModeOn: false,
             inputs: []
@@ -73,6 +82,9 @@ export default {
         },
         toggleEditMode() {
             this.editModeOn = !this.editModeOn;
+        },
+        log: function (evt) {
+            window.console.log(evt);
         }
     }
 }
