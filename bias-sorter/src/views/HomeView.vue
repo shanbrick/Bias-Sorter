@@ -5,6 +5,7 @@
         <button class="topBarButton" @click="toggleEditMode()" v-else>&nbsp;✓&nbsp; Save Categories</button>
     </div>
 
+
     <div id="unsorted" class="unsorted">
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
@@ -33,7 +34,7 @@
             <div v-if="!editModeOn" :id=cat>
                 <draggable :list="cat1" group="people" :animations="300">
                     <template #item="{ element: cat1 }">
-                        <div class="peopleUnsorted" :key="unsorted.stageName">
+                        <div class="peopleUnsorted" :key="cat1.stageName">
                             <img class="homePeoplePics" :src="require('../assets' + cat1.imgLink)">
                             <p class="idolName">{{ cat1.stageName }}</p>
                             <p class="groupName">{{ cat1.groupName }}</p>
@@ -42,6 +43,7 @@
                 </draggable>
             </div>
         </div>
+
 
     </div>
 </template>
@@ -61,11 +63,43 @@ export default {
 
     ],
     mounted() {
-        this.inputs = ['Ults', 'Semis', 'Regs']
+        if (localStorage.getItem("save_data") !== null) {
+            const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))
+            this.saveData = saveDataFromStorage
+        } else {
+            localStorage.setItem("save_data", JSON.stringify(this.saveData));
+        }
+        console.log(this.saveData)
+        for (let i = 1; i < this.saveData.categories.length; i++) {
+            this.inputs.push(this.saveData.categories[i].catName)
+            console.log(this.saveData.categories[i].catName)
+        }
+
+        this.unsorted === this.saveData.categories[0].people
     },
     data() {
         return {
-            unsorted: JSON.parse(localStorage.getItem('unsorted')),
+            saveData: {
+                "categories": [
+                    {
+                        "catName": "Unsorted",
+                        "people": []
+                    },
+                    {
+                        "catName": "Ults",
+                        "people": []
+                    },
+                    {
+                        "catName": "Semis",
+                        "people": []
+                    },
+                    {
+                        "catName": "Regs",
+                        "people": []
+                    }
+                ]
+            },
+            unsorted: [],
             cat1: JSON.parse(localStorage.getItem('cat1')),
             categoryArray: JSON.parse(localStorage.getItem('categories')),
             editModeOn: false,
@@ -85,6 +119,9 @@ export default {
         },
         log: function (evt) {
             window.console.log(evt);
+        },
+        checkSaveData() {
+
         }
     }
 }

@@ -1,53 +1,71 @@
 <template>
-    <div id='groupPage' class="bigBox">
+    <div id="groupPage" class="bigBox">
         <div class="groupInfoDiv">
-            <img class="fullGroupPic" :src="require('../assets' + group.groupImage)">
+            <img class="fullGroupPic" :src="require('../assets' + group.groupImage)" />
             <p class="groupName">{{ group.groupName }}</p>
             <p><i>Company:</i> {{ group.company }}</p>
             <p><i>Debut:</i> {{ group.debutDate }}</p>
         </div>
 
         <div v-for="person in group.members" class="memberDivs">
-            <img class="memberPic" :src="require('../assets' + person.imgLink)">
+            <img class="memberPic" :src="require('../assets' + person.imgLink)" />
             <p class="memberName">{{ person.stageName }}</p>
             <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
             <div v-if="checkPerson(unsortedArray, person.stageName)" class="added">
                 <p>Added</p>
             </div>
-            <!-- <button v-else-if="person.afr !== 'a' && person.afr !== 'f'"
-                @click="populateGroupPage(person.afr)">➜</button> -->
-            <button v-else
-                @click="addToUnsorted(group.groupName, person.num, person.stageName, person.fullName, person.birthday, person.imgLink)">Add</button>
+            <button v-else-if="person.afr !== 'a' && person.afr !== 'f'" @click="populateGroupPage(person.afr)">
+                ➜
+            </button>
+            <button v-else @click="
+                addToUnsorted(
+                    group.groupName,
+                    person.num,
+                    person.stageName,
+                    person.fullName,
+                    person.birthday,
+                    person.imgLink
+                )
+                ">
+                Add
+            </button>
         </div>
     </div>
 </template>
 
 <script>
-import groupListEdit from '@/groupListEdit.json'
+import groupListEdit from "@/groupListEdit.json";
 
 export default {
-    name: 'GroupPageView',
+    name: "GroupPageView",
+    mounted() { },
     data() {
-        return { groupList: groupListEdit, group: JSON.parse(localStorage.getItem('selectedGroup')), unsortedArray: JSON.parse(localStorage.getItem('unsorted')) }
+        return {
+            groupList: groupListEdit,
+            group: JSON.parse(localStorage.getItem("selectedGroup")),
+            unsortedArray: JSON.parse(localStorage.getItem("save_data")).categories[0].people,
+        };
     },
     methods: {
         addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
-            if (this.unsortedArray === null) {
-                this.unsortedArray = []
-            }
-            this.unsortedArray.push(
-                {
-                    "groupName": groupName,
-                    "num": num,
-                    "stageName": stageName,
-                    "fullName": fullName,
-                    "birthday": birthday,
-                    "imgLink": imgLink
-                }
-            )
+            // if (this.unsortedArray === null) {
+            //     this.unsortedArray = [];
+            // }
+            this.unsortedArray.push({
+                groupName: groupName,
+                num: num,
+                stageName: stageName,
+                fullName: fullName,
+                birthday: birthday,
+                imgLink: imgLink,
+            });
 
-            localStorage.setItem('unsorted', JSON.stringify(this.unsortedArray));
+            const saveData = JSON.parse(localStorage.getItem("save_data"));
+            saveData.categories[0] == this.unsortedArray;
+            localStorage.setItem("save_data", JSON.stringify(saveData));
+
+            // localStorage.setItem("unsorted", JSON.stringify(this.unsortedArray));
         },
         checkPerson(array, value) {
             for (var i = 0; i < array.length; i++) {
@@ -57,20 +75,20 @@ export default {
             }
             return false;
         },
-        // populateGroupPage(groupInput) {
-        //     if (this.group === null) {
-        //         this.group = []
-        //     }
-        //     let groupArray = []
-        //     for (var i = 0; i < this.groupList.length; i++) {
-        //         if (this.groupList[i].groupName === groupInput) {
-        //             groupArray = this.groupList[i]
-        //         }
-        //     }
-        //     localStorage.setItem('selectedGroup', JSON.stringify(groupArray));
-        // }
-    }
-}
+        populateGroupPage(groupInput) {
+            if (this.group === null) {
+                this.group = [];
+            }
+            let groupArray = [];
+            for (var i = 0; i < this.groupList.length; i++) {
+                if (this.groupList[i].groupName === groupInput) {
+                    groupArray = this.groupList[i];
+                }
+            }
+            localStorage.setItem("selectedGroup", JSON.stringify(groupArray));
+        },
+    },
+};
 </script>
 
 <style scoped>
@@ -83,7 +101,7 @@ export default {
     background: radial-gradient(#ffffff, #dadada);
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #B0B0B0;
+    border: 1px solid #b0b0b0;
 }
 
 .bigBox:after {

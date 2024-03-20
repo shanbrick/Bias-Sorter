@@ -6,23 +6,18 @@
       <router-link to="/boy-groups">Boy Groups</router-link>
       <router-link to="/girl-groups">Girl Groups</router-link>
       <router-link to="/solo">Solo</router-link>
-      <input class="right" type="text" placeholder="Search...">
+      <input class="right" type="text" placeholder="Search..." />
     </nav>
   </div>
   <router-view />
 </template>
 
 <script>
-
 export default {
   name: "App",
-  data() {
-
-  },
-  methods: {
-
-  },
-}
+  data() { },
+  methods: {},
+};
 </script>
 
 <style>
@@ -40,7 +35,7 @@ export default {
 }
 
 body {
-  margin: 0px
+  margin: 0px;
 }
 
 nav {
