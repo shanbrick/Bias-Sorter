@@ -12,7 +12,7 @@
             <p class="memberName">{{ person.stageName }}</p>
             <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
-            <div v-if="checkPerson(unsortedArray, person.stageName)" class="added">
+            <div v-if="checkPerson(saveData.categories[0].people, person.stageName)" class="added">
                 <p>Added</p>
             </div>
             <button v-else-if="person.afr !== 'a' && person.afr !== 'f'" @click="populateGroupPage(person.afr)">
@@ -44,15 +44,12 @@ export default {
         return {
             groupList: groupListEdit,
             group: JSON.parse(localStorage.getItem("selectedGroup")),
-            unsortedArray: JSON.parse(localStorage.getItem("save_data")).categories[0].people,
+            saveData: JSON.parse(localStorage.getItem("save_data")),
         };
     },
     methods: {
         addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
-            // if (this.unsortedArray === null) {
-            //     this.unsortedArray = [];
-            // }
-            this.unsortedArray.push({
+            this.saveData.categories[0].people.push({
                 groupName: groupName,
                 num: num,
                 stageName: stageName,
@@ -60,12 +57,7 @@ export default {
                 birthday: birthday,
                 imgLink: imgLink,
             });
-
-            const saveData = JSON.parse(localStorage.getItem("save_data"));
-            saveData.categories[0] == this.unsortedArray;
-            localStorage.setItem("save_data", JSON.stringify(saveData));
-
-            // localStorage.setItem("unsorted", JSON.stringify(this.unsortedArray));
+            localStorage.setItem("save_data", JSON.stringify(this.saveData));
         },
         checkPerson(array, value) {
             for (var i = 0; i < array.length; i++) {

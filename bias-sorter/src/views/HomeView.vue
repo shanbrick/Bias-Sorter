@@ -1,6 +1,6 @@
 <template>
     <div class="topBar">
-        <button class="topBarButton" @click="addNewCategory('Untitled')">&nbsp;+&nbsp; Add New Category</button>
+        <button class="topBarButton" @click="addNewCategory()">&nbsp;+&nbsp; Add New Category</button>
         <button class="topBarButton" @click="toggleEditMode()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit Categories</button>
         <button class="topBarButton" @click="toggleEditMode()" v-else>&nbsp;✓&nbsp; Save Categories</button>
     </div>
@@ -10,34 +10,34 @@
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
         </div>
-        <draggable :list="unsorted" group="people" :animation="300">
-            <template #item="{ element: unsorted }">
-                <div class="peopleUnsorted" :key="unsorted.stageName">
-                    <img class="homePeoplePics" :src="require('../assets' + unsorted.imgLink)">
-                    <p class="idolName">{{ unsorted.stageName }}</p>
-                    <p class="groupName">{{ unsorted.groupName }}</p>
+        <draggable :list="unsorted" group="everyone" :animation="300">
+            <template #item="{ element }">
+                <div class="peopleUnsorted" :key="element.stageName">
+                    <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
+                    <p class="idolName">{{ element.stageName }}</p>
+                    <p class="groupName">{{ element.groupName }}</p>
                 </div>
             </template>
         </draggable>
     </div>
 
     <div class="sideCats">
-        <div v-for="(cat, index) in categoryArray" class="categories">
+        <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories">
             <div :id=index class="boxHeaderCategories">
                 <div v-if="!editModeOn">
-                    <p class="categoryTitle">{{ cat }}</p>
+                    <p class="categoryTitle">{{ cat.catName }}</p>
                 </div>
                 <div v-else>
-                    <input class="boxHeaderCatsInput" type="text" v-model="inputs[index]"></input>
+                    <input class="boxHeaderCatsInput" type="text" v-model="categoryArray[index]"></input>
                 </div>
             </div>
             <div v-if="!editModeOn" :id=cat>
-                <draggable :list="cat1" group="people" :animations="300">
-                    <template #item="{ element: cat1 }">
-                        <div class="peopleUnsorted" :key="cat1.stageName">
-                            <img class="homePeoplePics" :src="require('../assets' + cat1.imgLink)">
-                            <p class="idolName">{{ cat1.stageName }}</p>
-                            <p class="groupName">{{ cat1.groupName }}</p>
+                <draggable :list=cat.people group="everyone" :animations="300" :item-key=cat>
+                    <template #item="{ element }">
+                        <div class="peopleUnsorted" :key="cat">
+                            <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
+                            <p class="idolName">{{ element.stageName }}</p>
+                            <p class="groupName">{{ element.groupName }}</p>
                         </div>
                     </template>
                 </draggable>
@@ -49,7 +49,6 @@
 </template>
 
 <script>
-// localStorage.setItem('categories', JSON.stringify(["Ults", "Semis", "Regs"]));
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 
@@ -69,13 +68,11 @@ export default {
         } else {
             localStorage.setItem("save_data", JSON.stringify(this.saveData));
         }
-        console.log(this.saveData)
-        for (let i = 1; i < this.saveData.categories.length; i++) {
-            this.inputs.push(this.saveData.categories[i].catName)
-            console.log(this.saveData.categories[i].catName)
-        }
 
-        this.unsorted === this.saveData.categories[0].people
+        for (let i = 1; i < this.saveData.categories.length; i++) {
+            this.categoryArray.push(this.saveData.categories[i].catName)
+        }
+        this.unsorted = this.saveData.categories[0].people
     },
     data() {
         return {
@@ -101,18 +98,26 @@ export default {
             },
             unsorted: [],
             cat1: JSON.parse(localStorage.getItem('cat1')),
-            categoryArray: JSON.parse(localStorage.getItem('categories')),
+            categoryArray: [],
             editModeOn: false,
-            inputs: []
         }
     },
     computed: {
 
     },
     methods: {
-        addNewCategory(title) {
-            this.categoryArray.push(title)
-            localStorage.setItem('categories', JSON.stringify(this.categoryArray));
+        addNewCategory() {
+            this.saveData.categories.push({
+                "catName": "Untitled",
+                "people": []
+            });
+            localStorage.setItem('save_data', JSON.stringify(this.saveData));
+
+            this.categoryArray = [];
+            for (let i = 1; i < this.saveData.categories.length; i++) {
+                this.categoryArray.push(this.saveData.categories[i].catName)
+            };
+            console.log(this.categoryArray);
         },
         toggleEditMode() {
             this.editModeOn = !this.editModeOn;
@@ -120,9 +125,7 @@ export default {
         log: function (evt) {
             window.console.log(evt);
         },
-        checkSaveData() {
 
-        }
     }
 }
 </script>
