@@ -10,7 +10,8 @@
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
         </div>
-        <draggable :list="unsorted" group="everyone" :animation="300">
+        <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
+            @change="updateStorage(0, homePageArrays[0])">
             <template #item="{ element }">
                 <div class="peopleUnsorted" :key="element.stageName">
                     <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
@@ -28,11 +29,13 @@
                     <p class="categoryTitle">{{ cat.catName }}</p>
                 </div>
                 <div v-else>
-                    <input class="boxHeaderCatsInput" type="text" v-model="categoryArray[index]"></input>
+                    <input class="boxHeaderCatsInput" type="text" v-model="saveData.categories[index + 1].catName"
+                        v-on:input="updateCatName(index + 1)"></input>
                 </div>
             </div>
             <div v-if="!editModeOn" :id=cat>
-                <draggable :list=cat.people group="everyone" :animations="300" :item-key=cat>
+                <draggable :list="homePageArrays[index + 1]" group="everyone" :animations="300" :item-key=cat
+                    @change="updateStorage(index + 1, homePageArrays[index + 1])">
                     <template #item="{ element }">
                         <div class="peopleUnsorted" :key="cat">
                             <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
@@ -72,7 +75,12 @@ export default {
         for (let i = 1; i < this.saveData.categories.length; i++) {
             this.categoryArray.push(this.saveData.categories[i].catName)
         }
-        this.unsorted = this.saveData.categories[0].people
+
+        for (let i = 0; i < this.saveData.categories.length; i++) {
+            this.homePageArrays.push(this.saveData.categories[i].people);
+        }
+
+        console.log(this.homePageArrays);
     },
     data() {
         return {
@@ -96,8 +104,9 @@ export default {
                     }
                 ]
             },
-            unsorted: [],
-            cat1: JSON.parse(localStorage.getItem('cat1')),
+            unsorted: ref(""),
+            ults: ref(""),
+            homePageArrays: ref([]),
             categoryArray: [],
             editModeOn: false,
         }
@@ -122,10 +131,14 @@ export default {
         toggleEditMode() {
             this.editModeOn = !this.editModeOn;
         },
-        log: function (evt) {
-            window.console.log(evt);
+        updateStorage(i, array) {
+            this.saveData.categories[i].people = array;
+            localStorage.setItem('save_data', JSON.stringify(this.saveData));
         },
-
+        updateCatName(i) {
+            this.saveData.categories[i].catName;
+            localStorage.setItem('save_data', JSON.stringify(this.saveData));
+        }
     }
 }
 </script>

@@ -6,7 +6,7 @@
       <router-link to="/boy-groups">Boy Groups</router-link>
       <router-link to="/girl-groups">Girl Groups</router-link>
       <router-link to="/solo">Solo</router-link>
-      <input class="right" type="text" placeholder="Search..." />
+      <input class="right" type="search" placeholder="Search..." />
     </nav>
   </div>
   <router-view />
