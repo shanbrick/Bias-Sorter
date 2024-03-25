@@ -81,6 +81,7 @@ export default {
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(groupArray));
+            this.group = JSON.parse(localStorage.getItem("selectedGroup"));
         },
     },
 };
