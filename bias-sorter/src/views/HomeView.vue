@@ -13,7 +13,7 @@
         <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
             @change="updateStorage(0, homePageArrays[0])">
             <template #item="{ element }">
-                <div class="peopleUnsorted" :key="element.stageName">
+                <div class="peopleDivss" :key="element.stageName">
                     <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
                     <p class="idolName">{{ element.stageName }}</p>
                     <p class="groupName">{{ element.groupName }}</p>
@@ -22,8 +22,9 @@
         </draggable>
     </div>
 
+
     <div class="sideCats">
-        <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories">
+        <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories" :key="cat">
             <div :id=index class="boxHeaderCategories">
                 <div v-if="!editModeOn">
                     <p class="categoryTitle">{{ cat.catName }}</p>
@@ -37,7 +38,7 @@
                 <draggable :list="homePageArrays[index + 1]" group="everyone" :animations="300" :item-key=cat
                     @change="updateStorage(index + 1, homePageArrays[index + 1])">
                     <template #item="{ element }">
-                        <div class="peopleUnsorted" :key="cat">
+                        <div class="peopleDivss" :key="cat">
                             <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
                             <p class="idolName">{{ element.stageName }}</p>
                             <p class="groupName">{{ element.groupName }}</p>
@@ -46,7 +47,6 @@
                 </draggable>
             </div>
         </div>
-
 
     </div>
 </template>
@@ -107,7 +107,7 @@ export default {
             unsorted: ref(""),
             ults: ref(""),
             homePageArrays: ref([]),
-            categoryArray: [],
+            categoryArray: ref([]),
             editModeOn: false,
         }
     },
@@ -291,7 +291,7 @@ export default {
     font-size: 0.75em;
 }
 
-.peopleUnsorted {
+.peopleDivss {
     float: left;
     height: fit-content;
     width: 170px;

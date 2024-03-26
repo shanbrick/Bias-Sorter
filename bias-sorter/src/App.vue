@@ -6,16 +6,27 @@
       <router-link to="/boy-groups">Boy Groups</router-link>
       <router-link to="/girl-groups">Girl Groups</router-link>
       <router-link to="/solo">Solo</router-link>
-      <input class="right" type="search" placeholder="Search..." />
+      <template>
+        <input type="text" v-model="input" placeholder="Search..." />
+        <div v-for="result in filteredList()" :key="result">
+          <p>{{ result }}</p>
+        </div>
+      </template>
+      <!-- <input class="right" type="search" placeholder="Search..." /> -->
     </nav>
   </div>
   <router-view />
 </template>
 
 <script>
+import { ref } from "vue";
+
+
 export default {
   name: "App",
-  data() { },
+  data() {
+    return {}
+  },
   methods: {},
 };
 </script>
