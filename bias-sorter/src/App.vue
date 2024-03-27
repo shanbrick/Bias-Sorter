@@ -2,30 +2,33 @@
   <div class="header">
     <h1>Bias Sorter</h1>
     <nav>
-      <router-link id="li" to="/">Home</router-link>
-      <router-link to="/boy-groups">Boy Groups</router-link>
-      <router-link to="/girl-groups">Girl Groups</router-link>
-      <router-link to="/solo">Solo</router-link>
-      <template>
-        <input type="text" v-model="input" placeholder="Search..." />
-        <div v-for="result in filteredList()" :key="result">
-          <p>{{ result }}</p>
-        </div>
-      </template>
-      <!-- <input class="right" type="search" placeholder="Search..." /> -->
+      <router-link class="navButtons" to="/">Home</router-link>
+      <router-link class="navButtons" to="/boy-groups">Boy Groups</router-link>
+      <router-link class="navButtons" to="/girl-groups">Girl Groups</router-link>
+      <router-link class="navButtons" to="/solo">Solo</router-link>
+
+      <div class="auto">
+        <SearchAutocomplete :items="groups" />
+      </div>
     </nav>
   </div>
   <router-view />
 </template>
 
 <script>
-import { ref } from "vue";
-
+import groupListEdit from "@/groupListEdit.json";
+import SearchAutocomplete from "./components/SearchAutocomplete.vue";
 
 export default {
   name: "App",
+  components: {
+    SearchAutocomplete,
+  },
   data() {
-    return {}
+    return {
+      search: "",
+      groups: groupListEdit,
+    };
   },
   methods: {},
 };
@@ -55,7 +58,7 @@ nav {
   font-size: 16px;
 }
 
-nav a {
+.navButtons {
   float: left;
   display: block;
   color: white;
@@ -68,14 +71,15 @@ nav a {
   font-weight: 700;
 }
 
-nav a:hover {
+.navButtons:hover {
   background-color: #505cc7;
   color: white;
   cursor: pointer;
 }
 
 input {
-  float: right;
+  /* float: right; */
+  width: 300px;
   margin-right: 10px;
   margin-top: 6px;
   font-weight: 500;
@@ -83,7 +87,7 @@ input {
   font-family: Trebuchet MS;
   color: rgb(0, 0, 0);
   border-radius: 5px;
-  border-color: #50a0d900;
+  border: 1px solid #50a0d900;
   background-color: #ffffff;
   padding: 7px;
 }
@@ -102,5 +106,11 @@ input {
   font-size: 35px;
   line-height: 20px;
   font-weight: 800;
+}
+
+.auto {
+  float: right;
+  width: 300px;
+  z-index: 1;
 }
 </style>

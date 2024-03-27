@@ -79,8 +79,6 @@ export default {
         for (let i = 0; i < this.saveData.categories.length; i++) {
             this.homePageArrays.push(this.saveData.categories[i].people);
         }
-
-        console.log(this.homePageArrays);
     },
     data() {
         return {
@@ -178,7 +176,7 @@ export default {
     height: 60%;
     width: 342px;
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     overflow-x: hidden;
     background: radial-gradient(#ffffff, #dadada);
     border-bottom: 1px solid #909090;
