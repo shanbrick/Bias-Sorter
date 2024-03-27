@@ -11,7 +11,7 @@
             <p class="categoryTitle">Unsorted</p>
         </div>
         <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
-            @change="updateStorage(0, homePageArrays[0])">
+            @change="updateStorage(0, homePageArrays[0])" :options="{ disabled: !editModeOn }">
             <template #item="{ element }">
                 <div class="peopleDivss" :key="element.stageName">
                     <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
@@ -24,6 +24,34 @@
 
 
     <div class="sideCats">
+        <!-- <draggable :list="categoryArray" :animation="300">
+            <template #item="{ element: catArr, index }">
+                <div :id=catArr class="categories">
+                    <div class="boxHeaderCategories">
+                        <div v-if="!editModeOn">
+                            <p class="categoryTitle">{{ saveData.categories[index + 1].catName }}</p>
+                        </div>
+                        <div v-else>
+                            <input class="boxHeaderCatsInput" type="text"
+                                v-model="saveData.categories[index + 1].catName"
+                                v-on:input="updateCatName(index + 1)"></input>
+                        </div>
+                    </div>
+                    <div v-if="!editModeOn">
+                        <draggable :list="homePageArrays[index + 1]" group="everyone" :animations="300" :item-key=cat
+                            @change="updateStorage(index + 1, homePageArrays[index + 1])">
+                            <template #item="{ element }">
+                                <div class="peopleDivss" :key="cat">
+                                    <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
+                                    <p class="idolName">{{ element.stageName }}</p>
+                                    <p class="groupName">{{ element.groupName }}</p>
+                                </div>
+                            </template>
+                        </draggable>
+                    </div>
+                </div>
+            </template>
+        </draggable> -->
         <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories" :key="cat">
             <div :id=index class="boxHeaderCategories">
                 <div v-if="!editModeOn">

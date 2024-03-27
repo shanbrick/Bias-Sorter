@@ -12,7 +12,7 @@
             <p class="memberName">{{ person.stageName }}</p>
             <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
-            <div v-if="checkPerson(person)" class="added">
+            <div v-if="checkPerson(group.groupName, person)" class="added">
                 <p>Added</p>
             </div>
             <button v-else-if="person.afr !== 'a' && person.afr !== 'f'" @click="populateGroupPage(person.afr)">
@@ -59,11 +59,21 @@ export default {
             });
             localStorage.setItem("save_data", JSON.stringify(this.saveData));
         },
-        checkPerson(value) {
+        checkPerson(group, person) {
+            let personArr = {
+                groupName: group,
+                num: person.num,
+                stageName: person.stageName,
+                fullName: person.fullName,
+                birthday: person.birthday,
+                imgLink: person.imgLink,
+            };
             for (var i = 0; i < this.saveData.categories.length; i++) {
                 let array = this.saveData.categories[i].people;
                 for (var j = 0; j < array.length; j++) {
-                    if (array[j] === value) {
+                    console.log(array[j]);
+                    console.log(personArr);
+                    if (array[j] === personArr) {
                         return true;
                     }
                 }
