@@ -24,7 +24,7 @@
 
 
     <div class="sideCats">
-        <!-- <draggable :list="categoryArray" :animation="300">
+        <draggable :list="categoryArray" :animation="300" @change="updateCatOrder(categoryArray)">
             <template #item="{ element: catArr, index }">
                 <div :id=catArr class="categories">
                     <div class="boxHeaderCategories">
@@ -38,10 +38,10 @@
                         </div>
                     </div>
                     <div v-if="!editModeOn">
-                        <draggable :list="homePageArrays[index + 1]" group="everyone" :animations="300" :item-key=cat
+                        <draggable :list="homePageArrays[index + 1]" group="everyone" :animations="300"
                             @change="updateStorage(index + 1, homePageArrays[index + 1])">
                             <template #item="{ element }">
-                                <div class="peopleDivss" :key="cat">
+                                <div class="peopleDivss">
                                     <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
                                     <p class="idolName">{{ element.stageName }}</p>
                                     <p class="groupName">{{ element.groupName }}</p>
@@ -51,8 +51,8 @@
                     </div>
                 </div>
             </template>
-        </draggable> -->
-        <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories" :key="cat">
+        </draggable>
+        <!-- <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories" :key="cat">
             <div :id=index class="boxHeaderCategories">
                 <div v-if="!editModeOn">
                     <p class="categoryTitle">{{ cat.catName }}</p>
@@ -74,7 +74,7 @@
                     </template>
                 </draggable>
             </div>
-        </div>
+        </div> -->
 
     </div>
 </template>
@@ -130,8 +130,6 @@ export default {
                     }
                 ]
             },
-            unsorted: ref(""),
-            ults: ref(""),
             homePageArrays: ref([]),
             categoryArray: ref([]),
             editModeOn: false,
@@ -157,7 +155,14 @@ export default {
         toggleEditMode() {
             this.editModeOn = !this.editModeOn;
         },
+        updateCatOrder(name, people) {
+            console.log(name)
+            console.log(people)
+            this.saveData.categories = name;
+            localStorage.setItem('save_data', JSON.stringify(this.saveData));
+        },
         updateStorage(i, array) {
+            console.log(this.saveData.categories);
             this.saveData.categories[i].people = array;
             localStorage.setItem('save_data', JSON.stringify(this.saveData));
         },

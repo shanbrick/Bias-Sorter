@@ -38,6 +38,7 @@ export default {
     background: radial-gradient(#ffffff, #c7c7c7);
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 50px;
     width: 88%;
     /* margin-left: 140px; */
     padding: 10px;
