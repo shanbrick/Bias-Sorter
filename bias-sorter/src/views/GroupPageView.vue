@@ -92,6 +92,7 @@ export default {
     width: 852px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     align-content: center;
     text-align: center;
     background: radial-gradient(#ffffff, #dadada);

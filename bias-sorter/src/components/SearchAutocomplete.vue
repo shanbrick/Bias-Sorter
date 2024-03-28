@@ -7,6 +7,15 @@
                 <img class="acPic" :src="require('../assets' + result.groupImage)" />
                 <p class="autocomplete-result">{{ result.groupName }}</p>
             </a>
+            <a href="/groupPage" style="text-decoration: none" v-for="(pResult, i) in peopleResults" :key="i"
+                @click="setResultPeople(pResult)">
+                <img class="acPic" :src="require('../assets' + pResult.imgLink)" />
+                <p class="autocomplete-result">
+                    {{ pResult.stageName }}
+                    <br />
+                    <span style="font-size: 75%">{{ pResult.fullName }}</span>
+                </p>
+            </a>
         </ul>
     </div>
 </template>
@@ -28,6 +37,7 @@ export default {
             groups: groupListEdit,
             search: "",
             results: [],
+            peopleResults: [],
             isOpen: false,
             selectedGroupArray: JSON.parse(localStorage.getItem("selectedGroup")),
         };
@@ -44,9 +54,38 @@ export default {
             this.isOpen = true;
         },
         filterResults() {
-            this.results = this.items.filter(
-                (item) => item.groupName.toLowerCase().indexOf(this.search.toLowerCase()) > -1
-            );
+            if (this.search.length > 1) {
+                let groupSearchArr = [];
+                for (let i = 0; i < this.groups.length; i++) {
+                    let noSC = this.groups[i].groupName.replace(/[^a-zA-Z ]/g, "");
+                    if (
+                        this.groups[i].groupName.toLowerCase().indexOf(this.search.toLowerCase()) >
+                        -1 ||
+                        noSC.toLowerCase().indexOf(this.search.toLowerCase()) > -1
+                    ) {
+                        groupSearchArr.push(this.groups[i]);
+                    }
+                }
+
+                let peopleSearchArr = [];
+                for (let i = 0; i < this.groups.length; i++) {
+                    for (let j = 0; j < this.groups[i].members.length; j++) {
+                        if (
+                            this.groups[i].members[j].stageName
+                                .toLowerCase()
+                                .indexOf(this.search.toLowerCase()) > -1 ||
+                            this.groups[i].members[j].fullName
+                                .toLowerCase()
+                                .indexOf(this.search.toLowerCase()) > -1
+                        ) {
+                            peopleSearchArr.push(this.groups[i].members[j]);
+                        }
+                    }
+                }
+
+                this.results = groupSearchArr;
+                this.peopleResults = peopleSearchArr;
+            }
         },
         setResult(result) {
             this.search = result.groupName;
@@ -55,6 +94,22 @@ export default {
                 this.selectedGroupArray = [];
             }
             this.selectedGroupArray = result;
+            localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
+        },
+        setResultPeople(result) {
+            this.search = result.stageName;
+            this.isOpen = false;
+            if (this.selectedGroupArray === null) {
+                this.selectedGroupArray = [];
+            }
+            for (let i = 0; i < this.groups.length; i++) {
+                for (let j = 0; j < this.groups[i].members.length; j++) {
+                    if (this.groups[i].members[j] === result) {
+                        this.selectedGroupArray = this.groups[i];
+                        break;
+                    }
+                }
+            }
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
         },
         handleClickOutside(event) {
@@ -78,14 +133,15 @@ export default {
     z-index: 1;
     position: absolute;
     padding: 10px;
+    padding-bottom: 5px;
     margin: 0px;
     margin-top: 5px;
     box-shadow: 0px 0px 5px #00000080;
     border-radius: 5px;
     background: white;
-    height: 200px;
+    height: fit-content;
     min-height: 1em;
-    max-height: 200px;
+    max-height: 500px;
     overflow: auto;
     color: black;
 }
@@ -95,9 +151,9 @@ export default {
     list-style: none;
     text-align: left;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     margin: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     cursor: pointer;
     /* border-bottom: 1px solid #00000036; */
     color: black;
@@ -111,9 +167,10 @@ export default {
 
 .acPic {
     float: left;
-    height: 58.5px;
-    width: 73.125px;
+    height: 67px;
+    width: 83.75px;
     margin-right: 10px;
     object-fit: cover;
+    border-radius: 5px;
 }
 </style>

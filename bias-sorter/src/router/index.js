@@ -4,6 +4,7 @@ import BGView from '../views/BGView.vue'
 import GGView from '../views/GGView.vue'
 import SoloView from '../views/SoloView.vue'
 import GroupPageView from '../views/GroupPageView.vue'
+import Birthdays from '../views/Birthdays.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/groupPage',
     name: 'groupPage',
     component: GroupPageView
+  },
+  {
+    path: '/birthdays',
+    name: 'birthdays',
+    component: Birthdays
   }
 ]
 
