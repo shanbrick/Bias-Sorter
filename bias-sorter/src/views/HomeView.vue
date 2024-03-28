@@ -24,16 +24,15 @@
 
 
     <div class="sideCats">
-        <draggable :list="categoryArray" :animation="300" @change="updateCatOrder(categoryArray)">
+        <!-- <draggable :list="testArray" :animation="300" @change="updateCatOrder(testArray)">
             <template #item="{ element: catArr, index }">
                 <div :id=catArr class="categories">
                     <div class="boxHeaderCategories">
                         <div v-if="!editModeOn">
-                            <p class="categoryTitle">{{ saveData.categories[index + 1].catName }}</p>
+                            <p class="categoryTitle">{{ catArr.catName }}</p>
                         </div>
                         <div v-else>
-                            <input class="boxHeaderCatsInput" type="text"
-                                v-model="saveData.categories[index + 1].catName"
+                            <input class="boxHeaderCatsInput" type="text" v-model="catArr.catName"
                                 v-on:input="updateCatName(index + 1)"></input>
                         </div>
                     </div>
@@ -51,8 +50,8 @@
                     </div>
                 </div>
             </template>
-        </draggable>
-        <!-- <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories" :key="cat">
+        </draggable> -->
+        <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories" :key="cat">
             <div :id=index class="boxHeaderCategories">
                 <div v-if="!editModeOn">
                     <p class="categoryTitle">{{ cat.catName }}</p>
@@ -74,7 +73,7 @@
                     </template>
                 </draggable>
             </div>
-        </div> -->
+        </div>
 
     </div>
 </template>
@@ -107,6 +106,11 @@ export default {
         for (let i = 0; i < this.saveData.categories.length; i++) {
             this.homePageArrays.push(this.saveData.categories[i].people);
         }
+
+        for (let i = 1; i < this.saveData.categories.length; i++) {
+            this.testArray.push(this.saveData.categories[i]);
+        }
+
     },
     data() {
         return {
@@ -132,6 +136,7 @@ export default {
             },
             homePageArrays: ref([]),
             categoryArray: ref([]),
+            testArray: ref([]),
             editModeOn: false,
         }
     },
@@ -155,10 +160,12 @@ export default {
         toggleEditMode() {
             this.editModeOn = !this.editModeOn;
         },
-        updateCatOrder(name, people) {
-            console.log(name)
-            console.log(people)
-            this.saveData.categories = name;
+        updateCatOrder(arr) {
+            console.log("update cat order", arr)
+            for (let i = 0; i < arr.length; i++) {
+                this.saveData.categories[i + 1] = arr;
+            }
+            console.log("saveData categpories", this.saveData.categories);
             localStorage.setItem('save_data', JSON.stringify(this.saveData));
         },
         updateStorage(i, array) {
