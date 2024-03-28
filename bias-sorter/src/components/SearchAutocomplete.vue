@@ -5,7 +5,11 @@
             <a href="/groupPage" style="text-decoration: none" v-for="(result, i) in results" :key="i"
                 @click="setResult(result)">
                 <img class="acPic" :src="require('../assets' + result.groupImage)" />
-                <p class="autocomplete-result">{{ result.groupName }}</p>
+                <p class="autocomplete-result">
+                    {{ result.groupName }}
+                    <br />
+                    <span style="font-size: 75%">{{ result.company }}</span>
+                </p>
             </a>
             <a href="/groupPage" style="text-decoration: none" v-for="(pResult, i) in peopleResults" :key="i"
                 @click="setResultPeople(pResult)">
@@ -71,12 +75,14 @@ export default {
                 for (let i = 0; i < this.groups.length; i++) {
                     for (let j = 0; j < this.groups[i].members.length; j++) {
                         if (
-                            this.groups[i].members[j].stageName
+                            (this.groups[i].members[j].stageName
                                 .toLowerCase()
                                 .indexOf(this.search.toLowerCase()) > -1 ||
-                            this.groups[i].members[j].fullName
-                                .toLowerCase()
-                                .indexOf(this.search.toLowerCase()) > -1
+                                this.groups[i].members[j].fullName
+                                    .toLowerCase()
+                                    .indexOf(this.search.toLowerCase()) > -1) &&
+                            (this.groups[i].members[j].afr === "a" ||
+                                this.groups[i].members[j].afr === "f")
                         ) {
                             peopleSearchArr.push(this.groups[i].members[j]);
                         }
