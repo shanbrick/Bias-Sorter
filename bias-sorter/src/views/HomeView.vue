@@ -12,7 +12,7 @@
             <p class="categoryTitle">Unsorted</p>
         </div>
         <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
-            @change="updateStorage(0, homePageArrays[0])" :disabled="!editModeOn" item-key="a">
+            @change="updateStorage(0, homePageArrays[0])" :disabled="editModeOn" item-key="a">
             <template #item="{ element }">
                 <div class="peopleDivss" :key="element.stageName">
                     <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">

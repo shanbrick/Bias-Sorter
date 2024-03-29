@@ -1,12 +1,11 @@
 <template>
-    <div id="groupPage" class="bigBox">
-        <div class="groupInfoDiv">
-            <img class="fullGroupPic" :src="require('../assets' + group.groupImage)" />
-            <p class="groupName">{{ group.groupName }}</p>
-            <p><i>Company:</i> {{ group.company }}</p>
-            <p><i>Debut:</i> {{ group.debutDate }}</p>
-        </div>
-
+    <div class="groupInfoDiv">
+        <img class="fullGroupPic" :src="require('../assets' + group.groupImage)" />
+        <p class="groupName">{{ group.groupName }}</p>
+        <p><i>Company:</i> {{ group.company }}</p>
+        <p><i>Debut:</i> {{ group.debutDate }}</p>
+    </div>
+    <div class="bigBox">
         <div v-for="person in group.members" class="memberDivs">
             <img class="memberPic" :src="require('../assets' + person.imgLink)" />
             <p class="memberName">{{ person.stageName }}</p>
@@ -19,15 +18,15 @@
                 ➜
             </button>
             <button v-else @click="
-                addToUnsorted(
-                    group.groupName,
-                    person.num,
-                    person.stageName,
-                    person.fullName,
-                    person.birthday,
-                    person.imgLink
-                )
-                ">
+            addToUnsorted(
+                group.groupName,
+                person.num,
+                person.stageName,
+                person.fullName,
+                person.birthday,
+                person.imgLink
+            )
+            ">
                 Add
             </button>
         </div>
@@ -89,16 +88,20 @@ export default {
 
 <style scoped>
 .bigBox {
-    width: 852px;
+    width: 1200px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     align-content: center;
     text-align: center;
-    background: radial-gradient(#ffffff, #dadada);
+    /* background: radial-gradient(#ffffff, #dadada); */
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #b0b0b0;
+    /* border: 1px solid #b0b0b0; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .bigBox:after {
@@ -109,22 +112,23 @@ export default {
 
 .groupInfoDiv {
     height: fit-content;
-    width: 480px;
+    width: fit-content;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     padding-left: 40px;
     padding-right: 40px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     background-color: #edecff;
-    background-image: linear-gradient(#747fe6, #b3b8e9);
+    /* background-image: linear-gradient(#747fe6, #b3b8e9); */
+    background: radial-gradient(#ffffff, #dadada);
     box-shadow: 0px 0px 5px black;
 }
 
 .fullGroupPic {
-    width: 400px;
+    height: 400px;
     border: 1px solid #848484;
     border-radius: 8px;
 }
@@ -148,22 +152,20 @@ export default {
 
 .memberDivs {
     float: left;
-    height: 380px;
-    width: 250px;
-    /* width: fit-content; */
+    height: fit-content;
+    width: 310px;
     text-align: center;
     padding: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 8px;
     background-color: #edecff;
-    background-image: linear-gradient(#747fe6, #b3b8e9);
-    box-shadow: 0px 0px 5px #00000080;
+    /* background-image: linear-gradient(#747fe6, #b3b8e9); */
+    background: radial-gradient(#ffffff, #dadada);
+    box-shadow: 0px 0px 5px black;
 }
 
 .memberPic {
-    width: 210px;
+    width: 270px;
     border: 1px solid #848484;
     border-radius: 8px;
     margin-bottom: 5px;
@@ -195,7 +197,7 @@ button {
     border: 1px solid #848484;
     border-radius: 5px;
     color: rgb(0, 0, 0);
-    background-color: #ededed;
+    background-color: #b3b8e9;
     padding: 7px 15px;
     text-align: center;
     text-decoration: none;

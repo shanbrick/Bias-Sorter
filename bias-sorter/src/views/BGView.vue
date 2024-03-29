@@ -2,7 +2,7 @@
     <div class="listBox">
         <div v-for="group in groupsData">
             <div class="groupDiv" v-if="group.bgs === 'b' || group.bgs === 'bg'">
-                <a href="/groupPage" @click="populateGroupPage(group)">
+                <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
                     <img class="groupPicList" :src="require('../assets' + group.groupImage)" />
                     <p class="groupNameList">{{ group.groupName }}</p>
                 </a>
@@ -39,7 +39,7 @@ export default {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 50px;
-    width: 88%;
+    width: 85%;
     /* margin-left: 140px; */
     padding: 10px;
     padding-left: 20px;
@@ -64,11 +64,13 @@ export default {
     height: fit-content;
     width: 294px;
     text-align: center;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 5px;
+    padding: 20px;
+    border-radius: 8px;
     /* border: 1px solid red; */
+}
+
+.groupDiv:hover {
+    background-color: #b3b8e9;
 }
 
 .groupPicList {
@@ -81,9 +83,10 @@ export default {
 }
 
 .groupNameList {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
+    padding-bottom: 0px;
     margin: 0px;
 }
 
