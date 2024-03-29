@@ -63,9 +63,10 @@ export default {
                 for (let i = 0; i < this.groups.length; i++) {
                     let noSC = this.groups[i].groupName.replace(/[^a-zA-Z ]/g, "");
                     if (
-                        this.groups[i].groupName.toLowerCase().indexOf(this.search.toLowerCase()) >
-                        -1 ||
-                        noSC.toLowerCase().indexOf(this.search.toLowerCase()) > -1
+                        (this.groups[i].groupName.toLowerCase().indexOf(this.search.toLowerCase()) >
+                            -1 ||
+                            noSC.toLowerCase().indexOf(this.search.toLowerCase()) > -1) &&
+                        this.groups[i].bgs !== "s"
                     ) {
                         groupSearchArr.push(this.groups[i]);
                     }
@@ -74,10 +75,12 @@ export default {
                 let peopleSearchArr = [];
                 for (let i = 0; i < this.groups.length; i++) {
                     for (let j = 0; j < this.groups[i].members.length; j++) {
+                        let noSC = this.groups[i].members[j].stageName.replace(/[^a-zA-Z ]/g, "");
                         if (
                             (this.groups[i].members[j].stageName
                                 .toLowerCase()
                                 .indexOf(this.search.toLowerCase()) > -1 ||
+                                noSC.toLowerCase().indexOf(this.search.toLowerCase()) > -1 ||
                                 this.groups[i].members[j].fullName
                                     .toLowerCase()
                                     .indexOf(this.search.toLowerCase()) > -1) &&

@@ -373,7 +373,7 @@
         "debutDate": "November 15, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "AMPERS&ONE",
                 "stageName": "Kamden",
                 "fullName": "Na Doobin",
                 "birthday": "June 09, 2001",
@@ -381,7 +381,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "AMPERS&ONE",
                 "stageName": "Brian",
                 "fullName": "He Tingwei",
                 "birthday": "August 27, 2002",
@@ -389,7 +389,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "AMPERS&ONE",
                 "stageName": "Jiho",
                 "fullName": "Choi Jiho",
                 "birthday": "June 10, 2004",
@@ -397,7 +397,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "AMPERS&ONE",
                 "stageName": "Siyun",
                 "fullName": "Yoon Siyun",
                 "birthday": "January 08, 2005",
@@ -405,7 +405,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "AMPERS&ONE",
                 "stageName": "Mackiah",
                 "fullName": "Choi Young",
                 "birthday": "July 03, 2005",
@@ -413,7 +413,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "AMPERS&ONE",
                 "stageName": "Kyrell",
                 "fullName": "Lee Yejun",
                 "birthday": "January 21, 2006",
@@ -421,7 +421,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "AMPERS&ONE",
                 "stageName": "Seungmo",
                 "fullName": "Kim Seungmo",
                 "birthday": "July 03, 2006",
@@ -438,7 +438,7 @@
         "debutDate": "TBA",
         "members": [
             {
-                "num": "1",
+                "grpName": "ARTMS",
                 "stageName": "Jinsoul",
                 "fullName": "Jung Jinsol",
                 "birthday": "June 13, 1997",
@@ -446,7 +446,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "ARTMS",
                 "stageName": "Haseul",
                 "fullName": "Jo Haseul",
                 "birthday": "August 18, 1997",
@@ -454,7 +454,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "ARTMS",
                 "stageName": "Kim Lip",
                 "fullName": "Kim Jungeun",
                 "birthday": "February 10, 1999",
@@ -462,7 +462,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "ARTMS",
                 "stageName": "Heejin",
                 "fullName": "Jeon Heejin",
                 "birthday": "October 19, 2000",
@@ -470,7 +470,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "ARTMS",
                 "stageName": "Choerry",
                 "fullName": "Choi Yerim",
                 "birthday": "June 04, 2001",
@@ -487,7 +487,7 @@
         "debutDate": "February 23, 2016",
         "members": [
             {
-                "num": "1",
+                "grpName": "ASTRO",
                 "stageName": "MJ",
                 "fullName": "Kim Myungjun",
                 "birthday": "March 05, 1994",
@@ -495,7 +495,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "ASTRO",
                 "stageName": "JinJin",
                 "fullName": "Park Jinwoo",
                 "birthday": "March 15, 1996",
@@ -503,7 +503,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "ASTRO",
                 "stageName": "Cha Eunwoo",
                 "fullName": "Lee Dongmin",
                 "birthday": "March 30, 1997",
@@ -511,7 +511,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "ASTRO",
                 "stageName": "Moonbin",
                 "fullName": "Moon Bin",
                 "birthday": "January 26, 1998",
@@ -519,7 +519,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "ASTRO",
                 "stageName": "Rocky",
                 "fullName": "Park Minhyuk",
                 "birthday": "February 25, 1999",
@@ -527,7 +527,7 @@
                 "afr": "f"
             },
             {
-                "num": "6",
+                "grpName": "ASTRO",
                 "stageName": "Sanha",
                 "fullName": "Yoon Sanha",
                 "birthday": "March 21, 2000",
@@ -544,7 +544,7 @@
         "debutDate": "October 24, 2018",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Seonghwa",
                 "fullName": "Park Seonghwa",
                 "birthday": "April 03, 1998",
@@ -552,7 +552,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hongjoong",
                 "fullName": "Kim Hongjoong",
                 "birthday": "November 07, 1998",
@@ -560,7 +560,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Yunho",
                 "fullName": "Jung Yunho",
                 "birthday": "March 23, 1999",
@@ -568,7 +568,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Yeosang",
                 "fullName": "Kang Yeosang",
                 "birthday": "June 15, 1999",
@@ -576,7 +576,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "San",
                 "fullName": "Choi San",
                 "birthday": "July 10, 1999",
@@ -584,7 +584,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Mingi",
                 "fullName": "Song Mingi",
                 "birthday": "August 09, 1999",
@@ -592,7 +592,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Wooyoung",
                 "fullName": "Jung Wooyoung",
                 "birthday": "November 26, 1999",
@@ -600,7 +600,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Jongho",
                 "fullName": "Choi Jongho",
                 "birthday": "October 12, 2000",
@@ -617,7 +617,7 @@
         "debutDate": "November 19, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "J-Min",
                 "fullName": "Jeon Minwook",
                 "birthday": "October 16, 1999",
@@ -625,7 +625,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hangyul",
                 "fullName": "Lee Hangyul",
                 "birthday": "December 07, 1999",
@@ -633,7 +633,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Yoojun",
                 "fullName": "Jung Gun",
                 "birthday": "December 22, 2000",
@@ -641,7 +641,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Muzin",
                 "fullName": "Kim Hyunwoo",
                 "birthday": "March 29, 2001",
@@ -649,7 +649,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Junseo",
                 "fullName": "Park Junseo",
                 "birthday": "December 28, 2001",
@@ -657,7 +657,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Youngseo",
                 "fullName": "Ryu Youngseo",
                 "birthday": "June 13, 2002",
@@ -665,7 +665,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Doha",
                 "fullName": "Na Gyumin",
                 "birthday": "March 07, 2004",
@@ -673,7 +673,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Bit",
                 "fullName": "No Minjae",
                 "birthday": "July 21, 2004",
@@ -681,7 +681,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Dohyun",
                 "fullName": "Nam Dohyun",
                 "birthday": "November 10, 2004",
@@ -698,7 +698,7 @@
         "debutDate": "November 10, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Moon Sua",
                 "fullName": "Moon Sua",
                 "birthday": "September 09, 1999",
@@ -706,7 +706,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Suhyeon",
                 "fullName": "Kim Suhyeon",
                 "birthday": "January 15, 2000",
@@ -714,7 +714,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Haram",
                 "fullName": "Kim Haram",
                 "birthday": "January 13, 2001",
@@ -722,7 +722,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Tsuki",
                 "fullName": "Fukutomi Tsuki",
                 "birthday": "September 21, 2002",
@@ -730,7 +730,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Sheon",
                 "fullName": "Kim Suyeon",
                 "birthday": "January 28, 2003",
@@ -738,7 +738,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Siyoon",
                 "fullName": "Kim Siyoon",
                 "birthday": "February 16, 2005",
@@ -746,7 +746,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Haruna",
                 "fullName": "Osato Haruna",
                 "birthday": "January 30, 2006",
@@ -763,7 +763,7 @@
         "debutDate": "August 08, 2016",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Jisoo",
                 "fullName": "Kim Jisoo",
                 "birthday": "January 03, 1995",
@@ -771,7 +771,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jennie",
                 "fullName": "Kim Jennie",
                 "birthday": "January 16, 1996",
@@ -779,7 +779,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Rosé",
                 "fullName": "Park Chaeyoung",
                 "birthday": "February 11, 1997",
@@ -787,7 +787,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Lisa",
                 "fullName": "Lalisa Manobal",
                 "birthday": "March 27, 1997",
@@ -804,7 +804,7 @@
         "debutDate": "May 12, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Go_U",
                 "fullName": "Jang Junho",
                 "birthday": "June 15, 2001",
@@ -812,7 +812,7 @@
                 "afr": "f"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Juhan",
                 "fullName": "Hong Seunghyun",
                 "birthday": "June 21, 2001",
@@ -820,7 +820,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jinhwa",
                 "fullName": "Choi Jinhwa",
                 "birthday": "January 15, 2002",
@@ -828,7 +828,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Sya",
                 "fullName": "Lee Junyoung",
                 "birthday": "September 09, 2002",
@@ -836,7 +836,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Chris",
                 "fullName": "Han Jongmyeong",
                 "birthday": "November 19, 2002",
@@ -844,7 +844,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Lutan",
                 "fullName": "Choi Gyeongseok",
                 "birthday": "December 06, 2003",
@@ -852,7 +852,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Wooju",
                 "fullName": "Cho Wooju",
                 "birthday": "January 21, 2004",
@@ -869,7 +869,7 @@
         "debutDate": "May 30, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Sungho",
                 "fullName": "Park Sungho",
                 "birthday": "September 04, 2003",
@@ -877,7 +877,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Riwoo",
                 "fullName": "Lee Sanghyuk",
                 "birthday": "October 22, 2003",
@@ -885,15 +885,15 @@
                 "afr": "a"
             },
             {
-                "num": "3",
-                "stageName": "Myung Jaehyun",
+                "grpName": "3",
+                "stageName": "Jaehyun",
                 "fullName": "Myung Jaehyun",
                 "birthday": "December 04, 2003",
                 "imgLink": "/imageArchive/BOYNEXTDOOR/MyungJaehyun.jpeg",
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Taesan",
                 "fullName": "Hong Dongmin",
                 "birthday": "August 10, 2004",
@@ -901,7 +901,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Leehan",
                 "fullName": "Kim Donghyun",
                 "birthday": "October 20, 2004",
@@ -909,7 +909,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Woonhak",
                 "fullName": "Kim Woonhak",
                 "birthday": "November 29, 2006",
@@ -926,7 +926,7 @@
         "debutDate": "June 13, 2013",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Jin",
                 "fullName": "Kim Seokjin",
                 "birthday": "December 04, 1992",
@@ -934,7 +934,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Suga",
                 "fullName": "Min Yoongi",
                 "birthday": "March 09, 1993",
@@ -942,7 +942,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "J-Hope",
                 "fullName": "Jung Hoseok",
                 "birthday": "February 18, 1994",
@@ -950,7 +950,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "RM",
                 "fullName": "Kim Namjoon",
                 "birthday": "September 12, 1994",
@@ -958,7 +958,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Jimin",
                 "fullName": "Park Jimin",
                 "birthday": "October 13, 1995",
@@ -966,7 +966,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "V",
                 "fullName": "Kim Taehyung",
                 "birthday": "December 30, 1995",
@@ -974,7 +974,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Jungkook",
                 "fullName": "Jeon Jungkook",
                 "birthday": "September 01, 1997",
@@ -991,7 +991,7 @@
         "debutDate": "July 23, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "BX",
                 "fullName": "Lee Byounggon",
                 "birthday": "March 05, 1998",
@@ -999,7 +999,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Seunghun",
                 "fullName": "Kim Seunghun",
                 "birthday": "February 26, 1999",
@@ -1007,7 +1007,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Yonghee",
                 "fullName": "Kim Yonghee",
                 "birthday": "February 17, 2000",
@@ -1015,7 +1015,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Jinyoung",
                 "fullName": "Bae Jinyoung",
                 "birthday": "May 10, 2000",
@@ -1023,7 +1023,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Hyunsuk",
                 "fullName": "Yoon Hyunsuk",
                 "birthday": "September 08, 2001",
@@ -1040,7 +1040,7 @@
         "debutDate": "January 21, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Haeyoon",
                 "fullName": "Park Haeyoon",
                 "birthday": "January 10, 1996",
@@ -1048,7 +1048,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Yuju",
                 "fullName": "Choi Yuju",
                 "birthday": "March 05, 1997",
@@ -1056,7 +1056,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Bora",
                 "fullName": "Kim Bora",
                 "birthday": "March 03, 1999",
@@ -1064,7 +1064,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Jiwon",
                 "fullName": "Heo Jiwon",
                 "birthday": "September 04, 2000",
@@ -1072,7 +1072,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Remi",
                 "fullName": "Katsuno Rise",
                 "birthday": "April 26, 2001",
@@ -1080,7 +1080,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Chaerin",
                 "fullName": "Park Chaerin",
                 "birthday": "March 13, 2002",
@@ -1088,7 +1088,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "May",
                 "fullName": "Hirokawa Mao",
                 "birthday": "November 16, 2004",
@@ -1105,7 +1105,7 @@
         "debutDate": "October 18, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Chuu",
                 "fullName": "Kim Jiwoo",
                 "birthday": "October 20, 1999",
@@ -1122,7 +1122,7 @@
         "debutDate": "April 14, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Serim",
                 "fullName": "Park Serim",
                 "birthday": "March 03, 1999",
@@ -1130,7 +1130,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Allen",
                 "fullName": "Ma Shiquan",
                 "birthday": "April 26, 1999",
@@ -1138,7 +1138,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jungmo",
                 "fullName": "Koo Jungmo",
                 "birthday": "February 05, 2000",
@@ -1146,7 +1146,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Woobin",
                 "fullName": "Seo Woobin",
                 "birthday": "October 16, 2000",
@@ -1154,7 +1154,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Wonjin",
                 "fullName": "Ham Wonjin",
                 "birthday": "March 22, 2001",
@@ -1162,7 +1162,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Minhee",
                 "fullName": "Kang Minhee",
                 "birthday": "September 17, 2002",
@@ -1170,7 +1170,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Hyeongjun",
                 "fullName": "Song Hyeongjun",
                 "birthday": "November 30, 2002",
@@ -1178,7 +1178,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Taeyoung",
                 "fullName": "Kim Taeyoung",
                 "birthday": "January 27, 2003",
@@ -1186,7 +1186,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Seongmin",
                 "fullName": "An Seongmin",
                 "birthday": "August 01, 2003",
@@ -1203,7 +1203,7 @@
         "debutDate": "September 07, 2015",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Sungjin",
                 "fullName": "Park Sungjin",
                 "birthday": "January 16, 1993",
@@ -1211,7 +1211,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Young K",
                 "fullName": "Kang Younghyun",
                 "birthday": "December 19, 1993",
@@ -1219,7 +1219,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Wonpil",
                 "fullName": "Kim Wonpil",
                 "birthday": "April 28, 1994",
@@ -1227,7 +1227,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Dowoon",
                 "fullName": "Yoon Dowoon",
                 "birthday": "August 25, 1995",
@@ -1244,7 +1244,7 @@
         "debutDate": "February 3, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "E-Chan",
                 "fullName": "Lee Changmin",
                 "birthday": "February 19, 1997",
@@ -1252,7 +1252,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Teo",
                 "fullName": "Jang Seongsik",
                 "birthday": "October 22, 1997",
@@ -1260,7 +1260,7 @@
                 "afr": "f"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "D1",
                 "fullName": "Jang Dongil",
                 "birthday": "February 15, 1998",
@@ -1268,7 +1268,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "GK",
                 "fullName": "Kim Gwanghyun",
                 "birthday": "September 29, 1998",
@@ -1276,7 +1276,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Heechan",
                 "fullName": "Yang Heechan",
                 "birthday": "July 31, 1999",
@@ -1284,7 +1284,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Lune",
                 "fullName": "Jung Sungmin",
                 "birthday": "February 27, 2000",
@@ -1292,7 +1292,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Junseo",
                 "fullName": "Hwang Junseo",
                 "birthday": "January 16, 2001",
@@ -1300,7 +1300,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Yuku",
                 "fullName": "Amanuma Yuku",
                 "birthday": "May 12, 2002",
@@ -1308,7 +1308,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Harry June",
                 "fullName": "Han Harry June",
                 "birthday": "January 01, 2004",
@@ -1325,7 +1325,7 @@
         "debutDate": "January 13, 2017",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "JiU",
                 "fullName": "Kim Minji",
                 "birthday": "May 17, 1994",
@@ -1333,7 +1333,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "SuA",
                 "fullName": "Kim Bora",
                 "birthday": "August 10, 1994",
@@ -1341,7 +1341,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Siyeon",
                 "fullName": "Lee Siyeon",
                 "birthday": "October 01, 1995",
@@ -1349,7 +1349,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Handong",
                 "fullName": "Han Dong",
                 "birthday": "March 26, 1996",
@@ -1357,7 +1357,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yoohyeon",
                 "fullName": "Kim Yoohyeon",
                 "birthday": "January 07, 1997",
@@ -1365,7 +1365,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Dami",
                 "fullName": "Lee Yubin",
                 "birthday": "March 07, 1997",
@@ -1373,7 +1373,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Gahyeon",
                 "fullName": "Lee Gahyeon",
                 "birthday": "February 03, 1999",
@@ -1390,7 +1390,7 @@
         "debutDate": "October 28, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Hyeop",
                 "fullName": "Lee Hyeop",
                 "birthday": "August 13, 1999",
@@ -1398,7 +1398,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Yunseong",
                 "fullName": "Hwang Yunseong",
                 "birthday": "October 30, 2000",
@@ -1406,7 +1406,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Changuk",
                 "fullName": "Joo Changuk",
                 "birthday": "July 25, 2001",
@@ -1414,7 +1414,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Dongyun",
                 "fullName": "Kim Dongyun",
                 "birthday": "February 18, 2002",
@@ -1422,7 +1422,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Minseo",
                 "fullName": "Kim Minseo",
                 "birthday": "May 13, 2002",
@@ -1430,7 +1430,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Junho",
                 "fullName": "Cha Junho",
                 "birthday": "July 09, 2002",
@@ -1438,7 +1438,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Alex",
                 "fullName": "Lee Hayoung",
                 "birthday": "October 06, 2004",
@@ -1455,7 +1455,7 @@
         "debutDate": "January 17, 2024",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Seita",
                 "fullName": "Takizawa Seita",
                 "birthday": "February 21, 2003",
@@ -1463,7 +1463,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Minjae",
                 "fullName": "Baek Minjae",
                 "birthday": "July 09, 2003",
@@ -1471,7 +1471,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Hee",
                 "fullName": "Shin Youngseo",
                 "birthday": "December 28, 2005",
@@ -1479,7 +1479,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "TK",
                 "fullName": "Kim Taekyu",
                 "birthday": "January 09, 2006",
@@ -1487,7 +1487,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Rex",
                 "fullName": "Kim Minjun",
                 "birthday": "July 27, 2007",
@@ -1495,7 +1495,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Jo",
                 "fullName": "Kim Junseong",
                 "birthday": "February 04, 2008",
@@ -1512,7 +1512,7 @@
         "debutDate": "November 30, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Heeseung",
                 "fullName": "Lee Heeseung",
                 "birthday": "October 15, 2001",
@@ -1520,7 +1520,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jay",
                 "fullName": "Park Jongseong",
                 "birthday": "April 20, 2002",
@@ -1528,7 +1528,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jake",
                 "fullName": "Sim Jaeyun",
                 "birthday": "November 15, 2002",
@@ -1536,7 +1536,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Sunghoon",
                 "fullName": "Park Sunghoon",
                 "birthday": "December 08, 2002",
@@ -1544,7 +1544,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Sunoo",
                 "fullName": "Kim Sunoo",
                 "birthday": "June 24, 2003",
@@ -1552,7 +1552,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Jungwon",
                 "fullName": "Yang Jungwon",
                 "birthday": "February 09, 2004",
@@ -1560,7 +1560,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Niki",
                 "fullName": "Nishimura Riki",
                 "birthday": "December 09, 2005",
@@ -1577,7 +1577,7 @@
         "debutDate": "June 08, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Wish",
                 "fullName": "Kwak Dawit",
                 "birthday": "June 11, 2002",
@@ -1585,7 +1585,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Keum",
                 "fullName": "Keum Donghyun",
                 "birthday": "May 14, 2003",
@@ -1593,7 +1593,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "MU",
                 "fullName": "Suh Kyungmin",
                 "birthday": "September 14, 2003",
@@ -1601,7 +1601,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "A-Min",
                 "fullName": "Cho Minwoo",
                 "birthday": "May 22, 2004",
@@ -1609,7 +1609,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Baekseung",
                 "fullName": "Kim Hyunwoo",
                 "birthday": "October 05, 2004",
@@ -1617,7 +1617,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Ayden",
                 "fullName": "Kwon Yejun",
                 "birthday": "January 24, 2005",
@@ -1625,7 +1625,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Yewang",
                 "fullName": "Seo Yewang",
                 "birthday": "March 12, 2005",
@@ -1633,7 +1633,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Jeff",
                 "fullName": "Lee Jaeho",
                 "birthday": "April 21, 2005",
@@ -1650,7 +1650,7 @@
         "debutDate": "March 18, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "E:U",
                 "fullName": "Park Jiwon",
                 "birthday": "May 19, 1998",
@@ -1658,7 +1658,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Sihyeon",
                 "fullName": "Kim Sihyeon",
                 "birthday": "August 05, 1999",
@@ -1666,7 +1666,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Mia",
                 "fullName": "Han Eunji",
                 "birthday": "January 13, 2000",
@@ -1674,7 +1674,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Onda",
                 "fullName": "Jo Serim",
                 "birthday": "May 18, 2000",
@@ -1682,7 +1682,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Aisha",
                 "fullName": "Heo Yoorim",
                 "birthday": "July 21, 2000",
@@ -1690,7 +1690,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Yiren",
                 "fullName": "Wang Yiren",
                 "birthday": "December 29, 2000",
@@ -1707,7 +1707,7 @@
         "debutDate": "September 19, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Keita",
                 "fullName": "Terazono Keita",
                 "birthday": "July 04, 2001",
@@ -1715,7 +1715,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hanbin",
                 "fullName": "Park Hanbin",
                 "birthday": "March 01, 2002",
@@ -1723,40 +1723,40 @@
                 "afr": "a"
             },
             {
-                "num": "3",
-                "stageName": "Lee Jeonghyeon",
+                "grpName": "3",
+                "stageName": "Jeonghyeon",
                 "fullName": "Lee Jeonghyeon",
                 "birthday": "September 11, 2002",
                 "imgLink": "/imageArchive/EVNNE/Jeonghyeon.jpeg",
                 "afr": "a"
             },
             {
-                "num": "4",
-                "stageName": "Yoo Seungeon",
+                "grpName": "4",
+                "stageName": "Seungeon",
                 "fullName": "Yoo Seungeon",
                 "birthday": "January 02, 2004",
                 "imgLink": "/imageArchive/EVNNE/Seungeon.jpeg",
                 "afr": "a"
             },
             {
-                "num": "5",
-                "stageName": "Ji Yunseo",
+                "grpName": "5",
+                "stageName": "Yunseo",
                 "fullName": "Ji Yunseo",
                 "birthday": "October 15, 2004",
                 "imgLink": "/imageArchive/EVNNE/Yunseo.jpeg",
                 "afr": "a"
             },
             {
-                "num": "6",
-                "stageName": "Mun Junghyun",
+                "grpName": "6",
+                "stageName": "Junghyun",
                 "fullName": "Mun Junghyun",
                 "birthday": "March 31, 2005",
                 "imgLink": "/imageArchive/EVNNE/Junghyun.jpeg",
                 "afr": "a"
             },
             {
-                "num": "7",
-                "stageName": "Park Jihoo",
+                "grpName": "7",
+                "stageName": "Jihoo",
                 "fullName": "Park Jihoo",
                 "birthday": "July 14, 2006",
                 "imgLink": "/imageArchive/EVNNE/Jihoo.jpeg",
@@ -1772,7 +1772,7 @@
         "debutDate": "April 08, 2012",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Xiumin",
                 "fullName": "Kim Minseok",
                 "birthday": "March 26, 1990",
@@ -1780,7 +1780,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Luhan",
                 "fullName": "Lu Han",
                 "birthday": "April 20, 1990",
@@ -1788,7 +1788,7 @@
                 "afr": "f"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Suho",
                 "fullName": "Kim Junmyeon",
                 "birthday": "May 22, 1991",
@@ -1796,7 +1796,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Lay",
                 "fullName": "Zhang Yixing",
                 "birthday": "October 07, 1991",
@@ -1804,7 +1804,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Baekhyun",
                 "fullName": "Byun Baekhyun",
                 "birthday": "May 06, 1992",
@@ -1812,7 +1812,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Chen",
                 "fullName": "Kim Jongdae",
                 "birthday": "September 21, 1992",
@@ -1820,7 +1820,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Chanyeol",
                 "fullName": "Park Chanyeol",
                 "birthday": "November 27, 1992",
@@ -1828,7 +1828,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "D.O",
                 "fullName": "Do Kyungsoo",
                 "birthday": "January 12, 1993",
@@ -1836,7 +1836,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Tao",
                 "fullName": "Huang Zitao",
                 "birthday": "May 02, 1993",
@@ -1844,7 +1844,7 @@
                 "afr": "f"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Kai",
                 "fullName": "Kim Jongin",
                 "birthday": "January 14, 1994",
@@ -1852,7 +1852,7 @@
                 "afr": "a"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Sehun",
                 "fullName": "Oh Sehun",
                 "birthday": "April 12, 1994",
@@ -1869,7 +1869,7 @@
         "debutDate": "January 24, 2018",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Saerom",
                 "fullName": "Lee Saerom",
                 "birthday": "January 07, 1997",
@@ -1877,7 +1877,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hayoung",
                 "fullName": "Song Hayoung",
                 "birthday": "September 29, 1997",
@@ -1885,7 +1885,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Gyuri",
                 "fullName": "Jang Gyuri",
                 "birthday": "December 27, 1997",
@@ -1893,7 +1893,7 @@
                 "afr": "f"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Jiwon",
                 "fullName": "Park Jiwon",
                 "birthday": "March 20, 1998",
@@ -1901,7 +1901,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Jisun",
                 "fullName": "Roh Jisun",
                 "birthday": "November 23, 1998",
@@ -1909,7 +1909,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Seoyeon",
                 "fullName": "Lee Seoyeon",
                 "birthday": "January 22, 2000",
@@ -1917,7 +1917,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Chaeyoung",
                 "fullName": "Lee Chaeyoung",
                 "birthday": "May 14, 2000",
@@ -1925,7 +1925,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Nagyung",
                 "fullName": "Lee Nagyung",
                 "birthday": "June 01, 2000",
@@ -1933,7 +1933,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Jiheon",
                 "fullName": "Bark Jiheon",
                 "birthday": "April 17, 2003",
@@ -1950,7 +1950,7 @@
         "debutDate": "September 23, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Dongjun",
                 "fullName": "Hwang Dongjun",
                 "birthday": "September 07, 1999",
@@ -1958,7 +1958,7 @@
                 "afr": "f"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Shin",
                 "fullName": "Kim Suhyun",
                 "birthday": "March 18, 2000",
@@ -1966,7 +1966,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Junhyung",
                 "fullName": "Son Junhyung",
                 "birthday": "October 21, 2000",
@@ -1974,7 +1974,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Kangsung",
                 "fullName": "Lee Kangsung",
                 "birthday": "August 08, 2002",
@@ -1982,7 +1982,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Junseong",
                 "fullName": "Choi Junseong",
                 "birthday": "September 29, 2002",
@@ -1990,7 +1990,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Prince",
                 "fullName": "Pasidh Vataniyapramote",
                 "birthday": "January 10, 2003",
@@ -1998,7 +1998,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Woojin",
                 "fullName": "Lee Woojin",
                 "birthday": "April 07, 2003",
@@ -2006,7 +2006,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Taeseung",
                 "fullName": "Lee Taeseung",
                 "birthday": "December 19, 2003",
@@ -2014,7 +2014,7 @@
                 "afr": "f"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Jinwoo",
                 "fullName": "Lee Jinwoo",
                 "birthday": "September 13, 2004",
@@ -2031,7 +2031,7 @@
         "debutDate": "May 02, 2018",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Miyeon",
                 "fullName": "Cho Miyeon",
                 "birthday": "January 31, 1997",
@@ -2039,7 +2039,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Minnie",
                 "fullName": "Nicha Yontararak",
                 "birthday": "October 23, 1997",
@@ -2047,7 +2047,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Soojin",
                 "fullName": "Seo Soojin",
                 "birthday": "March 09, 1998",
@@ -2055,7 +2055,7 @@
                 "afr": "Soojin"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Soyeon",
                 "fullName": "Jeon Soyeon",
                 "birthday": "August 26, 1998",
@@ -2063,7 +2063,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yuqi",
                 "fullName": "Song Yuqi",
                 "birthday": "September 23, 1999",
@@ -2071,7 +2071,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Shuhua",
                 "fullName": "Yeh Shuhua",
                 "birthday": "January 06, 2000",
@@ -2088,7 +2088,7 @@
         "debutDate": "August 28, 2017",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Daeyeol",
                 "fullName": "Lee Daeyeol",
                 "birthday": "February 11, 1993",
@@ -2096,7 +2096,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Y",
                 "fullName": "Choi Sungyoon",
                 "birthday": "July 31, 1995",
@@ -2104,7 +2104,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jangjun",
                 "fullName": "Lee Jangjun",
                 "birthday": "March 03, 1997",
@@ -2112,7 +2112,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Tag",
                 "fullName": "Son Youngtaek",
                 "birthday": "April 13, 1998",
@@ -2120,7 +2120,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Seungmin",
                 "fullName": "Bae Seungmin",
                 "birthday": "October 13, 1998",
@@ -2128,7 +2128,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Jaehyun",
                 "fullName": "Bong Jaehyun",
                 "birthday": "January 04, 1999",
@@ -2136,7 +2136,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Jibeom",
                 "fullName": "Kim Jibeom",
                 "birthday": "February 03, 1999",
@@ -2144,7 +2144,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Donghyun",
                 "fullName": "Kim Donghyun",
                 "birthday": "February 23, 1999",
@@ -2152,7 +2152,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Joochan",
                 "fullName": "Hong Joochan",
                 "birthday": "July 31, 1999",
@@ -2160,7 +2160,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Bomin",
                 "fullName": "Choi Bomin",
                 "birthday": "August 24, 2000",
@@ -2177,7 +2177,7 @@
         "debutDate": "January 16, 2014",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Mark",
                 "fullName": "Tuan Yi En",
                 "birthday": "September 04, 1993",
@@ -2185,7 +2185,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jay B",
                 "fullName": "Im Jaebeom",
                 "birthday": "January 06, 1994",
@@ -2193,7 +2193,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jackson",
                 "fullName": "Wang Kayee",
                 "birthday": "March 28, 1994",
@@ -2201,7 +2201,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Jinyoung",
                 "fullName": "Park Jinyoung",
                 "birthday": "September 22, 1994",
@@ -2209,7 +2209,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Youngjae",
                 "fullName": "Choi Youngjae",
                 "birthday": "September 17, 1996",
@@ -2217,7 +2217,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "BamBam",
                 "fullName": "Kunpimook Bhuwakul",
                 "birthday": "May 02, 1997",
@@ -2225,7 +2225,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Yugyeom",
                 "fullName": "Kim Yugyeom",
                 "birthday": "November 17, 1997",
@@ -2242,7 +2242,7 @@
         "debutDate": "January 05, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Seoi",
                 "fullName": "Lee Yejin",
                 "birthday": "February 12, 2000",
@@ -2250,7 +2250,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Riina",
                 "fullName": "Lee Seunghyun",
                 "birthday": "February 21, 2001",
@@ -2258,7 +2258,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Hwiseo",
                 "fullName": "Jo Hwihyeon",
                 "birthday": "July 31, 2002",
@@ -2266,7 +2266,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Yel",
                 "fullName": "Han Shinyoung",
                 "birthday": "December 25, 2004",
@@ -2283,7 +2283,7 @@
         "debutDate": "September 08, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Jiyoon",
                 "fullName": "Jeong Jiyoon",
                 "birthday": "September 15, 2000",
@@ -2291,7 +2291,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "E.JI",
                 "fullName": "Choi Jiwon",
                 "birthday": "November 08, 2000",
@@ -2299,7 +2299,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jackie",
                 "fullName": "Kang Chaeyeon",
                 "birthday": "November 17, 2001",
@@ -2307,7 +2307,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Joonie",
                 "fullName": "Park Joonhee",
                 "birthday": "May 24, 2002",
@@ -2315,7 +2315,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Chaerin",
                 "fullName": "Park Chaerin",
                 "birthday": "March 31, 2003",
@@ -2323,7 +2323,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Sohee",
                 "fullName": "Eom Sohee",
                 "birthday": "January 01, 2004",
@@ -2331,7 +2331,7 @@
                 "afr": "f"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Yeju",
                 "fullName": "Kim Yeju",
                 "birthday": "September 01, 2004",
@@ -2339,7 +2339,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Chowon",
                 "fullName": "Kim Chowon",
                 "birthday": "August 18, 2005",
@@ -2356,7 +2356,7 @@
         "debutDate": "March 25th, 2024",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Yunah",
                 "fullName": "Roh Yunah",
                 "birthday": "January 15, 2004",
@@ -2364,7 +2364,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Minju",
                 "fullName": "Park Minju",
                 "birthday": "May 11, 2004",
@@ -2372,7 +2372,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Moka",
                 "fullName": "Sakai Moka",
                 "birthday": "October 08, 2004",
@@ -2380,7 +2380,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Wonhee",
                 "fullName": "Lee Wonhee",
                 "birthday": "June 26, 2007",
@@ -2388,7 +2388,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Iroha",
                 "fullName": "Hokazono Iroha",
                 "birthday": "February 04, 2008",
@@ -2405,7 +2405,7 @@
         "debutDate": "February 11, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Yeji",
                 "fullName": "Hwang Yeji",
                 "birthday": "May 26, 2000",
@@ -2413,7 +2413,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Lia",
                 "fullName": "Choi Jisoo",
                 "birthday": "July 21, 2000",
@@ -2421,7 +2421,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Ryujin",
                 "fullName": "Shin Ryujin",
                 "birthday": "April 17, 2001",
@@ -2429,7 +2429,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Chaeryeong",
                 "fullName": "Lee Chaeryeong",
                 "birthday": "June 05, 2001",
@@ -2437,7 +2437,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yuna",
                 "fullName": "Shin Yuna",
                 "birthday": "December 09, 2003",
@@ -2454,7 +2454,7 @@
         "debutDate": "December 01, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Gaeul",
                 "fullName": "Kim Gaeul",
                 "birthday": "September 24, 2002",
@@ -2462,7 +2462,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Yujin",
                 "fullName": "An Yujin",
                 "birthday": "September 01, 2003",
@@ -2470,7 +2470,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Rei",
                 "fullName": "Naoi Rei",
                 "birthday": "February 03, 2004",
@@ -2478,7 +2478,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Wonyoung",
                 "fullName": "Jang Wonyoung",
                 "birthday": "August 31, 2004",
@@ -2486,7 +2486,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Liz",
                 "fullName": "Kim Jiwon",
                 "birthday": "November 21, 2004",
@@ -2494,7 +2494,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Leeseo",
                 "fullName": "Lee Hyunseo",
                 "birthday": "February 21, 2007",
@@ -2511,7 +2511,7 @@
         "debutDate": "October 11, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Jini",
                 "fullName": "Choi Yunjin",
                 "birthday": "April 16, 2004",
@@ -2528,7 +2528,7 @@
         "debutDate": "March 04, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Sho",
                 "fullName": "Yonashiro Sho",
                 "birthday": "October 25, 1995",
@@ -2536,7 +2536,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Ren",
                 "fullName": "Kawashiri Ren",
                 "birthday": "March 02, 1997",
@@ -2544,7 +2544,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Ruki",
                 "fullName": "Shiroiwa Ruki",
                 "birthday": "November 19, 1997",
@@ -2552,7 +2552,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Junki",
                 "fullName": "Kono Junki",
                 "birthday": "January 20, 1998",
@@ -2560,7 +2560,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Keigo",
                 "fullName": "Sato Keigo",
                 "birthday": "July 29, 1998",
@@ -2568,7 +2568,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Takumi",
                 "fullName": "Kawanishi Takumi",
                 "birthday": "June 23, 1999",
@@ -2576,7 +2576,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Syoya",
                 "fullName": "Kimata Syoya",
                 "birthday": "April 05, 2000",
@@ -2584,7 +2584,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Shosei",
                 "fullName": "Ohira Shosei",
                 "birthday": "April 13, 2000",
@@ -2592,7 +2592,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Sukai",
                 "fullName": "Kinjo Sukai",
                 "birthday": "May 06, 2000",
@@ -2600,7 +2600,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Shion",
                 "fullName": "Tsurubo Shion",
                 "birthday": "December 11, 2000",
@@ -2608,7 +2608,7 @@
                 "afr": "a"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Issei",
                 "fullName": "Mamehara Issei",
                 "birthday": "May 30, 2002",
@@ -2625,7 +2625,7 @@
         "debutDate": "June 30, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Geonu",
                 "fullName": "Lee Geonu",
                 "birthday": "February 02, 2001",
@@ -2633,7 +2633,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Bain",
                 "fullName": "Song Byeonghee",
                 "birthday": "May 04, 2001",
@@ -2641,7 +2641,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Lim Jimin",
                 "fullName": "Lim Jimin",
                 "birthday": "May 22, 2001",
@@ -2649,7 +2649,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "JM",
                 "fullName": "Chu Jimin",
                 "birthday": "October 11, 2001",
@@ -2657,7 +2657,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "DY",
                 "fullName": "Jeon Doyum",
                 "birthday": "February 21, 2002",
@@ -2665,7 +2665,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Sangwoo",
                 "fullName": "Kim Sangwoo",
                 "birthday": "September 03, 2002",
@@ -2682,7 +2682,7 @@
         "debutDate": "July 19, 2017",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "J.Seph",
                 "fullName": "Kim Taehyung",
                 "birthday": "June 21, 1992",
@@ -2690,7 +2690,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "BM",
                 "fullName": "Kim Jinseok",
                 "birthday": "October 20, 1992",
@@ -2698,7 +2698,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Somin",
                 "fullName": "Jeon Somin",
                 "birthday": "August 22, 1996",
@@ -2706,7 +2706,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Jiwoo",
                 "fullName": "Jeon Jiwoo",
                 "birthday": "October 04, 1996",
@@ -2723,7 +2723,7 @@
         "debutDate": "January 03, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Yujin",
                 "fullName": "Choi Yujin",
                 "birthday": "August 12, 1996",
@@ -2731,7 +2731,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Xiaoting",
                 "fullName": "Shen Xiaoting",
                 "birthday": "November 12, 1999",
@@ -2739,7 +2739,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Mashiro",
                 "fullName": "Sakamoto Mashiro",
                 "birthday": "December 16, 1999",
@@ -2747,7 +2747,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Chaehyun",
                 "fullName": "Kim Chaehyun",
                 "birthday": "April 26, 2002",
@@ -2755,7 +2755,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Dayeon",
                 "fullName": "Kim Dayeon",
                 "birthday": "March 02, 2003",
@@ -2763,7 +2763,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Hikaru",
                 "fullName": "Ezaki Hikaru",
                 "birthday": "March 12, 2004",
@@ -2771,7 +2771,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Huening Bahiyyih",
                 "fullName": "Huening Bahiyyih",
                 "birthday": "July 27, 2004",
@@ -2779,7 +2779,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Youngeun",
                 "fullName": "Seo Youngeun",
                 "birthday": "December 27, 2004",
@@ -2787,7 +2787,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Yeseo",
                 "fullName": "Kang Yeseo",
                 "birthday": "August 22, 2005",
@@ -2804,7 +2804,7 @@
         "debutDate": "July 05, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Julie",
                 "fullName": "Han Julie",
                 "birthday": "March 29, 2000",
@@ -2812,7 +2812,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Natty",
                 "fullName": "Anatchaya Suputtipong",
                 "birthday": "May 30, 2002",
@@ -2820,7 +2820,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Belle",
                 "fullName": "Shim Hyewon",
                 "birthday": "March 20, 2004",
@@ -2828,7 +2828,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Haneul",
                 "fullName": "Won Haneul",
                 "birthday": "May 25, 2005",
@@ -2845,7 +2845,7 @@
         "debutDate": "May 02, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Sakura",
                 "fullName": "Miyawaki Sakura",
                 "birthday": "March 19, 1998",
@@ -2853,7 +2853,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Chaewon",
                 "fullName": "Kim Chaewon",
                 "birthday": "August 01, 2000",
@@ -2861,7 +2861,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Yunjin",
                 "fullName": "Huh Yunjin",
                 "birthday": "October 08, 2001",
@@ -2869,7 +2869,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Kazuha",
                 "fullName": "Nakamura Kazuha",
                 "birthday": "August 09, 2003",
@@ -2877,7 +2877,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Eunchae",
                 "fullName": "Hong Eunchae",
                 "birthday": "November 10, 2006",
@@ -2894,7 +2894,7 @@
         "debutDate": "August 19, 2018",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Vivi",
                 "fullName": "Wong Gaahei",
                 "birthday": "December 09, 1996",
@@ -2902,7 +2902,7 @@
                 "afr": "Loossemble"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Yves",
                 "fullName": "Ha Sooyoung",
                 "birthday": "May 24, 1997",
@@ -2910,7 +2910,7 @@
                 "afr": "f"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jinsoul",
                 "fullName": "Jung Jinsol",
                 "birthday": "June 13, 1997",
@@ -2918,7 +2918,7 @@
                 "afr": "ARTMS"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Haseul",
                 "fullName": "Jo Haseul",
                 "birthday": "August 18, 1997",
@@ -2926,7 +2926,7 @@
                 "afr": "ARTMS"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Kim Lip",
                 "fullName": "Kim Jungeun",
                 "birthday": "February 10, 1999",
@@ -2934,7 +2934,7 @@
                 "afr": "ARTMS"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Chuu",
                 "fullName": "Kim Jiwoo",
                 "birthday": "October 20, 1999",
@@ -2942,7 +2942,7 @@
                 "afr": "Chuu"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Heejin",
                 "fullName": "Jeon Heejin",
                 "birthday": "October 19, 2000",
@@ -2950,7 +2950,7 @@
                 "afr": "ARTMS"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Hyunjin",
                 "fullName": "Kim Hyunjin",
                 "birthday": "November 15, 2000",
@@ -2958,7 +2958,7 @@
                 "afr": "Loossemble"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Gowon",
                 "fullName": "Park Chaewon",
                 "birthday": "November 19, 2000",
@@ -2966,7 +2966,7 @@
                 "afr": "Loossemble"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Choerry",
                 "fullName": "Choi Yerim",
                 "birthday": "June 04, 2001",
@@ -2974,7 +2974,7 @@
                 "afr": "ARTMS"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Olivia Hye",
                 "fullName": "Son Hyejoo",
                 "birthday": "November 13, 2001",
@@ -2982,7 +2982,7 @@
                 "afr": "Loossemble"
             },
             {
-                "num": "12",
+                "grpName": "12",
                 "stageName": "Yeojin",
                 "fullName": "Im Yeojin",
                 "birthday": "November 11, 2002",
@@ -2999,7 +2999,7 @@
         "debutDate": "September 15, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Vivi",
                 "fullName": "Wong Gaahei",
                 "birthday": "December 09, 1996",
@@ -3007,7 +3007,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hyunjin",
                 "fullName": "Kim Hyunjin",
                 "birthday": "November 15, 2000",
@@ -3015,7 +3015,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Gowon",
                 "fullName": "Park Chaewon",
                 "birthday": "November 19, 2000",
@@ -3023,7 +3023,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Hyeju",
                 "fullName": "Son Hyeju",
                 "birthday": "November 13, 2001",
@@ -3031,7 +3031,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yeojin",
                 "fullName": "Im Yeojin",
                 "birthday": "November 11, 2002",
@@ -3048,7 +3048,7 @@
         "debutDate": "June 15, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Chael",
                 "fullName": "Im Junyeop",
                 "birthday": "December 07, 2001",
@@ -3056,7 +3056,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jinsu",
                 "fullName": "Park Jinsu",
                 "birthday": "February 05, 2003",
@@ -3064,7 +3064,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Takuma",
                 "fullName": "Sato Takuma",
                 "birthday": "August 05, 2003",
@@ -3072,7 +3072,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Junwoo",
                 "fullName": "Shim Junwoo",
                 "birthday": "September 21, 2003",
@@ -3080,7 +3080,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Dohyun",
                 "fullName": "Park Dohyun",
                 "birthday": "October 23, 2003",
@@ -3088,7 +3088,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Ian",
                 "fullName": "Noh Sungchul",
                 "birthday": "December 11, 2003",
@@ -3096,7 +3096,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Ji Eunho",
                 "fullName": "Lee Sangmin",
                 "birthday": "May 21, 2005",
@@ -3104,7 +3104,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Eunseop",
                 "fullName": "Kim Eunseop",
                 "birthday": "June 18, 2006",
@@ -3121,7 +3121,7 @@
         "debutDate": "February 27, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Castle J",
                 "fullName": "Son Seongjun",
                 "birthday": "May 31, 1999",
@@ -3129,7 +3129,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "BIC",
                 "fullName": "Nam Seungmin",
                 "birthday": "April 25, 2001",
@@ -3137,7 +3137,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Minjae",
                 "fullName": "Song Minjae",
                 "birthday": "August 23, 2003",
@@ -3145,7 +3145,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Huijun",
                 "fullName": "No Huijun",
                 "birthday": "October 07, 2003",
@@ -3153,7 +3153,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Win",
                 "fullName": "Bang Junhyuk",
                 "birthday": "December 19, 2004",
@@ -3170,7 +3170,7 @@
         "debutDate": "March 17, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Lien",
                 "fullName": "Shimada Shouu",
                 "birthday": "March 11, 1998",
@@ -3178,7 +3178,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Junhyuk",
                 "fullName": "Lee Junhyuk",
                 "birthday": "May 16, 2000",
@@ -3186,7 +3186,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Dohyun",
                 "fullName": "Yoo Dohyun",
                 "birthday": "December 25, 2000",
@@ -3194,7 +3194,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Khael",
                 "fullName": "Lee Sangmin",
                 "birthday": "January 18, 2002",
@@ -3202,7 +3202,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Dongpyo",
                 "fullName": "Son Dongpyo",
                 "birthday": "September 09, 2002",
@@ -3210,7 +3210,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Siyoung",
                 "fullName": "Park Siyoung",
                 "birthday": "May 06, 2003",
@@ -3227,7 +3227,7 @@
         "debutDate": "May 14, 2015",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Shownu",
                 "fullName": "Son Hyunwoo",
                 "birthday": "June 18, 1992",
@@ -3235,7 +3235,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Wonho",
                 "fullName": "Shin Hoseok",
                 "birthday": "March 01, 1993",
@@ -3243,7 +3243,7 @@
                 "afr": "Wonho"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Minhyuk",
                 "fullName": "Lee Minhyuk",
                 "birthday": "November 03, 1993",
@@ -3251,7 +3251,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Kihyun",
                 "fullName": "Yoo Kihyun",
                 "birthday": "November 22, 1993",
@@ -3259,7 +3259,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Hyungwon",
                 "fullName": "Chae Hyungwon",
                 "birthday": "January 15, 1994",
@@ -3267,7 +3267,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Joohoney",
                 "fullName": "Lee Jooheon",
                 "birthday": "October 06, 1994",
@@ -3275,7 +3275,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "I.M",
                 "fullName": "Im Changkyun",
                 "birthday": "January 26, 1996",
@@ -3292,7 +3292,7 @@
         "debutDate": "January 04, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Bitsaeon",
                 "fullName": "Kim Sangyeon",
                 "birthday": "June 04, 1995",
@@ -3300,7 +3300,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Narachan",
                 "fullName": "Jung Hyunwoo",
                 "birthday": "September 23, 1996",
@@ -3308,7 +3308,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Roda",
                 "fullName": "Shin Joongmin",
                 "birthday": "September 19, 1998",
@@ -3325,7 +3325,7 @@
         "debutDate": "April 09, 2016",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Taeil",
                 "fullName": "Moon Taeil",
                 "birthday": "June 14, 1994",
@@ -3333,7 +3333,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Johnny",
                 "fullName": "Seo Youngho",
                 "birthday": "February 09, 1995",
@@ -3341,7 +3341,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Taeyong",
                 "fullName": "Lee Taeyong",
                 "birthday": "July 01, 1995",
@@ -3349,7 +3349,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Yuta",
                 "fullName": "Nakamoto Yuta",
                 "birthday": "October 26, 1995",
@@ -3357,7 +3357,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Kun",
                 "fullName": "Qian Kun",
                 "birthday": "January 01, 1996",
@@ -3365,7 +3365,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Doyoung",
                 "fullName": "Kim Dongyoung",
                 "birthday": "February 01, 1996",
@@ -3373,7 +3373,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Ten",
                 "fullName": "Chittapon Leechaiyapornkul",
                 "birthday": "February 27, 1996",
@@ -3381,7 +3381,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Jaehyun",
                 "fullName": "Jung Yoonoh",
                 "birthday": "February 14, 1997",
@@ -3389,7 +3389,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Winwin",
                 "fullName": "Dong Sicheng",
                 "birthday": "October 28, 1997",
@@ -3397,7 +3397,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Jungwoo",
                 "fullName": "Kim Jungwoo",
                 "birthday": "February 19, 1998",
@@ -3405,7 +3405,7 @@
                 "afr": "a"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Mark",
                 "fullName": "Lee Minhyung",
                 "birthday": "August 02, 1999",
@@ -3413,7 +3413,7 @@
                 "afr": "a"
             },
             {
-                "num": "12",
+                "grpName": "12",
                 "stageName": "Xiaojun",
                 "fullName": "Xiao Dejun",
                 "birthday": "August 08, 1999",
@@ -3421,7 +3421,7 @@
                 "afr": "a"
             },
             {
-                "num": "13",
+                "grpName": "13",
                 "stageName": "Hendery",
                 "fullName": "Wong Kunhang",
                 "birthday": "September 28, 1999",
@@ -3429,7 +3429,7 @@
                 "afr": "a"
             },
             {
-                "num": "14",
+                "grpName": "14",
                 "stageName": "Renjun",
                 "fullName": "Huang Renjun",
                 "birthday": "March 23, 2000",
@@ -3437,7 +3437,7 @@
                 "afr": "a"
             },
             {
-                "num": "15",
+                "grpName": "15",
                 "stageName": "Jeno",
                 "fullName": "Lee Jeno",
                 "birthday": "April 23, 2000",
@@ -3445,7 +3445,7 @@
                 "afr": "a"
             },
             {
-                "num": "16",
+                "grpName": "16",
                 "stageName": "Haechan",
                 "fullName": "Lee Donghyuck",
                 "birthday": "June 06, 2000",
@@ -3453,7 +3453,7 @@
                 "afr": "a"
             },
             {
-                "num": "17",
+                "grpName": "17",
                 "stageName": "Jaemin",
                 "fullName": "Na Jaemin",
                 "birthday": "August 13, 2000",
@@ -3461,7 +3461,7 @@
                 "afr": "a"
             },
             {
-                "num": "18",
+                "grpName": "18",
                 "stageName": "Yangyang",
                 "fullName": "Liu Yangyang",
                 "birthday": "October 10, 2000",
@@ -3469,7 +3469,7 @@
                 "afr": "a"
             },
             {
-                "num": "19",
+                "grpName": "19",
                 "stageName": "Chenle",
                 "fullName": "Zhong Chenle",
                 "birthday": "November 22, 2001",
@@ -3477,7 +3477,7 @@
                 "afr": "a"
             },
             {
-                "num": "20",
+                "grpName": "20",
                 "stageName": "Jisung",
                 "fullName": "Park Jisung",
                 "birthday": "February 05, 2002",
@@ -3485,7 +3485,7 @@
                 "afr": "a"
             },
             {
-                "num": "21",
+                "grpName": "21",
                 "stageName": "Sion",
                 "fullName": "Oh Sion",
                 "birthday": "May 11, 2002",
@@ -3493,7 +3493,7 @@
                 "afr": "a"
             },
             {
-                "num": "22",
+                "grpName": "22",
                 "stageName": "Riku",
                 "fullName": "Maeda Riku",
                 "birthday": "June 28, 2003",
@@ -3501,7 +3501,7 @@
                 "afr": "a"
             },
             {
-                "num": "23",
+                "grpName": "23",
                 "stageName": "Yushi",
                 "fullName": "Tokuno Yushi",
                 "birthday": "April 05, 2004",
@@ -3509,7 +3509,7 @@
                 "afr": "a"
             },
             {
-                "num": "24",
+                "grpName": "24",
                 "stageName": "Jaehee",
                 "fullName": "Kim Daeyoung",
                 "birthday": "June 21, 2005",
@@ -3517,7 +3517,7 @@
                 "afr": "a"
             },
             {
-                "num": "25",
+                "grpName": "25",
                 "stageName": "Ryo",
                 "fullName": "Hirose Ryo",
                 "birthday": "August 04, 2007",
@@ -3525,7 +3525,7 @@
                 "afr": "a"
             },
             {
-                "num": "26",
+                "grpName": "26",
                 "stageName": "Sakuya",
                 "fullName": "Fujinaga Sakuya",
                 "birthday": "November 18, 2007",
@@ -3542,7 +3542,7 @@
         "debutDate": "July 22, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Minji",
                 "fullName": "Kim Minji",
                 "birthday": "May 07, 2004",
@@ -3550,7 +3550,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hanni",
                 "fullName": "Phạm Ngọc Hân",
                 "birthday": "October 06, 2004",
@@ -3558,7 +3558,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Danielle",
                 "fullName": "Mo Jihye",
                 "birthday": "April 11, 2005",
@@ -3566,7 +3566,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Haerin",
                 "fullName": "Kang Haerin",
                 "birthday": "May 15, 2006",
@@ -3574,7 +3574,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Hyein",
                 "fullName": "Lee Hyein",
                 "birthday": "April 21, 2008",
@@ -3591,7 +3591,7 @@
         "debutDate": "October 01, 2013",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Seunghyub",
                 "fullName": "Lee Seunghyub",
                 "birthday": "October 31, 1992",
@@ -3599,7 +3599,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hun",
                 "fullName": "Cha Hoon",
                 "birthday": "July 12, 1994",
@@ -3607,7 +3607,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jaehyun",
                 "fullName": "Kim Jaehyun",
                 "birthday": "July 15, 1994",
@@ -3615,7 +3615,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Hweseung",
                 "fullName": "Yoo Hweseung",
                 "birthday": "February 28, 1995",
@@ -3623,7 +3623,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Dongsung",
                 "fullName": "Seo Dongsung",
                 "birthday": "April 09, 1996",
@@ -3640,7 +3640,7 @@
         "debutDate": "March 30, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Eden",
                 "fullName": "Yang Jaewon",
                 "birthday": "March 27, 1998",
@@ -3648,7 +3648,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Winnie",
                 "fullName": "Pattipong Kasemsant",
                 "birthday": "November 18, 1998",
@@ -3656,7 +3656,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jewon",
                 "fullName": "Woo Jewon",
                 "birthday": "November 28, 1998",
@@ -3664,7 +3664,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Minjun",
                 "fullName": "Kim Minjun",
                 "birthday": "February 26, 1999",
@@ -3672,7 +3672,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Vahn",
                 "fullName": "Kim Jungwoo",
                 "birthday": "May 07, 1999",
@@ -3680,7 +3680,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Vari",
                 "fullName": "Kim Jaehyun",
                 "birthday": "September 03, 2000",
@@ -3688,7 +3688,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Seowon",
                 "fullName": "Seo Won",
                 "birthday": "December 18, 2000",
@@ -3696,7 +3696,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Taehun",
                 "fullName": "Lee Taehun",
                 "birthday": "March 21, 2002",
@@ -3704,7 +3704,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Joohyoung",
                 "fullName": "Kim Joohyoung",
                 "birthday": "March 15, 2003",
@@ -3712,7 +3712,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Jiho",
                 "fullName": "Jang Jiho",
                 "birthday": "August 10, 2004",
@@ -3729,7 +3729,7 @@
         "debutDate": "February 22, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Lily",
                 "fullName": "Park Jin",
                 "birthday": "October 17, 2002",
@@ -3737,7 +3737,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Haewon",
                 "fullName": "Oh Haewon",
                 "birthday": "February 25, 2003",
@@ -3745,7 +3745,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Sullyoon",
                 "fullName": "Seol Yoona",
                 "birthday": "January 26, 2004",
@@ -3753,7 +3753,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Jinni",
                 "fullName": "Choi Yunjin",
                 "birthday": "April 16, 2004",
@@ -3761,7 +3761,7 @@
                 "afr": "Jini"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "BAE",
                 "fullName": "Bae Jinsol",
                 "birthday": "December 28, 2004",
@@ -3769,7 +3769,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Jiwoo",
                 "fullName": "Kim Jiwoo",
                 "birthday": "April 13, 2005",
@@ -3777,7 +3777,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Kyujin",
                 "fullName": "Jang Kyujin",
                 "birthday": "May 26, 2006",
@@ -3794,7 +3794,7 @@
         "debutDate": "February 28, 2024",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Sangha",
                 "fullName": "Park Sangha",
                 "birthday": "March 19, 1999",
@@ -3802,7 +3802,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "DOY",
                 "fullName": "Hong Doeui",
                 "birthday": "September 16, 1999",
@@ -3810,7 +3810,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "ONE",
                 "fullName": "Kim Jiwon",
                 "birthday": "April 20, 2001",
@@ -3818,7 +3818,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "RIVR",
                 "fullName": "Shin Kangsu",
                 "birthday": "May 09, 2002",
@@ -3826,7 +3826,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Junho",
                 "fullName": "Jeong Junho",
                 "birthday": "July 11, 2002",
@@ -3843,7 +3843,7 @@
         "debutDate": "June 30, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Jaehan",
                 "fullName": "Kim Jaehan",
                 "birthday": "July 01, 1995",
@@ -3851,7 +3851,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hwichan",
                 "fullName": "Lee Hwichan",
                 "birthday": "April 18, 1996",
@@ -3859,7 +3859,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Sebin",
                 "fullName": "Jang Sebin",
                 "birthday": "April 24, 1996",
@@ -3867,7 +3867,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Hangyeom",
                 "fullName": "Song Hangyeom",
                 "birthday": "July 17, 1996",
@@ -3875,7 +3875,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Taedong",
                 "fullName": "Kim Taedong",
                 "birthday": "November 07, 1997",
@@ -3883,7 +3883,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Xen",
                 "fullName": "Lee Jinwoo",
                 "birthday": "February 20, 1998",
@@ -3891,7 +3891,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Jehyun",
                 "fullName": "Moon Jehyun",
                 "birthday": "April 20, 1999",
@@ -3899,7 +3899,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Kevin",
                 "fullName": "Park Jinwoo",
                 "birthday": "January 12, 2000",
@@ -3907,7 +3907,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Junghoon",
                 "fullName": "Han Junghoon",
                 "birthday": "February 14, 2000",
@@ -3915,7 +3915,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Hyuk",
                 "fullName": "Yang Hyuk",
                 "birthday": "March 15, 2000",
@@ -3923,7 +3923,7 @@
                 "afr": "a"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Yechan",
                 "fullName": "Shin Yechan",
                 "birthday": "May 14, 2001",
@@ -3940,7 +3940,7 @@
         "debutDate": "November 30, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Jongwoo",
                 "fullName": "Yoon Jongwoo",
                 "birthday": "June 12, 2000",
@@ -3948,7 +3948,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jay",
                 "fullName": "Jay Chang",
                 "birthday": "March 08, 2001",
@@ -3956,7 +3956,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Seongmin",
                 "fullName": "Oh Seongmin",
                 "birthday": "August 25, 2001",
@@ -3964,7 +3964,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "TAG",
                 "fullName": "Yeom Taegyun",
                 "birthday": "September 30, 2002",
@@ -3972,7 +3972,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yedam",
                 "fullName": "Lee Yedam",
                 "birthday": "January 19, 2003",
@@ -3989,7 +3989,7 @@
         "debutDate": "May 28, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "KB",
                 "fullName": "Shin Kyubin",
                 "birthday": "April 23, 1992",
@@ -3997,7 +3997,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Love",
                 "fullName": "Park Jisung",
                 "birthday": "January 17, 1994",
@@ -4005,7 +4005,7 @@
                 "afr": "f"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Rie",
                 "fullName": "Lee Sungho",
                 "birthday": "November 06, 1996",
@@ -4013,7 +4013,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Yoojung",
                 "fullName": "Lee Taeyeob",
                 "birthday": "May 29, 1997",
@@ -4021,7 +4021,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Junji",
                 "fullName": "Lee Junhyung",
                 "birthday": "April 06, 1998",
@@ -4029,7 +4029,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Mill",
                 "fullName": "Lee Yongsoo",
                 "birthday": "March 30, 1999",
@@ -4037,7 +4037,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Nine",
                 "fullName": "Jung Wookjin",
                 "birthday": "December 13, 1999",
@@ -4054,7 +4054,7 @@
         "debutDate": "October 28, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Theo",
                 "fullName": "Choi Taeyang",
                 "birthday": "July 01, 2001",
@@ -4062,7 +4062,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Keeho",
                 "fullName": "Yoon Keeho",
                 "birthday": "September 27, 2001",
@@ -4070,7 +4070,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jiung",
                 "fullName": "Choi Jiung",
                 "birthday": "October 07, 2001",
@@ -4078,7 +4078,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Intak",
                 "fullName": "Hwang Intak",
                 "birthday": "August 31, 2003",
@@ -4086,7 +4086,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Soul",
                 "fullName": "Haku Shota",
                 "birthday": "February 01, 2005",
@@ -4094,7 +4094,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Jongseob",
                 "fullName": "Kim Jongseob",
                 "birthday": "November 19, 2005",
@@ -4111,7 +4111,7 @@
         "debutDate": "March 12, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Noah",
                 "fullName": "Han Noah",
                 "birthday": "February 10, 2001",
@@ -4119,7 +4119,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Yejun",
                 "fullName": "Nam Yejun",
                 "birthday": "September 12, 2001",
@@ -4127,7 +4127,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Bambi",
                 "fullName": "Chae Bonggu",
                 "birthday": "July 15, 2002",
@@ -4135,7 +4135,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Eunho",
                 "fullName": "Do Eunho",
                 "birthday": "May 24, 2003",
@@ -4143,7 +4143,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Hamin",
                 "fullName": "Yu Hamin",
                 "birthday": "November 01",
@@ -4160,7 +4160,7 @@
         "debutDate": "March 15, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Jieun",
                 "fullName": "Park Jieun",
                 "birthday": "September 04, 1997",
@@ -4168,7 +4168,7 @@
                 "afr": "f"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Goeun",
                 "fullName": "Na Goeun",
                 "birthday": "September 03, 1999",
@@ -4176,7 +4176,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Dosie",
                 "fullName": "Jang Eunseong",
                 "birthday": "February 11, 2000",
@@ -4184,7 +4184,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Ireh",
                 "fullName": "Cho Seoyoung",
                 "birthday": "April 30, 2002",
@@ -4192,7 +4192,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yuki",
                 "fullName": "Mori Koyuki",
                 "birthday": "November 06, 2002",
@@ -4200,7 +4200,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Chaein",
                 "fullName": "Lee Chaeyoung",
                 "birthday": "December 05, 2002",
@@ -4208,7 +4208,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Swan",
                 "fullName": "Park Sujin",
                 "birthday": "July 11, 2003",
@@ -4225,7 +4225,7 @@
         "debutDate": "August 1, 2014",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Irene",
                 "fullName": "Bae Juhyun",
                 "birthday": "March 29, 1991",
@@ -4233,7 +4233,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Seulgi",
                 "fullName": "Kang Seulgi",
                 "birthday": "February 10, 1994",
@@ -4241,7 +4241,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Wendy",
                 "fullName": "Son Seungwan",
                 "birthday": "February 21, 1994",
@@ -4249,7 +4249,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Joy",
                 "fullName": "Park Sooyoung",
                 "birthday": "September 03, 1996",
@@ -4257,7 +4257,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yeri",
                 "fullName": "Kim Yerim",
                 "birthday": "March 05, 1999",
@@ -4274,7 +4274,7 @@
         "debutDate": "September 04, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Shotaro",
                 "fullName": "Osaki Shotaro",
                 "birthday": "November 25, 2000",
@@ -4282,7 +4282,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Eunseok",
                 "fullName": "Song Eunseok",
                 "birthday": "March 19, 2001",
@@ -4290,7 +4290,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Sungchan",
                 "fullName": "Jung Sungchan",
                 "birthday": "September 13, 2001",
@@ -4298,7 +4298,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Wonbin",
                 "fullName": "Park Wonbin",
                 "birthday": "March 02, 2002",
@@ -4306,7 +4306,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Seunghan",
                 "fullName": "Hong Seunghan",
                 "birthday": "October 02, 2003",
@@ -4314,7 +4314,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Sohee",
                 "fullName": "Lee Sohee",
                 "birthday": "November 21, 2003",
@@ -4322,7 +4322,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Anton",
                 "fullName": "Lee Chanyoung",
                 "birthday": "March 21, 2004",
@@ -4339,7 +4339,7 @@
         "debutDate": "August 07, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Juri",
                 "fullName": "Takahashi Juri",
                 "birthday": "October 03, 1997",
@@ -4347,7 +4347,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Yeonhee",
                 "fullName": "Kim Yeonhee",
                 "birthday": "December 06, 2000",
@@ -4355,7 +4355,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Suyun",
                 "fullName": "Kim Suyun",
                 "birthday": "March 17, 2001",
@@ -4363,7 +4363,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Yunkyoung",
                 "fullName": "Seo Yunkyoung",
                 "birthday": "November 01, 2001",
@@ -4371,7 +4371,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Sohee",
                 "fullName": "Kim Sohee",
                 "birthday": "August 14, 2003",
@@ -4379,7 +4379,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Dahyun",
                 "fullName": "Jeong Dahyun",
                 "birthday": "April 29, 2005",
@@ -4396,7 +4396,7 @@
         "debutDate": "May 26, 2015",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "S.Coups",
                 "fullName": "Choi Seungcheol",
                 "birthday": "August 08, 1995",
@@ -4404,7 +4404,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jeonghan",
                 "fullName": "Yoon Jeonghan",
                 "birthday": "October 04, 1995",
@@ -4412,7 +4412,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Joshua",
                 "fullName": "Hong Jisoo",
                 "birthday": "December 30, 1995",
@@ -4420,7 +4420,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Jun",
                 "fullName": "Wen Junhui",
                 "birthday": "June 10, 1996",
@@ -4428,7 +4428,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Hoshi",
                 "fullName": "Kwon Soonyoung",
                 "birthday": "June 15, 1996",
@@ -4436,7 +4436,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Wonwoo",
                 "fullName": "Jeon Wonwoo",
                 "birthday": "July 17, 1996",
@@ -4444,7 +4444,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Woozi",
                 "fullName": "Lee Jihoon",
                 "birthday": "November 22, 1996",
@@ -4452,7 +4452,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "DK",
                 "fullName": "Lee Seokmin",
                 "birthday": "February 18, 1997",
@@ -4460,7 +4460,7 @@
                 "afr": "f"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Mingyu",
                 "fullName": "Kim Mingyu",
                 "birthday": "April 06, 1997",
@@ -4468,7 +4468,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "The8",
                 "fullName": "Xu Minghao",
                 "birthday": "November 07, 1997",
@@ -4476,7 +4476,7 @@
                 "afr": "a"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Seungkwan",
                 "fullName": "Boo Seungkwan",
                 "birthday": "January 16, 1998",
@@ -4484,7 +4484,7 @@
                 "afr": "a"
             },
             {
-                "num": "12",
+                "grpName": "12",
                 "stageName": "Vernon",
                 "fullName": "Choi Hansol",
                 "birthday": "February 18, 1998",
@@ -4492,7 +4492,7 @@
                 "afr": "a"
             },
             {
-                "num": "13",
+                "grpName": "13",
                 "stageName": "Dino",
                 "fullName": "Lee Chan",
                 "birthday": "February 11, 1999",
@@ -4509,7 +4509,7 @@
         "debutDate": "October 5, 2016",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Inseong",
                 "fullName": "Kim Inseong",
                 "birthday": "July 12, 1993",
@@ -4517,7 +4517,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Youngbin",
                 "fullName": "Kim Youngbin",
                 "birthday": "November 23, 1993",
@@ -4525,7 +4525,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jaeyoon",
                 "fullName": "Lee Jaeyoon",
                 "birthday": "August 09, 1994",
@@ -4533,7 +4533,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Dawon",
                 "fullName": "Lee Sanghyuk",
                 "birthday": "July 24, 1995",
@@ -4541,7 +4541,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Zuho",
                 "fullName": "Baek Juho",
                 "birthday": "July 04, 1996",
@@ -4549,7 +4549,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Rowoon",
                 "fullName": "Kim Seokwoo",
                 "birthday": "August 07, 1996",
@@ -4557,7 +4557,7 @@
                 "afr": "f"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Taeyang",
                 "fullName": "Yoo Taeyang",
                 "birthday": "February 28, 1997",
@@ -4565,7 +4565,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Hwiyoung",
                 "fullName": "Kim Youngkyun",
                 "birthday": "May 11, 1999",
@@ -4573,7 +4573,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Chani",
                 "fullName": "Kang Chanhee",
                 "birthday": "January 17, 2000",
@@ -4590,7 +4590,7 @@
         "debutDate": "May 25, 2008",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Onew",
                 "fullName": "Lee Jinki",
                 "birthday": "December 14, 1989",
@@ -4598,7 +4598,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jonghyun",
                 "fullName": "Kim Jonghyun",
                 "birthday": "April 08, 1990",
@@ -4606,7 +4606,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Key",
                 "fullName": "Kim Kibum",
                 "birthday": "September 23, 1991",
@@ -4614,7 +4614,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Minho",
                 "fullName": "Choi Minho",
                 "birthday": "December 09, 1991",
@@ -4622,7 +4622,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Taemin",
                 "fullName": "Lee Taemin",
                 "birthday": "July 18, 1993",
@@ -4639,7 +4639,7 @@
         "debutDate": "November 08, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Soojin",
                 "fullName": "Seo Soojin",
                 "birthday": "March 09, 1998",
@@ -4656,7 +4656,7 @@
         "debutDate": "November 12, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Sumin",
                 "fullName": "Bae Sumin",
                 "birthday": "March 13, 2001",
@@ -4664,7 +4664,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Sieun",
                 "fullName": "Park Sieun",
                 "birthday": "August 01, 2001",
@@ -4672,7 +4672,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Isa",
                 "fullName": "Lee Chaeyoung",
                 "birthday": "January 23, 2002",
@@ -4680,7 +4680,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Seeun",
                 "fullName": "Yoon Seeun",
                 "birthday": "June 14, 2003",
@@ -4688,7 +4688,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yoon",
                 "fullName": "Sim Jayun",
                 "birthday": "April 14, 2004",
@@ -4696,7 +4696,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "J",
                 "fullName": "Jang Yeeun",
                 "birthday": "December 09, 2004",
@@ -4713,7 +4713,7 @@
         "debutDate": "March 25, 2018",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Bang Chan",
                 "fullName": "Bang Chan",
                 "birthday": "October 03, 1997",
@@ -4721,7 +4721,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Lee Know",
                 "fullName": "Lee Minho",
                 "birthday": "October 25, 1998",
@@ -4729,7 +4729,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Changbin",
                 "fullName": "Seo Changbin",
                 "birthday": "August 11, 1999",
@@ -4737,7 +4737,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Hyunjin",
                 "fullName": "Hwang Hyunjin",
                 "birthday": "March 20, 2000",
@@ -4745,7 +4745,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Han",
                 "fullName": "Han Jisung",
                 "birthday": "September 14, 2000",
@@ -4753,7 +4753,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Felix",
                 "fullName": "Lee Yongbok",
                 "birthday": "September 15, 2000",
@@ -4761,7 +4761,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Seungmin",
                 "fullName": "Kim Seungmin",
                 "birthday": "September 22, 2000",
@@ -4769,7 +4769,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "I.N",
                 "fullName": "Yang Jeongin",
                 "birthday": "February 08, 2001",
@@ -4786,7 +4786,7 @@
         "debutDate": "March 10, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Changsun",
                 "fullName": "Lee Changsun",
                 "birthday": "March 17, 1996",
@@ -4794,7 +4794,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jooan",
                 "fullName": "Im Jooan",
                 "birthday": "October 04, 1996",
@@ -4802,7 +4802,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Jaejun",
                 "fullName": "Lee Jaejun",
                 "birthday": "September 25, 1997",
@@ -4810,7 +4810,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Sunghyuk",
                 "fullName": "Seo Sunghyuk",
                 "birthday": "August 26, 1999",
@@ -4818,7 +4818,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Hyunyeop",
                 "fullName": "Kim Hyunyeop",
                 "birthday": "October 23, 2000",
@@ -4826,7 +4826,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Taehoon",
                 "fullName": "Bang Taehoon",
                 "birthday": "November 11, 2002",
@@ -4834,7 +4834,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Jiseong",
                 "fullName": "Kim Jiseong",
                 "birthday": "August 23, 2004",
@@ -4851,7 +4851,7 @@
         "debutDate": "March 02, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Hanbin",
                 "fullName": "Ngô Ngọc Hưng",
                 "birthday": "January 19, 1998",
@@ -4859,7 +4859,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hyeongseop",
                 "fullName": "Ahn Hyeongseop",
                 "birthday": "August 09, 1999",
@@ -4867,7 +4867,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Hyuk",
                 "fullName": "Koo Bonhyuk",
                 "birthday": "April 17, 2000",
@@ -4875,7 +4875,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Eunchan",
                 "fullName": "Choi Byeongseop",
                 "birthday": "February 27, 2001",
@@ -4883,7 +4883,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "LEW",
                 "fullName": "Lee Euiwoong",
                 "birthday": "April 05, 2001",
@@ -4891,7 +4891,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Hwarang",
                 "fullName": "Song Jaewon",
                 "birthday": "April 23, 2001",
@@ -4899,7 +4899,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Taerae",
                 "fullName": "Kim Taerae",
                 "birthday": "May 09, 2002",
@@ -4916,7 +4916,7 @@
         "debutDate": "January 11, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Noa",
                 "fullName": "Choi Yubin",
                 "birthday": "August 02, 2000",
@@ -4924,7 +4924,7 @@
                 "afr": "f"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Sian",
                 "fullName": "Choi Changmin",
                 "birthday": "February 02, 2001",
@@ -4932,7 +4932,7 @@
                 "afr": "f"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Kevin",
                 "fullName": "Baek Seungbin",
                 "birthday": "April 08, 2001",
@@ -4940,7 +4940,7 @@
                 "afr": "f"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Gunwoo",
                 "fullName": "Kim Gunwoo",
                 "birthday": "May 28, 2002",
@@ -4948,7 +4948,7 @@
                 "afr": "f"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Leo",
                 "fullName": "Hayase Reo",
                 "birthday": "October 08, 2002",
@@ -4956,7 +4956,7 @@
                 "afr": "f"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "On",
                 "fullName": "Choi Juhwan",
                 "birthday": "October 16, 2002",
@@ -4964,7 +4964,7 @@
                 "afr": "f"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Zero",
                 "fullName": "Nasukawa Shota",
                 "birthday": "January 20, 2003",
@@ -4972,7 +4972,7 @@
                 "afr": "f"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Kairi",
                 "fullName": "Imai Kairi",
                 "birthday": "February 24, 2003",
@@ -4980,7 +4980,7 @@
                 "afr": "f"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Kio",
                 "fullName": "Udo Masahi",
                 "birthday": "November 25, 2004",
@@ -4997,7 +4997,7 @@
         "debutDate": "December 06, 2017",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Sangyeon",
                 "fullName": "Lee Sangyeon",
                 "birthday": "November 04, 1996",
@@ -5005,7 +5005,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jacob",
                 "fullName": "Bae Junyoung",
                 "birthday": "May 30, 1997",
@@ -5013,7 +5013,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Younghoon",
                 "fullName": "Kim Younghoon",
                 "birthday": "August 08, 1997",
@@ -5021,7 +5021,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Hyunjae",
                 "fullName": "Lee Jaehyun",
                 "birthday": "September 13, 1997",
@@ -5029,7 +5029,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Juyeon",
                 "fullName": "Lee Juyeon",
                 "birthday": "January 15, 1998",
@@ -5037,7 +5037,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Kevin",
                 "fullName": "Moon Hyungseo",
                 "birthday": "February 23, 1998",
@@ -5045,7 +5045,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "New",
                 "fullName": "Choi Chanhee",
                 "birthday": "April 26, 1998",
@@ -5053,7 +5053,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Q",
                 "fullName": "Ji Changmin",
                 "birthday": "November 05, 1998",
@@ -5061,7 +5061,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Haknyeon",
                 "fullName": "Ju Haknyeon",
                 "birthday": "March 09, 1999",
@@ -5069,7 +5069,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Hwall",
                 "fullName": "Heo Hyunjun",
                 "birthday": "March 09, 2000",
@@ -5077,7 +5077,7 @@
                 "afr": "a"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Sunwoo",
                 "fullName": "Kim Sunwoo",
                 "birthday": "April 12, 2000",
@@ -5085,7 +5085,7 @@
                 "afr": "a"
             },
             {
-                "num": "12",
+                "grpName": "12",
                 "stageName": "Eric",
                 "fullName": "Son Youngjae",
                 "birthday": "December 22, 2000",
@@ -5102,7 +5102,7 @@
         "debutDate": "May 17, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Kyungjun",
                 "fullName": "Woo Kyungjun",
                 "birthday": "August 30, 2002",
@@ -5110,7 +5110,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Taehun",
                 "fullName": "Choi Taehun",
                 "birthday": "November 19, 2002",
@@ -5118,7 +5118,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Hyunsoo",
                 "fullName": "Jang Hyunsoo",
                 "birthday": "September 16, 2003",
@@ -5126,7 +5126,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Junhyeok",
                 "fullName": "Cheon Junhyeok",
                 "birthday": "September 20, 2004",
@@ -5134,7 +5134,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Hwi",
                 "fullName": "Eun Hwi",
                 "birthday": "November 11, 2004",
@@ -5142,7 +5142,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Sungjun",
                 "fullName": "Oh Sungjun",
                 "birthday": "August 30, 2005",
@@ -5159,7 +5159,7 @@
         "debutDate": "August 07, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Hyunsuk",
                 "fullName": "Choi Hyunsuk",
                 "birthday": "April 21, 1999",
@@ -5167,7 +5167,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jihoon",
                 "fullName": "Park Jihoon",
                 "birthday": "March 14, 2000",
@@ -5175,7 +5175,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Yoshi",
                 "fullName": "Kanemoto Yoshinori",
                 "birthday": "May 15, 2000",
@@ -5183,7 +5183,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Junkyu",
                 "fullName": "Kim Junkyu",
                 "birthday": "September 09, 2000",
@@ -5191,7 +5191,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Mashiho",
                 "fullName": "Takata Mashiho",
                 "birthday": "March 25, 2001",
@@ -5199,7 +5199,7 @@
                 "afr": "f"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Jaehyuk",
                 "fullName": "Yoon Jaehyuk",
                 "birthday": "July 23, 2001",
@@ -5207,7 +5207,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Asahi",
                 "fullName": "Hamada Asahi",
                 "birthday": "August 20, 2001",
@@ -5215,7 +5215,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Yedam",
                 "fullName": "Bang Yedam",
                 "birthday": "May 07, 2002",
@@ -5223,7 +5223,7 @@
                 "afr": "Yedam"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Doyoung",
                 "fullName": "Kim Doyoung",
                 "birthday": "December 04, 2003",
@@ -5231,7 +5231,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Haruto",
                 "fullName": "Watanabe Haruto",
                 "birthday": "April 05, 2004",
@@ -5239,7 +5239,7 @@
                 "afr": "a"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Jeongwoo",
                 "fullName": "Park Jeongwoo",
                 "birthday": "September 28, 2004",
@@ -5247,7 +5247,7 @@
                 "afr": "a"
             },
             {
-                "num": "12",
+                "grpName": "12",
                 "stageName": "Junghwan",
                 "fullName": "So Junghwan",
                 "birthday": "February 18, 2005",
@@ -5264,7 +5264,7 @@
         "debutDate": "October 28, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Yooyeon",
                 "fullName": "Kim Yooyeon",
                 "birthday": "February 09, 2001",
@@ -5272,7 +5272,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Mayu",
                 "fullName": "Koma Mayu",
                 "birthday": "May 12, 2002",
@@ -5281,7 +5281,7 @@
             },
             {
                 "groupName": "tripleS",
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Xinyu",
                 "fullName": "Zhou Xinyu",
                 "birthday": "May 25, 2002",
@@ -5290,7 +5290,7 @@
             },
             {
                 "groupName": "tripleS",
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Nakyoung",
                 "fullName": "Kim Nakyoung",
                 "birthday": "October 13, 2002",
@@ -5298,7 +5298,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Sohyun",
                 "fullName": "Park Sohyun",
                 "birthday": "October 13, 2002",
@@ -5306,7 +5306,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Dahyun",
                 "fullName": "Seo Dahyun",
                 "birthday": "January 08, 2003",
@@ -5314,7 +5314,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Nien",
                 "fullName": "Hsu Nientzu",
                 "birthday": "June 02, 2003",
@@ -5322,7 +5322,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Seoyeon",
                 "fullName": "Yoon Seoyeon",
                 "birthday": "August 06, 2003",
@@ -5330,7 +5330,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Kotone",
                 "fullName": "Kamimoto Kotone",
                 "birthday": "March 10, 2004",
@@ -5338,7 +5338,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Chaeyeon",
                 "fullName": "Kim Chaeyeon",
                 "birthday": "December 04, 2004",
@@ -5346,7 +5346,7 @@
                 "afr": "a"
             },
             {
-                "num": "11",
+                "grpName": "11",
                 "stageName": "Yubin",
                 "fullName": "Gong Yubin",
                 "birthday": "February 03, 2005",
@@ -5354,7 +5354,7 @@
                 "afr": "a"
             },
             {
-                "num": "12",
+                "grpName": "12",
                 "stageName": "Jiwoo",
                 "fullName": "Lee Jiwoo",
                 "birthday": "October 24, 2005",
@@ -5362,7 +5362,7 @@
                 "afr": "a"
             },
             {
-                "num": "13",
+                "grpName": "13",
                 "stageName": "Kaede",
                 "fullName": "Yamada Kaede",
                 "birthday": "December 20, 2005",
@@ -5370,7 +5370,7 @@
                 "afr": "a"
             },
             {
-                "num": "14",
+                "grpName": "14",
                 "stageName": "Shion",
                 "fullName": "Park Shion",
                 "birthday": "April 03, 2006",
@@ -5378,7 +5378,7 @@
                 "afr": "a"
             },
             {
-                "num": "15",
+                "grpName": "15",
                 "stageName": "Lynn",
                 "fullName": "Kawakami Lynn",
                 "birthday": "April 12, 2006",
@@ -5386,7 +5386,7 @@
                 "afr": "a"
             },
             {
-                "num": "16",
+                "grpName": "16",
                 "stageName": "Hyerin",
                 "fullName": "Jeong Hyerin",
                 "birthday": "April 12, 2007",
@@ -5394,7 +5394,7 @@
                 "afr": "a"
             },
             {
-                "num": "17",
+                "grpName": "17",
                 "stageName": "Hayeon",
                 "fullName": "Jeong Hayeon",
                 "birthday": "August 01, 2007",
@@ -5402,7 +5402,7 @@
                 "afr": "a"
             },
             {
-                "num": "18",
+                "grpName": "18",
                 "stageName": "Soomin",
                 "fullName": "Kim Soomin",
                 "birthday": "October 03, 2007",
@@ -5410,7 +5410,7 @@
                 "afr": "a"
             },
             {
-                "num": "19",
+                "grpName": "19",
                 "stageName": "Yeonji",
                 "fullName": "Kwak Yeonji",
                 "birthday": "January 08, 2008",
@@ -5418,7 +5418,7 @@
                 "afr": "a"
             },
             {
-                "num": "20",
+                "grpName": "20",
                 "stageName": "Joo Bin",
                 "fullName": "Joo Bin",
                 "birthday": "January 16, 2009",
@@ -5435,7 +5435,7 @@
         "debutDate": "October 20, 2015",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Nayeon",
                 "fullName": "Im Nayeon",
                 "birthday": "September 22, 1995",
@@ -5443,7 +5443,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jeongyeon",
                 "fullName": "Yoo Jeongyeon",
                 "birthday": "November 01, 1996",
@@ -5451,7 +5451,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Momo",
                 "fullName": "Hirai Momo",
                 "birthday": "November 09, 1996",
@@ -5459,7 +5459,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Sana",
                 "fullName": "Minatozaki Sana",
                 "birthday": "December 29, 1996",
@@ -5467,7 +5467,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Jihyo",
                 "fullName": "Park Jihyo",
                 "birthday": "February 01, 1997",
@@ -5475,7 +5475,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Mina",
                 "fullName": "Myoui Mina",
                 "birthday": "March 24, 1997",
@@ -5483,7 +5483,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Dahyun",
                 "fullName": "Kim Dahyun",
                 "birthday": "May 28, 1998",
@@ -5491,7 +5491,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Chaeyoung",
                 "fullName": "Son Chaeyoung",
                 "birthday": "April 23, 1999",
@@ -5499,7 +5499,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Tzuyu",
                 "fullName": "Chou Tzuyu",
                 "birthday": "June 14, 1999",
@@ -5516,7 +5516,7 @@
         "debutDate": "January 22, 2024",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Shinyu",
                 "fullName": "Shin Junghwan",
                 "birthday": "November 07, 2003",
@@ -5524,7 +5524,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Dohoon",
                 "fullName": "Kim Dohoon",
                 "birthday": "January 30, 2005",
@@ -5532,7 +5532,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Youngjae",
                 "fullName": "Choi Youngjae",
                 "birthday": "May 31, 2005",
@@ -5540,7 +5540,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Hanjin",
                 "fullName": "Han Zhen",
                 "birthday": "January 05, 2006",
@@ -5548,7 +5548,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Jihoon",
                 "fullName": "Han Jihoon",
                 "birthday": "March 28, 2006",
@@ -5556,7 +5556,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Kyungmin",
                 "fullName": "Lee Kyungmin",
                 "birthday": "October 02, 2007",
@@ -5573,7 +5573,7 @@
         "debutDate": "March 04, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Yeonjun",
                 "fullName": "Choi Yeonjun",
                 "birthday": "September 13, 1999",
@@ -5582,7 +5582,7 @@
             },
             {
                 "groupName": "TXT",
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Soobin",
                 "fullName": "Choi Soobin",
                 "birthday": "December 05, 2000",
@@ -5590,7 +5590,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Beomgyu",
                 "fullName": "Choi Beomgyu",
                 "birthday": "March 13, 2001",
@@ -5598,7 +5598,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Taehyun",
                 "fullName": "Kang Taehyun",
                 "birthday": "February 05, 2002",
@@ -5606,7 +5606,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Huening Kai",
                 "fullName": "Huening Kai",
                 "birthday": "August 14, 2002",
@@ -5623,7 +5623,7 @@
         "debutDate": "January 09, 2019",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Dongheon",
                 "fullName": "Lee Dongheon",
                 "birthday": "August 04, 1995",
@@ -5631,7 +5631,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Hoyoung",
                 "fullName": "Bae Hoyoung",
                 "birthday": "August 10, 1998",
@@ -5639,7 +5639,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Minchan",
                 "fullName": "Hong Minchan",
                 "birthday": "September 16, 1998",
@@ -5647,7 +5647,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Gyehyeon",
                 "fullName": "Jo Gyehyeon",
                 "birthday": "May 14, 1999",
@@ -5655,7 +5655,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Yeonho",
                 "fullName": "Ju Yeonho",
                 "birthday": "May 31, 2000",
@@ -5663,7 +5663,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Yongseung",
                 "fullName": "Kim Yongseung",
                 "birthday": "June 17, 2000",
@@ -5671,7 +5671,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Kangmin",
                 "fullName": "Yoo Kangmin",
                 "birthday": "January 25, 2003",
@@ -5688,7 +5688,7 @@
         "debutDate": "June 30, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Soojin",
                 "fullName": "Lee Soojin",
                 "birthday": "December 12, 2001",
@@ -5696,7 +5696,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jiyoon",
                 "fullName": "Shin Jiyoon",
                 "birthday": "March 02, 2002",
@@ -5704,7 +5704,7 @@
                 "afr": "f"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Monday",
                 "fullName": "Kim Jimin",
                 "birthday": "May 10, 2002",
@@ -5712,7 +5712,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Soeun",
                 "fullName": "Park Soeun",
                 "birthday": "October 26, 2002",
@@ -5720,7 +5720,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Jaehee",
                 "fullName": "Lee Jaehee",
                 "birthday": "March 18, 2004",
@@ -5728,7 +5728,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Jihan",
                 "fullName": "Han Jihyo",
                 "birthday": "July 12, 2004",
@@ -5736,7 +5736,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Zoa",
                 "fullName": "Jo Hyewon",
                 "birthday": "May 31, 2005",
@@ -5753,7 +5753,7 @@
         "debutDate": "October 05, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Daehyeon",
                 "fullName": "Jang Daehyeon",
                 "birthday": "February 11, 1997",
@@ -5761,7 +5761,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Donghan",
                 "fullName": "Kim Donghan",
                 "birthday": "July 03, 1998",
@@ -5769,7 +5769,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Yongha",
                 "fullName": "Yoo Yongha",
                 "birthday": "January 11, 1999",
@@ -5777,7 +5777,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Yohan",
                 "fullName": "Kim Yohan",
                 "birthday": "September 22, 1999",
@@ -5785,7 +5785,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Seokhwa",
                 "fullName": "Kang Seokhwa",
                 "birthday": "December 01, 2000",
@@ -5793,7 +5793,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Junseo",
                 "fullName": "Kim Junseo",
                 "birthday": "November 20, 2001",
@@ -5810,7 +5810,7 @@
         "debutDate": "May 13, 2020",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Nana",
                 "fullName": "Kwon Nayeon",
                 "birthday": "March 09, 2001",
@@ -5818,7 +5818,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Wooyeon",
                 "fullName": "Park Jinkyung",
                 "birthday": "February 11, 2003",
@@ -5826,7 +5826,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Sora",
                 "fullName": "Sakata Sora",
                 "birthday": "August 30, 2003",
@@ -5834,7 +5834,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Lucy",
                 "fullName": "Kim Daeun",
                 "birthday": "April 09, 2004",
@@ -5842,7 +5842,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Minseo",
                 "fullName": "Kim Minseo",
                 "birthday": "August 12, 2004",
@@ -5855,11 +5855,11 @@
         "groupName": "Wonho",
         "bgs": "s",
         "groupImage": "/imageArchive/Solo/WonhoBig.jpeg",
-        "company": "",
+        "company": "Highline Entertainment",
         "debutDate": "May 02, 2022",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Wonho",
                 "fullName": "Shin Hoseok",
                 "birthday": "March 01, 1993",
@@ -5876,7 +5876,7 @@
         "debutDate": "December 06, 2021",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Gunil",
                 "fullName": "Goo Gunil",
                 "birthday": "July 24, 1998",
@@ -5885,7 +5885,7 @@
             },
             {
                 "groupName": "Xdinary Heroes",
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Jungsu",
                 "fullName": "Kim Jungsu",
                 "birthday": "June 26, 2001",
@@ -5894,7 +5894,7 @@
             },
             {
                 "groupName": "Xdinary Heroes",
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Gaon",
                 "fullName": "Kwak Jiseok",
                 "birthday": "January 14, 2002",
@@ -5902,7 +5902,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "O.de",
                 "fullName": "Oh Seungmin",
                 "birthday": "June 11, 2002",
@@ -5910,7 +5910,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Jun Han",
                 "fullName": "Han Hyeongjun",
                 "birthday": "August 18, 2002",
@@ -5918,7 +5918,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Jooyeon",
                 "fullName": "Lee Jooyeon",
                 "birthday": "September 12, 2002",
@@ -5935,7 +5935,7 @@
         "debutDate": "March 30, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Minjae",
                 "fullName": "Kim Minjae",
                 "birthday": "April 10, 2003",
@@ -5943,7 +5943,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Junmin",
                 "fullName": "Park Junmin",
                 "birthday": "May 24, 2003",
@@ -5951,7 +5951,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Sumin",
                 "fullName": "Choi Sumin",
                 "birthday": "April 07, 2004",
@@ -5960,7 +5960,7 @@
             },
             {
                 "groupName": "xikers",
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Jinsik",
                 "fullName": "Ham Jinsik",
                 "birthday": "July 30, 2004",
@@ -5968,7 +5968,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Hyunwoo",
                 "fullName": "Choi Hyunwoo",
                 "birthday": "December 04, 2004",
@@ -5976,7 +5976,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Junghoon",
                 "fullName": "Kim Junghoon",
                 "birthday": "July 05, 2005",
@@ -5984,7 +5984,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Seeun",
                 "fullName": "Park Seeun",
                 "birthday": "August 17, 2005",
@@ -5992,7 +5992,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Yujun",
                 "fullName": "Jung Yujun",
                 "birthday": "October 05, 2005",
@@ -6000,7 +6000,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Hunter",
                 "fullName": "Pupungkorn Lertkiatdamrong",
                 "birthday": "October 05, 2005",
@@ -6008,7 +6008,7 @@
                 "afr": "a"
             },
             {
-                "num": "10",
+                "grpName": "10",
                 "stageName": "Yechan",
                 "fullName": "Lee Yechan",
                 "birthday": "October 21, 2005",
@@ -6025,7 +6025,7 @@
         "debutDate": "November 23, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Yedam",
                 "fullName": "Bang Yedam",
                 "birthday": "May 07, 2002",
@@ -6042,7 +6042,7 @@
         "debutDate": "July 10, 2023",
         "members": [
             {
-                "num": "1",
+                "grpName": "1",
                 "stageName": "Jiwoong",
                 "fullName": "Kim Jiwoong",
                 "birthday": "December 14, 1998",
@@ -6050,7 +6050,7 @@
                 "afr": "a"
             },
             {
-                "num": "2",
+                "grpName": "2",
                 "stageName": "Zhang Hao",
                 "fullName": "Zhang Hao",
                 "birthday": "July 25, 2000",
@@ -6058,7 +6058,7 @@
                 "afr": "a"
             },
             {
-                "num": "3",
+                "grpName": "3",
                 "stageName": "Hanbin",
                 "fullName": "Sung Hanbin",
                 "birthday": "June 13, 2001",
@@ -6066,7 +6066,7 @@
                 "afr": "a"
             },
             {
-                "num": "4",
+                "grpName": "4",
                 "stageName": "Matthew",
                 "fullName": "Seok Woohyun",
                 "birthday": "May 28, 2002",
@@ -6074,7 +6074,7 @@
                 "afr": "a"
             },
             {
-                "num": "5",
+                "grpName": "5",
                 "stageName": "Taerae",
                 "fullName": "Kim Taerae",
                 "birthday": "July 14, 2002",
@@ -6082,7 +6082,7 @@
                 "afr": "a"
             },
             {
-                "num": "6",
+                "grpName": "6",
                 "stageName": "Ricky",
                 "fullName": "Shen Quanrui",
                 "birthday": "May 20, 2004",
@@ -6090,7 +6090,7 @@
                 "afr": "a"
             },
             {
-                "num": "7",
+                "grpName": "7",
                 "stageName": "Gyuvin",
                 "fullName": "Kim Gyuvin",
                 "birthday": "August 30, 2004",
@@ -6098,7 +6098,7 @@
                 "afr": "a"
             },
             {
-                "num": "8",
+                "grpName": "8",
                 "stageName": "Gunwook",
                 "fullName": "Park Gunwook",
                 "birthday": "January 10, 2005",
@@ -6106,7 +6106,7 @@
                 "afr": "a"
             },
             {
-                "num": "9",
+                "grpName": "9",
                 "stageName": "Yujin",
                 "fullName": "Han Yujin",
                 "birthday": "March 20, 2007",

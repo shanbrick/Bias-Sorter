@@ -1,8 +1,9 @@
 <template>
     <div class="topBar">
         <button class="topBarButton" @click="addNewCategory()">&nbsp;+&nbsp; Add New Category</button>
-        <button class="topBarButton" @click="toggleEditMode()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit Categories</button>
-        <button class="topBarButton" @click="toggleEditMode()" v-else>&nbsp;✓&nbsp; Save Categories</button>
+        <button class="topBarButton" @click="toggleEditModeOn()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit
+            Categories</button>
+        <button class="topBarButton" @click="toggleEditModeOff()" v-else>&nbsp;✓&nbsp; Save Categories</button>
     </div>
 
 
@@ -11,7 +12,7 @@
             <p class="categoryTitle">Unsorted</p>
         </div>
         <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
-            @change="updateStorage(0, homePageArrays[0])" :options="{ disabled: !editModeOn }">
+            @change="updateStorage(0, homePageArrays[0])" :disabled="!editModeOn" item-key="a">
             <template #item="{ element }">
                 <div class="peopleDivss" :key="element.stageName">
                     <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
@@ -24,7 +25,8 @@
 
 
     <div class="sideCats">
-        <!-- <draggable :list="testArray" :animation="300" @change="updateCatOrder(testArray)">
+        <draggable :list="testArray" :animation="300" @change="updateCatOrder(testArray)" :disabled="!editModeOn"
+            item-key="b">
             <template #item="{ element: catArr, index }">
                 <div :id=catArr class="categories">
                     <div class="boxHeaderCategories">
@@ -38,43 +40,20 @@
                     </div>
                     <div v-if="!editModeOn">
                         <draggable :list="homePageArrays[index + 1]" group="everyone" :animations="300"
-                            @change="updateStorage(index + 1, homePageArrays[index + 1])">
-                            <template #item="{ element }">
+                            @change="updateStorage(index + 1, homePageArrays[index + 1])" :disabled="editModeOn"
+                            item-key="c">
+                            <template #item="{ element: pers }">
                                 <div class="peopleDivss">
-                                    <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
-                                    <p class="idolName">{{ element.stageName }}</p>
-                                    <p class="groupName">{{ element.groupName }}</p>
+                                    <img class="homePeoplePics" :src="require('../assets' + pers.imgLink)">
+                                    <p class="idolName">{{ pers.stageName }}</p>
+                                    <p class="groupName">{{ pers.groupName }}</p>
                                 </div>
                             </template>
                         </draggable>
                     </div>
                 </div>
             </template>
-        </draggable> -->
-        <div v-for="(cat, index) in saveData.categories.slice(1)" class="categories" :key="cat">
-            <div :id=index class="boxHeaderCategories">
-                <div v-if="!editModeOn">
-                    <p class="categoryTitle">{{ cat.catName }}</p>
-                </div>
-                <div v-else>
-                    <input class="boxHeaderCatsInput" type="text" v-model="saveData.categories[index + 1].catName"
-                        v-on:input="updateCatName(index + 1)"></input>
-                </div>
-            </div>
-            <div v-if="!editModeOn" :id=cat>
-                <draggable :list="homePageArrays[index + 1]" group="everyone" :animations="300" :item-key=cat
-                    @change="updateStorage(index + 1, homePageArrays[index + 1])">
-                    <template #item="{ element }">
-                        <div class="peopleDivss" :key="cat">
-                            <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
-                            <p class="idolName">{{ element.stageName }}</p>
-                            <p class="groupName">{{ element.groupName }}</p>
-                        </div>
-                    </template>
-                </draggable>
-            </div>
-        </div>
-
+        </draggable>
     </div>
 </template>
 
@@ -97,10 +76,6 @@ export default {
             this.saveData = saveDataFromStorage
         } else {
             localStorage.setItem("save_data", JSON.stringify(this.saveData));
-        }
-
-        for (let i = 1; i < this.saveData.categories.length; i++) {
-            this.categoryArray.push(this.saveData.categories[i].catName)
         }
 
         for (let i = 0; i < this.saveData.categories.length; i++) {
@@ -135,7 +110,6 @@ export default {
                 ]
             },
             homePageArrays: ref([]),
-            categoryArray: ref([]),
             testArray: ref([]),
             editModeOn: false,
         }
@@ -145,38 +119,40 @@ export default {
     },
     methods: {
         addNewCategory() {
-            this.saveData.categories.push({
+            let arr = {
                 "catName": "Untitled",
                 "people": []
-            });
+            }
+            this.saveData.categories.push(arr);
             localStorage.setItem('save_data', JSON.stringify(this.saveData));
 
-            this.categoryArray = [];
-            for (let i = 1; i < this.saveData.categories.length; i++) {
-                this.categoryArray.push(this.saveData.categories[i].catName)
-            };
-            console.log(this.categoryArray);
+            this.testArray.push(arr)
+            this.homePageArrays.push(arr.people);
+
         },
-        toggleEditMode() {
+        toggleEditModeOn() {
             this.editModeOn = !this.editModeOn;
+        },
+        toggleEditModeOff() {
+            this.editModeOn = !this.editModeOn;
+            window.location.reload();
         },
         updateCatOrder(arr) {
             console.log("update cat order", arr)
             for (let i = 0; i < arr.length; i++) {
-                this.saveData.categories[i + 1] = arr;
+                this.saveData.categories[i + 1] = arr[i];
             }
             console.log("saveData categpories", this.saveData.categories);
             localStorage.setItem('save_data', JSON.stringify(this.saveData));
         },
         updateStorage(i, array) {
-            console.log(this.saveData.categories);
             this.saveData.categories[i].people = array;
             localStorage.setItem('save_data', JSON.stringify(this.saveData));
         },
         updateCatName(i) {
             this.saveData.categories[i].catName;
             localStorage.setItem('save_data', JSON.stringify(this.saveData));
-        }
+        },
     }
 }
 </script>
@@ -340,8 +316,27 @@ export default {
     /* border: 1px solid red; */
 }
 
+.peopleDivssSmall {
+    float: left;
+    height: fit-content;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* border: 1px solid red; */
+}
+
 .homePeoplePics {
     width: 130px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #00000080;
+    margin: 0px;
+    padding: 0px;
+}
+
+.homePeoplePicsSmall {
+    width: 50px;
     border-radius: 8px;
     box-shadow: 0px 0px 5px #00000080;
     margin: 0px;
