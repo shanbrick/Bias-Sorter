@@ -9,7 +9,9 @@
         <div v-for="person in active" class="memberDivs">
             <img class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
             <p class="memberName">{{ person.stageName }} ({{ person.stageKR }})</p>
-            <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
+            <p class="memberInfo">
+                <i>Full Name:</i> {{ person.fullName }} ({{ person.fullKR }})
+            </p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
             <div v-if="checkPerson(person.imgLink)" class="added">
                 <p>Added</p>
@@ -79,16 +81,29 @@ export default {
     },
     methods: {
         addToUnsorted(grpName, stageName, stageKR, fullName, fullKR, birthday, imgLink, afr) {
-            this.saveData.categories[0].people.push({
-                grpName: grpName,
-                stageName: stageName,
-                stageKR: stageKR,
-                fullName: fullName,
-                fullKR: fullKR,
-                birthday: birthday,
-                imgLink: imgLink,
-                afr: afr,
-            });
+            if (stageName === grpName) {
+                this.saveData.categories[0].people.push({
+                    grpName: "Solo",
+                    stageName: stageName,
+                    stageKR: stageKR,
+                    fullName: fullName,
+                    fullKR: fullKR,
+                    birthday: birthday,
+                    imgLink: imgLink,
+                    afr: afr,
+                });
+            } else {
+                this.saveData.categories[0].people.push({
+                    grpName: grpName,
+                    stageName: stageName,
+                    stageKR: stageKR,
+                    fullName: fullName,
+                    fullKR: fullKR,
+                    birthday: birthday,
+                    imgLink: imgLink,
+                    afr: afr,
+                });
+            }
             localStorage.setItem("save_data", JSON.stringify(this.saveData));
         },
         checkPerson(input) {
@@ -159,11 +174,10 @@ export default {
     width: fit-content;
     text-align: center;
     padding: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-bottom: 20px;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 8px;
     background-color: #edecff;
     /* background-image: linear-gradient(#747fe6, #b3b8e9); */
@@ -184,7 +198,6 @@ export default {
     line-height: 0px;
     font-size: 25px;
     font-weight: bolder;
-    text-decoration: underline;
 }
 
 .groupInfo {

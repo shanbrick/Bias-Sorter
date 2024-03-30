@@ -239,7 +239,7 @@ export default {
     border-bottom: 1px solid #909090;
     border-left: 1px solid #909090;
     border-right: 1px solid #909090;
-    min-height: 101.25px;
+    min-height: 50px;
     height: fit-content;
 }
 
