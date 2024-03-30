@@ -1,14 +1,14 @@
 <template>
     <div class="groupInfoDiv">
-        <img class="fullGroupPic" :src="require('../assets' + group.groupImage)" />
+        <img class="fullGroupPic" :src="require('../assets/imageArchive/' + group.groupImage)" />
         <p class="groupName">{{ group.groupName }}</p>
         <p><i>Company:</i> {{ group.company }}</p>
         <p><i>Debut:</i> {{ group.debutDate }}</p>
     </div>
     <div class="bigBox">
-        <div v-for="person in group.members" class="memberDivs">
-            <img class="memberPic" :src="require('../assets' + person.imgLink)" />
-            <p class="memberName">{{ person.stageName }}</p>
+        <div v-for="person in active" class="memberDivs">
+            <img class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
+            <p class="memberName">{{ person.stageName }} ({{ person.stageKR }})</p>
             <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
             <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
             <div v-if="checkPerson(person.imgLink)" class="added">
@@ -19,12 +19,43 @@
             </button>
             <button v-else @click="
             addToUnsorted(
-                group.groupName,
-                person.num,
+                person.grpName,
                 person.stageName,
+                person.stageKR,
                 person.fullName,
+                person.fullKR,
                 person.birthday,
-                person.imgLink
+                person.imgLink,
+                person.afr
+            )
+            ">
+                Add
+            </button>
+        </div>
+    </div>
+    <div class="bigBox">
+        <div v-for="person in former" class="memberDivs">
+            <p class="former">Former Member:</p>
+            <img class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
+            <p class="memberName">{{ person.stageName }} ({{ person.stageKR }})</p>
+            <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
+            <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
+            <div v-if="checkPerson(person.imgLink)" class="added">
+                <p>Added</p>
+            </div>
+            <button v-else-if="person.afr !== 'a' && person.afr !== 'f'" @click="populateGroupPage(person.afr)">
+                ➜
+            </button>
+            <button v-else @click="
+            addToUnsorted(
+                person.grpName,
+                person.stageName,
+                person.stageKR,
+                person.fullName,
+                person.fullKR,
+                person.birthday,
+                person.imgLink,
+                person.afr
             )
             ">
                 Add
@@ -47,14 +78,16 @@ export default {
         };
     },
     methods: {
-        addToUnsorted(groupName, num, stageName, fullName, birthday, imgLink) {
+        addToUnsorted(grpName, stageName, stageKR, fullName, fullKR, birthday, imgLink, afr) {
             this.saveData.categories[0].people.push({
-                groupName: groupName,
-                num: num,
+                grpName: grpName,
                 stageName: stageName,
+                stageKR: stageKR,
                 fullName: fullName,
+                fullKR: fullKR,
                 birthday: birthday,
                 imgLink: imgLink,
+                afr: afr,
             });
             localStorage.setItem("save_data", JSON.stringify(this.saveData));
         },
@@ -77,10 +110,21 @@ export default {
             for (var i = 0; i < this.groupList.length; i++) {
                 if (this.groupList[i].groupName === groupInput) {
                     groupArray = this.groupList[i];
+                    break;
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(groupArray));
             this.group = JSON.parse(localStorage.getItem("selectedGroup"));
+        },
+    },
+    computed: {
+        active: function () {
+            let arr = this.group.members;
+            return arr.filter((i) => i.afr === "a");
+        },
+        former: function () {
+            let arr = this.group.members;
+            return arr.filter((i) => i.afr !== "a");
         },
     },
 };
@@ -88,7 +132,7 @@ export default {
 
 <style scoped>
 .bigBox {
-    width: 1200px;
+    width: 76%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -99,7 +143,7 @@ export default {
     border-radius: 10px;
     /* border: 1px solid #b0b0b0; */
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -171,26 +215,26 @@ export default {
     margin-bottom: 5px;
 }
 
+.former {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
 .memberName {
     font-size: 20px;
     text-align: center;
     margin: 5px;
     font-weight: bold;
-    text-decoration: underline;
 }
 
 .memberInfo {
     font-size: 14px;
     text-align: center;
     margin: 5px;
-}
-
-.former {
-    font-size: 12px;
-    text-align: center;
-    margin: 5px;
-    position: relative;
-    font-style: italic;
 }
 
 button {

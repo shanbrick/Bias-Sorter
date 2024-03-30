@@ -3,7 +3,7 @@
         <div v-for="group in groupsData">
             <div class="groupDiv" v-if="group.bgs === 'g' || group.bgs === 'bg'">
                 <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
-                    <img class="groupPicList" :src="require('../assets' + group.groupImage)" />
+                    <img class="groupPicList" :src="require('../assets/imageArchive/' + group.groupImage)" />
                     <p class="groupNameList">{{ group.groupName }}</p>
                 </a>
             </div>

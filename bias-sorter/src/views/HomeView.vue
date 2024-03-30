@@ -15,9 +15,9 @@
             @change="updateStorage(0, homePageArrays[0])" :disabled="editModeOn" item-key="a">
             <template #item="{ element }">
                 <div class="peopleDivss" :key="element.stageName">
-                    <img class="homePeoplePics" :src="require('../assets' + element.imgLink)">
+                    <img class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)">
                     <p class="idolName">{{ element.stageName }}</p>
-                    <p class="groupName">{{ element.groupName }}</p>
+                    <p class="groupName">{{ element.grpName }}</p>
                 </div>
             </template>
         </draggable>
@@ -44,9 +44,10 @@
                             item-key="c">
                             <template #item="{ element: pers }">
                                 <div class="peopleDivss">
-                                    <img class="homePeoplePics" :src="require('../assets' + pers.imgLink)">
+                                    <img class="homePeoplePics"
+                                        :src="require('../assets/imageArchive/' + pers.imgLink)">
                                     <p class="idolName">{{ pers.stageName }}</p>
-                                    <p class="groupName">{{ pers.groupName }}</p>
+                                    <p class="groupName">{{ pers.grpName }}</p>
                                 </div>
                             </template>
                         </draggable>
@@ -238,6 +239,8 @@ export default {
     border-bottom: 1px solid #909090;
     border-left: 1px solid #909090;
     border-right: 1px solid #909090;
+    min-height: 101.25px;
+    height: fit-content;
 }
 
 .categoryTitle {

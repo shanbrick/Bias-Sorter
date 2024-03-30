@@ -4,20 +4,22 @@
         <ul v-show="isOpen" class="autocomplete-results">
             <a href="/groupPage" style="text-decoration: none" v-for="(result, i) in results" :key="i"
                 @click="setResult(result)">
-                <img class="acPic" :src="require('../assets' + result.groupImage)" />
+                <img class="acPic" :src="require('../assets/imageArchive/' + result.groupImage)" />
                 <p class="autocomplete-result">
                     {{ result.groupName }}
                     <br />
-                    <span style="font-size: 75%">{{ result.company }}</span>
+                    <span class="acrSmall">{{ result.company }}</span>
                 </p>
             </a>
             <a href="/groupPage" style="text-decoration: none" v-for="(pResult, i) in peopleResults" :key="i"
                 @click="setResultPeople(pResult)">
-                <img class="acPic" :src="require('../assets' + pResult.imgLink)" />
+                <img class="acPic" :src="require('../assets/imageArchive/' + pResult.imgLink)" />
                 <p class="autocomplete-result">
                     {{ pResult.stageName }}
+                    <span v-if="pResult.grpName !== pResult.stageName" class="acrSmall">
+                        {{ pResult.grpName }}</span>
                     <br />
-                    <span style="font-size: 75%">{{ pResult.fullName }}</span>
+                    <span class="acrSmall">{{ pResult.fullName }}</span>
                 </p>
             </a>
         </ul>
@@ -58,43 +60,34 @@ export default {
             this.isOpen = true;
         },
         filterResults() {
-            if (this.search.length > 1) {
-                let groupSearchArr = [];
-                for (let i = 0; i < this.groups.length; i++) {
-                    let noSC = this.groups[i].groupName.replace(/[^a-zA-Z ]/g, "");
-                    if (
-                        (this.groups[i].groupName.toLowerCase().indexOf(this.search.toLowerCase()) >
-                            -1 ||
-                            noSC.toLowerCase().indexOf(this.search.toLowerCase()) > -1) &&
-                        this.groups[i].bgs !== "s"
-                    ) {
-                        groupSearchArr.push(this.groups[i]);
-                    }
-                }
+            let groupSearchArr = [];
+            for (let i = 0; i < this.groups.length; i++) {
+                let noSC = this.groups[i].groupName.replace(/[^a-zA-Z ]/g, "");
+                if ((this.erm(this.groups[i].groupName) || this.erm(noSC)) && this.groups[i].bgs !== "s") {
 
-                let peopleSearchArr = [];
-                for (let i = 0; i < this.groups.length; i++) {
-                    for (let j = 0; j < this.groups[i].members.length; j++) {
-                        let noSC = this.groups[i].members[j].stageName.replace(/[^a-zA-Z ]/g, "");
-                        if (
-                            (this.groups[i].members[j].stageName
-                                .toLowerCase()
-                                .indexOf(this.search.toLowerCase()) > -1 ||
-                                noSC.toLowerCase().indexOf(this.search.toLowerCase()) > -1 ||
-                                this.groups[i].members[j].fullName
-                                    .toLowerCase()
-                                    .indexOf(this.search.toLowerCase()) > -1) &&
-                            (this.groups[i].members[j].afr === "a" ||
-                                this.groups[i].members[j].afr === "f")
-                        ) {
-                            peopleSearchArr.push(this.groups[i].members[j]);
-                        }
-                    }
+                    groupSearchArr.push(this.groups[i]);
                 }
-
-                this.results = groupSearchArr;
-                this.peopleResults = peopleSearchArr;
             }
+
+            let peopleSearchArr = [];
+            for (let i = 0; i < this.groups.length; i++) {
+                for (let j = 0; j < this.groups[i].members.length; j++) {
+                    let noSC = this.groups[i].members[j].stageName.replace(/[^a-zA-Z ]/g, "");
+                    if ((this.erm(this.groups[i].members[j].stageName) || this.erm(noSC) ||
+                        this.erm(this.groups[i].members[j].fullName) ||
+                        this.erm(this.groups[i].members[j].stageKR) ||
+                        this.erm(this.groups[i].members[j].fullKR)) &&
+                        (this.groups[i].members[j].afr === "a" || this.groups[i].members[j].afr === "f")) {
+                        peopleSearchArr.push(this.groups[i].members[j]);
+                    }
+                }
+            }
+
+            this.results = groupSearchArr;
+            this.peopleResults = peopleSearchArr;
+        },
+        erm(word) {
+            return word.toLowerCase().indexOf(this.search.toLowerCase()) > -1
         },
         setResult(result) {
             this.search = result.groupName;
@@ -168,9 +161,20 @@ export default {
     color: black;
 }
 
+.acrSmall {
+    z-index: 2;
+    font-size: 70%;
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    color: black;
+    font-weight: lighter;
+}
+
 .autocomplete-result:hover {
-    background-color: #505cc7;
-    color: white;
+    background-color: #b3b8e9;
     border-radius: 5px;
 }
 
