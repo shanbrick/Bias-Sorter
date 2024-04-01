@@ -1,7 +1,7 @@
 <template>
     <div class="groupInfoDiv">
         <img class="fullGroupPic" :src="require('../assets/imageArchive/' + group.groupImage)" />
-        <p class="groupName">{{ group.groupName }}</p>
+        <p class="groupName">{{ group.groupName }} ({{ group.groupKR }})</p>
         <p><i>Company:</i> {{ group.company }}</p>
         <p><i>Debut:</i> {{ group.debutDate }}</p>
     </div>
@@ -10,9 +10,12 @@
             <img class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
             <p class="memberName">{{ person.stageName }} ({{ person.stageKR }})</p>
             <p class="memberInfo">
-                <i>Full Name:</i> {{ person.fullName }} ({{ person.fullKR }})
+                <i style="font-weight: bold">Full Name:</i> {{ person.fullName }}
             </p>
-            <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
+            <p class="memberInfo"><i style="font-weight: bold">이름:</i> {{ person.fullKR }}</p>
+            <p class="memberInfo">
+                <i style="font-weight: bold">Birthday:</i> {{ person.birthday }}
+            </p>
             <div v-if="checkPerson(person.imgLink)" class="added">
                 <p>Added</p>
             </div>
@@ -40,8 +43,13 @@
             <p class="former">Former Member:</p>
             <img class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
             <p class="memberName">{{ person.stageName }} ({{ person.stageKR }})</p>
-            <p class="memberInfo"><i>Full Name:</i> {{ person.fullName }}</p>
-            <p class="memberInfo"><i>Birthday:</i> {{ person.birthday }}</p>
+            <p class="memberInfo">
+                <i style="font-weight: bold">Full Name:</i> {{ person.fullName }}
+            </p>
+            <p class="memberInfo"><i style="font-weight: bold">이름:</i> {{ person.fullKR }}</p>
+            <p class="memberInfo">
+                <i style="font-weight: bold">Birthday:</i> {{ person.birthday }}
+            </p>
             <div v-if="checkPerson(person.imgLink)" class="added">
                 <p>Added</p>
             </div>

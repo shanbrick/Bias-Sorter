@@ -1,6 +1,7 @@
 [
     {
         "groupName": "&TEAM",
+        "groupKR": "앤팀",
         "bgs": "b",
         "groupImage": "&TEAM/group.jpeg",
         "company": "HYBE Labels Japan",
@@ -100,6 +101,7 @@
     },
     {
         "groupName": "8TURN",
+        "groupKR": "에잇턴",
         "bgs": "b",
         "groupImage": "8TURN/group.jpeg",
         "company": "MNH Entertainment",
@@ -189,6 +191,7 @@
     },
     {
         "groupName": "82MAJOR",
+        "groupKR": "에이티투메이저",
         "bgs": "b",
         "groupImage": "82MAJOR/group.jpeg",
         "company": "Great M Entertainment",
@@ -258,6 +261,7 @@
     },
     {
         "groupName": "A.C.E",
+        "groupKR": "에이스",
         "bgs": "b",
         "groupImage": "ACE/group.jpeg",
         "company": "Beat Interactive",
@@ -307,6 +311,7 @@
     },
     {
         "groupName": "aespa",
+        "groupKR": "에스파",
         "bgs": "g",
         "groupImage": "aespa/group.jpeg",
         "company": "SM Entertainment",
@@ -356,6 +361,7 @@
     },
     {
         "groupName": "ALL(H)OURS",
+        "groupKR": "올아워즈",
         "bgs": "b",
         "groupImage": "ALLHOURS/group.jpeg",
         "company": "EDEN Entertainment",
@@ -435,6 +441,7 @@
     },
     {
         "groupName": "AMPERS&ONE",
+        "groupKR": "앰퍼샌드원",
         "bgs": "b",
         "groupImage": "AMPERS&ONE/group.jpeg",
         "company": "FNC Entertainment",
@@ -514,6 +521,7 @@
     },
     {
         "groupName": "ARTMS",
+        "groupKR": "아르테미스",
         "bgs": "g",
         "groupImage": "ARTMS/group.jpeg",
         "company": "MODHAUS",
@@ -573,6 +581,7 @@
     },
     {
         "groupName": "ASTRO",
+        "groupKR": "아스트로",
         "bgs": "b",
         "groupImage": "ASTRO/group.jpeg",
         "company": "Fantagio Entertainment",
@@ -642,6 +651,7 @@
     },
     {
         "groupName": "ATEEZ",
+        "groupKR": "에이티즈",
         "bgs": "b",
         "groupImage": "ATEEZ/group.jpeg",
         "company": "KQ Entertainment",
@@ -731,6 +741,7 @@
     },
     {
         "groupName": "BAE173",
+        "groupKR": "비에이이173",
         "bgs": "b",
         "groupImage": "BAE173/group.jpeg",
         "company": "PocketDol Studio",
@@ -830,6 +841,7 @@
     },
     {
         "groupName": "Billlie",
+        "groupKR": "빌리",
         "bgs": "g",
         "groupImage": "Billlie/group.jpeg",
         "company": "Mystic Story Entertainment",
@@ -909,6 +921,7 @@
     },
     {
         "groupName": "BLACKPINK",
+        "groupKR": "블랙핑크",
         "bgs": "g",
         "groupImage": "BLACKPINK/group.jpeg",
         "company": "YG Entertainment",
@@ -958,6 +971,7 @@
     },
     {
         "groupName": "BLITZERS",
+        "groupKR": "블리처스",
         "bgs": "b",
         "groupImage": "BLITZERS/group.jpeg",
         "company": "WUZO Entertainment",
@@ -1037,6 +1051,7 @@
     },
     {
         "groupName": "BOYNEXTDOOR",
+        "groupKR": "보이넥스트도어",
         "bgs": "b",
         "groupImage": "BOYNEXTDOOR/group.jpeg",
         "company": "KOZ Entertainment",
@@ -1106,6 +1121,7 @@
     },
     {
         "groupName": "BTS",
+        "groupKR": "방탄소년단",
         "bgs": "b",
         "groupImage": "BTS/group.jpeg",
         "company": "Big Hit Entertainment",
@@ -1184,66 +1200,8 @@
         ]
     },
     {
-        "groupName": "CIX",
-        "bgs": "b",
-        "groupImage": "CIX/group.jpeg",
-        "company": "C9 Entertainment",
-        "debutDate": "July 23, 2019",
-        "members": [
-            {
-                "grpName": "CIX",
-                "stageName": "BX",
-                "stageKR": "비엑스",
-                "fullName": "Lee Byounggon",
-                "fullKR": "이병곤",
-                "birthday": "March 05, 1998",
-                "imgLink": "CIX/BX.jpeg",
-                "afr": "a"
-            },
-            {
-                "grpName": "CIX",
-                "stageName": "Seunghun",
-                "stageKR": "승훈",
-                "fullName": "Kim Seunghun",
-                "fullKR": "김승훈",
-                "birthday": "February 26, 1999",
-                "imgLink": "CIX/Seunghun.jpeg",
-                "afr": "a"
-            },
-            {
-                "grpName": "CIX",
-                "stageName": "Yonghee",
-                "stageKR": "용희",
-                "fullName": "Kim Yonghee",
-                "fullKR": "김용희",
-                "birthday": "February 17, 2000",
-                "imgLink": "CIX/Yonghee.jpeg",
-                "afr": "a"
-            },
-            {
-                "grpName": "CIX",
-                "stageName": "Jinyoung",
-                "stageKR": "진영",
-                "fullName": "Bae Jinyoung",
-                "fullKR": "배진영",
-                "birthday": "May 10, 2000",
-                "imgLink": "CIX/Jinyoung.jpeg",
-                "afr": "a"
-            },
-            {
-                "grpName": "CIX",
-                "stageName": "Hyunsuk",
-                "stageKR": "현석",
-                "fullName": "Yoon Hyunsuk",
-                "fullKR": "윤현석",
-                "birthday": "September 08, 2001",
-                "imgLink": "CIX/Hyunsuk.jpeg",
-                "afr": "a"
-            }
-        ]
-    },
-    {
         "groupName": "Cherry Bullet",
+        "groupKR": "체리블렛",
         "bgs": "g",
         "groupImage": "CherryBullet/group.jpeg",
         "company": "FNC Entertainment",
@@ -1323,6 +1281,7 @@
     },
     {
         "groupName": "Chuu",
+        "groupKR": "츄",
         "bgs": "s",
         "groupImage": "Solo/ChuuBig.jpeg",
         "company": "ATRP",
@@ -1341,7 +1300,68 @@
         ]
     },
     {
+        "groupName": "CIX",
+        "groupKR": "씨아이엑스",
+        "bgs": "b",
+        "groupImage": "CIX/group.jpeg",
+        "company": "C9 Entertainment",
+        "debutDate": "July 23, 2019",
+        "members": [
+            {
+                "grpName": "CIX",
+                "stageName": "BX",
+                "stageKR": "비엑스",
+                "fullName": "Lee Byounggon",
+                "fullKR": "이병곤",
+                "birthday": "March 05, 1998",
+                "imgLink": "CIX/BX.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "CIX",
+                "stageName": "Seunghun",
+                "stageKR": "승훈",
+                "fullName": "Kim Seunghun",
+                "fullKR": "김승훈",
+                "birthday": "February 26, 1999",
+                "imgLink": "CIX/Seunghun.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "CIX",
+                "stageName": "Yonghee",
+                "stageKR": "용희",
+                "fullName": "Kim Yonghee",
+                "fullKR": "김용희",
+                "birthday": "February 17, 2000",
+                "imgLink": "CIX/Yonghee.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "CIX",
+                "stageName": "Jinyoung",
+                "stageKR": "진영",
+                "fullName": "Bae Jinyoung",
+                "fullKR": "배진영",
+                "birthday": "May 10, 2000",
+                "imgLink": "CIX/Jinyoung.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "CIX",
+                "stageName": "Hyunsuk",
+                "stageKR": "현석",
+                "fullName": "Yoon Hyunsuk",
+                "fullKR": "윤현석",
+                "birthday": "September 08, 2001",
+                "imgLink": "CIX/Hyunsuk.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "CRAVITY",
+        "groupKR": "크래비티",
         "bgs": "b",
         "groupImage": "CRAVITY/group.jpeg",
         "company": "STARSHIP Entertainment",
@@ -1441,6 +1461,7 @@
     },
     {
         "groupName": "DAY6",
+        "groupKR": "데이식스",
         "bgs": "b",
         "groupImage": "DAY6/group.jpeg",
         "company": "Studio J",
@@ -1490,6 +1511,7 @@
     },
     {
         "groupName": "DKB",
+        "groupKR": "다크비",
         "bgs": "b",
         "groupImage": "DKB/group.jpeg",
         "company": "Brave Entertainment",
@@ -1589,6 +1611,7 @@
     },
     {
         "groupName": "Dreamcatcher",
+        "groupKR": "드림캐쳐",
         "bgs": "g",
         "groupImage": "Dreamcatcher/group.jpeg",
         "company": "Dreamcatcher Company",
@@ -1668,6 +1691,7 @@
     },
     {
         "groupName": "DRIPPIN",
+        "groupKR": "드리핀",
         "bgs": "b",
         "groupImage": "DRIPPIN/group.jpeg",
         "company": "Woollim Entertainment",
@@ -1747,6 +1771,7 @@
     },
     {
         "groupName": "DXMON",
+        "groupKR": "다이몬",
         "bgs": "b",
         "groupImage": "DXMON/group.jpeg",
         "company": "SSQ Entertainment",
@@ -1816,6 +1841,7 @@
     },
     {
         "groupName": "ENHYPEN",
+        "groupKR": "엔하이픈",
         "bgs": "b",
         "groupImage": "ENHYPEN/group.jpeg",
         "company": "Belift Lab",
@@ -1895,6 +1921,7 @@
     },
     {
         "groupName": "EPEX",
+        "groupKR": "이펙스",
         "bgs": "b",
         "groupImage": "EPEX/group.jpeg",
         "company": "C9 Entertainment",
@@ -1984,6 +2011,7 @@
     },
     {
         "groupName": "EVERGLOW",
+        "groupKR": "에버글로우",
         "bgs": "g",
         "groupImage": "EVERGLOW/group.jpeg",
         "company": "Yuehua Entertainment",
@@ -2053,6 +2081,7 @@
     },
     {
         "groupName": "EVNNE",
+        "groupKR": "이븐",
         "bgs": "b",
         "groupImage": "EVNNE/group.jpeg",
         "company": "Jellyfish Entertainment",
@@ -2132,6 +2161,7 @@
     },
     {
         "groupName": "EXO",
+        "groupKR": "엑소",
         "bgs": "b",
         "groupImage": "EXO/group.jpeg",
         "company": "SM Entertainment",
@@ -2231,6 +2261,7 @@
     },
     {
         "groupName": "fromis_9",
+        "groupKR": "프로미스나인",
         "bgs": "g",
         "groupImage": "fromis_9/group.jpeg",
         "company": "PLEDIS Entertainment",
@@ -2330,6 +2361,7 @@
     },
     {
         "groupName": "GHOST9",
+        "groupKR": "고스트나인",
         "bgs": "b",
         "groupImage": "GHOST9/group.jpeg",
         "company": "Maroo Entertainment",
@@ -2429,6 +2461,7 @@
     },
     {
         "groupName": "(G)I-DLE",
+        "groupKR": "(여자)아이들",
         "bgs": "g",
         "groupImage": "GIDLE/group.jpeg",
         "company": "CUBE Entertainment",
@@ -2498,6 +2531,7 @@
     },
     {
         "groupName": "Golden Child",
+        "groupKR": "골든차일드",
         "bgs": "b",
         "groupImage": "GoldenChild/group.jpeg",
         "company": "Woollim Entertainment",
@@ -2607,6 +2641,7 @@
     },
     {
         "groupName": "GOT7",
+        "groupKR": "갓세븐",
         "bgs": "b",
         "groupImage": "GOT7/group.jpeg",
         "company": "Warner Music Korea",
@@ -2686,6 +2721,7 @@
     },
     {
         "groupName": "H1-KEY",
+        "groupKR": "하이키",
         "bgs": "g",
         "groupImage": "H1KEY/group.jpeg",
         "company": "Grandline Group",
@@ -2735,6 +2771,7 @@
     },
     {
         "groupName": "ICHILLIN'",
+        "groupKR": "아이칠린",
         "bgs": "g",
         "groupImage": "ICHILLIN/group.jpeg",
         "company": "KM Entertainment",
@@ -2824,6 +2861,7 @@
     },
     {
         "groupName": "I'LL IT",
+        "groupKR": "아일릿",
         "bgs": "g",
         "groupImage": "ILLIT/group.jpeg",
         "company": "BE:LIFT Lab",
@@ -2883,6 +2921,7 @@
     },
     {
         "groupName": "ITZY",
+        "groupKR": "있지",
         "bgs": "g",
         "groupImage": "ITZY/group.jpeg",
         "company": "JYP Entertainment",
@@ -2942,6 +2981,7 @@
     },
     {
         "groupName": "IVE",
+        "groupKR": "아이브",
         "bgs": "g",
         "groupImage": "IVE/group.jpeg",
         "company": "STARSHIP Entertainment",
@@ -3011,6 +3051,7 @@
     },
     {
         "groupName": "Jini",
+        "groupKR": "지니",
         "bgs": "s",
         "groupImage": "Solo/JiniBig.jpeg",
         "company": "ATOC",
@@ -3030,6 +3071,7 @@
     },
     {
         "groupName": "JO1",
+        "groupKR": "제이오원",
         "bgs": "b",
         "groupImage": "JO1/group.jpeg",
         "company": "LAPONE ENTERTAINMENT",
@@ -3149,6 +3191,7 @@
     },
     {
         "groupName": "JUSTB",
+        "groupKR": "저스트비",
         "bgs": "b",
         "groupImage": "JUSTB/group.jpeg",
         "company": "Bluedot Entertainment",
@@ -3218,6 +3261,7 @@
     },
     {
         "groupName": "KARD",
+        "groupKR": "카드",
         "bgs": "bg",
         "groupImage": "KARD/group.jpeg",
         "company": "DSP Media",
@@ -3267,6 +3311,7 @@
     },
     {
         "groupName": "Kep1er",
+        "groupKR": "케플러",
         "bgs": "g",
         "groupImage": "Kep1er/group.jpeg",
         "company": "WAKEONE Entertainment",
@@ -3366,6 +3411,7 @@
     },
     {
         "groupName": "KISS OF LIFE",
+        "groupKR": "키스 오브 라이프",
         "bgs": "g",
         "groupImage": "KISSOFLIFE/group.jpeg",
         "company": "S2 Entertainment",
@@ -3415,6 +3461,7 @@
     },
     {
         "groupName": "LE SSERAFIM",
+        "groupKR": "르세라핌",
         "bgs": "g",
         "groupImage": "LESSERAFIM/group.jpeg",
         "company": "Source Music",
@@ -3474,6 +3521,7 @@
     },
     {
         "groupName": "LOONA",
+        "groupKR": "이달의 소녀",
         "bgs": "g",
         "groupImage": "LOONA/group.jpeg",
         "company": "BlockBerry Creative",
@@ -3603,6 +3651,7 @@
     },
     {
         "groupName": "Loossemble",
+        "groupKR": "루셈블",
         "bgs": "g",
         "groupImage": "Loossemble/group.jpeg",
         "company": "CTDENM",
@@ -3662,6 +3711,7 @@
     },
     {
         "groupName": "LUN8",
+        "groupKR": "루네이트",
         "bgs": "b",
         "groupImage": "LUN8/group.jpeg",
         "company": "Fantagio Entertainment",
@@ -3751,6 +3801,7 @@
     },
     {
         "groupName": "MCND",
+        "groupKR": "엠씨엔디",
         "bgs": "b",
         "groupImage": "MCND/group.jpeg",
         "company": "TOP MEDIA",
@@ -3810,6 +3861,7 @@
     },
     {
         "groupName": "MIRAE",
+        "groupKR": "미래",
         "bgs": "b",
         "groupImage": "MIRAE/group.jpeg",
         "company": "DSP Media",
@@ -3879,6 +3931,7 @@
     },
     {
         "groupName": "MONSTA X",
+        "groupKR": "몬스타엑스",
         "bgs": "b",
         "groupImage": "MONSTAX/group.jpeg",
         "company": "STARSHIP Entertainment",
@@ -3958,6 +4011,7 @@
     },
     {
         "groupName": "M.O.N.T",
+        "groupKR": "몬트",
         "bgs": "b",
         "groupImage": "MONT/group.jpeg",
         "company": "FM Entertainment",
@@ -3997,6 +4051,7 @@
     },
     {
         "groupName": "NCT",
+        "groupKR": "엔시티",
         "bgs": "b",
         "groupImage": "NCT/group.jpeg",
         "company": "SM Entertainment",
@@ -4286,6 +4341,7 @@
     },
     {
         "groupName": "NewJeans",
+        "groupKR": "뉴진스",
         "bgs": "g",
         "groupImage": "NewJeans/group.jpeg",
         "company": "ADOR",
@@ -4345,6 +4401,7 @@
     },
     {
         "groupName": "N.Flying",
+        "groupKR": "엔플라잉",
         "bgs": "b",
         "groupImage": "NFlying/group.jpeg",
         "company": "FNC Entertainment",
@@ -4404,6 +4461,7 @@
     },
     {
         "groupName": "NINE.i",
+        "groupKR": "나인아이",
         "bgs": "b",
         "groupImage": "NINEi/group.jpeg",
         "company": "FirstOne Entertainment",
@@ -4513,6 +4571,7 @@
     },
     {
         "groupName": "NMIXX",
+        "groupKR": "엔믹스",
         "bgs": "g",
         "groupImage": "NMIXX/group.jpeg",
         "company": "JYP Entertainment",
@@ -4556,7 +4615,7 @@
                 "fullKR": "최윤진",
                 "birthday": "April 16, 2004",
                 "imgLink": "NMIXX/Jinni.jpeg",
-                "afr": "f"
+                "afr": "Jini"
             },
             {
                 "grpName": "NMIXX",
@@ -4592,6 +4651,7 @@
     },
     {
         "groupName": "NOMAD",
+        "groupKR": "노매드",
         "bgs": "b",
         "groupImage": "NOMAD/group.jpeg",
         "company": "NOMAD Entertainment",
@@ -4651,6 +4711,7 @@
     },
     {
         "groupName": "OMEGA X",
+        "groupKR": "오메가엑스",
         "bgs": "b",
         "groupImage": "OMEGAX/group.jpeg",
         "company": "IPQ Entertainment",
@@ -4770,6 +4831,7 @@
     },
     {
         "groupName": "ONE PACT",
+        "groupKR": "원팩트",
         "bgs": "b",
         "groupImage": "ONEPACT/group.jpeg",
         "company": "Armada Entertainment",
@@ -4829,6 +4891,7 @@
     },
     {
         "groupName": "OnlyOneOf",
+        "groupKR": "온리원오브",
         "bgs": "b",
         "groupImage": "OnlyOneOf/group.jpeg",
         "company": "8D Creative",
@@ -4908,6 +4971,7 @@
     },
     {
         "groupName": "P1Harmony",
+        "groupKR": "피원하모니",
         "bgs": "b",
         "groupImage": "P1Harmony/group.jpeg",
         "company": "FNC Entertainment",
@@ -4977,6 +5041,7 @@
     },
     {
         "groupName": "PURPLE KISS",
+        "groupKR": "퍼플키스",
         "bgs": "g",
         "groupImage": "PURPLEKISS/group.jpeg",
         "company": "RBW Entertainment",
@@ -5056,6 +5121,7 @@
     },
     {
         "groupName": "Red Velvet",
+        "groupKR": "레드벨벳",
         "bgs": "g",
         "groupImage": "RedVelvet/group.jpeg",
         "company": "SM Entertainment",
@@ -5115,6 +5181,7 @@
     },
     {
         "groupName": "RIIZE",
+        "groupKR": "라이즈",
         "bgs": "b",
         "groupImage": "RIIZE/group.jpeg",
         "company": "SM Entertainment",
@@ -5194,6 +5261,7 @@
     },
     {
         "groupName": "Rocket Punch",
+        "groupKR": "로켓펀치",
         "bgs": "g",
         "groupImage": "RocketPunch/group.jpeg",
         "company": "Woollim Entertainment",
@@ -5263,6 +5331,7 @@
     },
     {
         "groupName": "Seventeen",
+        "groupKR": "세븐틴",
         "bgs": "b",
         "groupImage": "Seventeen/group.jpeg",
         "company": "PLEDIS Entertainment",
@@ -5402,6 +5471,7 @@
     },
     {
         "groupName": "SF9",
+        "groupKR": "에스에프나인",
         "bgs": "b",
         "groupImage": "SF9/group.jpeg",
         "company": "FNC Entertainment",
@@ -5501,6 +5571,7 @@
     },
     {
         "groupName": "SHINee",
+        "groupKR": "샤이니",
         "bgs": "b",
         "groupImage": "SHINee/group.jpeg",
         "company": "SM Entertainment",
@@ -5560,6 +5631,7 @@
     },
     {
         "groupName": "Soojin",
+        "groupKR": "수진",
         "bgs": "s",
         "groupImage": "Solo/SoojinBig.jpeg",
         "company": "BRD Communications",
@@ -5579,6 +5651,7 @@
     },
     {
         "groupName": "STAYC",
+        "groupKR": "스테이씨",
         "bgs": "g",
         "groupImage": "STAYC/group.jpeg",
         "company": "High Up Entertainment",
@@ -5648,6 +5721,7 @@
     },
     {
         "groupName": "Stray Kids",
+        "groupKR": "스트레이 키즈",
         "bgs": "b",
         "groupImage": "StrayKids/group.jpeg",
         "company": "JYP Entertainment",
@@ -5737,6 +5811,7 @@
     },
     {
         "groupName": "TAN",
+        "groupKR": "티에이엔",
         "bgs": "b",
         "groupImage": "TAN/group.jpeg",
         "company": "Think Entertainment",
@@ -5816,6 +5891,7 @@
     },
     {
         "groupName": "TEMPEST",
+        "groupKR": "템페스트",
         "bgs": "b",
         "groupImage": "TEMPEST/group.jpeg",
         "company": "Yuehua Entertainment",
@@ -5895,6 +5971,7 @@
     },
     {
         "groupName": "TFN",
+        "groupKR": "티에프앤",
         "bgs": "b",
         "groupImage": "TFN/group.jpeg",
         "company": "MLD Entertainment",
@@ -5994,6 +6071,7 @@
     },
     {
         "groupName": "THE BOYZ",
+        "groupKR": "더보이즈",
         "bgs": "b",
         "groupImage": "THEBOYZ/group.jpeg",
         "company": "Cre.Ker Entertainment",
@@ -6123,6 +6201,7 @@
     },
     {
         "groupName": "THE NEW SIX",
+        "groupKR": "더 뉴 식스",
         "bgs": "b",
         "groupImage": "THENEWSIX/group.jpeg",
         "company": "P NATION",
@@ -6192,6 +6271,7 @@
     },
     {
         "groupName": "TIOT",
+        "groupKR": "티아이오티",
         "bgs": "b",
         "groupImage": "TIOT/group.jpeg",
         "company": "Redstart ENM",
@@ -6251,6 +6331,7 @@
     },
     {
         "groupName": "TREASURE",
+        "groupKR": "트레저",
         "bgs": "b",
         "groupImage": "TREASURE/group.jpeg",
         "company": "YG Entertainment",
@@ -6380,6 +6461,7 @@
     },
     {
         "groupName": "tripleS",
+        "groupKR": "트리플에스",
         "bgs": "g",
         "groupImage": "tripleS/group.jpeg",
         "company": "MODHAUS",
@@ -6589,6 +6671,7 @@
     },
     {
         "groupName": "TWICE",
+        "groupKR": "트와이스",
         "bgs": "g",
         "groupImage": "TWICE/group.jpeg",
         "company": "JYP Entertainment",
@@ -6688,6 +6771,7 @@
     },
     {
         "groupName": "TWS",
+        "groupKR": "투어스",
         "bgs": "b",
         "groupImage": "TWS/group.jpeg",
         "company": "PLEDIS Entertainment",
@@ -6757,6 +6841,7 @@
     },
     {
         "groupName": "TXT",
+        "groupKR": "투모로우바이투게더",
         "bgs": "b",
         "groupImage": "TXT/group.jpeg",
         "company": "Big Hit Entertainment",
@@ -6816,6 +6901,7 @@
     },
     {
         "groupName": "VERIVERY",
+        "groupKR": "베리베리",
         "bgs": "b",
         "groupImage": "VERIVERY/group.jpeg",
         "company": "Jellyfish Entertainment",
@@ -6895,6 +6981,7 @@
     },
     {
         "groupName": "Weeekly",
+        "groupKR": "위클리",
         "bgs": "g",
         "groupImage": "Weeekly/group.jpeg",
         "company": "IST Entertainment",
@@ -6974,6 +7061,7 @@
     },
     {
         "groupName": "WEi",
+        "groupKR": "위아이",
         "bgs": "b",
         "groupImage": "WEi/group.jpeg",
         "company": "OUI Entertainment",
@@ -7043,6 +7131,7 @@
     },
     {
         "groupName": "Wonho",
+        "groupKR": "원호",
         "bgs": "s",
         "groupImage": "Solo/WonhoBig.jpeg",
         "company": "Highline Entertainment",
@@ -7062,6 +7151,7 @@
     },
     {
         "groupName": "woo!ah!",
+        "groupKR": "우아",
         "bgs": "g",
         "groupImage": "wooah/group.jpeg",
         "company": "NV Entertainment",
@@ -7121,6 +7211,7 @@
     },
     {
         "groupName": "Xdinary Heroes",
+        "groupKR": "엑스디너리 히어로즈",
         "bgs": "b",
         "groupImage": "XdinaryHeroes/group.jpeg",
         "company": "STUDIO J",
@@ -7190,6 +7281,7 @@
     },
     {
         "groupName": "xikers",
+        "groupKR": "싸이커스",
         "bgs": "b",
         "groupImage": "xikers/group.jpeg",
         "company": "KQ Entertainment",
@@ -7299,6 +7391,7 @@
     },
     {
         "groupName": "Yedam",
+        "groupKR": "예담",
         "bgs": "s",
         "groupImage": "Solo/YedamBig.jpeg",
         "company": "GH Entertainment",
@@ -7318,6 +7411,7 @@
     },
     {
         "groupName": "ZEROBASEONE",
+        "groupKR": "제로베이스원",
         "bgs": "b",
         "groupImage": "ZEROBASEONE/group.jpeg",
         "company": "WAKEONE Entertainment",

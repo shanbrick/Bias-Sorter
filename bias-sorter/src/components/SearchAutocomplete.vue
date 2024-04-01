@@ -7,6 +7,8 @@
                 <img class="acPic" :src="require('../assets/imageArchive/' + result.groupImage)" />
                 <p class="autocomplete-result">
                     {{ result.groupName }}
+                    <span v-if="result.members[0].grpName === result.members[0].stageName" class="acrSmall">
+                        {{ result.members[0].fullName }}</span>
                     <br />
                     <span class="acrSmall">{{ result.company }}</span>
                 </p>
@@ -16,10 +18,9 @@
                 <img class="acPic" :src="require('../assets/imageArchive/' + pResult.imgLink)" />
                 <p class="autocomplete-result">
                     {{ pResult.stageName }}
-                    <span v-if="pResult.grpName !== pResult.stageName" class="acrSmall">
-                        {{ pResult.grpName }}</span>
+                    <span class="acrSmall"> {{ pResult.fullName }}</span>
                     <br />
-                    <span class="acrSmall">{{ pResult.fullName }}</span>
+                    <span class="acrSmall">{{ pResult.grpName }}</span>
                 </p>
             </a>
         </ul>
@@ -63,8 +64,14 @@ export default {
             let groupSearchArr = [];
             for (let i = 0; i < this.groups.length; i++) {
                 let noSC = this.groups[i].groupName.replace(/[^a-zA-Z ]/g, "");
-                if ((this.erm(this.groups[i].groupName) || this.erm(noSC)) && this.groups[i].bgs !== "s") {
-
+                if (
+                    this.erm(this.groups[i].groupName) ||
+                    this.erm(this.groups[i].groupKR) ||
+                    this.erm(noSC) ||
+                    this.erm(this.groups[i].members[0].fullName) ||
+                    this.erm(this.groups[i].members[0].fullKR) ||
+                    this.erm(this.groups[i].company)
+                ) {
                     groupSearchArr.push(this.groups[i]);
                 }
             }
@@ -73,11 +80,16 @@ export default {
             for (let i = 0; i < this.groups.length; i++) {
                 for (let j = 0; j < this.groups[i].members.length; j++) {
                     let noSC = this.groups[i].members[j].stageName.replace(/[^a-zA-Z ]/g, "");
-                    if ((this.erm(this.groups[i].members[j].stageName) || this.erm(noSC) ||
-                        this.erm(this.groups[i].members[j].fullName) ||
-                        this.erm(this.groups[i].members[j].stageKR) ||
-                        this.erm(this.groups[i].members[j].fullKR)) &&
-                        (this.groups[i].members[j].afr === "a" || this.groups[i].members[j].afr === "f")) {
+                    if (
+                        (this.erm(this.groups[i].members[j].stageName) ||
+                            this.erm(noSC) ||
+                            this.erm(this.groups[i].members[j].fullName) ||
+                            this.erm(this.groups[i].members[j].stageKR) ||
+                            this.erm(this.groups[i].members[j].fullKR)) &&
+                        (this.groups[i].members[j].afr === "a" ||
+                            this.groups[i].members[j].afr === "f") &&
+                        this.groups[i].bgs !== "s"
+                    ) {
                         peopleSearchArr.push(this.groups[i].members[j]);
                     }
                 }
@@ -87,7 +99,7 @@ export default {
             this.peopleResults = peopleSearchArr;
         },
         erm(word) {
-            return word.toLowerCase().indexOf(this.search.toLowerCase()) > -1
+            return word.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
         },
         setResult(result) {
             this.search = result.groupName;
