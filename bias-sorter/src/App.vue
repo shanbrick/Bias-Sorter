@@ -1,20 +1,19 @@
 <template>
-  <div class="header" v-if="isLoggedIn">
-    <button @click="handleSignOut">Sign out</button>
-  </div>
-  <div class="header">
-    <h1>Bias Sorter</h1>
+  <div class="navBar">
     <nav v-if="isLoggedIn">
-      <router-link class="navButtons" to="/">Home</router-link>
+      <router-link class="navButtons" to="/home">Home</router-link>
       <router-link class="navButtons" to="/boy-groups">Boy Groups</router-link>
       <router-link class="navButtons" to="/girl-groups">Girl Groups</router-link>
       <router-link class="navButtons" to="/solo">Solo</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
-
-      <div class="auto">
-        <SearchAutocomplete :items="groups" />
-      </div>
+      <button @click="handleSignOut">Sign out</button>
     </nav>
+  </div>
+  <div class="header">
+    <p>Bias Sorter</p>
+    <div class="auto">
+      <SearchAutocomplete :items="groups" />
+    </div>
   </div>
   <router-view />
 </template>
@@ -65,12 +64,12 @@ export default {
 
 <style>
 #app {
+  background: white;
+  color: black;
   font-family: Trebuchet MS;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: black;
-  background: white;
+  -webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -82,22 +81,28 @@ body {
 }
 
 nav {
-  overflow: hidden;
-  font-weight: bold;
   font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.navBar {
+  background-color: #747fe6;
+  color: white;
+  padding: 5px;
+  text-align: center;
 }
 
 .navButtons {
-  float: left;
-  display: block;
-  color: white;
-  font-weight: bold;
-  padding: 10px 20px;
-  margin: 5px;
   border-radius: 5px;
+  color: white;
+  display: block;
+  float: left;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px 20px;
   text-align: center;
   text-decoration: none;
-  font-weight: 700;
 }
 
 .navButtons:hover {
@@ -107,39 +112,41 @@ nav {
 }
 
 input {
-  /* float: right; */
-  width: 300px;
-  margin-right: 10px;
-  margin-top: 6px;
-  font-weight: 500;
-  font-size: 15px;
-  font-family: Trebuchet MS;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  border: 1px solid #50a0d900;
   background-color: #ffffff;
+  border: 1px solid #50a0d900;
+  border-radius: 5px;
+  color: black;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 6px 10px 10px;
   padding: 7px;
+  width: 300px;
 }
 
 .header {
-  padding: 15px;
-  padding-bottom: 5px;
-  text-align: center;
-  background: #b3b8e9;
   background-image: linear-gradient(#b3b8e9, #747fe6);
   color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  text-align: center;
 }
 
-.header h1 {
-  margin-left: 10px;
+.header p {
+  float: left;
   font-size: 35px;
-  line-height: 20px;
   font-weight: 800;
+  line-height: 20px;
+  margin-left: 30px;
 }
 
 .auto {
   float: right;
+  margin: auto;
+  margin-right: 15px;
+  position: relative;
   width: 300px;
-  z-index: 1;
+  z-index: 2;
 }
 </style>

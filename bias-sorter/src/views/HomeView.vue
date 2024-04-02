@@ -160,29 +160,27 @@ export default {
 
 <style scoped>
 .topBar {
-    background-image: linear-gradient(#b3b8e9, #747fe6);
-    border: 1px solid #909090;
-    height: 50px;
-    margin: 0px;
-    margin-bottom: 20px;
-    padding: 9px;
+    background-color: #b3b8e9;
     display: flex;
     gap: 10px;
+    height: 50px;
+    margin: 0px 0px 20px;
+    padding: 9px;
 }
 
 .topBarButton {
-    height: 30px;
-    width: fit-content;
+    background: #00000000;
     border: 1px solid #00000000;
     border-radius: 5px;
     color: white;
-    background: #00000000;
-    text-align: center;
-    text-decoration: none;
+    cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
+    height: 30px;
     margin: auto;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
 }
 
 .topBarButton:hover {
@@ -190,37 +188,26 @@ export default {
 }
 
 .unsorted {
+    background: linear-gradient(180deg, rgba(179, 184, 233, 1) 0px, rgba(116, 127, 230, 1) 45px, rgba(218, 218, 218, 1) 45px, rgba(255, 255, 255, 1) 63%, rgba(218, 218, 218, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
     height: 60%;
-    width: 342px;
-    position: fixed;
-    z-index: 0;
+    margin: 0px 20px 20px;
     overflow-x: hidden;
-    background: radial-gradient(#ffffff, #dadada);
-    border-bottom: 1px solid #909090;
-    border-left: 1px solid #909090;
-    border-right: 1px solid #909090;
-    padding: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 20px;
-    margin-top: 45px;
-    border-radius: 0px 0px 10px 10px;
+    padding: 55px 0px 10px;
+    position: fixed;
+    width: 342px;
+    z-index: 0;
 }
 
 .boxHeaderUnsorted {
     height: 45px;
-    width: 342px;
-    background-color: #b3b8e9;
-    background-image: linear-gradient(#b3b8e9, #747fe6);
-    border-top: 1px solid #909090;
-    border-left: 1px solid #909090;
-    border-right: 1px solid #909090;
-    border-radius: 10px 10px 0px 0px;
-    padding-left: 20px;
-    margin-top: -55px;
+    margin-top: -54px;
     margin-left: -1px;
     margin-bottom: 15px;
+    padding-left: 20px;
     position: fixed;
+    width: 342px;
 }
 
 .sideCats {
@@ -228,154 +215,80 @@ export default {
 }
 
 .categories {
-    margin: 20px;
-    margin-top: 65px;
-    position: relative;
-    background: radial-gradient(#ffffff, #dadada);
-    padding: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 0px 0px 10px 10px;
-    border-bottom: 1px solid #909090;
-    border-left: 1px solid #909090;
-    border-right: 1px solid #909090;
-    min-height: 50px;
+    background: linear-gradient(180deg, rgba(179, 184, 233, 1) 0px, rgba(116, 127, 230, 1) 45px, rgba(218, 218, 218, 1) 45px, rgba(255, 255, 255, 1) 63%, rgba(218, 218, 218, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
     height: fit-content;
+    margin: 0px 20px 30px;
+    min-height: 50px;
+    padding: 55px 0px 10px;
+    position: relative;
 }
 
 .categoryTitle {
-    top: -9.5px;
-    position: absolute;
     color: white;
     font-size: 20px;
     font-weight: 700;
+    position: absolute;
+    top: -9.5px;
 }
 
 .categories:after {
     content: "";
-    display: table;
     clear: both;
+    display: table;
 }
 
 .boxHeaderCategories {
     height: 45px;
-    background-image: linear-gradient(#b3b8e9, #747fe6);
-    border-top: 1px solid #909090;
-    border-left: 1px solid #909090;
-    border-right: 1px solid #909090;
-    border-radius: 10px 10px 0px 0px;
+    margin: -55px -1px 10px;
     padding: 20px;
-    margin-top: -55px;
-    /*padding categories + boxheader height*/
-    margin-bottom: 10px;
-    margin-left: -1px;
-    /* categories padding*/
-    margin-right: -1px;
     position: relative;
 }
 
 .boxHeaderCatsInput {
+    background-image: linear-gradient(#747fe6, #b3b8e9);
+    border: 1px solid #6e6e6e;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+    color: #fff;
     height: 35px;
+    float: left;
     font-size: 20px;
     font-weight: 700;
-    background-image: linear-gradient(#747fe6, #b3b8e9);
-    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
-    border: 1px solid #6e6e6e;
-    color: #fff;
-    border-radius: 8px;
+    margin: -15px -1px 10px -15px;
     padding: 14px;
-    margin-top: -15px;
-    /*padding categories + boxheader height*/
-    margin-bottom: 10px;
-    margin-left: -15px;
-    /* categories padding*/
-    margin-right: -1px;
     position: relative;
-    float: left;
 }
 
 .idolName {
-    text-align: center;
-    font-size: 15px;
-    margin: 5px;
-    font-weight: bold;
     color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
 }
 
 .groupName {
-    text-align: center;
-    margin: 5px;
     font-size: 0.75em;
+    margin: 5px;
+    text-align: center;
 }
 
 .peopleDivss {
+    /* border: 1px solid red; */
     float: left;
     height: fit-content;
+    padding: 10px 0px;
+    text-align: center;
     width: 170px;
-    text-align: center;
-    padding: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    /* border: 1px solid red; */
-}
-
-.peopleDivssSmall {
-    float: left;
-    height: fit-content;
-    width: 40px;
-    text-align: center;
-    padding: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
-    /* border: 1px solid red; */
 }
 
 .homePeoplePics {
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #00000080;
+    margin: 0px;
+    padding: 0px;
     width: 130px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px #00000080;
-    margin: 0px;
-    padding: 0px;
-}
-
-.homePeoplePicsSmall {
-    width: 50px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px #00000080;
-    margin: 0px;
-    padding: 0px;
-}
-
-.addCategoryButton {
-    border: 1px solid #B0B0B0;
-    border-radius: 5px;
-    color: white;
-    background-color: #b3b8e9;
-    background-image: linear-gradient(#b3b8e9, #747fe6);
-    padding: 7px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.editCategoryButton {
-    margin-top: -8px;
-    margin-right: -8px;
-    border: 1px solid #6e6e6e;
-    border-radius: 5px;
-    color: white;
-    background-image: linear-gradient(#747fe6, #b3b8e9);
-    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5);
-    /* padding: 7px 15px; */
-    text-align: center;
-    text-decoration: none;
-    float: right;
-    /* display: inline-block; */
-    font-size: 16px;
-    /* margin: 4px 2px; */
-    cursor: pointer;
 }
 </style>

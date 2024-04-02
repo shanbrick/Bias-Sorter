@@ -12,7 +12,9 @@
             <p class="memberInfo">
                 <i style="font-weight: bold">Full Name:</i> {{ person.fullName }}
             </p>
-            <p class="memberInfo"><i style="font-weight: bold">이름:</i> {{ person.fullKR }}</p>
+            <p class="memberInfo">
+                <i style="font-weight: bold">Korean Name:</i> {{ person.fullKR }}
+            </p>
             <p class="memberInfo">
                 <i style="font-weight: bold">Birthday:</i> {{ person.birthday }}
             </p>
@@ -46,7 +48,9 @@
             <p class="memberInfo">
                 <i style="font-weight: bold">Full Name:</i> {{ person.fullName }}
             </p>
-            <p class="memberInfo"><i style="font-weight: bold">이름:</i> {{ person.fullKR }}</p>
+            <p class="memberInfo">
+                <i style="font-weight: bold">Korean Name:</i> {{ person.fullKR }}
+            </p>
             <p class="memberInfo">
                 <i style="font-weight: bold">Birthday:</i> {{ person.birthday }}
             </p>

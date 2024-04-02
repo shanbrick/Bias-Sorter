@@ -2,15 +2,8 @@
   <div class="listBox">
     <div v-for="group in groupsData">
       <div class="groupDiv" v-if="group.bgs === 'b' || group.bgs === 'bg'">
-        <a
-          href="/groupPage"
-          style="text-decoration: none"
-          @click="populateGroupPage(group)"
-        >
-          <img
-            class="groupPicList"
-            :src="require('../assets/imageArchive/' + group.groupImage)"
-          />
+        <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
+          <img class="groupPicList" :src="require('../assets/imageArchive/' + group.groupImage)" />
           <p class="groupNameList">{{ group.groupName }}</p>
         </a>
       </div>
@@ -41,39 +34,32 @@ export default {
 
 <style>
 .listBox {
-  background-color: #ededed;
   background: radial-gradient(#ffffff, #c7c7c7);
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 50px;
-  width: 85%;
-  /* margin-left: 140px; */
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
   border-radius: 10px;
-  /* border: 1px solid #B0B0B0; */
   box-shadow: 0px 0px 5px black;
   display: flex;
-  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px auto 50px;
+  padding: 10px 20px;
+  width: 85%;
 }
 
 .listBox:after {
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 
 .groupDiv {
+  /* border: 1px solid red; */
+  border-radius: 8px;
   float: left;
   height: fit-content;
-  width: 294px;
-  text-align: center;
   padding: 20px;
-  border-radius: 8px;
-  /* border: 1px solid red; */
+  text-align: center;
+  width: 294px;
 }
 
 .groupDiv:hover {
