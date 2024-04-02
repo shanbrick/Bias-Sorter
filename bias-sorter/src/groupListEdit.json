@@ -3460,6 +3460,76 @@
         ]
     },
     {
+        "groupName": "LAPILLUS",
+        "groupKR": "라필루스",
+        "bgs": "g",
+        "groupImage": "LAPILLUS/group.jpeg",
+        "company": "MLD Entertainment",
+        "debutDate": "June 20, 2022",
+        "members": [
+            {
+                "grpName": "LAPILLUS",
+                "stageName": "Chanty",
+                "stageKR": "샨티",
+                "fullName": "Maria Chantal Videla",
+                "fullKR": "마리아 샹탈 비델라",
+                "birthday": "December 15, 2002",
+                "imgLink": "LAPILLUS/Chanty.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "LAPILLUS",
+                "stageName": "Shana",
+                "stageKR": "샤나",
+                "fullName": "Nonaka Shana",
+                "fullKR": "노나카샤나",
+                "birthday": "March 13, 2003",
+                "imgLink": "LAPILLUS/Shana.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "LAPILLUS",
+                "stageName": "Yue",
+                "stageKR": "유에",
+                "fullName": "Nancy Yang",
+                "fullKR": "낸시양",
+                "birthday": "July 03, 2004",
+                "imgLink": "LAPILLUS/Yue.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "LAPILLUS",
+                "stageName": "Bessie",
+                "stageKR": "베시",
+                "fullName": "Kim Susanna",
+                "fullKR": "김수산나",
+                "birthday": "July 15, 2004",
+                "imgLink": "LAPILLUS/Bessie.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "LAPILLUS",
+                "stageName": "Seowon",
+                "stageKR": "서원",
+                "fullName": "Jang Seowon",
+                "fullKR": "장서원",
+                "birthday": "December 05, 2006",
+                "imgLink": "LAPILLUS/Seowon.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "LAPILLUS",
+                "stageName": "Haeun",
+                "stageKR": "하은",
+                "fullName": "Lim Haeun",
+                "fullKR": "임하은",
+                "birthday": "November 02, 2008",
+                "imgLink": "LAPILLUS/Haeun.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "LE SSERAFIM",
         "groupKR": "르세라핌",
         "bgs": "g",

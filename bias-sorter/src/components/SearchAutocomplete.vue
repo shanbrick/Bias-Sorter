@@ -68,8 +68,8 @@ export default {
                     this.erm(this.groups[i].groupName) ||
                     this.erm(this.groups[i].groupKR) ||
                     this.erm(noSC) ||
-                    this.erm(this.groups[i].members[0].fullName) ||
-                    this.erm(this.groups[i].members[0].fullKR) ||
+                    (this.erm(this.groups[i].members[0].fullName) && this.groups[i].bgs === "s") ||
+                    (this.erm(this.groups[i].members[0].fullKR) && this.groups[i].bgs === "s") ||
                     this.erm(this.groups[i].company)
                 ) {
                     groupSearchArr.push(this.groups[i]);

@@ -1,7 +1,12 @@
 <template>
     <div v-for="month in months">
         <p>{{ month.monthName }}</p>
-        <p v-for="person in month.people">{{ person.stageName }} - {{ person.birthday }}</p>
+        <p v-for="person in month.people">
+            <span v-if="person.grpName === person.stageName">Solo</span>
+            <span v-else>{{ person.grpName }}</span>
+            | {{ person.stageName }} | {{ person.fullName }} -
+            {{ person.birthday }}
+        </p>
     </div>
 </template>
 

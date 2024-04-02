@@ -1,11 +1,15 @@
 <template>
+  <div class="header" v-if="isLoggedIn">
+    <button @click="handleSignOut">Sign out</button>
+  </div>
   <div class="header">
     <h1>Bias Sorter</h1>
-    <nav>
+    <nav v-if="isLoggedIn">
       <router-link class="navButtons" to="/">Home</router-link>
       <router-link class="navButtons" to="/boy-groups">Boy Groups</router-link>
       <router-link class="navButtons" to="/girl-groups">Girl Groups</router-link>
       <router-link class="navButtons" to="/solo">Solo</router-link>
+      <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
 
       <div class="auto">
         <SearchAutocomplete :items="groups" />
@@ -19,6 +23,12 @@
 import groupListEdit from "@/groupListEdit.json";
 import SearchAutocomplete from "./components/SearchAutocomplete.vue";
 
+import { ref } from "vue";
+import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
+import { useRouter } from "vue-router";
+// const router = useRouter();
+let auth;
+
 export default {
   name: "App",
   components: {
@@ -28,9 +38,28 @@ export default {
     return {
       search: "",
       groups: groupListEdit,
+      isLoggedIn: ref(false),
+      router: useRouter(),
     };
   },
-  methods: {},
+  methods: {
+    handleSignOut() {
+      signOut(auth).then(() => {
+        this.router.push("/");
+      });
+    },
+  },
+  mounted() {
+    auth = getAuth();
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        this.isLoggedIn = true;
+      } else {
+        this.isLoggedIn = false;
+      }
+      console.log(this.isLoggedIn);
+    });
+  },
 };
 </script>
 

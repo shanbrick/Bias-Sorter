@@ -1,47 +1,94 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import BGView from '../views/BGView.vue'
-import GGView from '../views/GGView.vue'
-import SoloView from '../views/SoloView.vue'
-import GroupPageView from '../views/GroupPageView.vue'
-import Birthdays from '../views/Birthdays.vue'
-
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/boy-groups',
-    name: 'boyGroups',
-    component: BGView
-  },
-  {
-    path: '/girl-groups',
-    name: 'girlGroups',
-    component: GGView
-  },
-  {
-    path: '/solo',
-    name: 'solo',
-    component: SoloView
-  },
-  {
-    path: '/groupPage',
-    name: 'groupPage',
-    component: GroupPageView
-  },
-  {
-    path: '/birthdays',
-    name: 'birthdays',
-    component: Birthdays
-  }
-]
+import { createRouter, createWebHistory } from 'vue-router';
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes: [
+    {
+      path: '/register',
+      name: 'register',
+      component: () => import('../views/Register.vue'),
+    },
+    {
+      path: '/',
+      name: 'signin',
+      component: () => import('../views/SignIn.vue'),
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: () => import('../views/HomeView.vue'),
+      meta: {
+        requiresAuth: true,
+      }
+    },
+    {
+      path: '/boy-groups',
+      name: 'boyGroups',
+      component: () => import('../views/BGView.vue'),
+      meta: {
+        requiresAuth: true,
+      }
+    },
+    {
+      path: '/girl-groups',
+      name: 'girlGroups',
+      component: () => import('../views/GGView.vue'),
+      meta: {
+        requiresAuth: true,
+      }
+    },
+    {
+      path: '/solo',
+      name: 'solo',
+      component: () => import('../views/SoloView.vue'),
+      meta: {
+        requiresAuth: true,
+      }
+    },
+    {
+      path: '/groupPage',
+      name: 'groupPage',
+      component: () => import('../views/GroupPageView.vue'),
+      meta: {
+        requiresAuth: true,
+      }
+    },
+    {
+      path: '/birthdays',
+      name: 'birthdays',
+      component: () => import('../views/Birthdays.vue'),
+      meta: {
+        requiresAuth: true,
+      }
+    }
+  ]
+});
+
+const getCurrentUser = () => {
+  return new Promise((resolve, reject) => {
+    const removeListener = onAuthStateChanged(
+      getAuth(),
+      (user) => {
+        removeListener();
+        resolve(user);
+      },
+      reject
+    )
+  });
+}
+
+router.beforeEach(async (to, from, next) => {
+  if (to.matched.some((record) => record.meta.requiresAuth)) {
+    if (await getCurrentUser) {
+      next();
+    } else {
+      alert("you don't have access!");
+      next("/");
+    }
+  } else {
+    next();
+  }
+});
 
 export default router
