@@ -43,6 +43,7 @@ export default {
     mounted() {
         let yearArray = [];
         let monthArray = [];
+
         for (let i = 0; i < this.groups.length; i++) {
             for (let j = 0; j < this.groups[i].members.length; j++) {
                 let bday = this.groups[i].members[j].birthday;
@@ -52,6 +53,7 @@ export default {
                 }
             }
         }
+
         yearArray = [...new Set(yearArray)].sort();
         monthArray = [...new Set(monthArray)].sort((a, b) => {
             const monthOrder = [
@@ -76,7 +78,12 @@ export default {
                 name: yearArray[i],
                 people: [],
                 total: 0,
-                twinnies: [],
+                twinnies: [
+                    {
+                        birthday: "",
+                        twins: [],
+                    },
+                ],
             });
         }
 
@@ -85,7 +92,12 @@ export default {
                 name: monthArray[i],
                 people: [],
                 total: 0,
-                twinnies: [],
+                twinnies: [
+                    {
+                        birthday: "",
+                        twins: [],
+                    },
+                ],
             });
         }
 
@@ -128,9 +140,39 @@ export default {
             }
         }
 
-        this.findTwinnies(this.years);
-        this.findTwinnies(this.months);
+        for (let i = 0; i < this.months.length; i++) {
+            for (let j = 0; j < this.months[i].people.length - 1; j++) {
+                let pj = this.months[i].people[j];
+                let pjb = pj.birthday.substring(0, pj.birthday.indexOf(","));
+                for (let k = j + 1; k < this.months[i].people.length; k++) {
+                    let pk = this.months[i].people[k];
+                    let pkb = pk.birthday.substring(0, pk.birthday.indexOf(","));
+                    if (pjb === pkb) {
+                        this.months[i].twinnies.push({
+                            birthday: pjb,
+                            twins: [pj, pk],
+                        });
+                    }
+                }
+            }
+            console.log("this months i twinnies", this.months[i].twinnies);
+            let a = 0;
+            for (let j = 1; j < this.months[i].twinnies.length - 1; j++) {
+                let tj = this.months[i].twinnies[j];
+                console.log("tj", tj);
+                let a = 0;
+                for (let k = 2; k < this.months[i].twinnies.length; k++) {
+                    let tk = this.months[i].twinnies[k];
+                    if (tj.birthday === tk.birthday) {
+                        console.log("tk", tk);
+                        let merged = [...new Set([...tj.twins, ...tk.twins])];
+                        this.months[i].twinnies[j].twins = merged;
+                    }
+                }
+            }
+        }
         console.log(this.months);
+
         this.currentList = this.months;
     },
     methods: {
@@ -145,50 +187,6 @@ export default {
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
-        },
-        findTwinnies(list) {
-            for (let i = 0; i < list.length; i++) {
-                for (let j = 0; j < list[i].people.length; j++) {
-                    let pj = list[i].people[j];
-                    let pjb = pj.birthday.substring(0, pj.birthday.indexOf(","));
-                    if (this.bdayInTwinnies(pjb, list[i].twinnies) > -1) {
-                        console.log("ur bday already here,", pj.stageName);
-                        continue;
-                    }
-                    for (let k = j + 1; k < list[i].people.length; k++) {
-                        let pk = list[i].people[k];
-                        let pkb = pk.birthday.substring(0, pk.birthday.indexOf(","));
-                        if (pjb === pkb) {
-                            let num = this.bdayInTwinnies(pjb, list[i].twinnies);
-                            console.log(pjb, pkb, num);
-                            if (num > -1) {
-                                list[i].twinnies[num].twins.push(pk);
-                            } else {
-                                list[i].twinnies.push({
-                                    birthday: pjb,
-                                    twins: [pj, pk],
-                                });
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        bdayInTwinnies(bday, twinnies) {
-            console.log(twinnies);
-            for (let i = 0; i < twinnies.length; i++) {
-                let tb = twinnies[i].birthday.substring(0, twinnies[i].birthday.indexOf(","));
-                let result;
-                console.log("bday", bday, " tb", tb);
-                if (bday === tb) {
-                    console.log("tb", tb);
-                    result = i;
-                    break;
-                } else {
-                    result = -1;
-                }
-                return result;
-            }
         },
         switchList(list) {
             this.currentList = list;
