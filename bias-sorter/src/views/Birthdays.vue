@@ -24,6 +24,28 @@
                 <td class="trtdth">{{ person.birthday }}</td>
             </tr>
         </table>
+        <table>
+            <tr class="trtdth">
+                <th class="trtdth">Group Name</th>
+                <th class="trtdth">Stage Name</th>
+                <th class="trtdth">Full Name</th>
+                <th class="trtdth">Birthday</th>
+            </tr>
+            <tr class="trtdth" v-for="twinSet in category.twinnies">
+                <td class="trtdth">
+                    <p v-for="twin in twinSet.twins">{{ twin.grpName }}</p>
+                </td>
+                <td class="trtdth">
+                    <p v-for="twin in twinSet.twins">{{ twin.stageName }}</p>
+                </td>
+                <td class="trtdth">
+                    <p v-for="twin in twinSet.twins">{{ twin.fullName }}</p>
+                </td>
+                <td class="trtdth">
+                    <p>{{ twinSet.birthday }}</p>
+                </td>
+            </tr>
+        </table>
     </div>
 </template>
 
@@ -92,12 +114,7 @@ export default {
                 name: monthArray[i],
                 people: [],
                 total: 0,
-                twinnies: [
-                    {
-                        birthday: "",
-                        twins: [],
-                    },
-                ],
+                twinnies: [],
             });
         }
 
@@ -155,24 +172,32 @@ export default {
                     }
                 }
             }
-            console.log("this months i twinnies", this.months[i].twinnies);
-            let a = 0;
+
             for (let j = 1; j < this.months[i].twinnies.length - 1; j++) {
                 let tj = this.months[i].twinnies[j];
-                console.log("tj", tj);
-                let a = 0;
+                // console.log("tj", tj);
                 for (let k = 2; k < this.months[i].twinnies.length; k++) {
                     let tk = this.months[i].twinnies[k];
                     if (tj.birthday === tk.birthday) {
-                        console.log("tk", tk);
+                        // console.log("tk", tk);
                         let merged = [...new Set([...tj.twins, ...tk.twins])];
                         this.months[i].twinnies[j].twins = merged;
                     }
                 }
             }
+
+            let bdayTrack = new Set();
+            this.months[i].twinnies = this.months[i].twinnies.reduce((acc, curr) => {
+                if (!bdayTrack.has(curr.birthday)) {
+                    console.log("acc", acc);
+                    console.log("curr", curr);
+                    bdayTrack.add(curr.birthday);
+                    acc.push(curr);
+                }
+                return acc;
+            }, []);
         }
         console.log(this.months);
-
         this.currentList = this.months;
     },
     methods: {
