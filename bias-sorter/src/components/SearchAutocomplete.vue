@@ -135,7 +135,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .autocomplete {
     z-index: 1;
     width: 300px;
@@ -161,6 +161,7 @@ export default {
 }
 
 .autocomplete-result {
+    font-weight: bold;
     z-index: 2;
     list-style: none;
     text-align: left;

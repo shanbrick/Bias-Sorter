@@ -6699,6 +6699,16 @@
             },
             {
                 "grpName": "tripleS",
+                "stageName": "Chaewon",
+                "stageKR": "채원",
+                "fullName": "Kim Chaewon",
+                "fullKR": "김채원",
+                "birthday": "May 02, 2007",
+                "imgLink": "tripleS/Chaewon.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "tripleS",
                 "stageName": "Hayeon",
                 "stageKR": "하연",
                 "fullName": "Jeong Hayeon",
@@ -6735,6 +6745,16 @@
                 "fullKR": "주빈",
                 "birthday": "January 16, 2009",
                 "imgLink": "tripleS/JooBin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "tripleS",
+                "stageName": "Sullin",
+                "stageKR": "설린",
+                "fullName": "Sullin",
+                "fullKR": "설린",
+                "birthday": "n/a",
+                "imgLink": "tripleS/Sullin.jpeg",
                 "afr": "a"
             }
         ]

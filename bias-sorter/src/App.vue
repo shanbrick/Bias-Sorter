@@ -10,9 +10,17 @@
     </nav>
   </div>
   <div class="header">
-    <p>Bias Sorter</p>
-    <div class="auto">
-      <SearchAutocomplete :items="groups" />
+    <p class="headerTitle">Bias Sorter</p>
+    <div>
+      <!-- <input type="radio" name="season" value="winter" id="winter" checked />
+      <label for="winter">Winter</label>
+      <input type="radio" name="season" value="spring" id="spring" />
+      <label for="spring">Spring</label>
+      <input type="radio" name="season" value="summer" id="summer" />
+      <label for="summer">Summer</label> -->
+      <div class="auto">
+        <SearchAutocomplete :items="groups" />
+      </div>
     </div>
   </div>
   <router-view />
@@ -125,6 +133,7 @@ input {
 }
 
 .header {
+  align-items: center;
   background-image: linear-gradient(#b3b8e9, #747fe6);
   color: white;
   display: flex;
@@ -133,7 +142,7 @@ input {
   text-align: center;
 }
 
-.header p {
+.headerTitle {
   float: left;
   font-size: 35px;
   font-weight: 800;
@@ -144,7 +153,7 @@ input {
 .auto {
   float: right;
   margin: auto;
-  margin-right: 15px;
+  margin-right: 30px;
   position: relative;
   width: 300px;
   z-index: 2;
