@@ -2,8 +2,8 @@
     <div class="groupInfoDiv">
         <img class="fullGroupPic" :src="require('../assets/imageArchive/' + group.groupImage)" />
         <p class="groupName">{{ group.groupName }} ({{ group.groupKR }})</p>
-        <p><i>Company:</i> {{ group.company }}</p>
-        <p><i>Debut:</i> {{ group.debutDate }}</p>
+        <p><i style="font-weight: bold">Company:</i> {{ group.company }}</p>
+        <p><i style="font-weight: bold">Debut:</i> {{ group.debutDate }}</p>
     </div>
     <div class="bigBox">
         <div v-for="person in active" class="memberDivs">

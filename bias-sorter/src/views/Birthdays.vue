@@ -1,7 +1,7 @@
 <template>
     <button @click="switchList(months)">By Month</button>
     <button @click="switchList(years)">By Year</button>
-    <div style="display: flex" v-for="category in currentList">
+    <div style="display: flex; justify-content: center; margin: auto" v-for="category in currentList">
         <div class="birthdayDiv">
             <p class="monthName">{{ category.name }} - {{ category.total }}</p>
             <table class="mainTable">
@@ -12,18 +12,28 @@
                     <th class="trtdth">Birthday</th>
                 </tr>
                 <tr class="trtdth" v-for="person in category.people">
-                    <td class="trtdth" v-if="person.grpName === person.stageName">Solo</td>
-                    <td class="trtdth" v-else>
-                        {{ person.grpName }}<span v-if="person.afr === 'f'"> (ex)</span>
+                    <td class="trtdth">
+                        <a href="/groupPage" @click="populateGroupPage(person.grpName)">
+                            <span v-if="person.grpName === person.stageName">Solo</span>
+                            <span v-else>{{ person.grpName }}<span v-if="person.afr === 'f'"> (ex)</span></span>
+                        </a>
                     </td>
                     <td class="trtdth">
-                        {{ person.stageName }}
-                        <span v-if="person.birthday === 'September 30, 2002'"
-                            style="font-size: 17px; line-height: 10px">
-                            ★</span>
+                        <a href="/groupPage" @click="populateGroupPage(person.grpName)">
+                            {{ person.stageName }}
+                            <span v-if="person.birthday === 'September 30, 2002'"
+                                style="font-size: 17px; line-height: 10px">
+                                ★</span>
+                        </a>
                     </td>
-                    <td class="trtdth">{{ person.fullName }}</td>
-                    <td class="trtdth">{{ person.birthday }}</td>
+                    <td class="trtdth">
+                        <a href="/groupPage" @click="populateGroupPage(person.grpName)">
+                            {{ person.fullName }}
+                        </a>
+                    </td>
+                    <td class="trtdth">
+                        {{ person.birthday }}
+                    </td>
                 </tr>
             </table>
         </div>
@@ -33,28 +43,32 @@
                 <tr class="trtdth">
                     <th class="trtdthTwin">Group Name</th>
                     <th class="trtdthTwin">Stage Name</th>
-                    <th class="trtdthTwin">Full Name</th>
                     <th class="trtdthTwin">Birthday</th>
+                    <th class="trtdthTwin">Year</th>
                 </tr>
                 <tr class="trtdthTwin" v-for="twinSet in category.twinnies">
                     <td class="trtdthTwin">
                         <p v-for="twin in twinSet.twins">
-                            <span v-if="twin.grpName === twin.stageName">Solo</span>
-                            <span v-else>{{ twin.grpName }}<span v-if="twin.afr === 'f'"> (ex)</span></span>
+                            <a href="/groupPage" @click="populateGroupPage(twin.grpName)">
+                                <span v-if="twin.grpName === twin.stageName">Solo</span>
+                                <span v-else>{{ twin.grpName }}<span v-if="twin.afr === 'f'"> (ex)</span></span>
+                            </a>
                         </p>
                     </td>
                     <td class="trtdthTwin">
                         <p v-for="twin in twinSet.twins">
-                            {{ twin.stageName }}
-                        </p>
-                    </td>
-                    <td class="trtdthTwin">
-                        <p v-for="twin in twinSet.twins">
-                            {{ twin.fullName }}
+                            <a href="/groupPage" @click="populateGroupPage(twin.grpName)">{{
+        twin.stageName
+    }}</a>
                         </p>
                     </td>
                     <td class="trtdthTwin">
                         <p>{{ twinSet.birthday }}</p>
+                    </td>
+                    <td class="trtdthTwin">
+                        <p v-for="twin in twinSet.twins">
+                            {{ twin.birthday.substring(twin.birthday.length - 4) }}
+                        </p>
                     </td>
                 </tr>
             </table>
@@ -265,6 +279,15 @@ export default {
 </script>
 
 <style scoped>
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3f50e7;
+}
+
 .birthdayDiv {
     border-radius: 10px;
     box-shadow: 0px 0px 5px black;
@@ -272,7 +295,7 @@ export default {
     margin: 20px;
     margin-right: 10px;
     padding: 0px;
-    max-width: 880px;
+    max-width: 630px;
     width: 60%;
 }
 
@@ -283,7 +306,7 @@ export default {
     height: fit-content;
     margin: 20px;
     margin-right: 10px;
-    max-width: 500px;
+    max-width: 350px;
     width: 40%;
 }
 
