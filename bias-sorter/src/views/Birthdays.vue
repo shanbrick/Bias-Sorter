@@ -1,51 +1,64 @@
 <template>
     <button @click="switchList(months)">By Month</button>
     <button @click="switchList(years)">By Year</button>
-    <div class="birthdayDiv" v-for="category in currentList">
-        <p class="monthName">{{ category.name }} - {{ category.total }}</p>
-        <table>
-            <tr class="trtdth">
-                <th class="trtdth">Group Name</th>
-                <th class="trtdth">Stage Name</th>
-                <th class="trtdth">Full Name</th>
-                <th class="trtdth">Birthday</th>
-            </tr>
-            <tr class="trtdth" v-for="person in category.people">
-                <td class="trtdth" v-if="person.grpName === person.stageName">Solo</td>
-                <td class="trtdth" v-else>
-                    {{ person.grpName }}<span v-if="person.afr === 'f'"> (ex)</span>
-                </td>
-                <td class="trtdth">
-                    {{ person.stageName }}
-                    <span v-if="person.birthday === 'September 30, 2002'" style="font-size: 17px; line-height: 10px">
-                        ★</span>
-                </td>
-                <td class="trtdth">{{ person.fullName }}</td>
-                <td class="trtdth">{{ person.birthday }}</td>
-            </tr>
-        </table>
-        <table>
-            <tr class="trtdth">
-                <th class="trtdth">Group Name</th>
-                <th class="trtdth">Stage Name</th>
-                <th class="trtdth">Full Name</th>
-                <th class="trtdth">Birthday</th>
-            </tr>
-            <tr class="trtdth" v-for="twinSet in category.twinnies">
-                <td class="trtdth">
-                    <p v-for="twin in twinSet.twins">{{ twin.grpName }}</p>
-                </td>
-                <td class="trtdth">
-                    <p v-for="twin in twinSet.twins">{{ twin.stageName }}</p>
-                </td>
-                <td class="trtdth">
-                    <p v-for="twin in twinSet.twins">{{ twin.fullName }}</p>
-                </td>
-                <td class="trtdth">
-                    <p>{{ twinSet.birthday }}</p>
-                </td>
-            </tr>
-        </table>
+    <div style="display: flex" v-for="category in currentList">
+        <div class="birthdayDiv">
+            <p class="monthName">{{ category.name }} - {{ category.total }}</p>
+            <table class="mainTable">
+                <tr class="trtdth">
+                    <th class="trtdth">Group Name</th>
+                    <th class="trtdth">Stage Name</th>
+                    <th class="trtdth">Full Name</th>
+                    <th class="trtdth">Birthday</th>
+                </tr>
+                <tr class="trtdth" v-for="person in category.people">
+                    <td class="trtdth" v-if="person.grpName === person.stageName">Solo</td>
+                    <td class="trtdth" v-else>
+                        {{ person.grpName }}<span v-if="person.afr === 'f'"> (ex)</span>
+                    </td>
+                    <td class="trtdth">
+                        {{ person.stageName }}
+                        <span v-if="person.birthday === 'September 30, 2002'"
+                            style="font-size: 17px; line-height: 10px">
+                            ★</span>
+                    </td>
+                    <td class="trtdth">{{ person.fullName }}</td>
+                    <td class="trtdth">{{ person.birthday }}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="twinDiv">
+            <p class="twinTitleName">Twinnies - {{ category.twinTotal }}</p>
+            <table>
+                <tr class="trtdth">
+                    <th class="trtdthTwin">Group Name</th>
+                    <th class="trtdthTwin">Stage Name</th>
+                    <th class="trtdthTwin">Full Name</th>
+                    <th class="trtdthTwin">Birthday</th>
+                </tr>
+                <tr class="trtdthTwin" v-for="twinSet in category.twinnies">
+                    <td class="trtdthTwin">
+                        <p v-for="twin in twinSet.twins">
+                            <span v-if="twin.grpName === twin.stageName">Solo</span>
+                            <span v-else>{{ twin.grpName }}<span v-if="twin.afr === 'f'"> (ex)</span></span>
+                        </p>
+                    </td>
+                    <td class="trtdthTwin">
+                        <p v-for="twin in twinSet.twins">
+                            {{ twin.stageName }}
+                        </p>
+                    </td>
+                    <td class="trtdthTwin">
+                        <p v-for="twin in twinSet.twins">
+                            {{ twin.fullName }}
+                        </p>
+                    </td>
+                    <td class="trtdthTwin">
+                        <p>{{ twinSet.birthday }}</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </template>
 
@@ -100,12 +113,8 @@ export default {
                 name: yearArray[i],
                 people: [],
                 total: 0,
-                twinnies: [
-                    {
-                        birthday: "",
-                        twins: [],
-                    },
-                ],
+                twinnies: [],
+                twinTotal: 0,
             });
         }
 
@@ -115,6 +124,7 @@ export default {
                 people: [],
                 total: 0,
                 twinnies: [],
+                twinTotal: 0,
             });
         }
 
@@ -157,6 +167,44 @@ export default {
             }
         }
 
+        for (let i = 0; i < this.years.length; i++) {
+            for (let j = 0; j < this.years[i].people.length - 1; j++) {
+                let pj = this.years[i].people[j];
+                let pjb = pj.birthday.substring(0, pj.birthday.indexOf(","));
+                for (let k = j + 1; k < this.years[i].people.length; k++) {
+                    let pk = this.years[i].people[k];
+                    let pkb = pk.birthday.substring(0, pk.birthday.indexOf(","));
+                    if (pjb === pkb) {
+                        this.years[i].twinnies.push({
+                            birthday: pjb,
+                            twins: [pj, pk],
+                        });
+                    }
+                }
+            }
+
+            for (let j = 1; j < this.years[i].twinnies.length - 1; j++) {
+                let tj = this.years[i].twinnies[j];
+                for (let k = 2; k < this.years[i].twinnies.length; k++) {
+                    let tk = this.years[i].twinnies[k];
+                    if (tj.birthday === tk.birthday) {
+                        let merged = [...new Set([...tj.twins, ...tk.twins])];
+                        this.years[i].twinnies[j].twins = merged;
+                    }
+                }
+            }
+
+            let bdayTrack = new Set();
+            this.years[i].twinnies = this.years[i].twinnies.reduce((acc, curr) => {
+                if (!bdayTrack.has(curr.birthday)) {
+                    bdayTrack.add(curr.birthday);
+                    acc.push(curr);
+                }
+                return acc;
+            }, []);
+            this.years[i].twinTotal = bdayTrack.size;
+        }
+
         for (let i = 0; i < this.months.length; i++) {
             for (let j = 0; j < this.months[i].people.length - 1; j++) {
                 let pj = this.months[i].people[j];
@@ -175,11 +223,9 @@ export default {
 
             for (let j = 1; j < this.months[i].twinnies.length - 1; j++) {
                 let tj = this.months[i].twinnies[j];
-                // console.log("tj", tj);
                 for (let k = 2; k < this.months[i].twinnies.length; k++) {
                     let tk = this.months[i].twinnies[k];
                     if (tj.birthday === tk.birthday) {
-                        // console.log("tk", tk);
                         let merged = [...new Set([...tj.twins, ...tk.twins])];
                         this.months[i].twinnies[j].twins = merged;
                     }
@@ -189,15 +235,13 @@ export default {
             let bdayTrack = new Set();
             this.months[i].twinnies = this.months[i].twinnies.reduce((acc, curr) => {
                 if (!bdayTrack.has(curr.birthday)) {
-                    console.log("acc", acc);
-                    console.log("curr", curr);
                     bdayTrack.add(curr.birthday);
                     acc.push(curr);
                 }
                 return acc;
             }, []);
+            this.months[i].twinTotal = bdayTrack.size;
         }
-        console.log(this.months);
         this.currentList = this.months;
     },
     methods: {
@@ -222,12 +266,25 @@ export default {
 
 <style scoped>
 .birthdayDiv {
-    background-color: #747fe6;
     border-radius: 10px;
     box-shadow: 0px 0px 5px black;
-    margin: 20px auto auto;
-    max-width: 650px;
-    width: 70%;
+    float: left;
+    margin: 20px;
+    margin-right: 10px;
+    padding: 0px;
+    max-width: 880px;
+    width: 60%;
+}
+
+.twinDiv {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    float: right;
+    height: fit-content;
+    margin: 20px;
+    margin-right: 10px;
+    max-width: 500px;
+    width: 40%;
 }
 
 .monthName {
@@ -237,7 +294,19 @@ export default {
     font-size: 30px;
     font-weight: bolder;
     line-height: 60px;
-    margin: 40px auto 5px;
+    /* margin: 40px auto 5px; */
+    margin: 0px;
+}
+
+.twinTitleName {
+    background-image: linear-gradient(#b3b8e9, #747fe6);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 40px;
+    margin: 0px;
+    padding-top: 10px;
 }
 
 table {
@@ -250,6 +319,18 @@ table {
 .trtdth {
     padding: 10px;
     text-align: left;
+}
+
+.trtdthTwin {
+    font-size: 90%;
+    padding: 10px;
+    text-align: left;
+}
+
+.trtdthTwin td,
+th {
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 th {
