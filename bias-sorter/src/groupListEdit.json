@@ -4960,6 +4960,136 @@
         ]
     },
     {
+        "groupName": "ONEUS",
+        "groupKR": "원어스",
+        "bgs": "b",
+        "groupImage": "ONEUS/group.jpeg",
+        "company": "RBW Entertainment",
+        "debutDate": "January 09, 2019",
+        "members": [
+            {
+                "grpName": "ONEUS",
+                "stageName": "Ravn",
+                "stageKR": "레이븐",
+                "fullName": "Kim Youngjo",
+                "fullKR": "김영조",
+                "birthday": "September 02, 1995",
+                "imgLink": "ONEUS/Ravn.jpeg",
+                "afr": "f"
+            },
+            {
+                "grpName": "ONEUS",
+                "stageName": "Seoho",
+                "stageKR": "서호",
+                "fullName": "Lee Seoho",
+                "fullKR": "이서호",
+                "birthday": "June 07, 1996",
+                "imgLink": "ONEUS/Seoho.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONEUS",
+                "stageName": "Leedo",
+                "stageKR": "이도",
+                "fullName": "Kim Gunhak",
+                "fullKR": "김건학",
+                "birthday": "July 26, 1997",
+                "imgLink": "ONEUS/Leedo.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONEUS",
+                "stageName": "Keonhee",
+                "stageKR": "건희",
+                "fullName": "Lee Keonhee",
+                "fullKR": "이건희",
+                "birthday": "June 27, 1998",
+                "imgLink": "ONEUS/Keonhee.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONEUS",
+                "stageName": "Hwanwoong",
+                "stageKR": "환웅",
+                "fullName": "Yeo Hwanwoong",
+                "fullKR": "여환웅",
+                "birthday": "August 26, 1998",
+                "imgLink": "ONEUS/Hwanwoong.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONEUS",
+                "stageName": "Xion",
+                "stageKR": "시온",
+                "fullName": "Son Dongju",
+                "fullKR": "손동주",
+                "birthday": "January 10, 2000",
+                "imgLink": "ONEUS/Xion.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "ONEWE",
+        "groupKR": "원위",
+        "bgs": "b",
+        "groupImage": "ONEWE/group.jpeg",
+        "company": "RBW Entertainment",
+        "debutDate": "August 13, 2015",
+        "members": [
+            {
+                "grpName": "ONEWE",
+                "stageName": "Yonghoon",
+                "stageKR": "용훈",
+                "fullName": "Jin Yonghoon",
+                "fullKR": "진용훈",
+                "birthday": "August 17, 1994",
+                "imgLink": "ONEWE/Yonghoon.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONEWE",
+                "stageName": "Harin",
+                "stageKR": "하린",
+                "fullName": "Ju Harin",
+                "fullKR": "주하린",
+                "birthday": "March 29, 1998",
+                "imgLink": "ONEWE/Harin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONEWE",
+                "stageName": "Kanghyun",
+                "stageKR": "강현",
+                "fullName": "Kang Hyungu",
+                "fullKR": "강현구",
+                "birthday": "November 24, 1998",
+                "imgLink": "ONEWE/Kanghyun.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONEWE",
+                "stageName": "Dongmyeong",
+                "stageKR": "동명",
+                "fullName": "Son Dongmyeong",
+                "fullKR": "손동명",
+                "birthday": "January 10, 2000",
+                "imgLink": "ONEWE/Dongmyeong.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONEWE",
+                "stageName": "Giuk",
+                "stageKR": "기욱",
+                "fullName": "Lee Giuk",
+                "fullKR": "이기욱",
+                "birthday": "January 24, 2000",
+                "imgLink": "ONEWE/Giuk.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "OnlyOneOf",
         "groupKR": "온리원오브",
         "bgs": "b",

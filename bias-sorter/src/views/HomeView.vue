@@ -6,6 +6,9 @@
         <button class="topBarButton" @click="toggleEditModeOff()" v-else>&nbsp;✓&nbsp; Save Categories</button>
     </div>
 
+    <ContextMenu :display="showContextMenu" ref="menu">
+        <p @click="removeFromHome()">Remove {{ clickedPerson.stageName }}</p>
+    </ContextMenu>
 
     <div id="unsorted" class="unsorted">
         <div class="boxHeaderUnsorted">
@@ -15,7 +18,8 @@
             @change="updateStorage(0, homePageArrays[0])" :disabled="editModeOn" item-key="a">
             <template #item="{ element }">
                 <div class="peopleDivss" :key="element.stageName">
-                    <img class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)">
+                    <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
+                        class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)">
                     <p class="idolName">{{ element.stageName }}</p>
                     <p class="groupName">{{ element.grpName }}</p>
                 </div>
@@ -44,8 +48,8 @@
                             item-key="c">
                             <template #item="{ element: pers }">
                                 <div class="peopleDivss">
-                                    <img class="homePeoplePics"
-                                        :src="require('../assets/imageArchive/' + pers.imgLink)">
+                                    <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, pers)"
+                                        class="homePeoplePics" :src="require('../assets/imageArchive/' + pers.imgLink)">
                                     <p class="idolName">{{ pers.stageName }}</p>
                                     <p class="groupName">{{ pers.grpName }}</p>
                                 </div>
@@ -61,12 +65,14 @@
 <script>
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
+import ContextMenu from '../components/ContextMenu.vue';
 
 export default {
     name: 'HomeView',
     order: 1,
     components: {
-        draggable
+        draggable,
+        ContextMenu,
     },
     props: [
 
@@ -113,6 +119,8 @@ export default {
             homePageArrays: ref([]),
             testArray: ref([]),
             editModeOn: false,
+            showContextMenu: false,
+            clickedPerson: {}
         }
     },
     computed: {
@@ -154,6 +162,30 @@ export default {
             this.saveData.categories[i].catName;
             localStorage.setItem('save_data', JSON.stringify(this.saveData));
         },
+        openContextMenu(e, person) {
+            this.clickedPerson = person;
+            this.$refs.menu.open(e);
+        },
+        removeFromHome(e) {
+            this.$refs.menu.close(e);
+            for (let i = 0; i < this.saveData.categories.length; i++) {
+                for (let j = 0; j < this.saveData.categories[i].people.length; j++) {
+                    if (this.saveData.categories[i].people[j].imgLink === this.clickedPerson.imgLink) {
+                        this.saveData.categories[i].people = this.saveData.categories[
+                            i
+                        ].people.filter((p) => {
+                            return p.imgLink !== this.clickedPerson.imgLink;
+                        });
+                        localStorage.setItem("save_data", JSON.stringify(this.saveData));
+                        this.homePageArrays = [];
+                        for (let i = 0; i < this.saveData.categories.length; i++) {
+                            this.homePageArrays.push(this.saveData.categories[i].people);
+                        }
+                        break;
+                    }
+                }
+            }
+        }
     }
 }
 </script>
