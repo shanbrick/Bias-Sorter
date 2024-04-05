@@ -1,4 +1,7 @@
 <template>
+  <button @click="switchList(b)">Boy Groups</button>
+  <button @click="switchList(g)">Girl Groups</button>
+  <button @click="switchList(s)">Soloists</button>
   <div class="listBox">
     <div v-for="group in groupsData">
       <div class="groupDiv" v-if="group.bgs === 'b' || group.bgs === 'bg'">
@@ -18,7 +21,10 @@ let selectedGroupArray = JSON.parse(localStorage.getItem("selectedGroup"));
 export default {
   name: "BGView",
   data: () => {
-    return { groupsData: groupListEdit };
+    return {
+      groupsData: groupListEdit,
+      currentList: [],
+    };
   },
   methods: {
     populateGroupPage(group) {
@@ -27,6 +33,20 @@ export default {
       }
       selectedGroupArray = group;
       localStorage.setItem("selectedGroup", JSON.stringify(selectedGroupArray));
+    },
+    computed: {
+      boyGroups: function () {
+        let arr = this.groupsData;
+        return arr.filter((i) => i.bgs === "b");
+      },
+      girlGroups: function () {
+        let arr = this.groupsData;
+        return arr.filter((i) => i.bgs !== "g");
+      },
+      solo: function () {
+        let arr = this.groupsData;
+        return arr.filter((i) => i.bgs !== "s");
+      },
     },
   },
 };
