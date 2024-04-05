@@ -66,6 +66,8 @@
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 import ContextMenu from '../components/ContextMenu.vue';
+import { collection, getDocs } from 'firebase/firestore';
+import { db } from '@/firebase'
 
 export default {
     name: 'HomeView',
