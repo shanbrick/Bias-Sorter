@@ -80,7 +80,7 @@
 import groupListEdit from "@/groupListEdit.json";
 
 export default {
-    name: "GroupPageView",
+    name: "GroupInfoView",
     mounted() { },
     data() {
         return {

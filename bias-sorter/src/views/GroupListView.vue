@@ -1,8 +1,8 @@
 <template>
   <div>
-    <button @click="switchList('b')">Boy Groups</button>
-    <button @click="switchList('g')">Girl Groups</button>
-    <button @click="switchList('s')">Soloists</button>
+    <button @click="switchList('b')" class="diffList">Boy Groups</button>
+    <button @click="switchList('g')" class="diffList">Girl Groups</button>
+    <button @click="switchList('s')" class="diffList">Soloists</button>
   </div>
   <div class="listBox">
     <div v-for="group in currentList">
@@ -66,7 +66,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .listBox {
   background: radial-gradient(#ffffff, #c7c7c7);
   border-radius: 10px;
@@ -75,7 +75,7 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 40px auto 50px;
+  margin: 25px auto 50px;
   padding: 10px 20px;
   width: 85%;
 }
@@ -120,5 +120,33 @@ export default {
 .groupNameList a {
   color: black;
   text-decoration: none;
+}
+
+.diffList {
+  background-color: #b3b8e9;
+  border: 1px solid #b3b8e9;
+  border-radius: 5px;
+  box-shadow: 0 0.3em #888bb0;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 10px 0px;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.diffList:hover {
+  top: 0.2em;
+  box-shadow: 0 0.2em #7581ea;
+}
+
+.diffList:active {
+  top: 0.4em;
+  box-shadow: 0 0em #7581ea;
 }
 </style>

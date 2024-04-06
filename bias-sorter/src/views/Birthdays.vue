@@ -260,16 +260,14 @@ export default {
     },
     methods: {
         populateGroupPage(grpName) {
-            if (this.selectedGroupArray === null) {
-                this.selectedGroupArray = [];
-            }
+            let selectedGroup = [];
             for (let i = 0; i < this.groups.length; i++) {
                 if (this.groups[i].groupName === grpName) {
-                    this.selectedGroupArray = this.groups[i];
+                    selectedGroup = this.groups[i];
                     break;
                 }
             }
-            localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
+            localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
         },
         switchList(list) {
             this.currentList = list;

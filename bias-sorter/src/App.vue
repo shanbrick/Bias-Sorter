@@ -1,11 +1,12 @@
 <template>
   <div class="navBar">
-    <nav v-if="isLoggedIn">
+    <nav>
       <router-link class="navButtons" to="/">Home</router-link>
       <router-link class="navButtons" to="/list">Lists</router-link>
       <router-link class="navButtons" to="/groups">Groups</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
-      <button @click="handleSignOut">Sign out</button>
+      <button v-if="isLoggedIn" class="signInOut" @click="handleSignOut">Sign Out</button>
+      <button v-else class="signInOut" @click="handleSignIn">Sign In</button>
     </nav>
   </div>
   <div class="header">
@@ -47,6 +48,9 @@ export default {
       signOut(auth).then(() => {
         this.router.push("/");
       });
+    },
+    handleSignIn() {
+      this.router.push("/signin");
     },
   },
   mounted() {
@@ -106,7 +110,28 @@ nav {
   text-decoration: none;
 }
 
+.signInOut {
+  background-color: #747fe6;
+  border: 1px solid #747fe6;
+  border-radius: 5px;
+  color: white;
+  float: right;
+  font-family: Trebuchet MS;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
 .navButtons:hover {
+  background-color: #505cc7;
+  color: white;
+  cursor: pointer;
+}
+
+.signInOut:hover {
   background-color: #505cc7;
   color: white;
   cursor: pointer;
@@ -128,10 +153,12 @@ input {
 .header {
   align-items: center;
   background-image: linear-gradient(#b3b8e9, #747fe6);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: space-between;
   padding: 5px;
+  margin: 0px;
   text-align: center;
 }
 

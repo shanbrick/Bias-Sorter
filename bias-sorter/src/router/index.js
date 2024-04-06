@@ -30,7 +30,7 @@ const router = createRouter({
     {
       path: '/groups',
       name: 'groups',
-      component: () => import('../views/GroupsListView.vue'),
+      component: () => import('../views/GroupListView.vue'),
       meta: {
         requiresAuth: true,
       }
@@ -38,7 +38,7 @@ const router = createRouter({
     {
       path: '/groupPage',
       name: 'groupPage',
-      component: () => import('../views/GroupPageView.vue'),
+      component: () => import('../views/GroupInfoView.vue'),
       meta: {
         requiresAuth: true,
       }

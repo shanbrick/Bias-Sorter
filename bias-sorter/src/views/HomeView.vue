@@ -5,9 +5,11 @@
             <p class="date">Today is {{ currentDate }}! Happy Birthday to:</p>
             <div class="insideDisplay">
                 <div class="peopleDiv" v-for="pers in birthdayToday">
-                    <img class="bdayPic" :src="require('../assets/imageArchive/' + pers.imgLink)" />
-                    <p class="bdayStage">{{ pers.stageName }}</p>
-                    <p class="bdayGroup">{{ pers.grpName }}</p>
+                    <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(pers.grpName)">
+                        <img class="bdayPic" :src="require('../assets/imageArchive/' + pers.imgLink)" />
+                        <p class="bdayStage">{{ pers.stageName }}</p>
+                        <p class="bdayGroup">{{ pers.grpName }}</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -15,7 +17,7 @@
             <p class="date">Looking for a new group to stan? Check out these groups!</p>
             <div class="insideDisplay">
                 <div class="randomDiv" v-for="group in randomGroups">
-                    <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
+                    <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group.groupName)">
                         <img class="randomPic" :src="require('../assets/imageArchive/' + group.groupImage)" />
                         <p class="randomName">{{ group.groupName }}</p>
                     </a>
@@ -33,6 +35,7 @@ export default {
     data() {
         return {
             groups: groupListEdit,
+            selectedGroupArray: [],
             birthdayToday: [],
             currentDate: "",
             monthArray: [
@@ -107,12 +110,15 @@ export default {
                 }
             }
         },
-        populateGroupPage(group) {
-            if (selectedGroupArray === null) {
-                selectedGroupArray = [];
+        populateGroupPage(grpName) {
+            let selectedGroup = [];
+            for (let i = 0; i < this.groups.length; i++) {
+                if (this.groups[i].groupName === grpName) {
+                    selectedGroup = this.groups[i];
+                    break;
+                }
             }
-            selectedGroupArray = group;
-            localStorage.setItem("selectedGroup", JSON.stringify(selectedGroupArray));
+            localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
         },
     },
 };
@@ -157,11 +163,16 @@ export default {
 }
 
 .peopleDiv {
+    border-radius: 5px;
     height: fit-content;
     padding: 10px 0px 0px;
     margin-bottom: 0px;
     text-align: center;
     width: 33%;
+}
+
+.peopleDiv:hover {
+    background-color: #b3b8e9;
 }
 
 .bdayStage {
@@ -173,6 +184,7 @@ export default {
 }
 
 .bdayGroup {
+    color: black;
     font-size: 0.75em;
     margin: 5px;
     text-align: center;
@@ -231,7 +243,6 @@ export default {
 }
 
 .randomName {
-    color: black;
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0px 20px;

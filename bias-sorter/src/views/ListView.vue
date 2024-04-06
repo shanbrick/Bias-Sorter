@@ -21,7 +21,9 @@
                     <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
                         class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)">
                     <p class="idolName">{{ element.stageName }}</p>
-                    <p class="groupName">{{ element.grpName }}</p>
+                    <a href="/groupPage" @click="populateGroupPage(element.grpName)">
+                        <p class="groupName">{{ element.grpName }}</p>
+                    </a>
                 </div>
             </template>
         </draggable>
@@ -51,7 +53,9 @@
                                     <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, pers)"
                                         class="homePeoplePics" :src="require('../assets/imageArchive/' + pers.imgLink)">
                                     <p class="idolName">{{ pers.stageName }}</p>
-                                    <p class="groupName">{{ pers.grpName }}</p>
+                                    <a href="/groupPage" @click="populateGroupPage(pers.grpName)">
+                                        <p class="groupName">{{ pers.grpName }}</p>
+                                    </a>
                                 </div>
                             </template>
                         </draggable>
@@ -63,6 +67,7 @@
 </template>
 
 <script>
+import groupListEdit from "@/groupListEdit.json";
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 import ContextMenu from '../components/ContextMenu.vue';
@@ -120,7 +125,8 @@ export default {
             testArray: ref([]),
             editModeOn: false,
             showContextMenu: false,
-            clickedPerson: {}
+            clickedPerson: {},
+            groups: groupListEdit
         }
     },
     computed: {
@@ -185,6 +191,16 @@ export default {
                     }
                 }
             }
+        },
+        populateGroupPage(grpName) {
+            let selectedGroup = [];
+            for (let i = 0; i < this.groups.length; i++) {
+                if (this.groups[i].groupName === grpName) {
+                    selectedGroup = this.groups[i];
+                    break;
+                }
+            }
+            localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
         }
     }
 }
@@ -322,5 +338,10 @@ export default {
     margin: 0px;
     padding: 0px;
     width: 130px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 </style>

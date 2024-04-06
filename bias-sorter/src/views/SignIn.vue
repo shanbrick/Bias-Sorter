@@ -8,10 +8,8 @@
         <br />
         <button class="signButtons" @click="signInWithGoogle">Sign in with Google</button>
         <br />
-        <a href='/register'>
-            <button class="signButtons">
-                New? Create an account!
-            </button>
+        <a href="/register">
+            <button class="signButtons">New? Create an account!</button>
         </a>
     </div>
 </template>
@@ -36,7 +34,7 @@ const register = () => {
     signInWithEmailAndPassword(auth, email.value, password.value)
         .then((data) => {
             console.log("Successfully signed in!");
-            router.push("/home");
+            router.push("/list");
         })
         .catch((error) => {
             console.log(error.code);
@@ -62,7 +60,7 @@ const signInWithGoogle = () => {
     signInWithPopup(getAuth(), provider)
         .then((result) => {
             console.log(result.user);
-            router.push("/home");
+            router.push("/list");
         })
         .catch((error) => { });
 };
