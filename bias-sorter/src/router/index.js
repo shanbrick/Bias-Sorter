@@ -28,25 +28,9 @@ const router = createRouter({
       }
     },
     {
-      path: '/boy-groups',
-      name: 'boyGroups',
-      component: () => import('../views/BGView.vue'),
-      meta: {
-        requiresAuth: true,
-      }
-    },
-    {
-      path: '/girl-groups',
-      name: 'girlGroups',
-      component: () => import('../views/GGView.vue'),
-      meta: {
-        requiresAuth: true,
-      }
-    },
-    {
-      path: '/solo',
-      name: 'solo',
-      component: () => import('../views/SoloView.vue'),
+      path: '/groups',
+      name: 'groups',
+      component: () => import('../views/GroupsListView.vue'),
       meta: {
         requiresAuth: true,
       }

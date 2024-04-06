@@ -1,10 +1,12 @@
 <template>
-  <button @click="switchList(b)">Boy Groups</button>
-  <button @click="switchList(g)">Girl Groups</button>
-  <button @click="switchList(s)">Soloists</button>
+  <div>
+    <button @click="switchList('b')">Boy Groups</button>
+    <button @click="switchList('g')">Girl Groups</button>
+    <button @click="switchList('s')">Soloists</button>
+  </div>
   <div class="listBox">
-    <div v-for="group in groupsData">
-      <div class="groupDiv" v-if="group.bgs === 'b' || group.bgs === 'bg'">
+    <div v-for="group in currentList">
+      <div class="groupDiv">
         <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
           <img class="groupPicList" :src="require('../assets/imageArchive/' + group.groupImage)" />
           <p class="groupNameList">{{ group.groupName }}</p>
@@ -19,7 +21,7 @@ import groupListEdit from "@/groupListEdit.json";
 let selectedGroupArray = JSON.parse(localStorage.getItem("selectedGroup"));
 
 export default {
-  name: "BGView",
+  name: "GroupListView",
   data: () => {
     return {
       groupsData: groupListEdit,
@@ -34,20 +36,32 @@ export default {
       selectedGroupArray = group;
       localStorage.setItem("selectedGroup", JSON.stringify(selectedGroupArray));
     },
-    computed: {
-      boyGroups: function () {
-        let arr = this.groupsData;
-        return arr.filter((i) => i.bgs === "b");
-      },
-      girlGroups: function () {
-        let arr = this.groupsData;
-        return arr.filter((i) => i.bgs !== "g");
-      },
-      solo: function () {
-        let arr = this.groupsData;
-        return arr.filter((i) => i.bgs !== "s");
-      },
+    switchList(list) {
+      if (list === "b") {
+        this.currentList = this.boyGroups;
+      } else if (list === "g") {
+        this.currentList = this.girlGroups;
+      } else {
+        this.currentList = this.solo;
+      }
     },
+  },
+  computed: {
+    boyGroups: function () {
+      let arr = this.groupsData;
+      return arr.filter((i) => i.bgs.indexOf("b") > -1);
+    },
+    girlGroups: function () {
+      let arr = this.groupsData;
+      return arr.filter((i) => i.bgs.indexOf("g") > -1);
+    },
+    solo: function () {
+      let arr = this.groupsData;
+      return arr.filter((i) => i.bgs.indexOf("s") > -1);
+    },
+  },
+  mounted() {
+    this.currentList = this.boyGroups;
   },
 };
 </script>

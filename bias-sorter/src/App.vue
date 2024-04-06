@@ -2,9 +2,7 @@
   <div class="navBar">
     <nav v-if="isLoggedIn">
       <router-link class="navButtons" to="/home">Home</router-link>
-      <router-link class="navButtons" to="/boy-groups">Boy Groups</router-link>
-      <router-link class="navButtons" to="/girl-groups">Girl Groups</router-link>
-      <router-link class="navButtons" to="/solo">Solo</router-link>
+      <router-link class="navButtons" to="/groups">Groups</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
       <button @click="handleSignOut">Sign out</button>
     </nav>
@@ -12,12 +10,6 @@
   <div class="header">
     <p class="headerTitle">Bias Sorter</p>
     <div>
-      <!-- <input type="radio" name="season" value="winter" id="winter" checked />
-      <label for="winter">Winter</label>
-      <input type="radio" name="season" value="spring" id="spring" />
-      <label for="spring">Spring</label>
-      <input type="radio" name="season" value="summer" id="summer" />
-      <label for="summer">Summer</label> -->
       <div class="auto">
         <SearchAutocomplete :items="groups" />
       </div>
