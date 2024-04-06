@@ -156,7 +156,7 @@ export default {
 
 .date {
     color: white;
-    font-size: 18px;
+    font-size: 1.3vw;
     font-weight: bolder;
     padding: 0px;
     margin: 1px 0px 20px;

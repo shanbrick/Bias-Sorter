@@ -12,16 +12,20 @@
                     <br />
                     <span class="acrSmall">{{ result.company }}</span>
                 </p>
+                <button class="quickAdd">Quick Add</button>
             </a>
             <a href="/groupPage" style="text-decoration: none" v-for="(pResult, i) in peopleResults" :key="i"
                 @click="setResultPeople(pResult)">
-                <img class="acPic" :src="require('../assets/imageArchive/' + pResult.imgLink)" />
-                <p class="autocomplete-result">
-                    {{ pResult.stageName }}
-                    <span class="acrSmall"> {{ pResult.fullName }}</span>
-                    <br />
-                    <span class="acrSmall">{{ pResult.grpName }}</span>
-                </p>
+                <div style="display: flex">
+                    <img class="acPic" :src="require('../assets/imageArchive/' + pResult.imgLink)" />
+                    <p class="autocomplete-result">
+                        {{ pResult.stageName }}
+                        <span class="acrSmall"> {{ pResult.fullName }}</span>
+                        <br />
+                        <span class="acrSmall">{{ pResult.grpName }}</span>
+                    </p>
+                    <button class="quickAdd">Quick Add</button>
+                </div>
             </a>
         </ul>
     </div>
@@ -138,12 +142,12 @@ export default {
 <style scoped>
 .autocomplete {
     z-index: 1;
-    width: 300px;
+    width: 350px;
     color: black;
 }
 
 .autocomplete-results {
-    width: 300px;
+    width: 350px;
     z-index: 1;
     position: absolute;
     padding: 10px;
@@ -166,11 +170,12 @@ export default {
     list-style: none;
     text-align: left;
     text-decoration: none;
-    padding: 15px;
+    padding: 15px 15px 15px 0px;
     margin: 0px;
     margin-bottom: 10px;
     cursor: pointer;
     /* border-bottom: 1px solid #00000036; */
+    overflow-x: visible;
     color: black;
 }
 
@@ -198,5 +203,14 @@ export default {
     margin-right: 10px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.quickAdd {
+    float: right;
+    font-size: 10px;
+    height: fit-content;
+    overflow-x: visible;
+    text-align: center;
+    width: 40px;
 }
 </style>

@@ -32,9 +32,10 @@ const router = useRouter();
 const register = () => {
     const auth = getAuth();
     signInWithEmailAndPassword(auth, email.value, password.value)
-        .then((data) => {
+        .then((cred) => {
             console.log("Successfully signed in!");
             router.push("/list");
+            // return db.collection('users').doc(cred.user.uid)
         })
         .catch((error) => {
             console.log(error.code);

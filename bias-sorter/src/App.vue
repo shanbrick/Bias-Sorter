@@ -147,7 +147,7 @@ input {
   font-weight: 500;
   margin: 6px 10px 10px;
   padding: 7px;
-  width: 300px;
+  width: 350px;
 }
 
 .header {
@@ -175,7 +175,7 @@ input {
   margin: auto;
   margin-right: 30px;
   position: relative;
-  width: 300px;
+  width: 350px;
   z-index: 2;
 }
 </style>

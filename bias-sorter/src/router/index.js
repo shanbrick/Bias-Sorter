@@ -24,7 +24,7 @@ const router = createRouter({
       name: 'list',
       component: () => import('../views/ListView.vue'),
       meta: {
-        requiresAuth: true,
+        auth: true,
       }
     },
     {
@@ -32,7 +32,7 @@ const router = createRouter({
       name: 'groups',
       component: () => import('../views/GroupListView.vue'),
       meta: {
-        requiresAuth: true,
+        auth: true,
       }
     },
     {
@@ -40,7 +40,7 @@ const router = createRouter({
       name: 'groupPage',
       component: () => import('../views/GroupInfoView.vue'),
       meta: {
-        requiresAuth: true,
+        auth: true,
       }
     },
     {
@@ -48,7 +48,7 @@ const router = createRouter({
       name: 'birthdays',
       component: () => import('../views/Birthdays.vue'),
       meta: {
-        requiresAuth: true,
+        auth: true,
       }
     }
   ]
