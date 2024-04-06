@@ -57,9 +57,9 @@
                     </td>
                     <td class="trtdthTwin">
                         <p v-for="twin in twinSet.twins">
-                            <a href="/groupPage" @click="populateGroupPage(twin.grpName)">{{
-        twin.stageName
-    }}</a>
+                            <a href="/groupPage" @click="populateGroupPage(twin.grpName)">
+                                {{ twin.stageName }}
+                            </a>
                         </p>
                     </td>
                     <td class="trtdthTwin">
@@ -306,7 +306,7 @@ a:hover {
     height: fit-content;
     margin: 20px;
     margin-right: 10px;
-    max-width: 350px;
+    max-width: 400px;
     width: 40%;
 }
 

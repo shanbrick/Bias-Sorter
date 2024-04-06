@@ -1,7 +1,8 @@
 <template>
   <div class="navBar">
     <nav v-if="isLoggedIn">
-      <router-link class="navButtons" to="/home">Home</router-link>
+      <router-link class="navButtons" to="/">Home</router-link>
+      <router-link class="navButtons" to="/list">Lists</router-link>
       <router-link class="navButtons" to="/groups">Groups</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
       <button @click="handleSignOut">Sign out</button>

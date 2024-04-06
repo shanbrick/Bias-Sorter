@@ -1,299 +1,170 @@
+// add birthday of the day
 <template>
-    <div class="topBar">
-        <button class="topBarButton" @click="addNewCategory()">&nbsp;+&nbsp; Add New Category</button>
-        <button class="topBarButton" @click="toggleEditModeOn()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit
-            Categories</button>
-        <button class="topBarButton" @click="toggleEditModeOff()" v-else>&nbsp;✓&nbsp; Save Categories</button>
-    </div>
-
-    <ContextMenu :display="showContextMenu" ref="menu">
-        <p @click="removeFromHome()">Remove {{ clickedPerson.stageName }}</p>
-    </ContextMenu>
-
-    <div id="unsorted" class="unsorted">
-        <div class="boxHeaderUnsorted">
-            <p class="categoryTitle">Unsorted</p>
+    <div style="display: flex">
+        <div class="birthdayDisplay">
+            <p class="date">Today is {{ currentDate }}! Happy Birthday to:</p>
+            <div class="insideDisplay">
+                <div class="peopleDiv" v-for="pers in birthdayToday">
+                    <img class="bdayPic" :src="require('../assets/imageArchive/' + pers.imgLink)" />
+                    <p class="bdayStage">{{ pers.stageName }}</p>
+                    <p class="bdayGroup">{{ pers.grpName }}</p>
+                </div>
+            </div>
         </div>
-        <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
-            @change="updateStorage(0, homePageArrays[0])" :disabled="editModeOn" item-key="a">
-            <template #item="{ element }">
-                <div class="peopleDivss" :key="element.stageName">
-                    <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
-                        class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)">
-                    <p class="idolName">{{ element.stageName }}</p>
-                    <p class="groupName">{{ element.grpName }}</p>
+        <div class="randomDisplay">
+            <p class="date">Looking for a new group to stan? Check out these groups!</p>
+            <div class="insideDisplay">
+                <div class="randomDiv" v-for="group in randomGroups">
+                    <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
+                        <img class="randomPic" :src="require('../assets/imageArchive/' + group.groupImage)" />
+                        <p class="randomName">{{ group.groupName }}</p>
+                    </a>
                 </div>
-            </template>
-        </draggable>
-    </div>
-
-
-    <div class="sideCats">
-        <draggable :list="testArray" :animation="300" @change="updateCatOrder(testArray)" :disabled="!editModeOn"
-            item-key="b">
-            <template #item="{ element: catArr, index }">
-                <div :id=catArr class="categories">
-                    <div class="boxHeaderCategories">
-                        <div v-if="!editModeOn">
-                            <p class="categoryTitle">{{ catArr.catName }}</p>
-                        </div>
-                        <div v-else>
-                            <input class="boxHeaderCatsInput" type="text" v-model="catArr.catName"
-                                v-on:input="updateCatName(index + 1)"></input>
-                        </div>
-                    </div>
-                    <div v-if="!editModeOn">
-                        <draggable :list="homePageArrays[index + 1]" group="everyone" :animations="300"
-                            @change="updateStorage(index + 1, homePageArrays[index + 1])" :disabled="editModeOn"
-                            item-key="c">
-                            <template #item="{ element: pers }">
-                                <div class="peopleDivss">
-                                    <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, pers)"
-                                        class="homePeoplePics" :src="require('../assets/imageArchive/' + pers.imgLink)">
-                                    <p class="idolName">{{ pers.stageName }}</p>
-                                    <p class="groupName">{{ pers.grpName }}</p>
-                                </div>
-                            </template>
-                        </draggable>
-                    </div>
-                </div>
-            </template>
-        </draggable>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
-import { ref } from 'vue';
-import draggable from 'vuedraggable';
-import ContextMenu from '../components/ContextMenu.vue';
+import groupListEdit from "@/groupListEdit.json";
 
 export default {
-    name: 'HomeView',
-    order: 1,
-    components: {
-        draggable,
-        ContextMenu,
-    },
-    props: [
-
-    ],
-    mounted() {
-        if (localStorage.getItem("save_data") !== null) {
-            const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))
-            this.saveData = saveDataFromStorage
-        } else {
-            localStorage.setItem("save_data", JSON.stringify(this.saveData));
-        }
-
-        for (let i = 0; i < this.saveData.categories.length; i++) {
-            this.homePageArrays.push(this.saveData.categories[i].people);
-        }
-
-        for (let i = 1; i < this.saveData.categories.length; i++) {
-            this.testArray.push(this.saveData.categories[i]);
-        }
-
-    },
+    name: "HomeView",
     data() {
         return {
-            saveData: {
-                "categories": [
-                    {
-                        "catName": "Unsorted",
-                        "people": []
-                    },
-                    {
-                        "catName": "Ults",
-                        "people": []
-                    },
-                    {
-                        "catName": "Semis",
-                        "people": []
-                    },
-                    {
-                        "catName": "Regs",
-                        "people": []
-                    }
-                ]
-            },
-            homePageArrays: ref([]),
-            testArray: ref([]),
-            editModeOn: false,
-            showContextMenu: false,
-            clickedPerson: {}
+            groups: groupListEdit,
+            birthdayToday: [],
+            currentDate: "",
+            monthArray: [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
+            ],
+            randomGroups: [],
+        };
+    },
+    mounted() {
+        this.birthdayToday = [];
+
+        const date = new Date();
+        let month = this.convertMonth(date.getMonth() + 1);
+        let day = date.getDate().toString();
+
+        this.currentDate = month + " " + day;
+
+        if (day.length === 1) {
+            let old = day;
+            day = "0" + old;
         }
-    },
-    computed: {
+        let today = month + " " + day;
 
-    },
-    methods: {
-        addNewCategory() {
-            let arr = {
-                "catName": "Untitled",
-                "people": []
-            }
-            this.saveData.categories.push(arr);
-            localStorage.setItem('save_data', JSON.stringify(this.saveData));
-
-            this.testArray.push(arr)
-            this.homePageArrays.push(arr.people);
-
-        },
-        toggleEditModeOn() {
-            this.editModeOn = !this.editModeOn;
-        },
-        toggleEditModeOff() {
-            this.editModeOn = !this.editModeOn;
-            window.location.reload();
-        },
-        updateCatOrder(arr) {
-            console.log("update cat order", arr)
-            for (let i = 0; i < arr.length; i++) {
-                this.saveData.categories[i + 1] = arr[i];
-            }
-            console.log("saveData categpories", this.saveData.categories);
-            localStorage.setItem('save_data', JSON.stringify(this.saveData));
-        },
-        updateStorage(i, array) {
-            this.saveData.categories[i].people = array;
-            localStorage.setItem('save_data', JSON.stringify(this.saveData));
-        },
-        updateCatName(i) {
-            this.saveData.categories[i].catName;
-            localStorage.setItem('save_data', JSON.stringify(this.saveData));
-        },
-        openContextMenu(e, person) {
-            this.clickedPerson = person;
-            this.$refs.menu.open(e);
-        },
-        removeFromHome(e) {
-            this.$refs.menu.close(e);
-            for (let i = 0; i < this.saveData.categories.length; i++) {
-                for (let j = 0; j < this.saveData.categories[i].people.length; j++) {
-                    if (this.saveData.categories[i].people[j].imgLink === this.clickedPerson.imgLink) {
-                        this.saveData.categories[i].people = this.saveData.categories[
-                            i
-                        ].people.filter((p) => {
-                            return p.imgLink !== this.clickedPerson.imgLink;
-                        });
-                        localStorage.setItem("save_data", JSON.stringify(this.saveData));
-                        this.homePageArrays = [];
-                        for (let i = 0; i < this.saveData.categories.length; i++) {
-                            this.homePageArrays.push(this.saveData.categories[i].people);
-                        }
-                        break;
-                    }
+        for (let i = 0; i < this.groups.length; i++) {
+            for (let j = 0; j < this.groups[i].members.length; j++) {
+                let pb = this.groups[i].members[j].birthday;
+                let pbshort = pb.substring(0, pb.indexOf(","));
+                if (pbshort === today) {
+                    this.birthdayToday.push(this.groups[i].members[j]);
                 }
             }
         }
-    }
-}
+        let ranNumArr = [];
+        while (ranNumArr.length < 6) {
+            let r = Math.floor(Math.random() * this.groups.length);
+            if (ranNumArr.indexOf(r) === -1) {
+                ranNumArr.push(r);
+                this.randomGroups.push(this.groups[r]);
+            }
+        }
+    },
+    methods: {
+        convertBday(birthday) {
+            let month = birthday.substring(0, birthday.indexOf(" "));
+            let monthNum = 0;
+            for (let i = 0; i < this.monthArray.length; i++) {
+                if (month === this.monthArray[i]) {
+                    monthNum = i + 1;
+                }
+            }
+            let day = birthday.substring(birthday.indexOf(" ") + 1, birthday.indexOf(","));
+
+            let converted = monthNum.toString() + " " + day.toString();
+
+            return converted;
+        },
+        convertMonth(monthNum) {
+            for (let i = 0; i < this.monthArray.length; i++) {
+                if (monthNum - 1 === i) {
+                    return this.monthArray[i];
+                }
+            }
+        },
+        populateGroupPage(group) {
+            if (selectedGroupArray === null) {
+                selectedGroupArray = [];
+            }
+            selectedGroupArray = group;
+            localStorage.setItem("selectedGroup", JSON.stringify(selectedGroupArray));
+        },
+    },
+};
 </script>
 
 <style scoped>
-.topBar {
-    background-color: #b3b8e9;
-    display: flex;
-    gap: 10px;
-    height: 50px;
-    margin: 0px 0px 20px;
-    padding: 9px;
-}
-
-.topBarButton {
-    background: #00000000;
-    border: 1px solid #00000000;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    height: 30px;
+.insideDisplay {
     margin: auto;
-    text-align: center;
-    text-decoration: none;
-    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
 }
 
-.topBarButton:hover {
-    background-color: #505cc7;
-}
-
-.unsorted {
-    background: linear-gradient(180deg, rgba(179, 184, 233, 1) 0px, rgba(116, 127, 230, 1) 45px, rgba(218, 218, 218, 1) 45px, rgba(255, 255, 255, 1) 63%, rgba(218, 218, 218, 1) 100%);
+.birthdayDisplay {
+    background: rgb(195, 195, 195);
+    background: linear-gradient(180deg,
+            rgba(179, 184, 233, 1) 0px,
+            rgba(116, 127, 230, 1) 45px,
+            rgba(218, 218, 218, 1) 45px,
+            rgba(255, 255, 255, 1) 63%,
+            rgba(218, 218, 218, 1) 100%);
     border-radius: 10px;
     box-shadow: 0px 0px 5px black;
-    height: 60%;
-    margin: 0px 20px 20px;
-    overflow-x: hidden;
-    padding: 55px 0px 10px;
-    position: fixed;
-    width: 342px;
-    z-index: 0;
-}
-
-.boxHeaderUnsorted {
-    height: 45px;
-    margin-top: -54px;
-    margin-left: -1px;
-    margin-bottom: 15px;
-    padding-left: 20px;
-    position: fixed;
-    width: 342px;
-}
-
-.sideCats {
-    margin-left: 375px;
-}
-
-.categories {
-    background: linear-gradient(180deg, rgba(179, 184, 233, 1) 0px, rgba(116, 127, 230, 1) 45px, rgba(218, 218, 218, 1) 45px, rgba(255, 255, 255, 1) 63%, rgba(218, 218, 218, 1) 100%);
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px black;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
     height: fit-content;
-    margin: 0px 20px 30px;
-    min-height: 50px;
-    padding: 55px 0px 10px;
-    position: relative;
+    margin: 20px;
+    overflow-x: hidden;
+    padding: 10px;
+    width: 30%;
 }
 
-.categoryTitle {
+.date {
     color: white;
-    font-size: 20px;
-    font-weight: 700;
-    position: absolute;
-    top: -9.5px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 1px 0px 20px;
 }
 
-.categories:after {
-    content: "";
-    clear: both;
-    display: table;
+.peopleDiv {
+    height: fit-content;
+    padding: 10px 0px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 33%;
 }
 
-.boxHeaderCategories {
-    height: 45px;
-    margin: -55px -1px 10px;
-    padding: 20px;
-    position: relative;
-}
-
-.boxHeaderCatsInput {
-    background-image: linear-gradient(#747fe6, #b3b8e9);
-    border: 1px solid #6e6e6e;
-    border-radius: 8px;
-    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
-    color: #fff;
-    height: 35px;
-    float: left;
-    font-size: 20px;
-    font-weight: 700;
-    margin: -15px -1px 10px -15px;
-    padding: 14px;
-    position: relative;
-}
-
-.idolName {
+.bdayStage {
     color: black;
     font-size: 15px;
     font-weight: bold;
@@ -301,26 +172,69 @@ export default {
     text-align: center;
 }
 
-.groupName {
+.bdayGroup {
     font-size: 0.75em;
     margin: 5px;
     text-align: center;
 }
 
-.peopleDivss {
-    /* border: 1px solid red; */
-    float: left;
-    height: fit-content;
-    padding: 10px 0px;
-    text-align: center;
-    width: 170px;
-}
-
-.homePeoplePics {
+.bdayPic {
     border-radius: 8px;
     box-shadow: 0px 0px 5px #00000080;
     margin: 0px;
     padding: 0px;
-    width: 130px;
+    width: 80%;
+}
+
+.randomDisplay {
+    background: rgb(195, 195, 195);
+    background: linear-gradient(180deg,
+            rgba(179, 184, 233, 1) 0px,
+            rgba(116, 127, 230, 1) 45px,
+            rgba(218, 218, 218, 1) 45px,
+            rgba(255, 255, 255, 1) 63%,
+            rgba(218, 218, 218, 1) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+    height: fit-content;
+    margin: 20px;
+    overflow-x: hidden;
+    padding: 10px;
+    width: 65%;
+}
+
+.randomDiv {
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px 20px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 33%;
+}
+
+.randomDiv:hover {
+    background-color: #b3b8e9;
+}
+
+.randomPic {
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #00000080;
+    height: 165px;
+    margin: 0px;
+    object-fit: cover;
+    padding: 0px;
+    width: 100%;
+}
+
+.randomName {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px 20px;
+    text-align: center;
 }
 </style>
