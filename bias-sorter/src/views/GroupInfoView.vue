@@ -181,9 +181,9 @@ export default {
     /* background: radial-gradient(#ffffff, #dadada); */
     padding: 20px;
     border-radius: 10px;
-    /* border: 1px solid #b0b0b0; */
+    border: 1px solid red;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }

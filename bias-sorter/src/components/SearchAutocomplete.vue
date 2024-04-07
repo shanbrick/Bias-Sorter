@@ -13,6 +13,18 @@
                     </p>
                 </a>
             </div>
+            <div style="margin-bottom: 10px" v-for="result in groupResults">
+                <a style="display: flex" href="/groupPage" @click="setResultGroup(result)">
+                    <img class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
+                    <p class="threeDiv autocomplete-result">
+                        {{ result.groupName }}
+                        <span v-if="result.members[0].grpName === result.members[0].stageName" class="acrSmall">
+                            {{ result.members[0].fullName }}</span>
+                        <br />
+                        <span class="acrSmall">{{ result.company }}</span>
+                    </p>
+                </a>
+            </div>
         </ul>
     </div>
 </template>
