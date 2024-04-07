@@ -2,31 +2,17 @@
     <div class="autocomplete">
         <input v-model="search" @input="onChange" type="text" placeholder="Search..." />
         <ul v-show="isOpen" class="autocomplete-results">
-            <a href="/groupPage" style="text-decoration: none" v-for="(result, i) in results" :key="i"
-                @click="setResult(result)">
-                <img class="acPic" :src="require('../assets/imageArchive/' + result.groupImage)" />
-                <p class="autocomplete-result">
-                    {{ result.groupName }}
-                    <span v-if="result.members[0].grpName === result.members[0].stageName" class="acrSmall">
-                        {{ result.members[0].fullName }}</span>
-                    <br />
-                    <span class="acrSmall">{{ result.company }}</span>
-                </p>
-                <button class="quickAdd">Quick Add</button>
-            </a>
-            <a href="/groupPage" style="text-decoration: none" v-for="(pResult, i) in peopleResults" :key="i"
-                @click="setResultPeople(pResult)">
-                <div style="display: flex">
-                    <img class="acPic" :src="require('../assets/imageArchive/' + pResult.imgLink)" />
-                    <p class="autocomplete-result">
-                        {{ pResult.stageName }}
-                        <span class="acrSmall"> {{ pResult.fullName }}</span>
+            <div style="margin-bottom: 10px" v-for="result in peopleResults">
+                <a style="display: flex" href="/groupPage" @click="setResultPeople(result)">
+                    <img class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
+                    <p class="threeDiv autocomplete-result">
+                        {{ result.stageName }}
+                        <span class="acrSmall"> {{ result.fullName }}</span>
                         <br />
-                        <span class="acrSmall">{{ pResult.grpName }}</span>
+                        <span class="acrSmall">{{ result.grpName }}</span>
                     </p>
-                    <button class="quickAdd">Quick Add</button>
-                </div>
-            </a>
+                </a>
+            </div>
         </ul>
     </div>
 </template>
@@ -47,10 +33,11 @@ export default {
         return {
             groups: groupListEdit,
             search: "",
-            results: [],
+            groupResults: [],
             peopleResults: [],
             isOpen: false,
             selectedGroupArray: JSON.parse(localStorage.getItem("selectedGroup")),
+            saveData: JSON.parse(localStorage.getItem("save_data")),
         };
     },
     mounted() {
@@ -63,6 +50,9 @@ export default {
         onChange() {
             this.filterResults();
             this.isOpen = true;
+            if (this.search === "") {
+                this.isOpen = false;
+            }
         },
         filterResults() {
             let groupSearchArr = [];
@@ -79,33 +69,74 @@ export default {
                     groupSearchArr.push(this.groups[i]);
                 }
             }
+            groupSearchArr = groupSearchArr.sort(
+                (a, b) => a.groupName.length - b.groupName.length
+            );
 
-            let peopleSearchArr = [];
+            let stageSearch = [];
             for (let i = 0; i < this.groups.length; i++) {
                 for (let j = 0; j < this.groups[i].members.length; j++) {
                     let noSC = this.groups[i].members[j].stageName.replace(/[^a-zA-Z ]/g, "");
                     if (
                         (this.erm(this.groups[i].members[j].stageName) ||
                             this.erm(noSC) ||
-                            this.erm(this.groups[i].members[j].fullName) ||
-                            this.erm(this.groups[i].members[j].stageKR) ||
-                            this.erm(this.groups[i].members[j].fullKR)) &&
+                            this.erm(this.groups[i].members[j].stageKR)) &&
                         (this.groups[i].members[j].afr === "a" ||
                             this.groups[i].members[j].afr === "f") &&
                         this.groups[i].bgs !== "s"
                     ) {
-                        peopleSearchArr.push(this.groups[i].members[j]);
+                        stageSearch.push(this.groups[i].members[j]);
+                        stageSearch = stageSearch.sort(
+                            (a, b) => a.stageName.length - b.stageName.length
+                        );
+                    }
+                }
+            }
+            let fullSearch = [];
+            for (let i = 0; i < this.groups.length; i++) {
+                for (let j = 0; j < this.groups[i].members.length; j++) {
+                    let noSC = this.groups[i].members[j].stageName.replace(/[^a-zA-Z ]/g, "");
+                    if (
+                        (this.erm(this.groups[i].members[j].fullName) ||
+                            this.erm(this.groups[i].members[j].fullKR)) &&
+                        (this.groups[i].members[j].afr === "a" ||
+                            this.groups[i].members[j].afr === "f") &&
+                        this.groups[i].bgs !== "s" &&
+                        !this.checkInArr(this.groups[i].members[j], stageSearch)
+                    ) {
+                        fullSearch.push(this.groups[i].members[j]);
+                        fullSearch = fullSearch.sort(
+                            (a, b) => a.stageName.length - b.stageName.length
+                        );
                     }
                 }
             }
 
-            this.results = groupSearchArr;
-            this.peopleResults = peopleSearchArr;
+            this.groupResults = [];
+            this.peopleResults = [];
+            for (let i = 0; i < stageSearch.length; i++) {
+                this.peopleResults.push(stageSearch[i]);
+            }
+            for (let i = 0; i < fullSearch.length; i++) {
+                this.peopleResults.push(fullSearch[i]);
+            }
+            for (let i = 0; i < groupSearchArr.length; i++) {
+                this.groupResults.push(groupSearchArr[i]);
+            }
         },
         erm(word) {
             return word.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
         },
         setResult(result) {
+            this.search = result;
+            this.isOpen = false;
+            if (this.selectedGroupArray === null) {
+                this.selectedGroupArray = [];
+            }
+            this.selectedGroupArray = result;
+            localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
+        },
+        setResultGroup(result) {
             this.search = result.groupName;
             this.isOpen = false;
             if (this.selectedGroupArray === null) {
@@ -130,6 +161,40 @@ export default {
             }
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
         },
+        checkInArr(search, bigArr) {
+            for (let i = 0; i < bigArr.length; i++) {
+                if (search === bigArr[i]) {
+                    return true;
+                }
+            }
+            return false;
+        },
+        removeFromHome(person) {
+            for (let i = 0; i < this.saveData.categories.length; i++) {
+                for (let j = 0; j < this.saveData.categories[i].people.length; j++) {
+                    if (this.saveData.categories[i].people[j].imgLink === person.imgLink) {
+                        this.saveData.categories[i].people = this.saveData.categories[
+                            i
+                        ].people.filter((p) => {
+                            return p.imgLink !== person.imgLink;
+                        });
+                        localStorage.setItem("save_data", JSON.stringify(this.saveData));
+                        break;
+                    }
+                }
+            }
+        },
+        checkPerson(input) {
+            for (var i = 0; i < this.saveData.categories.length; i++) {
+                let array = this.saveData.categories[i].people;
+                for (var j = 0; j < array.length; j++) {
+                    if (array[j].imgLink === input) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        },
         handleClickOutside(event) {
             if (!this.$el.contains(event.target)) {
                 this.isOpen = false;
@@ -152,8 +217,8 @@ export default {
     position: absolute;
     padding: 10px;
     padding-bottom: 5px;
-    margin: 0px;
-    margin-top: 5px;
+    margin: 10px;
+    margin-top: 0px;
     box-shadow: 0px 0px 5px #00000080;
     border-radius: 5px;
     background: white;
@@ -164,15 +229,39 @@ export default {
     color: black;
 }
 
+.autocomplete-results:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a:hover {
+    background-color: #b3b8e9;
+    border-radius: 5px;
+}
+
+.threeDiv {
+    float: left;
+}
+
+.acPic {
+    /* float: left; */
+    height: 67px;
+    width: 83.75px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 .autocomplete-result {
     font-weight: bold;
     z-index: 2;
     list-style: none;
     text-align: left;
     text-decoration: none;
-    padding: 15px 15px 15px 0px;
-    margin: 0px;
-    margin-bottom: 10px;
+    padding: 0px;
+    margin: auto;
+    margin-left: 0px;
     cursor: pointer;
     /* border-bottom: 1px solid #00000036; */
     overflow-x: visible;
@@ -189,28 +278,5 @@ export default {
     cursor: pointer;
     color: black;
     font-weight: lighter;
-}
-
-.autocomplete-result:hover {
-    background-color: #b3b8e9;
-    border-radius: 5px;
-}
-
-.acPic {
-    float: left;
-    height: 67px;
-    width: 83.75px;
-    margin-right: 10px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-.quickAdd {
-    float: right;
-    font-size: 10px;
-    height: fit-content;
-    overflow-x: visible;
-    text-align: center;
-    width: 40px;
 }
 </style>

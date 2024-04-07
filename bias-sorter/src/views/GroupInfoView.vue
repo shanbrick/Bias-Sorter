@@ -1,6 +1,6 @@
 <template>
     <div class="groupInfoDiv">
-        <img class="fullGroupPic" :src="require('../assets/imageArchive/' + group.groupImage)" />
+        <img class="fullGroupPic" :src="require('../assets/imageArchive/' + group.imgLink)" />
         <p class="groupName">{{ group.groupName }} ({{ group.groupKR }})</p>
         <p><i style="font-weight: bold">Company:</i> {{ group.company }}</p>
         <p><i style="font-weight: bold">Debut:</i> {{ group.debutDate }}</p>
@@ -25,17 +25,17 @@
                 ➜
             </button>
             <button v-else @click="
-            addToUnsorted(
-                person.grpName,
-                person.stageName,
-                person.stageKR,
-                person.fullName,
-                person.fullKR,
-                person.birthday,
-                person.imgLink,
-                person.afr
-            )
-            ">
+                addToUnsorted(
+                    person.grpName,
+                    person.stageName,
+                    person.stageKR,
+                    person.fullName,
+                    person.fullKR,
+                    person.birthday,
+                    person.imgLink,
+                    person.afr
+                )
+                ">
                 Add
             </button>
         </div>
@@ -59,17 +59,17 @@
                 ➜
             </button>
             <button v-else @click="
-            addToUnsorted(
-                person.grpName,
-                person.stageName,
-                person.stageKR,
-                person.fullName,
-                person.fullKR,
-                person.birthday,
-                person.imgLink,
-                person.afr
-            )
-            ">
+                addToUnsorted(
+                    person.grpName,
+                    person.stageName,
+                    person.stageKR,
+                    person.fullName,
+                    person.fullKR,
+                    person.birthday,
+                    person.imgLink,
+                    person.afr
+                )
+                ">
                 Add
             </button>
         </div>

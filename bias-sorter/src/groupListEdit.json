@@ -3,14 +3,14 @@
         "groupName": "&TEAM",
         "groupKR": "앤팀",
         "bgs": "b",
-        "groupImage": "&TEAM/group.jpeg",
+        "imgLink": "&TEAM/group.jpeg",
         "company": "HYBE Labels Japan",
         "debutDate": "December 07, 2022",
         "members": [
             {
                 "grpName": "&TEAM",
                 "stageName": "K",
-                "stageKR": "\b케이",
+                "stageKR": "케이",
                 "fullName": "Koga Yudai",
                 "fullKR": "코가유다이",
                 "birthday": "October 21, 1997",
@@ -103,7 +103,7 @@
         "groupName": "8TURN",
         "groupKR": "에잇턴",
         "bgs": "b",
-        "groupImage": "8TURN/group.jpeg",
+        "imgLink": "8TURN/group.jpeg",
         "company": "MNH Entertainment",
         "debutDate": "January 30, 2023",
         "members": [
@@ -193,7 +193,7 @@
         "groupName": "82MAJOR",
         "groupKR": "에이티투메이저",
         "bgs": "b",
-        "groupImage": "82MAJOR/group.jpeg",
+        "imgLink": "82MAJOR/group.jpeg",
         "company": "Great M Entertainment",
         "debutDate": "October 11, 2023",
         "members": [
@@ -263,7 +263,7 @@
         "groupName": "A.C.E",
         "groupKR": "에이스",
         "bgs": "b",
-        "groupImage": "ACE/group.jpeg",
+        "imgLink": "ACE/group.jpeg",
         "company": "Beat Interactive",
         "debutDate": "May 23, 2017",
         "members": [
@@ -313,7 +313,7 @@
         "groupName": "aespa",
         "groupKR": "에스파",
         "bgs": "g",
-        "groupImage": "aespa/group.jpeg",
+        "imgLink": "aespa/group.jpeg",
         "company": "SM Entertainment",
         "debutDate": "November 17, 2020",
         "members": [
@@ -363,7 +363,7 @@
         "groupName": "ALL(H)OURS",
         "groupKR": "올아워즈",
         "bgs": "b",
-        "groupImage": "ALLHOURS/group.jpeg",
+        "imgLink": "ALLHOURS/group.jpeg",
         "company": "EDEN Entertainment",
         "debutDate": "January 10, 2024",
         "members": [
@@ -443,7 +443,7 @@
         "groupName": "AMPERS&ONE",
         "groupKR": "앰퍼샌드원",
         "bgs": "b",
-        "groupImage": "AMPERS&ONE/group.jpeg",
+        "imgLink": "AMPERS&ONE/group.jpeg",
         "company": "FNC Entertainment",
         "debutDate": "November 15, 2023",
         "members": [
@@ -523,7 +523,7 @@
         "groupName": "ARTMS",
         "groupKR": "아르테미스",
         "bgs": "g",
-        "groupImage": "ARTMS/group.jpeg",
+        "imgLink": "ARTMS/group.jpeg",
         "company": "MODHAUS",
         "debutDate": "May 31, 2024",
         "members": [
@@ -583,7 +583,7 @@
         "groupName": "ASTRO",
         "groupKR": "아스트로",
         "bgs": "b",
-        "groupImage": "ASTRO/group.jpeg",
+        "imgLink": "ASTRO/group.jpeg",
         "company": "Fantagio Entertainment",
         "debutDate": "February 23, 2016",
         "members": [
@@ -653,7 +653,7 @@
         "groupName": "ATEEZ",
         "groupKR": "에이티즈",
         "bgs": "b",
-        "groupImage": "ATEEZ/group.jpeg",
+        "imgLink": "ATEEZ/group.jpeg",
         "company": "KQ Entertainment",
         "debutDate": "October 24, 2018",
         "members": [
@@ -743,7 +743,7 @@
         "groupName": "BAE173",
         "groupKR": "비에이이173",
         "bgs": "b",
-        "groupImage": "BAE173/group.jpeg",
+        "imgLink": "BAE173/group.jpeg",
         "company": "PocketDol Studio",
         "debutDate": "November 19, 2020",
         "members": [
@@ -843,7 +843,7 @@
         "groupName": "Billlie",
         "groupKR": "빌리",
         "bgs": "g",
-        "groupImage": "Billlie/group.jpeg",
+        "imgLink": "Billlie/group.jpeg",
         "company": "Mystic Story Entertainment",
         "debutDate": "November 10, 2021",
         "members": [
@@ -923,7 +923,7 @@
         "groupName": "BLACKPINK",
         "groupKR": "블랙핑크",
         "bgs": "g",
-        "groupImage": "BLACKPINK/group.jpeg",
+        "imgLink": "BLACKPINK/group.jpeg",
         "company": "YG Entertainment",
         "debutDate": "August 08, 2016",
         "members": [
@@ -973,7 +973,7 @@
         "groupName": "BLITZERS",
         "groupKR": "블리처스",
         "bgs": "b",
-        "groupImage": "BLITZERS/group.jpeg",
+        "imgLink": "BLITZERS/group.jpeg",
         "company": "WUZO Entertainment",
         "debutDate": "May 12, 2021",
         "members": [
@@ -1053,7 +1053,7 @@
         "groupName": "BOYNEXTDOOR",
         "groupKR": "보이넥스트도어",
         "bgs": "b",
-        "groupImage": "BOYNEXTDOOR/group.jpeg",
+        "imgLink": "BOYNEXTDOOR/group.jpeg",
         "company": "KOZ Entertainment",
         "debutDate": "May 30, 2023",
         "members": [
@@ -1123,7 +1123,7 @@
         "groupName": "BTS",
         "groupKR": "방탄소년단",
         "bgs": "b",
-        "groupImage": "BTS/group.jpeg",
+        "imgLink": "BTS/group.jpeg",
         "company": "Big Hit Entertainment",
         "debutDate": "June 13, 2013",
         "members": [
@@ -1203,7 +1203,7 @@
         "groupName": "Cherry Bullet",
         "groupKR": "체리블렛",
         "bgs": "g",
-        "groupImage": "CherryBullet/group.jpeg",
+        "imgLink": "CherryBullet/group.jpeg",
         "company": "FNC Entertainment",
         "debutDate": "January 21, 2019",
         "members": [
@@ -1283,7 +1283,7 @@
         "groupName": "Chuu",
         "groupKR": "츄",
         "bgs": "s",
-        "groupImage": "Solo/ChuuBig.jpeg",
+        "imgLink": "Solo/ChuuBig.jpeg",
         "company": "ATRP",
         "debutDate": "October 18, 2023",
         "members": [
@@ -1303,7 +1303,7 @@
         "groupName": "CIX",
         "groupKR": "씨아이엑스",
         "bgs": "b",
-        "groupImage": "CIX/group.jpeg",
+        "imgLink": "CIX/group.jpeg",
         "company": "C9 Entertainment",
         "debutDate": "July 23, 2019",
         "members": [
@@ -1363,7 +1363,7 @@
         "groupName": "CRAVITY",
         "groupKR": "크래비티",
         "bgs": "b",
-        "groupImage": "CRAVITY/group.jpeg",
+        "imgLink": "CRAVITY/group.jpeg",
         "company": "STARSHIP Entertainment",
         "debutDate": "April 14, 2020",
         "members": [
@@ -1463,7 +1463,7 @@
         "groupName": "DAY6",
         "groupKR": "데이식스",
         "bgs": "b",
-        "groupImage": "DAY6/group.jpeg",
+        "imgLink": "DAY6/group.jpeg",
         "company": "Studio J",
         "debutDate": "September 07, 2015",
         "members": [
@@ -1513,7 +1513,7 @@
         "groupName": "DKB",
         "groupKR": "다크비",
         "bgs": "b",
-        "groupImage": "DKB/group.jpeg",
+        "imgLink": "DKB/group.jpeg",
         "company": "Brave Entertainment",
         "debutDate": "February 3, 2020",
         "members": [
@@ -1613,7 +1613,7 @@
         "groupName": "Dreamcatcher",
         "groupKR": "드림캐쳐",
         "bgs": "g",
-        "groupImage": "Dreamcatcher/group.jpeg",
+        "imgLink": "Dreamcatcher/group.jpeg",
         "company": "Dreamcatcher Company",
         "debutDate": "January 13, 2017",
         "members": [
@@ -1693,7 +1693,7 @@
         "groupName": "DRIPPIN",
         "groupKR": "드리핀",
         "bgs": "b",
-        "groupImage": "DRIPPIN/group.jpeg",
+        "imgLink": "DRIPPIN/group.jpeg",
         "company": "Woollim Entertainment",
         "debutDate": "October 28, 2020",
         "members": [
@@ -1773,7 +1773,7 @@
         "groupName": "DXMON",
         "groupKR": "다이몬",
         "bgs": "b",
-        "groupImage": "DXMON/group.jpeg",
+        "imgLink": "DXMON/group.jpeg",
         "company": "SSQ Entertainment",
         "debutDate": "January 17, 2024",
         "members": [
@@ -1843,7 +1843,7 @@
         "groupName": "ENHYPEN",
         "groupKR": "엔하이픈",
         "bgs": "b",
-        "groupImage": "ENHYPEN/group.jpeg",
+        "imgLink": "ENHYPEN/group.jpeg",
         "company": "Belift Lab",
         "debutDate": "November 30, 2020",
         "members": [
@@ -1923,7 +1923,7 @@
         "groupName": "EPEX",
         "groupKR": "이펙스",
         "bgs": "b",
-        "groupImage": "EPEX/group.jpeg",
+        "imgLink": "EPEX/group.jpeg",
         "company": "C9 Entertainment",
         "debutDate": "June 08, 2021",
         "members": [
@@ -2013,7 +2013,7 @@
         "groupName": "EVERGLOW",
         "groupKR": "에버글로우",
         "bgs": "g",
-        "groupImage": "EVERGLOW/group.jpeg",
+        "imgLink": "EVERGLOW/group.jpeg",
         "company": "Yuehua Entertainment",
         "debutDate": "March 18, 2019",
         "members": [
@@ -2083,7 +2083,7 @@
         "groupName": "EVNNE",
         "groupKR": "이븐",
         "bgs": "b",
-        "groupImage": "EVNNE/group.jpeg",
+        "imgLink": "EVNNE/group.jpeg",
         "company": "Jellyfish Entertainment",
         "debutDate": "September 19, 2023",
         "members": [
@@ -2163,7 +2163,7 @@
         "groupName": "EXO",
         "groupKR": "엑소",
         "bgs": "b",
-        "groupImage": "EXO/group.jpeg",
+        "imgLink": "EXO/group.jpeg",
         "company": "SM Entertainment",
         "debutDate": "April 08, 2012",
         "members": [
@@ -2263,7 +2263,7 @@
         "groupName": "fromis_9",
         "groupKR": "프로미스나인",
         "bgs": "g",
-        "groupImage": "fromis_9/group.jpeg",
+        "imgLink": "fromis_9/group.jpeg",
         "company": "PLEDIS Entertainment",
         "debutDate": "January 24, 2018",
         "members": [
@@ -2363,7 +2363,7 @@
         "groupName": "GHOST9",
         "groupKR": "고스트나인",
         "bgs": "b",
-        "groupImage": "GHOST9/group.jpeg",
+        "imgLink": "GHOST9/group.jpeg",
         "company": "Maroo Entertainment",
         "debutDate": "September 23, 2020",
         "members": [
@@ -2463,7 +2463,7 @@
         "groupName": "(G)I-DLE",
         "groupKR": "(여자)아이들",
         "bgs": "g",
-        "groupImage": "GIDLE/group.jpeg",
+        "imgLink": "GIDLE/group.jpeg",
         "company": "CUBE Entertainment",
         "debutDate": "May 02, 2018",
         "members": [
@@ -2533,7 +2533,7 @@
         "groupName": "Golden Child",
         "groupKR": "골든차일드",
         "bgs": "b",
-        "groupImage": "GoldenChild/group.jpeg",
+        "imgLink": "GoldenChild/group.jpeg",
         "company": "Woollim Entertainment",
         "debutDate": "August 28, 2017",
         "members": [
@@ -2643,7 +2643,7 @@
         "groupName": "GOT7",
         "groupKR": "갓세븐",
         "bgs": "b",
-        "groupImage": "GOT7/group.jpeg",
+        "imgLink": "GOT7/group.jpeg",
         "company": "Warner Music Korea",
         "debutDate": "January 16, 2014",
         "members": [
@@ -2723,7 +2723,7 @@
         "groupName": "H1-KEY",
         "groupKR": "하이키",
         "bgs": "g",
-        "groupImage": "H1KEY/group.jpeg",
+        "imgLink": "H1KEY/group.jpeg",
         "company": "Grandline Group",
         "debutDate": "January 05, 2022",
         "members": [
@@ -2773,7 +2773,7 @@
         "groupName": "ICHILLIN'",
         "groupKR": "아이칠린",
         "bgs": "g",
-        "groupImage": "ICHILLIN/group.jpeg",
+        "imgLink": "ICHILLIN/group.jpeg",
         "company": "KM Entertainment",
         "debutDate": "September 08, 2021",
         "members": [
@@ -2863,7 +2863,7 @@
         "groupName": "I'LL IT",
         "groupKR": "아일릿",
         "bgs": "g",
-        "groupImage": "ILLIT/group.jpeg",
+        "imgLink": "ILLIT/group.jpeg",
         "company": "BE:LIFT Lab",
         "debutDate": "March 25th, 2024",
         "members": [
@@ -2923,7 +2923,7 @@
         "groupName": "ITZY",
         "groupKR": "있지",
         "bgs": "g",
-        "groupImage": "ITZY/group.jpeg",
+        "imgLink": "ITZY/group.jpeg",
         "company": "JYP Entertainment",
         "debutDate": "February 11, 2019",
         "members": [
@@ -2983,7 +2983,7 @@
         "groupName": "IVE",
         "groupKR": "아이브",
         "bgs": "g",
-        "groupImage": "IVE/group.jpeg",
+        "imgLink": "IVE/group.jpeg",
         "company": "STARSHIP Entertainment",
         "debutDate": "December 01, 2021",
         "members": [
@@ -3053,7 +3053,7 @@
         "groupName": "Jini",
         "groupKR": "지니",
         "bgs": "s",
-        "groupImage": "Solo/JiniBig.jpeg",
+        "imgLink": "Solo/JiniBig.jpeg",
         "company": "ATOC",
         "debutDate": "October 11, 2023",
         "members": [
@@ -3073,7 +3073,7 @@
         "groupName": "JO1",
         "groupKR": "제이오원",
         "bgs": "b",
-        "groupImage": "JO1/group.jpeg",
+        "imgLink": "JO1/group.jpeg",
         "company": "LAPONE ENTERTAINMENT",
         "debutDate": "March 04, 2020",
         "members": [
@@ -3193,7 +3193,7 @@
         "groupName": "JUSTB",
         "groupKR": "저스트비",
         "bgs": "b",
-        "groupImage": "JUSTB/group.jpeg",
+        "imgLink": "JUSTB/group.jpeg",
         "company": "Bluedot Entertainment",
         "debutDate": "June 30, 2021",
         "members": [
@@ -3263,7 +3263,7 @@
         "groupName": "KARD",
         "groupKR": "카드",
         "bgs": "bg",
-        "groupImage": "KARD/group.jpeg",
+        "imgLink": "KARD/group.jpeg",
         "company": "DSP Media",
         "debutDate": "July 19, 2017",
         "members": [
@@ -3313,7 +3313,7 @@
         "groupName": "Kep1er",
         "groupKR": "케플러",
         "bgs": "g",
-        "groupImage": "Kep1er/group.jpeg",
+        "imgLink": "Kep1er/group.jpeg",
         "company": "WAKEONE Entertainment",
         "debutDate": "January 03, 2022",
         "members": [
@@ -3413,7 +3413,7 @@
         "groupName": "KISS OF LIFE",
         "groupKR": "키스 오브 라이프",
         "bgs": "g",
-        "groupImage": "KISSOFLIFE/group.jpeg",
+        "imgLink": "KISSOFLIFE/group.jpeg",
         "company": "S2 Entertainment",
         "debutDate": "July 05, 2023",
         "members": [
@@ -3463,7 +3463,7 @@
         "groupName": "LAPILLUS",
         "groupKR": "라필루스",
         "bgs": "g",
-        "groupImage": "LAPILLUS/group.jpeg",
+        "imgLink": "LAPILLUS/group.jpeg",
         "company": "MLD Entertainment",
         "debutDate": "June 20, 2022",
         "members": [
@@ -3533,7 +3533,7 @@
         "groupName": "LE SSERAFIM",
         "groupKR": "르세라핌",
         "bgs": "g",
-        "groupImage": "LESSERAFIM/group.jpeg",
+        "imgLink": "LESSERAFIM/group.jpeg",
         "company": "Source Music",
         "debutDate": "May 02, 2022",
         "members": [
@@ -3593,7 +3593,7 @@
         "groupName": "LOONA",
         "groupKR": "이달의 소녀",
         "bgs": "g",
-        "groupImage": "LOONA/group.jpeg",
+        "imgLink": "LOONA/group.jpeg",
         "company": "BlockBerry Creative",
         "debutDate": "August 19, 2018",
         "members": [
@@ -3723,7 +3723,7 @@
         "groupName": "Loossemble",
         "groupKR": "루셈블",
         "bgs": "g",
-        "groupImage": "Loossemble/group.jpeg",
+        "imgLink": "Loossemble/group.jpeg",
         "company": "CTDENM",
         "debutDate": "September 15, 2023",
         "members": [
@@ -3783,7 +3783,7 @@
         "groupName": "LUN8",
         "groupKR": "루네이트",
         "bgs": "b",
-        "groupImage": "LUN8/group.jpeg",
+        "imgLink": "LUN8/group.jpeg",
         "company": "Fantagio Entertainment",
         "debutDate": "June 15, 2023",
         "members": [
@@ -3873,7 +3873,7 @@
         "groupName": "MCND",
         "groupKR": "엠씨엔디",
         "bgs": "b",
-        "groupImage": "MCND/group.jpeg",
+        "imgLink": "MCND/group.jpeg",
         "company": "TOP MEDIA",
         "debutDate": "February 27, 2020",
         "members": [
@@ -3933,7 +3933,7 @@
         "groupName": "MIRAE",
         "groupKR": "미래",
         "bgs": "b",
-        "groupImage": "MIRAE/group.jpeg",
+        "imgLink": "MIRAE/group.jpeg",
         "company": "DSP Media",
         "debutDate": "March 17, 2021",
         "members": [
@@ -4003,7 +4003,7 @@
         "groupName": "MONSTA X",
         "groupKR": "몬스타엑스",
         "bgs": "b",
-        "groupImage": "MONSTAX/group.jpeg",
+        "imgLink": "MONSTAX/group.jpeg",
         "company": "STARSHIP Entertainment",
         "debutDate": "May 14, 2015",
         "members": [
@@ -4083,7 +4083,7 @@
         "groupName": "M.O.N.T",
         "groupKR": "몬트",
         "bgs": "b",
-        "groupImage": "MONT/group.jpeg",
+        "imgLink": "MONT/group.jpeg",
         "company": "FM Entertainment",
         "debutDate": "January 04, 2019",
         "members": [
@@ -4123,7 +4123,7 @@
         "groupName": "NCT",
         "groupKR": "엔시티",
         "bgs": "b",
-        "groupImage": "NCT/group.jpeg",
+        "imgLink": "NCT/group.jpeg",
         "company": "SM Entertainment",
         "debutDate": "April 09, 2016",
         "members": [
@@ -4413,7 +4413,7 @@
         "groupName": "NewJeans",
         "groupKR": "뉴진스",
         "bgs": "g",
-        "groupImage": "NewJeans/group.jpeg",
+        "imgLink": "NewJeans/group.jpeg",
         "company": "ADOR",
         "debutDate": "July 22, 2022",
         "members": [
@@ -4473,7 +4473,7 @@
         "groupName": "N.Flying",
         "groupKR": "엔플라잉",
         "bgs": "b",
-        "groupImage": "NFlying/group.jpeg",
+        "imgLink": "NFlying/group.jpeg",
         "company": "FNC Entertainment",
         "debutDate": "October 01, 2013",
         "members": [
@@ -4533,7 +4533,7 @@
         "groupName": "NINE.i",
         "groupKR": "나인아이",
         "bgs": "b",
-        "groupImage": "NINEi/group.jpeg",
+        "imgLink": "NINEi/group.jpeg",
         "company": "FirstOne Entertainment",
         "debutDate": "March 30, 2022",
         "members": [
@@ -4643,7 +4643,7 @@
         "groupName": "NMIXX",
         "groupKR": "엔믹스",
         "bgs": "g",
-        "groupImage": "NMIXX/group.jpeg",
+        "imgLink": "NMIXX/group.jpeg",
         "company": "JYP Entertainment",
         "debutDate": "February 22, 2022",
         "members": [
@@ -4723,7 +4723,7 @@
         "groupName": "NOMAD",
         "groupKR": "노매드",
         "bgs": "b",
-        "groupImage": "NOMAD/group.jpeg",
+        "imgLink": "NOMAD/group.jpeg",
         "company": "NOMAD Entertainment",
         "debutDate": "February 28, 2024",
         "members": [
@@ -4783,7 +4783,7 @@
         "groupName": "OMEGA X",
         "groupKR": "오메가엑스",
         "bgs": "b",
-        "groupImage": "OMEGAX/group.jpeg",
+        "imgLink": "OMEGAX/group.jpeg",
         "company": "IPQ Entertainment",
         "debutDate": "June 30, 2021",
         "members": [
@@ -4903,7 +4903,7 @@
         "groupName": "ONE PACT",
         "groupKR": "원팩트",
         "bgs": "b",
-        "groupImage": "ONEPACT/group.jpeg",
+        "imgLink": "ONEPACT/group.jpeg",
         "company": "Armada Entertainment",
         "debutDate": "November 30, 2023",
         "members": [
@@ -4963,7 +4963,7 @@
         "groupName": "ONEUS",
         "groupKR": "원어스",
         "bgs": "b",
-        "groupImage": "ONEUS/group.jpeg",
+        "imgLink": "ONEUS/group.jpeg",
         "company": "RBW Entertainment",
         "debutDate": "January 09, 2019",
         "members": [
@@ -5033,7 +5033,7 @@
         "groupName": "ONEWE",
         "groupKR": "원위",
         "bgs": "b",
-        "groupImage": "ONEWE/group.jpeg",
+        "imgLink": "ONEWE/group.jpeg",
         "company": "RBW Entertainment",
         "debutDate": "August 13, 2015",
         "members": [
@@ -5093,7 +5093,7 @@
         "groupName": "OnlyOneOf",
         "groupKR": "온리원오브",
         "bgs": "b",
-        "groupImage": "OnlyOneOf/group.jpeg",
+        "imgLink": "OnlyOneOf/group.jpeg",
         "company": "8D Creative",
         "debutDate": "May 28, 2019",
         "members": [
@@ -5173,7 +5173,7 @@
         "groupName": "P1Harmony",
         "groupKR": "피원하모니",
         "bgs": "b",
-        "groupImage": "P1Harmony/group.jpeg",
+        "imgLink": "P1Harmony/group.jpeg",
         "company": "FNC Entertainment",
         "debutDate": "October 28, 2020",
         "members": [
@@ -5243,7 +5243,7 @@
         "groupName": "PURPLE KISS",
         "groupKR": "퍼플키스",
         "bgs": "g",
-        "groupImage": "PURPLEKISS/group.jpeg",
+        "imgLink": "PURPLEKISS/group.jpeg",
         "company": "RBW Entertainment",
         "debutDate": "March 15, 2021",
         "members": [
@@ -5323,7 +5323,7 @@
         "groupName": "Red Velvet",
         "groupKR": "레드벨벳",
         "bgs": "g",
-        "groupImage": "RedVelvet/group.jpeg",
+        "imgLink": "RedVelvet/group.jpeg",
         "company": "SM Entertainment",
         "debutDate": "August 1, 2014",
         "members": [
@@ -5383,7 +5383,7 @@
         "groupName": "RIIZE",
         "groupKR": "라이즈",
         "bgs": "b",
-        "groupImage": "RIIZE/group.jpeg",
+        "imgLink": "RIIZE/group.jpeg",
         "company": "SM Entertainment",
         "debutDate": "September 04, 2023",
         "members": [
@@ -5463,7 +5463,7 @@
         "groupName": "Rocket Punch",
         "groupKR": "로켓펀치",
         "bgs": "g",
-        "groupImage": "RocketPunch/group.jpeg",
+        "imgLink": "RocketPunch/group.jpeg",
         "company": "Woollim Entertainment",
         "debutDate": "August 07, 2019",
         "members": [
@@ -5533,7 +5533,7 @@
         "groupName": "Seventeen",
         "groupKR": "세븐틴",
         "bgs": "b",
-        "groupImage": "Seventeen/group.jpeg",
+        "imgLink": "Seventeen/group.jpeg",
         "company": "PLEDIS Entertainment",
         "debutDate": "May 26, 2015",
         "members": [
@@ -5673,7 +5673,7 @@
         "groupName": "SF9",
         "groupKR": "에스에프나인",
         "bgs": "b",
-        "groupImage": "SF9/group.jpeg",
+        "imgLink": "SF9/group.jpeg",
         "company": "FNC Entertainment",
         "debutDate": "October 5, 2016",
         "members": [
@@ -5773,7 +5773,7 @@
         "groupName": "SHINee",
         "groupKR": "샤이니",
         "bgs": "b",
-        "groupImage": "SHINee/group.jpeg",
+        "imgLink": "SHINee/group.jpeg",
         "company": "SM Entertainment",
         "debutDate": "May 25, 2008",
         "members": [
@@ -5833,7 +5833,7 @@
         "groupName": "Soojin",
         "groupKR": "수진",
         "bgs": "s",
-        "groupImage": "Solo/SoojinBig.jpeg",
+        "imgLink": "Solo/SoojinBig.jpeg",
         "company": "BRD Communications",
         "debutDate": "November 08, 2023",
         "members": [
@@ -5853,7 +5853,7 @@
         "groupName": "STAYC",
         "groupKR": "스테이씨",
         "bgs": "g",
-        "groupImage": "STAYC/group.jpeg",
+        "imgLink": "STAYC/group.jpeg",
         "company": "High Up Entertainment",
         "debutDate": "November 12, 2020",
         "members": [
@@ -5923,7 +5923,7 @@
         "groupName": "Stray Kids",
         "groupKR": "스트레이 키즈",
         "bgs": "b",
-        "groupImage": "StrayKids/group.jpeg",
+        "imgLink": "StrayKids/group.jpeg",
         "company": "JYP Entertainment",
         "debutDate": "March 25, 2018",
         "members": [
@@ -6013,7 +6013,7 @@
         "groupName": "TAN",
         "groupKR": "티에이엔",
         "bgs": "b",
-        "groupImage": "TAN/group.jpeg",
+        "imgLink": "TAN/group.jpeg",
         "company": "Think Entertainment",
         "debutDate": "March 10, 2022",
         "members": [
@@ -6093,7 +6093,7 @@
         "groupName": "TEMPEST",
         "groupKR": "템페스트",
         "bgs": "b",
-        "groupImage": "TEMPEST/group.jpeg",
+        "imgLink": "TEMPEST/group.jpeg",
         "company": "Yuehua Entertainment",
         "debutDate": "March 02, 2022",
         "members": [
@@ -6173,7 +6173,7 @@
         "groupName": "TFN",
         "groupKR": "티에프앤",
         "bgs": "b",
-        "groupImage": "TFN/group.jpeg",
+        "imgLink": "TFN/group.jpeg",
         "company": "MLD Entertainment",
         "debutDate": "January 11, 2021",
         "members": [
@@ -6273,7 +6273,7 @@
         "groupName": "THE BOYZ",
         "groupKR": "더보이즈",
         "bgs": "b",
-        "groupImage": "THEBOYZ/group.jpeg",
+        "imgLink": "THEBOYZ/group.jpeg",
         "company": "Cre.Ker Entertainment",
         "debutDate": "December 06, 2017",
         "members": [
@@ -6403,7 +6403,7 @@
         "groupName": "THE NEW SIX",
         "groupKR": "더 뉴 식스",
         "bgs": "b",
-        "groupImage": "THENEWSIX/group.jpeg",
+        "imgLink": "THENEWSIX/group.jpeg",
         "company": "P NATION",
         "debutDate": "May 17, 2022",
         "members": [
@@ -6473,7 +6473,7 @@
         "groupName": "TIOT",
         "groupKR": "티아이오티",
         "bgs": "b",
-        "groupImage": "TIOT/group.jpeg",
+        "imgLink": "TIOT/group.jpeg",
         "company": "Redstart ENM",
         "debutDate": "April 22, 2024",
         "members": [
@@ -6533,7 +6533,7 @@
         "groupName": "TREASURE",
         "groupKR": "트레저",
         "bgs": "b",
-        "groupImage": "TREASURE/group.jpeg",
+        "imgLink": "TREASURE/group.jpeg",
         "company": "YG Entertainment",
         "debutDate": "August 07, 2020",
         "members": [
@@ -6663,7 +6663,7 @@
         "groupName": "tripleS",
         "groupKR": "트리플에스",
         "bgs": "g",
-        "groupImage": "tripleS/group.jpeg",
+        "imgLink": "tripleS/group.jpeg",
         "company": "MODHAUS",
         "debutDate": "October 28, 2022",
         "members": [
@@ -6893,7 +6893,7 @@
         "groupName": "TWICE",
         "groupKR": "트와이스",
         "bgs": "g",
-        "groupImage": "TWICE/group.jpeg",
+        "imgLink": "TWICE/group.jpeg",
         "company": "JYP Entertainment",
         "debutDate": "October 20, 2015",
         "members": [
@@ -6993,7 +6993,7 @@
         "groupName": "TWS",
         "groupKR": "투어스",
         "bgs": "b",
-        "groupImage": "TWS/group.jpeg",
+        "imgLink": "TWS/group.jpeg",
         "company": "PLEDIS Entertainment",
         "debutDate": "January 22, 2024",
         "members": [
@@ -7063,7 +7063,7 @@
         "groupName": "TXT",
         "groupKR": "투모로우바이투게더",
         "bgs": "b",
-        "groupImage": "TXT/group.jpeg",
+        "imgLink": "TXT/group.jpeg",
         "company": "Big Hit Entertainment",
         "debutDate": "March 04, 2019",
         "members": [
@@ -7123,7 +7123,7 @@
         "groupName": "VERIVERY",
         "groupKR": "베리베리",
         "bgs": "b",
-        "groupImage": "VERIVERY/group.jpeg",
+        "imgLink": "VERIVERY/group.jpeg",
         "company": "Jellyfish Entertainment",
         "debutDate": "January 09, 2019",
         "members": [
@@ -7203,7 +7203,7 @@
         "groupName": "Weeekly",
         "groupKR": "위클리",
         "bgs": "g",
-        "groupImage": "Weeekly/group.jpeg",
+        "imgLink": "Weeekly/group.jpeg",
         "company": "IST Entertainment",
         "debutDate": "June 30, 2020",
         "members": [
@@ -7283,7 +7283,7 @@
         "groupName": "WEi",
         "groupKR": "위아이",
         "bgs": "b",
-        "groupImage": "WEi/group.jpeg",
+        "imgLink": "WEi/group.jpeg",
         "company": "OUI Entertainment",
         "debutDate": "October 05, 2020",
         "members": [
@@ -7353,7 +7353,7 @@
         "groupName": "Wonho",
         "groupKR": "원호",
         "bgs": "s",
-        "groupImage": "Solo/WonhoBig.jpeg",
+        "imgLink": "Solo/WonhoBig.jpeg",
         "company": "Highline Entertainment",
         "debutDate": "May 02, 2022",
         "members": [
@@ -7373,7 +7373,7 @@
         "groupName": "woo!ah!",
         "groupKR": "우아",
         "bgs": "g",
-        "groupImage": "wooah/group.jpeg",
+        "imgLink": "wooah/group.jpeg",
         "company": "NV Entertainment",
         "debutDate": "May 13, 2020",
         "members": [
@@ -7433,7 +7433,7 @@
         "groupName": "Xdinary Heroes",
         "groupKR": "엑스디너리 히어로즈",
         "bgs": "b",
-        "groupImage": "XdinaryHeroes/group.jpeg",
+        "imgLink": "XdinaryHeroes/group.jpeg",
         "company": "STUDIO J",
         "debutDate": "December 06, 2021",
         "members": [
@@ -7503,7 +7503,7 @@
         "groupName": "xikers",
         "groupKR": "싸이커스",
         "bgs": "b",
-        "groupImage": "xikers/group.jpeg",
+        "imgLink": "xikers/group.jpeg",
         "company": "KQ Entertainment",
         "debutDate": "March 30, 2023",
         "members": [
@@ -7613,7 +7613,7 @@
         "groupName": "Yedam",
         "groupKR": "예담",
         "bgs": "s",
-        "groupImage": "Solo/YedamBig.jpeg",
+        "imgLink": "Solo/YedamBig.jpeg",
         "company": "GH Entertainment",
         "debutDate": "November 23, 2023",
         "members": [
@@ -7633,7 +7633,7 @@
         "groupName": "ZEROBASEONE",
         "groupKR": "제로베이스원",
         "bgs": "b",
-        "groupImage": "ZEROBASEONE/group.jpeg",
+        "imgLink": "ZEROBASEONE/group.jpeg",
         "company": "WAKEONE Entertainment",
         "debutDate": "July 10, 2023",
         "members": [

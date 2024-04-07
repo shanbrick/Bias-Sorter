@@ -8,7 +8,7 @@
     <div v-for="group in currentList">
       <div class="groupDiv">
         <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
-          <img class="groupPicList" :src="require('../assets/imageArchive/' + group.groupImage)" />
+          <img class="groupPicList" :src="require('../assets/imageArchive/' + group.imgLink)" />
           <p class="groupNameList">{{ group.groupName }}</p>
         </a>
       </div>

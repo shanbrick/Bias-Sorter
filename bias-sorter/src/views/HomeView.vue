@@ -18,7 +18,7 @@
             <div class="insideDisplay">
                 <div class="randomDiv" v-for="group in randomGroups">
                     <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group.groupName)">
-                        <img class="randomPic" :src="require('../assets/imageArchive/' + group.groupImage)" />
+                        <img class="randomPic" :src="require('../assets/imageArchive/' + group.imgLink)" />
                         <p class="randomName">{{ group.groupName }}</p>
                     </a>
                 </div>
