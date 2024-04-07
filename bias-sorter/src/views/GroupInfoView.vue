@@ -172,20 +172,18 @@ export default {
 
 <style scoped>
 .bigBox {
-    width: 76%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     align-content: center;
-    text-align: center;
-    /* background: radial-gradient(#ffffff, #dadada); */
-    padding: 20px;
-    border-radius: 10px;
     border: 1px solid red;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto 20px;
+    max-width: 1095px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 .bigBox:after {
@@ -235,7 +233,8 @@ export default {
 .memberDivs {
     float: left;
     height: fit-content;
-    width: 310px;
+    /* width: 310px; */
+    width: 29%;
     text-align: center;
     padding: 20px;
     margin: 20px;
@@ -247,19 +246,11 @@ export default {
 }
 
 .memberPic {
-    width: 270px;
+    /* width: 270px; */
+    width: 100%;
     border: 1px solid #848484;
     border-radius: 8px;
     margin-bottom: 5px;
-}
-
-.former {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 12px;
-    font-weight: bold;
 }
 
 .memberName {

@@ -152,6 +152,7 @@ export default {
     overflow-x: hidden;
     padding: 10px;
     width: 30%;
+    min-width: 230px;
 }
 
 .date {
@@ -217,6 +218,7 @@ export default {
     overflow-x: hidden;
     padding: 10px;
     width: 65%;
+    min-width: 500px;
 }
 
 .randomDiv {
