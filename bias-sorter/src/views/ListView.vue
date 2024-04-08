@@ -14,19 +14,21 @@
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
         </div>
-        <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
-            @change="updateStorage(0, homePageArrays[0])" :disabled="editModeOn" item-key="a">
-            <template #item="{ element }">
-                <div class="peopleDivss" :key="element.stageName">
-                    <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
-                        class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)">
-                    <p class="idolName">{{ element.stageName }}</p>
-                    <a href="/groupPage" @click="populateGroupPage(element.grpName)">
-                        <p class="groupName">{{ element.grpName }}</p>
-                    </a>
-                </div>
-            </template>
-        </draggable>
+        <div class="unsortedPeople">
+            <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
+                @change="updateStorage(0, homePageArrays[0])" :disabled="editModeOn" item-key="a">
+                <template #item="{ element }">
+                    <div class="peopleDivss" :key="element.stageName">
+                        <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
+                            class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)">
+                        <p class="idolName">{{ element.stageName }}</p>
+                        <a href="/groupPage" @click="populateGroupPage(element.grpName)">
+                            <p class="groupName">{{ element.grpName }}</p>
+                        </a>
+                    </div>
+                </template>
+            </draggable>
+        </div>
     </div>
 
 
@@ -98,7 +100,6 @@ export default {
         for (let i = 1; i < this.saveData.categories.length; i++) {
             this.testArray.push(this.saveData.categories[i]);
         }
-
     },
     data() {
         return {
@@ -215,6 +216,13 @@ export default {
     height: 50px;
     margin: 0px 0px 20px;
     padding: 9px;
+    overflow: hidden;
+}
+
+.sticky {
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .topBarButton {
@@ -249,6 +257,13 @@ export default {
     z-index: 0;
 }
 
+.unsortedPeople {
+    position: fixed;
+    overflow-x: hidden;
+    width: 342px;
+    height: 51%;
+}
+
 .boxHeaderUnsorted {
     height: 45px;
     margin-top: -54px;
@@ -261,6 +276,7 @@ export default {
 
 .sideCats {
     margin-left: 375px;
+    min-width: 500px;
 }
 
 .categories {
@@ -328,7 +344,7 @@ export default {
     /* border: 1px solid red; */
     float: left;
     height: fit-content;
-    padding: 10px 0px;
+    padding: 5px 0px 5px;
     text-align: center;
     width: 170px;
 }

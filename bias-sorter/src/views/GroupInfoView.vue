@@ -253,6 +253,15 @@ export default {
     margin-bottom: 5px;
 }
 
+.former {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
 .memberName {
     font-size: 20px;
     text-align: center;
