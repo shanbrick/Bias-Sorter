@@ -1,9 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import * as fbApp from 'firebase/app';
+import * as fbFirestore from 'firebase/firestore';
+import * as fbAuth from 'firebase/auth';
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
 // import { getFirestore } from 'firebase/firestore';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -19,12 +21,13 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-initializeApp(firebaseConfig);
+fbApp.initializeApp(firebaseConfig);
+
+const auth = fbAuth.getAuth();
+const db = fbFirestore.getFirestore(fbApp.initializeApp(firebaseConfig));
 
 createApp(App).use(router).mount('#app')
 
-// const db = getFirestore(App)
-
-// export {
-//     db
-// }
+export {
+    auth, db
+}

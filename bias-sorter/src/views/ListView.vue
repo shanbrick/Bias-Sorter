@@ -71,6 +71,7 @@ import groupListEdit from "@/groupListEdit.json";
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 import ContextMenu from '../components/ContextMenu.vue';
+import { db } from "@/main.js";
 
 export default {
     name: 'ListView',
