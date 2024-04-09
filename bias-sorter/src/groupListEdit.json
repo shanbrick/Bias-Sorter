@@ -2720,6 +2720,86 @@
         ]
     },
     {
+        "groupName": "HORI7ON",
+        "groupKR": "호라이즌",
+        "bgs": "b",
+        "imgLink": "HORI7ON/group.jpeg",
+        "company": "MLD Entertainment",
+        "debutDate": "July 24, 2023",
+        "members": [
+            {
+                "grpName": "HORI7ON",
+                "stageName": "Vinci",
+                "stageKR": "빈치",
+                "fullName": "Gabriel Vincent Malizon",
+                "fullKR": "가브리엘 빈센트 말리존",
+                "birthday": "March 11, 2000",
+                "imgLink": "HORI7ON/Vinci.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "HORI7ON",
+                "stageName": "Kim",
+                "stageKR": "킴",
+                "fullName": "Kim Huat Ng",
+                "fullKR": "킴 후앗 응",
+                "birthday": "February 17, 2002",
+                "imgLink": "HORI7ON/Kim.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "HORI7ON",
+                "stageName": "Kyler",
+                "stageKR": "카일러",
+                "fullName": "Kenji Chua",
+                "fullKR": "켄지 추아",
+                "birthday": "July 06, 2002",
+                "imgLink": "HORI7ON/Kyler.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "HORI7ON",
+                "stageName": "Reyster",
+                "stageKR": "레이스터",
+                "fullName": "Reyster Yton",
+                "fullKR": "레이스터 이튼",
+                "birthday": "February 08, 2003",
+                "imgLink": "HORI7ON/Reyster.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "HORI7ON",
+                "stageName": "Winston",
+                "stageKR": "윈스턴",
+                "fullName": "Winston Pineda",
+                "fullKR": "윈스턴 피네다",
+                "birthday": "February 02, 2005",
+                "imgLink": "HORI7ON/Winston.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "HORI7ON",
+                "stageName": "Jeromy",
+                "stageKR": "제로미",
+                "fullName": "Jeromy Melendres Batac",
+                "fullKR": "제로미 멜렌드레스 바탁",
+                "birthday": "February 02, 2009",
+                "imgLink": "HORI7ON/Jeromy.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "HORI7ON",
+                "stageName": "Marcus",
+                "stageKR": "마커스",
+                "fullName": "Marcus Rayden Cabais",
+                "fullKR": "마커스 레이든 카바이스",
+                "birthday": "August 31, 2009",
+                "imgLink": "HORI7ON/Marcus.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "H1-KEY",
         "groupKR": "하이키",
         "bgs": "g",
@@ -6523,7 +6603,7 @@
                 "stageKR": "예찬",
                 "fullName": "Shin Yechan",
                 "fullKR": "신예찬",
-                "birthday": "n/a",
+                "birthday": "April 09, 2007",
                 "imgLink": "TIOT/Yechan.jpeg",
                 "afr": "a"
             }
@@ -6769,6 +6849,16 @@
             },
             {
                 "grpName": "tripleS",
+                "stageName": "Jiyeon",
+                "stageKR": "지연",
+                "fullName": "Ji Seoyeon",
+                "fullKR": "지서연",
+                "birthday": "n/a",
+                "imgLink": "tripleS/Jiyeon.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "tripleS",
                 "stageName": "Yubin",
                 "stageKR": "유빈",
                 "fullName": "Gong Yubin",
@@ -6815,6 +6905,16 @@
                 "fullKR": "카와카미린",
                 "birthday": "April 12, 2006",
                 "imgLink": "tripleS/Lynn.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "tripleS",
+                "stageName": "Sullin",
+                "stageKR": "설린",
+                "fullName": "Pirada Bunraksa",
+                "fullKR": "피라다 분락사",
+                "birthday": "n/a",
+                "imgLink": "tripleS/Sullin.jpeg",
                 "afr": "a"
             },
             {
@@ -6879,12 +6979,12 @@
             },
             {
                 "grpName": "tripleS",
-                "stageName": "Sullin",
-                "stageKR": "설린",
-                "fullName": "Sullin",
-                "fullKR": "설린",
-                "birthday": "n/a",
-                "imgLink": "tripleS/Sullin.jpeg",
+                "stageName": "Seoah",
+                "stageKR": "서아",
+                "fullName": "Jeong Haerin",
+                "fullKR": "정해린",
+                "birthday": "June 11, 2010",
+                "imgLink": "tripleS/Seoah.jpeg",
                 "afr": "a"
             }
         ]

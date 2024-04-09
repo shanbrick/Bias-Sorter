@@ -1,19 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import { getAuth, onAuthStateChanged } from "firebase/auth";
+import { getCurrentUser } from 'vuefire'
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes: [
-    {
-      path: '/register',
-      name: 'register',
-      component: () => import('../views/Register.vue'),
-    },
-    {
-      path: '/signin',
-      name: 'signin',
-      component: () => import('../views/SignIn.vue'),
-    },
     {
       path: '/',
       name: 'home',
@@ -24,7 +14,7 @@ const router = createRouter({
       name: 'list',
       component: () => import('../views/ListView.vue'),
       meta: {
-        auth: true,
+        requiresAuth: true,
       }
     },
     {
@@ -32,7 +22,7 @@ const router = createRouter({
       name: 'groups',
       component: () => import('../views/GroupListView.vue'),
       meta: {
-        auth: true,
+        requiresAuth: true,
       }
     },
     {
@@ -40,7 +30,7 @@ const router = createRouter({
       name: 'groupPage',
       component: () => import('../views/GroupInfoView.vue'),
       meta: {
-        auth: true,
+        requiresAuth: true,
       }
     },
     {
@@ -48,36 +38,43 @@ const router = createRouter({
       name: 'birthdays',
       component: () => import('../views/Birthdays.vue'),
       meta: {
-        auth: true,
+        requiresAuth: true,
       }
     }
   ]
 });
 
-const getCurrentUser = () => {
-  return new Promise((resolve, reject) => {
-    const removeListener = onAuthStateChanged(
-      getAuth(),
-      (user) => {
-        removeListener();
-        resolve(user);
-      },
-      reject
-    )
-  });
-}
+// const getCurrentUser = () => {
+//   return new Promise((resolve, reject) => {
+//     const removeListener = onAuthStateChanged(
+//       getAuth(),
+//       (user) => {
+//         removeListener();
+//         resolve(user);
+//       },
+//       reject
+//     )
+//   });
+// }
 
-router.beforeEach(async (to, from, next) => {
-  if (to.matched.some((record) => record.meta.requiresAuth)) {
-    if (await getCurrentUser) {
-      next();
-    } else {
-      alert("you don't have access!");
-      next("/");
+router.beforeEach(async (to) => {
+  // routes with `meta: { requiresAuth: true }` will check for
+  // the users, others won't
+  if (to.meta.requiresAuth) {
+    const currentUser = await getCurrentUser()
+    // if the user is not logged in, redirect to the login page
+    if (!currentUser) {
+      return {
+        path: '/signin',
+        query: {
+          // we keep the current path in the query so we can
+          // redirect to it after login with
+          // `router.push(route.query.redirect || '/')`
+          redirect: to.fullPath,
+        },
+      }
     }
-  } else {
-    next();
   }
-});
+})
 
 export default router

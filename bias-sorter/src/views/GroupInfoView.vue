@@ -173,7 +173,7 @@ export default {
 <style scoped>
 .bigBox {
     align-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 10px;
     display: flex;
     flex-direction: row;

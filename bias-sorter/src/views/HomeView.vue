@@ -12,7 +12,9 @@
                     </a>
                 </div>
             </div>
+            <p v-if="user">Hello {{ user.providerData[0] }}</p>
         </div>
+
         <div class="randomDisplay">
             <p class="date">Looking for a new group to stan? Check out these groups!</p>
             <div class="insideDisplay">
@@ -28,6 +30,8 @@
 </template>
 
 <script>
+import { usersRef } from "@/firebase";
+import { useCurrentUser } from "vuefire";
 import groupListEdit from "@/groupListEdit.json";
 
 export default {
@@ -53,6 +57,7 @@ export default {
                 "December",
             ],
             randomGroups: [],
+            user: useCurrentUser(),
         };
     },
     mounted() {
@@ -120,6 +125,9 @@ export default {
             }
             localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
         },
+    },
+    firestore: {
+        // users: usersRef.where("saveData"
     },
 };
 </script>

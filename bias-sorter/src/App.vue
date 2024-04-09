@@ -6,7 +6,7 @@
       <router-link class="navButtons" to="/groups">Groups</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
       <button v-if="isLoggedIn" class="signInOut" @click="handleSignOut">Sign Out</button>
-      <button v-else class="signInOut" @click="handleSignIn">Sign In</button>
+      <button v-else class="signInOut" @click="signinPopup">Sign In</button>
     </nav>
   </div>
   <div class="header">
@@ -49,9 +49,6 @@ export default {
         this.router.push("/");
       });
     },
-    handleSignIn() {
-      this.router.push("/signin");
-    },
   },
   mounted() {
     auth = getAuth();
@@ -65,6 +62,24 @@ export default {
     });
   },
 };
+</script>
+
+<script setup>
+import { ref } from "vue";
+import { signInWithPopup, signOut } from "firebase/auth";
+import { useCurrentUser, useFirebaseAuth } from "vuefire";
+import { googleAuthProvider } from "@/firebase";
+
+const auth = useFirebaseAuth(); // only exists on client side
+
+// display errors if any
+const error = ref(null);
+function signinPopup() {
+  signInWithPopup(auth, googleAuthProvider).catch((reason) => {
+    console.error("Failed signinRedirect", reason);
+    error.value = reason;
+  });
+}
 </script>
 
 <style>
