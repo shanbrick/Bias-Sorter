@@ -1840,6 +1840,96 @@
         ]
     },
     {
+        "groupName": "E'LAST",
+        "groupKR": "엘라스트",
+        "bgs": "b",
+        "imgLink": "ELAST/group.jpeg",
+        "company": "E Entertainment",
+        "debutDate": "June 09, 2020",
+        "members": [
+            {
+                "grpName": "E'LAST",
+                "stageName": "Choi In",
+                "stageKR": "최인",
+                "fullName": "Choi In",
+                "fullKR": "최인",
+                "birthday": "February 11, 1996",
+                "imgLink": "ELAST/ChoiIn.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "E'LAST",
+                "stageName": "Seungyeop",
+                "stageKR": "승엽",
+                "fullName": "Choi Seungyeop",
+                "fullKR": "최승엽",
+                "birthday": "May 08, 1997",
+                "imgLink": "ELAST/Seungyeop.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "E'LAST",
+                "stageName": "Rano",
+                "stageKR": "라노",
+                "fullName": "Byun Yongseop",
+                "fullKR": "변용섭",
+                "birthday": "December 10, 1998",
+                "imgLink": "ELAST/Rano.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "E'LAST",
+                "stageName": "Baekgyeul",
+                "stageKR": "백결",
+                "fullName": "Baek Sunwoo",
+                "fullKR": "백선우",
+                "birthday": "December 01, 1999",
+                "imgLink": "ELAST/Baekgyeul.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "E'LAST",
+                "stageName": "Romin",
+                "stageKR": "로민",
+                "fullName": "Choi Youngmin",
+                "fullKR": "최영민",
+                "birthday": "April 24, 2001",
+                "imgLink": "ELAST/Romin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "E'LAST",
+                "stageName": "Wonhyuk",
+                "stageKR": "원혁",
+                "fullName": "Won Hyuk",
+                "fullKR": "원혁",
+                "birthday": "February 22, 2002",
+                "imgLink": "ELAST/Wonhyuk.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "E'LAST",
+                "stageName": "Wonjun",
+                "stageKR": "원준",
+                "fullName": "Lee Wonjun",
+                "fullKR": "이원준",
+                "birthday": "March 08, 2002",
+                "imgLink": "ELAST/Wonjun.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "E'LAST",
+                "stageName": "Yejun",
+                "stageKR": "예준",
+                "fullName": "Oh Yejun",
+                "fullKR": "오예준",
+                "birthday": "August 23, 2002",
+                "imgLink": "ELAST/Yejun.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "ENHYPEN",
         "groupKR": "엔하이픈",
         "bgs": "b",
@@ -2356,6 +2446,76 @@
                 "birthday": "April 17, 2003",
                 "imgLink": "fromis_9/Jiheon.jpeg",
                 "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "GFRIEND",
+        "groupKR": "여자친구",
+        "bgs": "g",
+        "imgLink": "GFRIEND/group.jpeg",
+        "company": "Source Music",
+        "debutDate": "January 16, 2015",
+        "members": [
+            {
+                "grpName": "GFRIEND",
+                "stageName": "Sowon",
+                "stageKR": "소원",
+                "fullName": "Kim Sojeong",
+                "fullKR": "김소정",
+                "birthday": "December 07, 1995",
+                "imgLink": "GFRIEND/Sowon.jpeg",
+                "afr": "f"
+            },
+            {
+                "grpName": "GFRIEND",
+                "stageName": "Yerin",
+                "stageKR": "예린",
+                "fullName": "Jung Yerin",
+                "fullKR": "정예린",
+                "birthday": "August 19, 1996",
+                "imgLink": "GFRIEND/Yerin.jpeg",
+                "afr": "Yerin"
+            },
+            {
+                "grpName": "GFRIEND",
+                "stageName": "Eunha",
+                "stageKR": "은하",
+                "fullName": "Jung Eunbi",
+                "fullKR": "정은비",
+                "birthday": "May 30, 1997",
+                "imgLink": "GFRIEND/Eunha.jpeg",
+                "afr": "VIVIZ"
+            },
+            {
+                "grpName": "GFRIEND",
+                "stageName": "Yuju",
+                "stageKR": "유주",
+                "fullName": "Choi Yuna",
+                "fullKR": "최유나",
+                "birthday": "October 04, 1997",
+                "imgLink": "GFRIEND/Yuju.jpeg",
+                "afr": "Yuju"
+            },
+            {
+                "grpName": "GFRIEND",
+                "stageName": "SinB",
+                "stageKR": "신비",
+                "fullName": "Hwang Eunbi",
+                "fullKR": "황은비",
+                "birthday": "June 03, 1998",
+                "imgLink": "GFRIEND/SinB.jpeg",
+                "afr": "VIVIZ"
+            },
+            {
+                "grpName": "GFRIEND",
+                "stageName": "Umji",
+                "stageKR": "엄지",
+                "fullName": "Kim Yewon",
+                "fullKR": "김예원",
+                "birthday": "August 19, 1998",
+                "imgLink": "GFRIEND/Umji.jpeg",
+                "afr": "VIVIZ"
             }
         ]
     },
@@ -7300,6 +7460,46 @@
         ]
     },
     {
+        "groupName": "VIVIZ",
+        "groupKR": "비비지",
+        "bgs": "g",
+        "imgLink": "VIVIZ/group.jpeg",
+        "company": "BPM Entertainment",
+        "debutDate": "February 09, 2022",
+        "members": [
+            {
+                "grpName": "VIVIZ",
+                "stageName": "Eunha",
+                "stageKR": "은하",
+                "fullName": "Jung Eunbi",
+                "fullKR": "정은비",
+                "birthday": "May 30, 1997",
+                "imgLink": "VIVIZ/Eunha.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "VIVIZ",
+                "stageName": "SinB",
+                "stageKR": "신비",
+                "fullName": "Hwang Eunbi",
+                "fullKR": "황은비",
+                "birthday": "June 03, 1998",
+                "imgLink": "VIVIZ/SinB.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "VIVIZ",
+                "stageName": "Umji",
+                "stageKR": "엄지",
+                "fullName": "Kim Yewon",
+                "fullKR": "김예원",
+                "birthday": "August 19, 1998",
+                "imgLink": "VIVIZ/Umji.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "Weeekly",
         "groupKR": "위클리",
         "bgs": "g",
@@ -7725,6 +7925,46 @@
                 "fullKR": "방예담",
                 "birthday": "May 07, 2002",
                 "imgLink": "Solo/Yedam.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "Yerin",
+        "groupKR": "예린",
+        "bgs": "s",
+        "imgLink": "Solo/YerinBig.jpeg",
+        "company": "Bill Entertainment",
+        "debutDate": "May 18, 2022",
+        "members": [
+            {
+                "grpName": "Yerin",
+                "stageName": "Yerin",
+                "stageKR": "예린",
+                "fullName": "Jung Yerin",
+                "fullKR": "정예린",
+                "birthday": "August 19, 1996",
+                "imgLink": "Solo/Yerin.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "Yuju",
+        "groupKR": "유주",
+        "bgs": "s",
+        "imgLink": "Solo/YujuBig.jpeg",
+        "company": "KONNECT Entertainment",
+        "debutDate": "January 18, 2022",
+        "members": [
+            {
+                "grpName": "Yuju",
+                "stageName": "Yuju",
+                "stageKR": "유주",
+                "fullName": "Choi Yuna",
+                "fullKR": "최유나",
+                "birthday": "October 04, 1997",
+                "imgLink": "Solo/Yuju.jpeg",
                 "afr": "a"
             }
         ]
