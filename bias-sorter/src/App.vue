@@ -29,7 +29,6 @@ import SearchAutocomplete from "./components/SearchAutocomplete.vue";
 import { ref } from "vue";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import { useRouter } from "vue-router";
-// const router = useRouter();
 let auth;
 
 export default {
@@ -68,6 +67,12 @@ export default {
     toTop() {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    },
+    signinPopup() {
+      signInWithPopup(auth, googleAuthProvider).catch((reason) => {
+        console.error("Failed signinRedirect", reason);
+        error.value = reason;
+      });
     },
   },
   mounted() {
