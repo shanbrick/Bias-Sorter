@@ -94,7 +94,7 @@ export default {
         console.log("users", collection(db, 'users'));
         console.log("currentUser", currentUser.value.uid);
         console.log("userData", userData);
-        console.log("user.value", userData.value);
+        console.log("user.value", userData.value.id);
 
         if (localStorage.getItem("save_data") !== null) {
             const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))

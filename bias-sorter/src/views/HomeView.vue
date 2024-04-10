@@ -63,12 +63,14 @@ export default {
     mounted() {
         const currentUser = useCurrentUser();
         const db = useFirestore();
-        // const userData = useDocument(doc(collection(db, "users"), currentUser.value));
+        console.log("currentUser", currentUser);
+
+        const userData = useDocument(doc(collection(db, "users"), currentUser.value.uid));
 
         console.log("users", collection(db, "users"));
         console.log("currentUser", currentUser.value);
-        //console.log("userData", userData);
-        //console.log("user.value", userData.value);
+        console.log("userData", userData);
+        console.log("user.value", userData.value.id);
 
         this.birthdayToday = [];
 

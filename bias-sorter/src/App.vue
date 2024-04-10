@@ -18,6 +18,8 @@
     </div>
   </div>
   <router-view />
+
+  <button class="topBtn" @click="toTop" id="topBtn">⬆</button>
 </template>
 
 <script>
@@ -43,11 +45,29 @@ export default {
       router: useRouter(),
     };
   },
+  created() {
+    window.addEventListener("scroll", this.scrollFunction);
+  },
+  unmounted() {
+    window.removeEventListener("scroll", this.scrollFunction);
+  },
   methods: {
     handleSignOut() {
       signOut(auth).then(() => {
         this.router.push("/");
       });
+    },
+    scrollFunction() {
+      let mybutton = document.getElementById("topBtn");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    },
+    toTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     },
   },
   mounted() {
@@ -60,6 +80,9 @@ export default {
       }
       console.log(this.isLoggedIn);
     });
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = this.scrollFunction();
   },
 };
 </script>
@@ -192,5 +215,27 @@ input {
   position: relative;
   width: 350px;
   z-index: 2;
+}
+
+.topBtn {
+  background-color: #747fe6;
+  border: 1px solid #747fe6;
+  border-radius: 5px;
+  bottom: 20px;
+  box-shadow: 0px 0px 5px black;
+  color: white;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 13px 8px;
+  position: fixed;
+  right: 20px;
+  z-index: 9999;
+}
+
+.topBtn:hover {
+  background-color: #505cc7;
+  border: 1px solid #505cc7;
 }
 </style>
