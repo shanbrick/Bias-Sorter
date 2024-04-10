@@ -12,7 +12,7 @@
                     </a>
                 </div>
             </div>
-            <p v-if="user">Hello {{ user.providerData[0] }}</p>
+            <p>Hello</p>
         </div>
 
         <div class="randomDisplay">
@@ -30,9 +30,10 @@
 </template>
 
 <script>
-import { usersRef } from "@/firebase";
-import { useCurrentUser } from "vuefire";
 import groupListEdit from "@/groupListEdit.json";
+
+import { useCurrentUser, useDocument, useFirestore } from "vuefire";
+import { collection, doc } from "firebase/firestore";
 
 export default {
     name: "HomeView",
@@ -57,10 +58,18 @@ export default {
                 "December",
             ],
             randomGroups: [],
-            user: useCurrentUser(),
         };
     },
     mounted() {
+        const currentUser = useCurrentUser();
+        const db = useFirestore();
+        // const userData = useDocument(doc(collection(db, "users"), currentUser.value));
+
+        console.log("users", collection(db, "users"));
+        console.log("currentUser", currentUser.value);
+        //console.log("userData", userData);
+        //console.log("user.value", userData.value);
+
         this.birthdayToday = [];
 
         const date = new Date();

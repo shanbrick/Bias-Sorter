@@ -73,8 +73,8 @@ import groupListEdit from "@/groupListEdit.json";
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 import ContextMenu from '../components/ContextMenu.vue';
-import { useCurrentUser, useCollection, useFirestore } from 'vuefire';
-import { collection, where, query } from 'firebase/firestore';
+import { useCurrentUser, useDocument, useFirestore } from 'vuefire';
+import { collection, doc } from 'firebase/firestore';
 
 export default {
     name: 'ListView',
@@ -89,16 +89,12 @@ export default {
     mounted() {
         const currentUser = useCurrentUser();
         const db = useFirestore();
+        const userData = useDocument(doc(collection(db, 'users'), currentUser.value.uid))
 
-        const userData = useCollection(
-            query(
-                collection(db, "users"),
-                where("userID", "==", currentUser.value.uid),
-            ),
-        );
-
-        console.log("currentUser", currentUser);
+        console.log("users", collection(db, 'users'));
+        console.log("currentUser", currentUser.value.uid);
         console.log("userData", userData);
+        console.log("user.value", userData.value);
 
         if (localStorage.getItem("save_data") !== null) {
             const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))
