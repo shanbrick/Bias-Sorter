@@ -6,7 +6,7 @@
       <router-link class="navButtons" to="/groups">Groups</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
       <button v-if="isLoggedIn" class="signInOut" @click="handleSignOut">Sign Out</button>
-      <button v-else class="signInOut" @click="handleSignIn">Sign In</button>
+      <button v-else class="signInOut" @click="signinPopup">Sign In</button>
     </nav>
   </div>
   <div class="header">
@@ -18,6 +18,8 @@
     </div>
   </div>
   <router-view />
+
+  <button class="topBtn" @click="toTop" id="topBtn">⬆</button>
 </template>
 
 <script>
@@ -27,7 +29,6 @@ import SearchAutocomplete from "./components/SearchAutocomplete.vue";
 import { ref } from "vue";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import { useRouter } from "vue-router";
-// const router = useRouter();
 let auth;
 
 export default {
@@ -43,14 +44,35 @@ export default {
       router: useRouter(),
     };
   },
+  created() {
+    window.addEventListener("scroll", this.scrollFunction);
+  },
+  unmounted() {
+    window.removeEventListener("scroll", this.scrollFunction);
+  },
   methods: {
     handleSignOut() {
       signOut(auth).then(() => {
         this.router.push("/");
       });
     },
-    handleSignIn() {
-      this.router.push("/signin");
+    scrollFunction() {
+      let mybutton = document.getElementById("topBtn");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    },
+    toTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    },
+    signinPopup() {
+      signInWithPopup(auth, googleAuthProvider).catch((reason) => {
+        console.error("Failed signinRedirect", reason);
+        error.value = reason;
+      });
     },
   },
   mounted() {
@@ -63,8 +85,29 @@ export default {
       }
       console.log(this.isLoggedIn);
     });
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = this.scrollFunction();
   },
 };
+</script>
+
+<script setup>
+import { ref } from "vue";
+import { signInWithPopup, signOut } from "firebase/auth";
+import { useCurrentUser, useFirebaseAuth } from "vuefire";
+import { googleAuthProvider } from "@/firebase";
+
+const auth = useFirebaseAuth(); // only exists on client side
+
+// display errors if any
+const error = ref(null);
+function signinPopup() {
+  signInWithPopup(auth, googleAuthProvider).catch((reason) => {
+    console.error("Failed signinRedirect", reason);
+    error.value = reason;
+  });
+}
 </script>
 
 <style>
@@ -177,5 +220,27 @@ input {
   position: relative;
   width: 350px;
   z-index: 2;
+}
+
+.topBtn {
+  background-color: #747fe6;
+  border: 1px solid #747fe6;
+  border-radius: 5px;
+  bottom: 20px;
+  box-shadow: 0px 0px 5px black;
+  color: white;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 13px 8px;
+  position: fixed;
+  right: 20px;
+  z-index: 9999;
+}
+
+.topBtn:hover {
+  background-color: #505cc7;
+  border: 1px solid #505cc7;
 }
 </style>
