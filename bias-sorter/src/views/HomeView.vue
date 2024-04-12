@@ -112,9 +112,8 @@ export default {
             console.log("currentUser", currentUser);
 
             const userData = useDocument(doc(collection(db, "users"), currentUser.value.uid));
-            const userDataSave = userData.value.saveData;
             console.log("userData", userData);
-            console.log("user.value", userDataSave);
+            console.log("user save data", userData.value.saveData);
         },
         convertBday(birthday) {
             let month = birthday.substring(0, birthday.indexOf(" "));

@@ -59,6 +59,7 @@ export default {
   },
   methods: {
     handleSignOut() {
+      const auth = getAuth();
       signOut(auth).then(() => {
         this.router.push("/");
       });
