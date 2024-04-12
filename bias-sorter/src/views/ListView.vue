@@ -87,14 +87,12 @@ export default {
 
     ],
     mounted() {
-        const currentUser = useCurrentUser();
-        const db = useFirestore();
-        const userData = useDocument(doc(collection(db, 'users'), currentUser.value.uid))
-
-        console.log("users", collection(db, 'users'));
-        console.log("currentUser", currentUser.value.uid);
-        console.log("userData", userData);
-        console.log("user.value", userData.value.id);
+        const auth = getAuth();
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                this.initialize();
+            }
+        });
 
         if (localStorage.getItem("save_data") !== null) {
             const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))
@@ -152,6 +150,18 @@ export default {
 
     },
     methods: {
+        initialize() {
+            const currentUser = useCurrentUser();
+            const db = useFirestore();
+            console.log("currentUser", currentUser);
+
+            const userData = useDocument(doc(collection(db, "users"), currentUser.value.uid));
+
+            console.log("users", collection(db, "users"));
+            console.log("currentUser", currentUser.value);
+            console.log("userData", userData);
+            console.log("user.value", userData.value);
+        },
         addNewCategory() {
             let arr = {
                 "catName": "Untitled",

@@ -27,9 +27,16 @@ import groupListEdit from "@/groupListEdit.json";
 import SearchAutocomplete from "./components/SearchAutocomplete.vue";
 
 import { ref } from "vue";
-import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import { useRouter } from "vue-router";
-let auth;
+import {
+  signInWithPopup,
+  GoogleAuthProvider,
+  getAuth,
+  onAuthStateChanged,
+  signOut,
+} from "firebase/auth";
+
+const error = ref(null);
 
 export default {
   name: "App",
@@ -69,6 +76,8 @@ export default {
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     },
     signinPopup() {
+      const auth = getAuth();
+      const googleAuthProvider = new GoogleAuthProvider();
       signInWithPopup(auth, googleAuthProvider).catch((reason) => {
         console.error("Failed signinRedirect", reason);
         error.value = reason;
@@ -76,7 +85,7 @@ export default {
     },
   },
   mounted() {
-    auth = getAuth();
+    const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       if (user) {
         this.isLoggedIn = true;
@@ -90,24 +99,6 @@ export default {
     window.onscroll = this.scrollFunction();
   },
 };
-</script>
-
-<script setup>
-import { ref } from "vue";
-import { signInWithPopup, signOut } from "firebase/auth";
-import { useCurrentUser, useFirebaseAuth } from "vuefire";
-import { googleAuthProvider } from "@/firebase";
-
-const auth = useFirebaseAuth(); // only exists on client side
-
-// display errors if any
-const error = ref(null);
-function signinPopup() {
-  signInWithPopup(auth, googleAuthProvider).catch((reason) => {
-    console.error("Failed signinRedirect", reason);
-    error.value = reason;
-  });
-}
 </script>
 
 <style>

@@ -12,7 +12,6 @@
                     </a>
                 </div>
             </div>
-            <p>Hello</p>
         </div>
 
         <div class="randomDisplay">
@@ -31,9 +30,15 @@
 
 <script>
 import groupListEdit from "@/groupListEdit.json";
-
 import { useCurrentUser, useDocument, useFirestore } from "vuefire";
 import { collection, doc } from "firebase/firestore";
+import {
+    signInWithPopup,
+    GoogleAuthProvider,
+    getAuth,
+    onAuthStateChanged,
+    signOut,
+} from "firebase/auth";
 
 export default {
     name: "HomeView",
@@ -61,16 +66,12 @@ export default {
         };
     },
     mounted() {
-        const currentUser = useCurrentUser();
-        const db = useFirestore();
-        console.log("currentUser", currentUser);
-
-        const userData = useDocument(doc(collection(db, "users"), currentUser.value.uid));
-
-        console.log("users", collection(db, "users"));
-        console.log("currentUser", currentUser.value);
-        console.log("userData", userData);
-        console.log("user.value", userData.value.id);
+        const auth = getAuth();
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                this.initialize();
+            }
+        });
 
         this.birthdayToday = [];
 
@@ -105,6 +106,16 @@ export default {
         }
     },
     methods: {
+        initialize() {
+            const currentUser = useCurrentUser();
+            const db = useFirestore();
+            console.log("currentUser", currentUser);
+
+            const userData = useDocument(doc(collection(db, "users"), currentUser.value.uid));
+            const userDataSave = userData.value.saveData;
+            console.log("userData", userData);
+            console.log("user.value", userDataSave);
+        },
         convertBday(birthday) {
             let month = birthday.substring(0, birthday.indexOf(" "));
             let monthNum = 0;
