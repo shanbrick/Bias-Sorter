@@ -70,6 +70,7 @@ export default {
         onAuthStateChanged(auth, (user) => {
             if (user) {
                 this.initialize();
+            } else {
             }
         });
 
@@ -109,11 +110,16 @@ export default {
         initialize() {
             const currentUser = useCurrentUser();
             const db = useFirestore();
-            console.log("currentUser", currentUser);
+            console.log("currentUser", currentUser.value.uid);
 
             const userData = useDocument(doc(collection(db, "users"), currentUser.value.uid));
+
+            console.log("users", collection(db, "users"));
+            console.log("currentUser", currentUser.value.uid);
             console.log("userData", userData);
-            console.log("user save data", userData.value.saveData);
+
+            // const userDataSave = userData.value.saveData;
+            // console.log("user.value", userDataSave);
         },
         convertBday(birthday) {
             let month = birthday.substring(0, birthday.indexOf(" "));

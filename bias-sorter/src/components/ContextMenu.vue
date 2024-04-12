@@ -44,7 +44,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .contextMenu {
     background: white;
     border-radius: 5px;

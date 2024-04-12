@@ -1,5 +1,7 @@
 <template>
     <div class="topBar">
+        <button class="topBarButton" @click="openFileUploader()">&nbsp;↥&nbsp;Upload List</button>
+        <button class="topBarButton" @click="saveJSON()">&nbsp;↥&nbsp;Save List</button>
         <button class="topBarButton" @click="addNewCategory()">&nbsp;+&nbsp; Add New Category</button>
         <button class="topBarButton" @click="toggleEditModeOn()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit
             Categories</button>
@@ -9,6 +11,11 @@
     <ContextMenu :display="showContextMenu" ref="menu">
         <p @click="removeFromHome()">Remove {{ clickedPerson.stageName }}</p>
     </ContextMenu>
+
+    <div class="upload" v-show="showFileUploader">
+        <input class="uploadButton" type="file" id="selectFiles" @click="uploadFile" />
+        <button class="uploadButton" id="import">Import The File!</button>
+    </div>
 
     <div id="unsorted" class="unsorted">
         <div class="boxHeaderUnsorted">
@@ -87,12 +94,12 @@ export default {
 
     ],
     mounted() {
-        const auth = getAuth();
-        onAuthStateChanged(auth, (user) => {
-            if (user) {
-                this.initialize();
-            }
-        });
+        // const auth = getAuth();
+        // onAuthStateChanged(auth, (user) => {
+        //     if (user) {
+        //         this.initialize();
+        //     }
+        // });
 
         if (localStorage.getItem("save_data") !== null) {
             const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))
@@ -142,6 +149,7 @@ export default {
             testArray: ref([]),
             editModeOn: false,
             showContextMenu: false,
+            showFileUploader: false,
             clickedPerson: {},
             groups: groupListEdit
         }
@@ -201,6 +209,9 @@ export default {
             this.clickedPerson = person;
             this.$refs.menu.open(e);
         },
+        openFileUploader() {
+            this.showFileUploader = true;
+        },
         removeFromHome(e) {
             this.$refs.menu.close(e);
             for (let i = 0; i < this.saveData.categories.length; i++) {
@@ -230,7 +241,40 @@ export default {
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
-        }
+        },
+        saveJSON() {
+            var a = document.createElement("a");
+            var file = new Blob([localStorage.getItem("save_data")], { type: 'application/json' });
+            a.href = URL.createObjectURL(file);
+            a.download = 'exportSaveData.json';
+            a.click();
+        },
+        uploadFile() {
+            document.getElementById("import").onclick = () => {
+                const files = document.getElementById("selectFiles").files;
+                if (files.length <= 0) {
+                    return false;
+                }
+
+                const fr = new FileReader();
+
+                fr.onload = (e) => {
+                    const result = JSON.parse(e.target.result);
+                    this.saveData = result;
+                    localStorage.setItem("save_data", JSON.stringify(this.saveData));
+                    this.homePageArrays = [];
+                    for (let i = 0; i < this.saveData.categories.length; i++) {
+                        this.homePageArrays.push(this.saveData.categories[i].people);
+                    }
+                    this.testArray = [];
+                    for (let i = 1; i < this.saveData.categories.length; i++) {
+                        this.testArray.push(this.saveData.categories[i]);
+                    }
+                };
+                fr.readAsText(files.item(0));
+                this.showFileUploader = false;
+            };
+        },
     }
 }
 </script>
@@ -387,5 +431,38 @@ export default {
 a {
     color: black;
     text-decoration: none;
+}
+
+.upload {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    font-size: 13px;
+    height: fit-content;
+    margin: auto;
+    padding: 5px 10px;
+    line-height: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    z-index: 999;
+}
+
+.uploadButton {
+    background-color: #b3b8e9;
+    border: 1px solid #848484;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
 }
 </style>
