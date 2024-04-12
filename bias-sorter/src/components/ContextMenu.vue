@@ -49,12 +49,15 @@ export default {
     background: white;
     border-radius: 5px;
     box-shadow: 0px 0px 5px black;
-    cursor: pointer;
     font-size: 13px;
+    margin: 0px;
     outline: none;
-    padding: 5px 10px;
     line-height: 1px;
     position: fixed;
     z-index: 999;
+}
+
+.contextMenu p:hover {
+    background-color: red;
 }
 </style>

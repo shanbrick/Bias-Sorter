@@ -1,7 +1,6 @@
 <template>
     <div class="topBar">
-        <button class="topBarButton" @click="openFileUploader()">&nbsp;↥&nbsp;Upload List</button>
-        <button class="topBarButton" @click="saveJSON()">&nbsp;↥&nbsp;Save List</button>
+        <button class="topBarButton" @click="openFileUploader()">&nbsp;↥&nbsp;Upload/Save List</button>
         <button class="topBarButton" @click="addNewCategory()">&nbsp;+&nbsp; Add New Category</button>
         <button class="topBarButton" @click="toggleEditModeOn()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit
             Categories</button>
@@ -9,12 +8,21 @@
     </div>
 
     <ContextMenu :display="showContextMenu" ref="menu">
-        <p @click="removeFromHome()">Remove {{ clickedPerson.stageName }}</p>
+        <p class="contextButton" @click="removeFromHome()">Remove {{ clickedPerson.stageName }}</p>
     </ContextMenu>
 
-    <div class="upload" v-show="showFileUploader">
+    <ContextMenu :display="showContextMenuCat" ref="menuCat">
+        <p class="contextButton" @click="removeFromHomeCat($event, true)">Remove category and move people to
+            Unsorted</p>
+        <br>
+        <p class="contextButton" @click="removeFromHomeCat($event, false)">Remove category and people</p>
+    </ContextMenu>
+
+    <div class="upload" v-show="showFileUploader" @blur="close">
+        <button class="closeUpload" @click="closeUploader()">╳</button>
+        <button class="uploadButton" style="margin-bottom: 20px" @click="saveJSON()">Save List</button>
         <input class="uploadButton" type="file" id="selectFiles" @click="uploadFile" />
-        <button class="uploadButton" id="import">Import The File!</button>
+        <button class="uploadButton" id="import">Upload List</button>
     </div>
 
     <div id="unsorted" class="unsorted">
@@ -44,7 +52,8 @@
             item-key="b">
             <template #item="{ element: catArr, index }">
                 <div :id=catArr class="categories">
-                    <div class="boxHeaderCategories">
+                    <div class="boxHeaderCategories" v-on:click.right="openContextMenuCat($event, catArr)"
+                        oncontextmenu="return false;">
                         <div v-if="!editModeOn">
                             <p class="categoryTitle">{{ catArr.catName }}</p>
                         </div>
@@ -93,38 +102,8 @@ export default {
     props: [
 
     ],
-    mounted() {
-        // const auth = getAuth();
-        // onAuthStateChanged(auth, (user) => {
-        //     if (user) {
-        //         this.initialize();
-        //     }
-        // });
-
-        if (localStorage.getItem("save_data") !== null) {
-            const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))
-            this.saveData = saveDataFromStorage
-        } else {
-            localStorage.setItem("save_data", JSON.stringify(this.saveData));
-        }
-
-        for (let i = 0; i < this.saveData.categories.length; i++) {
-            this.homePageArrays.push(this.saveData.categories[i].people);
-        }
-
-        for (let i = 1; i < this.saveData.categories.length; i++) {
-            this.testArray.push(this.saveData.categories[i]);
-        }
-    },
     data() {
         return {
-            // user: useCurrentUser(),
-            // userSaveData: useCollection(
-            //     query(
-            //         collection(db, 'users'),
-            //         where("userId", "==", this.user.value.uid),
-            //     ),
-            // ),
             saveData: {
                 "categories": [
                     {
@@ -149,9 +128,34 @@ export default {
             testArray: ref([]),
             editModeOn: false,
             showContextMenu: false,
+            showContextMenuCat: false,
             showFileUploader: false,
             clickedPerson: {},
+            clickedCat: {},
             groups: groupListEdit
+        }
+    },
+    mounted() {
+        // const auth = getAuth();
+        // onAuthStateChanged(auth, (user) => {
+        //     if (user) {
+        //         this.initialize();
+        //     }
+        // });
+
+        if (localStorage.getItem("save_data") !== null) {
+            const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))
+            this.saveData = saveDataFromStorage
+        } else {
+            localStorage.setItem("save_data", JSON.stringify(this.saveData));
+        }
+
+        for (let i = 0; i < this.saveData.categories.length; i++) {
+            this.homePageArrays.push(this.saveData.categories[i].people);
+        }
+
+        for (let i = 1; i < this.saveData.categories.length; i++) {
+            this.testArray.push(this.saveData.categories[i]);
         }
     },
     computed: {
@@ -209,6 +213,10 @@ export default {
             this.clickedPerson = person;
             this.$refs.menu.open(e);
         },
+        openContextMenuCat(e, category) {
+            this.clickedCat = category;
+            this.$refs.menuCat.open(e);
+        },
         openFileUploader() {
             this.showFileUploader = true;
         },
@@ -232,6 +240,32 @@ export default {
                 }
             }
         },
+        removeFromHomeCat(e, moveToUnsorted) {
+            this.$refs.menuCat.close(e);
+            console.log(this.clickedCat);
+            for (let i = 0; i < this.saveData.categories.length; i++) {
+                if (this.saveData.categories[i].catName === this.clickedCat.catName) {
+                    if (moveToUnsorted) {
+                        for (let j = 0; j < this.clickedCat.people.length; j++) {
+                            this.saveData.categories[0].people.push(this.clickedCat.people[j]);
+                        }
+                    }
+                    this.saveData.categories = this.saveData.categories.filter((cat) => {
+                        return cat.catName !== this.clickedCat.catName;
+                    });
+                    localStorage.setItem("save_data", JSON.stringify(this.saveData));
+                    this.homePageArrays = [];
+                    for (let i = 0; i < this.saveData.categories.length; i++) {
+                        this.homePageArrays.push(this.saveData.categories[i].people);
+                    }
+                    this.testArray = [];
+                    for (let i = 1; i < this.saveData.categories.length; i++) {
+                        this.testArray.push(this.saveData.categories[i]);
+                    }
+                    break;
+                }
+            }
+        },
         populateGroupPage(grpName) {
             let selectedGroup = [];
             for (let i = 0; i < this.groups.length; i++) {
@@ -248,6 +282,7 @@ export default {
             a.href = URL.createObjectURL(file);
             a.download = 'exportSaveData.json';
             a.click();
+            this.showFileUploader = false;
         },
         uploadFile() {
             document.getElementById("import").onclick = () => {
@@ -275,6 +310,9 @@ export default {
                 this.showFileUploader = false;
             };
         },
+        closeUploader() {
+            this.showFileUploader = false;
+        }
     }
 }
 </script>
@@ -282,6 +320,7 @@ export default {
 <style scoped>
 .topBar {
     background-color: #b3b8e9;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
     display: flex;
     gap: 10px;
     height: 50px;
@@ -464,5 +503,46 @@ a {
     text-align: center;
     text-decoration: none;
     width: 100%;
+}
+
+.uploadButton:hover {
+    background-color: #505cc7;
+}
+
+.closeUpload {
+    background-color: #b3b8e9;
+    border: 1px solid #848484;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.closeUpload:hover {
+    background-color: #505cc7;
+}
+
+.contextButton {
+    background-color: #ffffff00;
+    border: 1px solid #ffffff00;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.contextButton:hover {
+    background-color: #b3b8e9;
 }
 </style>
