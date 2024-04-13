@@ -260,6 +260,56 @@
         ]
     },
     {
+        "groupName": "AB6IX",
+        "groupKR": "에이비식스",
+        "bgs": "b",
+        "imgLink": "AB6IX/group.jpeg",
+        "company": "BRANDNEW Music",
+        "debutDate": "May 22, 2019",
+        "members": [
+            {
+                "grpName": "AB6IX",
+                "stageName": "Woong",
+                "stageKR": "웅",
+                "fullName": "Jeon Woong",
+                "fullKR": "전웅",
+                "birthday": "October 15, 1997",
+                "imgLink": "AB6IX/Woong.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "AB6IX",
+                "stageName": "Donghyun",
+                "stageKR": "동현",
+                "fullName": "Kim Donghyun",
+                "fullKR": "김동현",
+                "birthday": "September 17, 1998",
+                "imgLink": "AB6IX/Donghyun.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "AB6IX",
+                "stageName": "Woojin",
+                "stageKR": "우진",
+                "fullName": "Park Woojin",
+                "fullKR": "박우진",
+                "birthday": "November 02, 1999",
+                "imgLink": "AB6IX/Woojin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "AB6IX",
+                "stageName": "Daehwi",
+                "stageKR": "대휘",
+                "fullName": "Lee Daehwi",
+                "fullKR": "이대휘",
+                "birthday": "January 29, 2001",
+                "imgLink": "AB6IX/Daehwi.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "A.C.E",
         "groupKR": "에이스",
         "bgs": "b",
@@ -6765,6 +6815,56 @@
                 "fullKR": "신예찬",
                 "birthday": "April 09, 2007",
                 "imgLink": "TIOT/Yechan.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "TOZ",
+        "groupKR": "티오지",
+        "bgs": "b",
+        "imgLink": "TOZ/group.jpeg",
+        "company": "YY Entertainment",
+        "debutDate": "September 27, 2023",
+        "members": [
+            {
+                "grpName": "TOZ",
+                "stageName": "Anthonny",
+                "stageKR": "안토니",
+                "fullName": "Iinuma Anthonny",
+                "fullKR": "이누마안토니",
+                "birthday": "February 13, 2004",
+                "imgLink": "TOZ/Anthonny.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "TOZ",
+                "stageName": "Hart",
+                "stageKR": "하루토",
+                "fullName": "Maeda Haruto",
+                "fullKR": "마에다하루토",
+                "birthday": "November 16, 2004",
+                "imgLink": "TOZ/Hart.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "TOZ",
+                "stageName": "Yuto",
+                "stageKR": "유토",
+                "fullName": "Takano Yuto",
+                "fullKR": "타카노유토",
+                "birthday": "December 16, 2004",
+                "imgLink": "TOZ/Yuto.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "TOZ",
+                "stageName": "Takuto",
+                "stageKR": "타쿠토",
+                "fullName": "Toyonaga Takuto",
+                "fullKR": "토요나가타쿠토",
+                "birthday": "November 13, 2007",
+                "imgLink": "TOZ/Takuto.jpeg",
                 "afr": "a"
             }
         ]
