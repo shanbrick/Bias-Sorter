@@ -110,6 +110,7 @@ export default {
 }
 
 .groupNameList {
+  color: #551b8b;
   font-size: 20px;
   text-align: center;
   padding: 10px;

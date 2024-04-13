@@ -1,6 +1,7 @@
 <template>
     <div class="topBar">
-        <button class="topBarButton" @click="openFileUploader()">&nbsp;↥&nbsp;Upload/Save List</button>
+        <button class="topBarButton" @click="openFileUploader()">&nbsp;<span
+                style="font-size: 130%">↥</span>&nbsp;Upload/Save List</button>
         <button class="topBarButton" @click="addNewCategory()">&nbsp;+&nbsp; Add New Category</button>
         <button class="topBarButton" @click="toggleEditModeOn()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit
             Categories</button>
@@ -52,7 +53,7 @@
             item-key="b">
             <template #item="{ element: catArr, index }">
                 <div :id=catArr class="categories">
-                    <div class="boxHeaderCategories" v-on:click.right="openContextMenuCat($event, catArr)"
+                    <div class="boxHeaderCategories" v-on:click.right="openContextMenuCat($event, catArr, index)"
                         oncontextmenu="return false;">
                         <div v-if="!editModeOn">
                             <p class="categoryTitle">{{ catArr.catName }}</p>
@@ -89,8 +90,10 @@ import groupListEdit from "@/groupListEdit.json";
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 import ContextMenu from '../components/ContextMenu.vue';
-import { useCurrentUser, useDocument, useFirestore } from 'vuefire';
-import { collection, doc } from 'firebase/firestore';
+import {
+    getAuth,
+    onAuthStateChanged,
+} from "firebase/auth";
 
 export default {
     name: 'ListView',
@@ -104,26 +107,6 @@ export default {
     ],
     data() {
         return {
-            saveData: {
-                "categories": [
-                    {
-                        "catName": "Unsorted",
-                        "people": []
-                    },
-                    {
-                        "catName": "Ults",
-                        "people": []
-                    },
-                    {
-                        "catName": "Semis",
-                        "people": []
-                    },
-                    {
-                        "catName": "Regs",
-                        "people": []
-                    }
-                ]
-            },
             homePageArrays: ref([]),
             testArray: ref([]),
             editModeOn: false,
@@ -132,55 +115,69 @@ export default {
             showFileUploader: false,
             clickedPerson: {},
             clickedCat: {},
-            groups: groupListEdit
+            clickedIndex: 0,
+            groups: groupListEdit,
+            currUser: {},
+            fireSaveData: {},
         }
     },
     mounted() {
-        // const auth = getAuth();
-        // onAuthStateChanged(auth, (user) => {
-        //     if (user) {
-        //         this.initialize();
-        //     }
-        // });
-
-        if (localStorage.getItem("save_data") !== null) {
-            const saveDataFromStorage = JSON.parse(localStorage.getItem("save_data"))
-            this.saveData = saveDataFromStorage
-        } else {
-            localStorage.setItem("save_data", JSON.stringify(this.saveData));
-        }
-
-        for (let i = 0; i < this.saveData.categories.length; i++) {
-            this.homePageArrays.push(this.saveData.categories[i].people);
-        }
-
-        for (let i = 1; i < this.saveData.categories.length; i++) {
-            this.testArray.push(this.saveData.categories[i]);
-        }
-    },
-    computed: {
-
+        const auth = getAuth();
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                this.initialize();
+            }
+        });
     },
     methods: {
-        initialize() {
-            const currentUser = useCurrentUser();
-            const db = useFirestore();
-            console.log("currentUser", currentUser);
+        async initialize() {
+            const auth = getAuth();
+            const currentUser = auth.currentUser;
+            this.currUser = currentUser;
+            const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
+            if (userDoc.exists) {
+                const saveData = userDoc.data();
+                this.fireSaveData = saveData;
 
-            const userData = useDocument(doc(collection(db, "users"), currentUser.value.uid));
+                for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                    this.homePageArrays.push(this.fireSaveData.categories[i].people);
+                }
 
-            console.log("users", collection(db, "users"));
-            console.log("currentUser", currentUser.value);
-            console.log("userData", userData);
-            console.log("user.value", userData.value);
+                for (let i = 1; i < this.fireSaveData.categories.length; i++) {
+                    this.testArray.push(this.fireSaveData.categories[i]);
+                }
+            } else {
+                const saveData = await this.$db.collection("users").doc(currentUser.uid).set(
+                    {
+                        "categories": [
+                            {
+                                "catName": "Unsorted",
+                                "people": []
+                            },
+                            {
+                                "catName": "Ults",
+                                "people": []
+                            },
+                            {
+                                "catName": "Semis",
+                                "people": []
+                            },
+                            {
+                                "catName": "Regs",
+                                "people": []
+                            }
+                        ]
+                    }
+                );
+            }
         },
         addNewCategory() {
             let arr = {
                 "catName": "Untitled",
                 "people": []
             }
-            this.saveData.categories.push(arr);
-            localStorage.setItem('save_data', JSON.stringify(this.saveData));
+            this.fireSaveData.categories.push(arr);
+            this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
 
             this.testArray.push(arr)
             this.homePageArrays.push(arr.people);
@@ -196,25 +193,25 @@ export default {
         updateCatOrder(arr) {
             console.log("update cat order", arr)
             for (let i = 0; i < arr.length; i++) {
-                this.saveData.categories[i + 1] = arr[i];
+                this.fireSaveData.categories[i + 1] = arr[i];
             }
-            console.log("saveData categpories", this.saveData.categories);
-            localStorage.setItem('save_data', JSON.stringify(this.saveData));
+            this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
         },
         updateStorage(i, array) {
-            this.saveData.categories[i].people = array;
-            localStorage.setItem('save_data', JSON.stringify(this.saveData));
+            this.fireSaveData.categories[i].people = array;
+            this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
         },
         updateCatName(i) {
-            this.saveData.categories[i].catName;
-            localStorage.setItem('save_data', JSON.stringify(this.saveData));
+            this.fireSaveData.categories[i].catName;
+            this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
         },
         openContextMenu(e, person) {
             this.clickedPerson = person;
             this.$refs.menu.open(e);
         },
-        openContextMenuCat(e, category) {
+        openContextMenuCat(e, category, index) {
             this.clickedCat = category;
+            this.clickedIndex = index;
             this.$refs.menuCat.open(e);
         },
         openFileUploader() {
@@ -222,18 +219,19 @@ export default {
         },
         removeFromHome(e) {
             this.$refs.menu.close(e);
-            for (let i = 0; i < this.saveData.categories.length; i++) {
-                for (let j = 0; j < this.saveData.categories[i].people.length; j++) {
-                    if (this.saveData.categories[i].people[j].imgLink === this.clickedPerson.imgLink) {
-                        this.saveData.categories[i].people = this.saveData.categories[
-                            i
-                        ].people.filter((p) => {
-                            return p.imgLink !== this.clickedPerson.imgLink;
-                        });
-                        localStorage.setItem("save_data", JSON.stringify(this.saveData));
+            for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                for (let j = 0; j < this.fireSaveData.categories[i].people.length; j++) {
+                    if (this.fireSaveData.categories[i].people[j].imgLink === this.clickedPerson.imgLink) {
+                        this.fireSaveData.categories[i].people = this.fireSaveData.categories[i]
+                            .people.filter((p) => {
+                                return p.imgLink !== this.clickedPerson.imgLink;
+                            });
+
+                        this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
+
                         this.homePageArrays = [];
-                        for (let i = 0; i < this.saveData.categories.length; i++) {
-                            this.homePageArrays.push(this.saveData.categories[i].people);
+                        for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                            this.homePageArrays.push(this.fireSaveData.categories[i].people);
                         }
                         break;
                     }
@@ -243,25 +241,29 @@ export default {
         removeFromHomeCat(e, moveToUnsorted) {
             this.$refs.menuCat.close(e);
             console.log(this.clickedCat);
-            for (let i = 0; i < this.saveData.categories.length; i++) {
-                if (this.saveData.categories[i].catName === this.clickedCat.catName) {
+            for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                if (this.fireSaveData.categories[i].catName === this.clickedCat.catName) {
                     if (moveToUnsorted) {
                         for (let j = 0; j < this.clickedCat.people.length; j++) {
-                            this.saveData.categories[0].people.push(this.clickedCat.people[j]);
+                            this.fireSaveData.categories[0].people.push(this.clickedCat.people[j]);
                         }
                     }
-                    this.saveData.categories = this.saveData.categories.filter((cat) => {
+                    this.fireSaveData.categories = this.fireSaveData.categories.filter((cat) => {
                         return cat.catName !== this.clickedCat.catName;
                     });
-                    localStorage.setItem("save_data", JSON.stringify(this.saveData));
+
+                    this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
+
                     this.homePageArrays = [];
-                    for (let i = 0; i < this.saveData.categories.length; i++) {
-                        this.homePageArrays.push(this.saveData.categories[i].people);
+                    for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                        this.homePageArrays.push(this.fireSaveData.categories[i].people);
                     }
+
                     this.testArray = [];
-                    for (let i = 1; i < this.saveData.categories.length; i++) {
-                        this.testArray.push(this.saveData.categories[i]);
+                    for (let i = 1; i < this.fireSaveData.categories.length; i++) {
+                        this.testArray.push(this.fireSaveData.categories[i]);
                     }
+
                     break;
                 }
             }
@@ -278,7 +280,7 @@ export default {
         },
         saveJSON() {
             var a = document.createElement("a");
-            var file = new Blob([localStorage.getItem("save_data")], { type: 'application/json' });
+            var file = new Blob([this.fireSaveData], { type: 'application/json' });
             a.href = URL.createObjectURL(file);
             a.download = 'exportSaveData.json';
             a.click();
@@ -295,15 +297,17 @@ export default {
 
                 fr.onload = (e) => {
                     const result = JSON.parse(e.target.result);
-                    this.saveData = result;
-                    localStorage.setItem("save_data", JSON.stringify(this.saveData));
+                    this.fireSaveData = result;
+
+                    this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
+
                     this.homePageArrays = [];
-                    for (let i = 0; i < this.saveData.categories.length; i++) {
-                        this.homePageArrays.push(this.saveData.categories[i].people);
+                    for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                        this.homePageArrays.push(this.fireSaveData.categories[i].people);
                     }
                     this.testArray = [];
-                    for (let i = 1; i < this.saveData.categories.length; i++) {
-                        this.testArray.push(this.saveData.categories[i]);
+                    for (let i = 1; i < this.fireSaveData.categories.length; i++) {
+                        this.testArray.push(this.fireSaveData.categories[i]);
                     }
                 };
                 fr.readAsText(files.item(0));

@@ -1,4 +1,3 @@
-// add birthday of the day
 <template>
     <div style="display: flex">
         <div class="birthdayDisplay">
@@ -30,15 +29,6 @@
 
 <script>
 import groupListEdit from "@/groupListEdit.json";
-import { useCurrentUser, useDocument, useFirestore } from "vuefire";
-import { collection, doc } from "firebase/firestore";
-import {
-    signInWithPopup,
-    GoogleAuthProvider,
-    getAuth,
-    onAuthStateChanged,
-    signOut,
-} from "firebase/auth";
 
 export default {
     name: "HomeView",
@@ -66,14 +56,6 @@ export default {
         };
     },
     mounted() {
-        const auth = getAuth();
-        onAuthStateChanged(auth, (user) => {
-            if (user) {
-                this.initialize();
-            } else {
-            }
-        });
-
         this.birthdayToday = [];
 
         const date = new Date();
@@ -107,20 +89,6 @@ export default {
         }
     },
     methods: {
-        initialize() {
-            const currentUser = useCurrentUser();
-            const db = useFirestore();
-            console.log("currentUser", currentUser.value.uid);
-
-            const userData = useDocument(doc(collection(db, "users"), currentUser.value.uid));
-
-            console.log("users", collection(db, "users"));
-            console.log("currentUser", currentUser.value.uid);
-            console.log("userData", userData);
-
-            // const userDataSave = userData.value.saveData;
-            // console.log("user.value", userDataSave);
-        },
         convertBday(birthday) {
             let month = birthday.substring(0, birthday.indexOf(" "));
             let monthNum = 0;
@@ -152,9 +120,6 @@ export default {
             }
             localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
         },
-    },
-    firestore: {
-        // users: usersRef.where("saveData"
     },
 };
 </script>
@@ -280,6 +245,7 @@ export default {
 }
 
 .randomName {
+    color: #551b8b;
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0px 20px;

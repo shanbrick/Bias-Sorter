@@ -31,6 +31,7 @@
 
 <script>
 import groupListEdit from "@/groupListEdit.json";
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 export default {
     name: "SearchAutocomplete",
@@ -49,16 +50,57 @@ export default {
             peopleResults: [],
             isOpen: false,
             selectedGroupArray: JSON.parse(localStorage.getItem("selectedGroup")),
-            saveData: JSON.parse(localStorage.getItem("save_data")),
+            currUser: {},
+            fireSaveData: {},
         };
     },
     mounted() {
+        const auth = getAuth();
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                this.initialize();
+            }
+        });
         document.addEventListener("click", this.handleClickOutside);
     },
     destroyed() {
         document.removeEventListener("click", this.handleClickOutside);
     },
     methods: {
+        async initialize() {
+            const auth = getAuth();
+            const currentUser = auth.currentUser;
+            this.currUser = currentUser;
+            const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
+            if (userDoc.exists) {
+                const saveData = userDoc.data();
+                this.fireSaveData = saveData;
+            } else {
+                const saveData = await this.$db
+                    .collection("users")
+                    .doc(currentUser.uid)
+                    .set({
+                        categories: [
+                            {
+                                catName: "Unsorted",
+                                people: [],
+                            },
+                            {
+                                catName: "Ults",
+                                people: [],
+                            },
+                            {
+                                catName: "Semis",
+                                people: [],
+                            },
+                            {
+                                catName: "Regs",
+                                people: [],
+                            },
+                        ],
+                    });
+            }
+        },
         onChange() {
             this.filterResults();
             this.isOpen = true;
@@ -182,24 +224,24 @@ export default {
             return false;
         },
         removeFromHome(person) {
-            for (let i = 0; i < this.saveData.categories.length; i++) {
-                for (let j = 0; j < this.saveData.categories[i].people.length; j++) {
-                    if (this.saveData.categories[i].people[j].imgLink === person.imgLink) {
-                        this.saveData.categories[i].people = this.saveData.categories[
+            for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                for (let j = 0; j < this.fireSaveData.categories[i].people.length; j++) {
+                    if (this.fireSaveData.categories[i].people[j].imgLink === person.imgLink) {
+                        this.fireSaveData.categories[i].people = this.fireSaveData.categories[
                             i
                         ].people.filter((p) => {
                             return p.imgLink !== person.imgLink;
                         });
-                        localStorage.setItem("save_data", JSON.stringify(this.saveData));
+                        this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
                         break;
                     }
                 }
             }
         },
         checkPerson(input) {
-            for (var i = 0; i < this.saveData.categories.length; i++) {
-                let array = this.saveData.categories[i].people;
-                for (var j = 0; j < array.length; j++) {
+            for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                let array = this.fireSaveData.categories[i].people;
+                for (let j = 0; j < array.length; j++) {
                     if (array[j].imgLink === input) {
                         return true;
                     }

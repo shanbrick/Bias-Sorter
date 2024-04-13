@@ -1,6 +1,6 @@
 <template>
-    <button @click="switchList(months)">By Month</button>
-    <button @click="switchList(years)">By Year</button>
+    <button @click="switchList(months)" class="diffList">By Month</button>
+    <button @click="switchList(years)" class="diffList">By Year</button>
     <div style="display: flex; justify-content: center; margin: auto" v-for="category in currentList">
         <div class="birthdayDiv">
             <p class="monthName">{{ category.name }} - {{ category.total }}</p>
@@ -277,6 +277,24 @@ export default {
 </script>
 
 <style scoped>
+.diffList {
+    background-color: #b3b8e9;
+    border: 1px solid #b3b8e9;
+    border-radius: 5px;
+    box-shadow: 0 0.3em #888bb0;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px 10px 0px;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    transition: all 300ms ease-in-out;
+}
+
 a {
     color: black;
     text-decoration: none;
