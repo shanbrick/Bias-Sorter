@@ -5380,6 +5380,86 @@
         ]
     },
     {
+        "groupName": "ONF",
+        "groupKR": "온앤오프",
+        "bgs": "b",
+        "imgLink": "ONF/group.jpeg",
+        "company": "WM Entertainment",
+        "debutDate": "August 03, 2017",
+        "members": [
+            {
+                "grpName": "ONF",
+                "stageName": "Hyojin",
+                "stageKR": "효진",
+                "fullName": "Kim Hyojin",
+                "fullKR": "김효진",
+                "birthday": "April 22, 1994",
+                "imgLink": "ONF/Hyojin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONF",
+                "stageName": "E-Tion",
+                "stageKR": "이션",
+                "fullName": "Lee Changyun",
+                "fullKR": "이창윤",
+                "birthday": "December 24, 1994",
+                "imgLink": "ONF/ETion.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONF",
+                "stageName": "Seungjun",
+                "stageKR": "승준",
+                "fullName": "Lee Seungjun",
+                "fullKR": "이승준",
+                "birthday": "January 13, 1995",
+                "imgLink": "ONF/Seungjun.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONF",
+                "stageName": "Wyatt",
+                "stageKR": "와이엇",
+                "fullName": "Shim Jaeyoung",
+                "fullKR": "심재영",
+                "birthday": "January 23, 1995",
+                "imgLink": "ONF/Wyatt.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONF",
+                "stageName": "Minkyun",
+                "stageKR": "민균",
+                "fullName": "Park Minkyun",
+                "fullKR": "박민균",
+                "birthday": "November 16, 1995",
+                "imgLink": "ONF/Minkyun.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONF",
+                "stageName": "U",
+                "stageKR": "유",
+                "fullName": "Mizuguchi Yuto",
+                "fullKR": "미즈구치유토",
+                "birthday": "March 16, 1999",
+                "imgLink": "ONF/U.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "ONF",
+                "stageName": "Laun",
+                "stageKR": "라운",
+                "fullName": "Kim Minseok",
+                "fullKR": "김민석",
+                "birthday": "August 12, 1999",
+                "imgLink": "ONF/Laun.jpeg",
+                "afr": "f"
+            }
+        ]
+    },
+    {
         "groupName": "OnlyOneOf",
         "groupKR": "온리원오브",
         "bgs": "b",

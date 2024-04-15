@@ -7,6 +7,10 @@
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
       <button v-if="isLoggedIn" class="signInOut" @click="handleSignOut">Sign Out</button>
       <button v-else class="signInOut" @click="signinPopup">Sign In</button>
+      <v-lazy-image v-if="isLoggedIn" class="pfp" :src="currUser.photoURL" />
+      <p v-if="isLoggedIn" class="greeting">
+        <i>Logged in as:</i> {{ currUser.displayName }}
+      </p>
     </nav>
   </div>
   <div class="header">
@@ -25,6 +29,7 @@
 <script>
 import groupListEdit from "@/groupListEdit.json";
 import SearchAutocomplete from "./components/SearchAutocomplete.vue";
+import VLazyImage from "v-lazy-image";
 
 import { ref } from "vue";
 import { useRouter } from "vue-router";
@@ -42,6 +47,7 @@ export default {
   name: "App",
   components: {
     SearchAutocomplete,
+    VLazyImage,
   },
   data() {
     return {
@@ -49,6 +55,7 @@ export default {
       groups: groupListEdit,
       isLoggedIn: ref(false),
       router: useRouter(),
+      currUser: {},
     };
   },
   created() {
@@ -84,12 +91,18 @@ export default {
         error.value = reason;
       });
     },
+    async initialize() {
+      const auth = getAuth();
+      const currentUser = auth.currentUser;
+      this.currUser = currentUser;
+    },
   },
   mounted() {
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       if (user) {
         this.isLoggedIn = true;
+        this.initialize();
       } else {
         this.isLoggedIn = false;
       }
@@ -145,6 +158,16 @@ nav {
   text-decoration: none;
 }
 
+.pfp {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  float: right;
+  width: 30px;
+  vertical-align: middle;
+  border-radius: 30px;
+  margin: 5px 10px;
+  padding: 0px;
+}
+
 .signInOut {
   background-color: #747fe6;
   border: 1px solid #747fe6;
@@ -158,6 +181,12 @@ nav {
   padding: 5px 20px;
   text-align: center;
   text-decoration: none;
+}
+
+.greeting {
+  float: right;
+  font-size: 16px;
+  line-height: 9px;
 }
 
 .navButtons:hover {
