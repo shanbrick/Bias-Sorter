@@ -197,10 +197,16 @@ export default {
 
 .bdayPic {
     border-radius: 8px;
-    box-shadow: 0px 0px 5px #00000080;
     margin: 0px;
     padding: 0px;
     width: 80%;
+    filter: blur(5px);
+    transition: filter 0.7s;
+}
+
+.v-lazy-image-loaded {
+    filter: blur(0);
+    box-shadow: 0px 0px 5px #00000080;
 }
 
 .randomDisplay {
@@ -240,12 +246,16 @@ export default {
 
 .randomPic {
     border-radius: 8px;
-    box-shadow: 0px 0px 5px #00000080;
     height: 165px;
     margin: 0px;
     object-fit: cover;
     padding: 0px;
     width: 100%;
+}
+
+.v-lazy-image-loaded {
+    filter: blur(0);
+    box-shadow: 0px 0px 5px #00000080;
 }
 
 .randomName {

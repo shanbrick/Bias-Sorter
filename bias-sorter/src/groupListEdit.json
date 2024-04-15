@@ -6690,6 +6690,96 @@
         ]
     },
     {
+        "groupName": "The KingDom",
+        "groupKR": "더킹덤",
+        "bgs": "b",
+        "imgLink": "TheKingDom/group.jpeg",
+        "company": "GF Entertainment",
+        "debutDate": "February 18, 2021",
+        "members": [
+            {
+                "grpName": "The KingDom",
+                "stageName": "Dann",
+                "stageKR": "단",
+                "fullName": "Jeong Seungbo",
+                "fullKR": "정승보",
+                "birthday": "November 01, 1997",
+                "imgLink": "TheKingDom/Dann.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "The KingDom",
+                "stageName": "Arthur",
+                "stageKR": "아서",
+                "fullName": "Jang Yunho",
+                "fullKR": "장윤호",
+                "birthday": "April 15, 2000",
+                "imgLink": "TheKingDom/Arthur.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "The KingDom",
+                "stageName": "Mujin",
+                "stageKR": "무진",
+                "fullName": "Ko Sungho",
+                "fullKR": "고성호",
+                "birthday": "November 20, 2000",
+                "imgLink": "TheKingDom/Mujin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "The KingDom",
+                "stageName": "Louis",
+                "stageKR": "루이",
+                "fullName": "Yang Dongsik",
+                "fullKR": "양동식",
+                "birthday": "April 08, 2001",
+                "imgLink": "TheKingDom/Louis.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "The KingDom",
+                "stageName": "Ivan",
+                "stageKR": "아이반",
+                "fullName": "Park Yuseong",
+                "fullKR": "박유성",
+                "birthday": "October 12, 2001",
+                "imgLink": "TheKingDom/Ivan.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "The KingDom",
+                "stageName": "Hwon",
+                "stageKR": "훤",
+                "fullName": "Shim Youngjoon",
+                "fullKR": "심영준",
+                "birthday": "March 12, 2002",
+                "imgLink": "TheKingDom/Hwon.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "The KingDom",
+                "stageName": "Jahan",
+                "stageKR": "자한",
+                "fullName": "Lim Jihun",
+                "fullKR": "임지훈",
+                "birthday": "August 01, 2002",
+                "imgLink": "TheKingDom/Jahan.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "The KingDom",
+                "stageName": "Chiwoo",
+                "stageKR": "치우",
+                "fullName": "Guk Seungjun",
+                "fullKR": "국승준",
+                "birthday": "September 02, 2002",
+                "imgLink": "TheKingDom/Chiwoo.jpeg",
+                "afr": "f"
+            }
+        ]
+    },
+    {
         "groupName": "THE NEW SIX",
         "groupKR": "더 뉴 식스",
         "bgs": "b",

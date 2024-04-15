@@ -1,3 +1,4 @@
+// harry june and sohee not showing up on month twins
 <template>
     <button @click="switchList(months)" class="diffList">By Month</button>
     <button @click="switchList(years)" class="diffList">By Year</button>

@@ -110,6 +110,13 @@ export default {
   border-radius: 8px;
   object-fit: cover;
   /* border: 1px solid #848484; */
+  /* box-shadow: 0px 0px 5px black; */
+  filter: blur(5px);
+  transition: filter 0.7s;
+}
+
+.v-lazy-image-loaded {
+  filter: blur(0);
   box-shadow: 0px 0px 5px black;
 }
 
