@@ -1,13 +1,13 @@
 <template>
     <div class="groupInfoDiv">
-        <img class="fullGroupPic" :src="require('../assets/imageArchive/' + group.imgLink)" />
+        <v-lazy-image class="fullGroupPic" :src="require('../assets/imageArchive/' + group.imgLink)" />
         <p class="groupName">{{ group.groupName }} ({{ group.groupKR }})</p>
         <p><i style="font-weight: bold">Company:</i> {{ group.company }}</p>
         <p><i style="font-weight: bold">Debut:</i> {{ group.debutDate }}</p>
     </div>
     <div class="bigBox">
         <div v-for="person in active" class="memberDivs">
-            <img class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
+            <v-lazy-image class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
             <p class="memberName">{{ person.stageName }} ({{ person.stageKR }})</p>
             <p class="memberInfo">
                 <i style="font-weight: bold">Full Name:</i> {{ person.fullName }}
@@ -43,7 +43,7 @@
     <div class="bigBox">
         <div v-for="person in former" class="memberDivs">
             <p class="former">Former Member:</p>
-            <img class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
+            <v-lazy-image class="memberPic" :src="require('../assets/imageArchive/' + person.imgLink)" />
             <p class="memberName">{{ person.stageName }} ({{ person.stageKR }})</p>
             <p class="memberInfo">
                 <i style="font-weight: bold">Full Name:</i> {{ person.fullName }}
@@ -79,9 +79,13 @@
 <script>
 import groupListEdit from "@/groupListEdit.json";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
+import VLazyImage from "v-lazy-image";
 
 export default {
     name: "GroupInfoView",
+    components: {
+        VLazyImage,
+    },
     data() {
         return {
             groupList: groupListEdit,

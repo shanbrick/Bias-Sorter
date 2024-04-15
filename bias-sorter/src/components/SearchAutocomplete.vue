@@ -4,7 +4,7 @@
         <ul v-show="isOpen" class="autocomplete-results">
             <div style="margin-bottom: 10px" v-for="result in peopleResults">
                 <a style="display: flex" href="/groupPage" @click="setResultPeople(result)">
-                    <img class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
+                    <v-lazy-image class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
                     <p class="threeDiv autocomplete-result">
                         {{ result.stageName }}
                         <span class="acrSmall"> {{ result.fullName }}</span>
@@ -15,7 +15,7 @@
             </div>
             <div style="margin-bottom: 10px" v-for="result in groupResults">
                 <a style="display: flex" href="/groupPage" @click="setResultGroup(result)">
-                    <img class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
+                    <v-lazy-image class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
                     <p class="threeDiv autocomplete-result">
                         {{ result.groupName }}
                         <span v-if="result.members[0].grpName === result.members[0].stageName" class="acrSmall">
@@ -32,9 +32,13 @@
 <script>
 import groupListEdit from "@/groupListEdit.json";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
+import VLazyImage from "v-lazy-image";
 
 export default {
     name: "SearchAutocomplete",
+    components: {
+        VLazyImage,
+    },
     props: {
         items: {
             type: Array,

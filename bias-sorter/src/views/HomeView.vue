@@ -5,7 +5,7 @@
             <div class="insideDisplay">
                 <div class="peopleDiv" v-for="pers in birthdayToday">
                     <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(pers.grpName)">
-                        <img class="bdayPic" :src="require('../assets/imageArchive/' + pers.imgLink)" />
+                        <v-lazy-image class="bdayPic" :src="require('../assets/imageArchive/' + pers.imgLink)" />
                         <p class="bdayStage">{{ pers.stageName }}</p>
                         <p class="bdayGroup">{{ pers.grpName }}</p>
                     </a>
@@ -18,7 +18,7 @@
             <div class="insideDisplay">
                 <div class="randomDiv" v-for="group in randomGroups">
                     <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group.groupName)">
-                        <img class="randomPic" :src="require('../assets/imageArchive/' + group.imgLink)" />
+                        <v-lazy-image class="randomPic" :src="require('../assets/imageArchive/' + group.imgLink)" />
                         <p class="randomName">{{ group.groupName }}</p>
                     </a>
                 </div>
@@ -29,9 +29,13 @@
 
 <script>
 import groupListEdit from "@/groupListEdit.json";
+import VLazyImage from "v-lazy-image";
 
 export default {
     name: "HomeView",
+    components: {
+        VLazyImage,
+    },
     data() {
         return {
             groups: groupListEdit,

@@ -8,7 +8,7 @@
     <div v-for="group in currentList">
       <div class="groupDiv">
         <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
-          <img class="groupPicList" :src="require('../assets/imageArchive/' + group.imgLink)" />
+          <v-lazy-image class="groupPicList" :src="require('../assets/imageArchive/' + group.imgLink)" />
           <p class="groupNameList">{{ group.groupName }}</p>
         </a>
       </div>
@@ -19,9 +19,13 @@
 <script>
 import groupListEdit from "@/groupListEdit.json";
 let selectedGroupArray = JSON.parse(localStorage.getItem("selectedGroup"));
+import VLazyImage from "v-lazy-image";
 
 export default {
   name: "GroupListView",
+  components: {
+    VLazyImage,
+  },
   data: () => {
     return {
       groupsData: groupListEdit,

@@ -35,8 +35,8 @@
                 @change="updateStorage(0, homePageArrays[0])" :disabled="editModeOn" item-key="a">
                 <template #item="{ element }">
                     <div class="peopleDivss" :key="element.stageName">
-                        <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
-                            class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)">
+                        <v-lazy-image oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
+                            class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)" />
                         <p class="idolName">{{ element.stageName }}</p>
                         <a href="/groupPage" @click="populateGroupPage(element.grpName)">
                             <p class="groupName">{{ element.grpName }}</p>
@@ -69,8 +69,9 @@
                             item-key="c">
                             <template #item="{ element: pers }">
                                 <div class="peopleDivss">
-                                    <img oncontextmenu="return false;" v-on:click.right="openContextMenu($event, pers)"
-                                        class="homePeoplePics" :src="require('../assets/imageArchive/' + pers.imgLink)">
+                                    <v-lazy-image oncontextmenu="return false;"
+                                        v-on:click.right="openContextMenu($event, pers)" class="homePeoplePics"
+                                        :src="require('../assets/imageArchive/' + pers.imgLink)" />
                                     <p class="idolName">{{ pers.stageName }}</p>
                                     <a href="/groupPage" @click="populateGroupPage(pers.grpName)">
                                         <p class="groupName">{{ pers.grpName }}</p>
@@ -90,6 +91,7 @@ import groupListEdit from "@/groupListEdit.json";
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 import ContextMenu from '../components/ContextMenu.vue';
+import VLazyImage from "v-lazy-image";
 import {
     getAuth,
     onAuthStateChanged,
@@ -101,6 +103,7 @@ export default {
     components: {
         draggable,
         ContextMenu,
+        VLazyImage
     },
     props: [
 
