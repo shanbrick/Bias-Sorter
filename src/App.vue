@@ -161,7 +161,7 @@ nav {
 .pfp {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   float: right;
-  width: 30px;
+  width: 28px;
   vertical-align: middle;
   border-radius: 30px;
   margin: 5px 10px;
