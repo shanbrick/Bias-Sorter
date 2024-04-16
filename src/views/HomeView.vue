@@ -4,7 +4,8 @@
             <p class="date">Today is {{ currentDate }}! Happy Birthday to:</p>
             <div class="insideDisplay">
                 <div class="peopleDiv" v-for="pers in birthdayToday">
-                    <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(pers.grpName)">
+                    <a href="/groupPage" v-if="pers.afr === 'a' || pers.afr === 'f'" style="text-decoration: none"
+                        @click="populateGroupPage(pers.grpName)">
                         <v-lazy-image class="bdayPic" :src="require('../assets/imageArchive/' + pers.imgLink)" />
                         <p class="bdayStage">{{ pers.stageName }}</p>
                         <p class="bdayGroup">{{ pers.grpName }}</p>
