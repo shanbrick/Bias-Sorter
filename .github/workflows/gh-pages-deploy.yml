@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v3
       with:
-        node-version: '16.20.2'
+        node-version: '20.12.2'
     - run: |
         node --version
         npm install
@@ -23,5 +23,5 @@ jobs:
         git init
         git add -A
         git commit -m 'deploy'
-        git push -f https://shanbrick:${{ secrets.GITHUB_TOKEN }}@github.com/shanbrick/Bias-Sorter master:gh-pages
+        git push -f https://a-r-t:${{ secrets.GITHUB_TOKEN }}@github.com/a-r-t/SER225-Project-Website.git master:gh-pages
       shell: bash
