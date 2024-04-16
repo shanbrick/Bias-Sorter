@@ -23,5 +23,5 @@ jobs:
         git init
         git add -A
         git commit -m 'deploy'
-        git push -f https://shanbrick:${{ secrets.GITHUB_TOKEN }}@github.com/shanbrick/Bias-Sorter.git master:gh-pages
+        git push -f git@github.com/shanbrick/Bias-Sorter.git master:gh-pages
       shell: bash
