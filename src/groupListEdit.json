@@ -570,6 +570,76 @@
         ]
     },
     {
+        "groupName": "Apink",
+        "groupKR": "에이핑크",
+        "bgs": "g",
+        "imgLink": "Apink/group.jpeg",
+        "company": "Play M Entertainment",
+        "debutDate": "April 19, 2011",
+        "members": [
+            {
+                "grpName": "Apink",
+                "stageName": "Chorong",
+                "stageKR": "초롱",
+                "fullName": "Park Chorong",
+                "fullKR": "박초롱",
+                "birthday": "March 03, 1991",
+                "imgLink": "Apink/Chorong.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "Apink",
+                "stageName": "Bomi",
+                "stageKR": "보미",
+                "fullName": "Yoon Bomi",
+                "fullKR": "윤보미",
+                "birthday": "August 13, 1993",
+                "imgLink": "Apink/Bomi.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "Apink",
+                "stageName": "Eunji",
+                "stageKR": "은지",
+                "fullName": "Jung Eunji",
+                "fullKR": "정은지",
+                "birthday": "August 18, 1993",
+                "imgLink": "Apink/Eunji.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "Apink",
+                "stageName": "Naeun",
+                "stageKR": "나은",
+                "fullName": "Son Naeun",
+                "fullKR": "손나은",
+                "birthday": "February 10, 1994",
+                "imgLink": "Apink/Naeun.jpeg",
+                "afr": "f"
+            },
+            {
+                "grpName": "Apink",
+                "stageName": "Namjoo",
+                "stageKR": "남주",
+                "fullName": "Kim Namjoo",
+                "fullKR": "김남주",
+                "birthday": "April 15, 1995",
+                "imgLink": "Apink/Namjoo.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "Apink",
+                "stageName": "Hayoung",
+                "stageKR": "하영",
+                "fullName": "Oh Hayoung",
+                "fullKR": "오하영",
+                "birthday": "July 19, 1996",
+                "imgLink": "Apink/Hayoung.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "ARTMS",
         "groupKR": "아르테미스",
         "bgs": "g",
@@ -886,6 +956,26 @@
                 "birthday": "November 10, 2004",
                 "imgLink": "BAE173/Dohyon.jpeg",
                 "afr": "f"
+            }
+        ]
+    },
+    {
+        "groupName": "B.I",
+        "groupKR": "비아이",
+        "bgs": "s",
+        "imgLink": "Solo/BIBig.jpeg",
+        "company": "131 LABEL",
+        "debutDate": "March 19, 2021",
+        "members": [
+            {
+                "grpName": "B.I",
+                "stageName": "B.I",
+                "stageKR": "비아이",
+                "fullName": "Kim Hanbin",
+                "fullKR": "김한빈",
+                "birthday": "October 22, 1996",
+                "imgLink": "Solo/B.I.jpeg",
+                "afr": "a"
             }
         ]
     },
@@ -3010,6 +3100,26 @@
         ]
     },
     {
+        "groupName": "Hoya",
+        "groupKR": "호야",
+        "bgs": "s",
+        "imgLink": "Solo/HoyaBig.jpeg",
+        "company": "Glorious Entertainment",
+        "debutDate": "March 28, 2018",
+        "members": [
+            {
+                "grpName": "Hoya",
+                "stageName": "Hoya",
+                "stageKR": "호야",
+                "fullName": "Lee Howon",
+                "fullKR": "이호원",
+                "birthday": "March 28, 1991",
+                "imgLink": "Solo/Hoya.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "H1-KEY",
         "groupKR": "하이키",
         "bgs": "g",
@@ -3150,6 +3260,86 @@
         ]
     },
     {
+        "groupName": "iKON",
+        "groupKR": "아이콘",
+        "bgs": "b",
+        "imgLink": "iKON/group.jpeg",
+        "company": "143 Entertainment",
+        "debutDate": "September 15, 2015",
+        "members": [
+            {
+                "grpName": "iKON",
+                "stageName": "Jay",
+                "stageKR": "제이",
+                "fullName": "Kim Jinhwan",
+                "fullKR": "김진환",
+                "birthday": "February 07, 1994",
+                "imgLink": "iKON/Jay.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "iKON",
+                "stageName": "Song",
+                "stageKR": "송",
+                "fullName": "Song Yunhyeong",
+                "fullKR": "송윤형",
+                "birthday": "February 08, 1995",
+                "imgLink": "iKON/Song.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "iKON",
+                "stageName": "Bobby",
+                "stageKR": "바비",
+                "fullName": "Kim Jiwon",
+                "fullKR": "김지원",
+                "birthday": "December 21, 1995",
+                "imgLink": "iKON/Bobby.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "iKON",
+                "stageName": "B.I",
+                "stageKR": "비아이",
+                "fullName": "Kim Hanbin",
+                "fullKR": "김한빈",
+                "birthday": "October 22, 1996",
+                "imgLink": "iKON/BI.jpeg",
+                "afr": "B.I"
+            },
+            {
+                "grpName": "iKON",
+                "stageName": "DK",
+                "stageKR": "디케이",
+                "fullName": "Kim Donghyuk",
+                "fullKR": "김동혁",
+                "birthday": "January 03, 1997",
+                "imgLink": "iKON/DK.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "iKON",
+                "stageName": "JUNE",
+                "stageKR": "준회",
+                "fullName": "Koo Junhoe",
+                "fullKR": "구준회",
+                "birthday": "March 31, 1997",
+                "imgLink": "iKON/JUNE.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "iKON",
+                "stageName": "Chan",
+                "stageKR": "찬",
+                "fullName": "Jung Chanwoo",
+                "fullKR": "정찬우",
+                "birthday": "January 26, 1998",
+                "imgLink": "iKON/Chan.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "I'LL IT",
         "groupKR": "아일릿",
         "bgs": "g",
@@ -3205,6 +3395,86 @@
                 "fullKR": "호카조노이로하",
                 "birthday": "February 04, 2008",
                 "imgLink": "ILLIT/Iroha.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "INFINITE",
+        "groupKR": "인피니트",
+        "bgs": "b",
+        "imgLink": "INFINITE/group.jpeg",
+        "company": "INFINITE Company",
+        "debutDate": "June 09, 2010",
+        "members": [
+            {
+                "grpName": "INFINITE",
+                "stageName": "Sungkyu",
+                "stageKR": "성규",
+                "fullName": "Kim Sungkyu",
+                "fullKR": "김성규",
+                "birthday": "April 28, 1989",
+                "imgLink": "INFINITE/Sungkyu.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "INFINITE",
+                "stageName": "Dongwoo",
+                "stageKR": "동우",
+                "fullName": "Jang Dongwoo",
+                "fullKR": "장동우",
+                "birthday": "November 22, 1990",
+                "imgLink": "INFINITE/Dongwoo.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "INFINITE",
+                "stageName": "Woohyun",
+                "stageKR": "우현",
+                "fullName": "Nam Woohyun",
+                "fullKR": "남우현",
+                "birthday": "February 08, 1991",
+                "imgLink": "INFINITE/Woohyun.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "INFINITE",
+                "stageName": "Hoya",
+                "stageKR": "호야",
+                "fullName": "Lee Howon",
+                "fullKR": "이호원",
+                "birthday": "March 28, 1991",
+                "imgLink": "INFINITE/Hoya.jpeg",
+                "afr": "Hoya"
+            },
+            {
+                "grpName": "INFINITE",
+                "stageName": "Sungyeol",
+                "stageKR": "성열",
+                "fullName": "Lee Sungyeol",
+                "fullKR": "이성열",
+                "birthday": "August 27, 1991",
+                "imgLink": "INFINITE/Sungyeol.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "INFINITE",
+                "stageName": "L",
+                "stageKR": "엘",
+                "fullName": "Kim Myungsoo",
+                "fullKR": "김명수",
+                "birthday": "March 13, 1992",
+                "imgLink": "INFINITE/L.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "INFINITE",
+                "stageName": "Sungjong",
+                "stageKR": "성종",
+                "fullName": "Lee Sungjong",
+                "fullKR": "이성종",
+                "birthday": "September 03, 1993",
+                "imgLink": "INFINITE/Sungjong.jpeg",
                 "afr": "a"
             }
         ]
@@ -5065,6 +5335,66 @@
                 "fullKR": "정준호",
                 "birthday": "July 11, 2002",
                 "imgLink": "NOMAD/Junho.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "NOWADAYS",
+        "groupKR": "나우어데이즈",
+        "bgs": "b",
+        "imgLink": "NOWADAYS/group.jpeg",
+        "company": "CUBE Entertainment",
+        "debutDate": "April 02, 2024",
+        "members": [
+            {
+                "grpName": "NOWADAYS",
+                "stageName": "Hyeonbin",
+                "stageKR": "현빈",
+                "fullName": "Kim Hyeonbin",
+                "fullKR": "김현빈",
+                "birthday": "August 31, 2002",
+                "imgLink": "NOWADAYS/Hyeonbin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "NOWADAYS",
+                "stageName": "Yoon",
+                "stageKR": "윤",
+                "fullName": "Lee Yoon",
+                "fullKR": "이윤",
+                "birthday": "August 27, 2003",
+                "imgLink": "NOWADAYS/Yoon.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "NOWADAYS",
+                "stageName": "Yeonwoo",
+                "stageKR": "연우",
+                "fullName": "Jeong Yeonwoo",
+                "fullKR": "정연우",
+                "birthday": "September 23, 2003",
+                "imgLink": "NOWADAYS/Yeonwoo.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "NOWADAYS",
+                "stageName": "Jinhyuk",
+                "stageKR": "진혁",
+                "fullName": "Jang Jinhyuk",
+                "fullKR": "장진혁",
+                "birthday": "May 21, 2004",
+                "imgLink": "NOWADAYS/Jinhyuk.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "NOWADAYS",
+                "stageName": "Siyun",
+                "stageKR": "시윤",
+                "fullName": "Kim Siyun",
+                "fullKR": "김시윤",
+                "birthday": "August 24, 2004",
+                "imgLink": "NOWADAYS/Siyun.jpeg",
                 "afr": "a"
             }
         ]
@@ -8175,6 +8505,106 @@
                 "fullKR": "이예찬",
                 "birthday": "October 21, 2005",
                 "imgLink": "xikers/Yechan.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "XODIAC",
+        "groupKR": "소디엑",
+        "bgs": "b",
+        "imgLink": "XODIAC/group.jpeg",
+        "company": "JACSO Entertainment",
+        "debutDate": "April 25, 2023",
+        "members": [
+            {
+                "grpName": "XODIAC",
+                "stageName": "Hyunsik",
+                "stageKR": "현식",
+                "fullName": "Won Hyunsik",
+                "fullKR": "원현식",
+                "birthday": "September 12, 1997",
+                "imgLink": "XODIAC/Hyunsik.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "XODIAC",
+                "stageName": "Zayyan",
+                "stageKR": "자얀",
+                "fullName": "Muhammad Rafki Fahri Zayyan",
+                "fullKR": "무하마드 리프키 파흐리 자얀",
+                "birthday": "February 23, 2000",
+                "imgLink": "XODIAC/Zayyan.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "XODIAC",
+                "stageName": "Lex",
+                "stageKR": "렉스",
+                "fullName": "Zo Doohyun",
+                "fullKR": "조두현",
+                "birthday": "March 16, 2000",
+                "imgLink": "XODIAC/Lex.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "XODIAC",
+                "stageName": "Beomsoo",
+                "stageKR": "범수",
+                "fullName": "Kim Beomsoo",
+                "fullKR": "김범수",
+                "birthday": "September 29, 2000",
+                "imgLink": "XODIAC/Beomsoo.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "XODIAC",
+                "stageName": "Gyumin",
+                "stageKR": "규민",
+                "fullName": "Kim Gyumin",
+                "fullKR": "김규민",
+                "birthday": "December 12, 2000",
+                "imgLink": "XODIAC/Gyumin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "XODIAC",
+                "stageName": "Wain",
+                "stageKR": "웨인",
+                "fullName": "Park Sehoon",
+                "fullKR": "박세훈",
+                "birthday": "October 25, 2001",
+                "imgLink": "XODIAC/Wain.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "XODIAC",
+                "stageName": "Sing",
+                "stageKR": "씽",
+                "fullName": "Mak Chunsing",
+                "fullKR": "막쩐싱",
+                "birthday": "January 11, 2002",
+                "imgLink": "XODIAC/Sing.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "XODIAC",
+                "stageName": "Davin",
+                "stageKR": "다빈",
+                "fullName": "Kim Dabin",
+                "fullKR": "김다빈",
+                "birthday": "May 30, 2002",
+                "imgLink": "XODIAC/Davin.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "XODIAC",
+                "stageName": "Leo",
+                "stageKR": "리오",
+                "fullName": "Lee Ouyin",
+                "fullKR": "레이응오인",
+                "birthday": "June 15, 2002",
+                "imgLink": "XODIAC/Leo.jpeg",
                 "afr": "a"
             }
         ]
