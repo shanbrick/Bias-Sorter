@@ -185,15 +185,6 @@ export default {
         erm(word) {
             return word.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
         },
-        setResult(result) {
-            this.search = result;
-            this.isOpen = false;
-            if (this.selectedGroupArray === null) {
-                this.selectedGroupArray = [];
-            }
-            this.selectedGroupArray = result;
-            localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
-        },
         setResultGroup(result) {
             this.search = result.groupName;
             this.isOpen = false;
