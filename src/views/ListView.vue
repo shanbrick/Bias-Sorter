@@ -38,9 +38,7 @@
                         <v-lazy-image oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
                             class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)" />
                         <p class="idolName">{{ element.stageName }}</p>
-                        <a href="/groupPage" @click="populateGroupPage(element.grpName)">
-                            <p class="groupName">{{ element.grpName }}</p>
-                        </a>
+                        <p class="groupName" @click="populateGroupPage(element.grpName)">{{ element.grpName }}</p>
                     </div>
                 </template>
             </draggable>
@@ -280,6 +278,7 @@ export default {
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
+            this.$router.push('/groupPage')
         },
         saveJSON() {
             var a = document.createElement("a");

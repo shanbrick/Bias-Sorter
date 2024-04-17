@@ -13,24 +13,18 @@
                     <th class="trtdth">Birthday</th>
                 </tr>
                 <tr class="trtdth" v-for="person in category.people">
-                    <td class="trtdth">
-                        <a href="/groupPage" @click="populateGroupPage(person.grpName)">
-                            <span v-if="person.grpName === person.stageName">Solo</span>
-                            <span v-else>{{ person.grpName }}<span v-if="person.afr === 'f'"> (ex)</span></span>
-                        </a>
+                    <td class="trtdth" @click="populateGroupPage(person.grpName)">
+                        <span v-if="person.grpName === person.stageName">Solo</span>
+                        <span v-else>{{ person.grpName }}<span v-if="person.afr === 'f'"> (ex)</span></span>
                     </td>
-                    <td class="trtdth">
-                        <a href="/groupPage" @click="populateGroupPage(person.grpName)">
-                            {{ person.stageName }}
-                            <span v-if="person.birthday === 'September 30, 2002'"
-                                style="font-size: 17px; line-height: 10px">
-                                ★</span>
-                        </a>
+                    <td class="trtdth" @click="populateGroupPage(person.grpName)">
+                        {{ person.stageName }}
+                        <span v-if="person.birthday === 'September 30, 2002'"
+                            style="font-size: 17px; line-height: 10px">
+                            ★</span>
                     </td>
-                    <td class="trtdth">
-                        <a href="/groupPage" @click="populateGroupPage(person.grpName)">
-                            {{ person.fullName }}
-                        </a>
+                    <td class="trtdth" @click="populateGroupPage(person.grpName)">
+                        {{ person.fullName }}
                     </td>
                     <td class="trtdth">
                         {{ person.birthday }}
@@ -49,18 +43,14 @@
                 </tr>
                 <tr class="trtdthTwin" v-for="twinSet in category.twinnies">
                     <td class="trtdthTwin">
-                        <p v-for="twin in twinSet.twins">
-                            <a href="/groupPage" @click="populateGroupPage(twin.grpName)">
-                                <span v-if="twin.grpName === twin.stageName">Solo</span>
-                                <span v-else>{{ twin.grpName }}<span v-if="twin.afr === 'f'"> (ex)</span></span>
-                            </a>
+                        <p v-for="twin in twinSet.twins" @click="populateGroupPage(twin.grpName)">
+                            <span v-if="twin.grpName === twin.stageName">Solo</span>
+                            <span v-else>{{ twin.grpName }}<span v-if="twin.afr === 'f'"> (ex)</span></span>
                         </p>
                     </td>
                     <td class="trtdthTwin">
-                        <p v-for="twin in twinSet.twins">
-                            <a href="/groupPage" @click="populateGroupPage(twin.grpName)">
-                                {{ twin.stageName }}
-                            </a>
+                        <p v-for="twin in twinSet.twins" @click="populateGroupPage(twin.grpName)">
+                            {{ twin.stageName }}
                         </p>
                     </td>
                     <td class="trtdthTwin">
@@ -269,6 +259,7 @@ export default {
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
+            this.$router.push('/groupPage')
         },
         switchList(list) {
             this.currentList = list;

@@ -3,13 +3,12 @@
         <div class="birthdayDisplay">
             <p class="date">Today is {{ currentDate }}! Happy Birthday to:</p>
             <div class="insideDisplay">
-                <div class="peopleDiv" v-for="pers in birthdayToday">
-                    <a href="/groupPage" v-if="pers.afr === 'a' || pers.afr === 'f'" style="text-decoration: none"
-                        @click="populateGroupPage(pers.grpName)">
+                <div class="peopleDiv" v-for="pers in birthdayToday" @click="populateGroupPage(pers.grpName)">
+                    <div v-if="pers.afr === 'a' || pers.afr === 'f'">
                         <v-lazy-image class="bdayPic" :src="require('../assets/imageArchive/' + pers.imgLink)" />
                         <p class="bdayStage">{{ pers.stageName }}</p>
                         <p class="bdayGroup">{{ pers.grpName }}</p>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -17,11 +16,11 @@
         <div class="randomDisplay">
             <p class="date">Looking for a new group to stan? Check out these groups!</p>
             <div class="insideDisplay">
-                <div class="randomDiv" v-for="group in randomGroups">
-                    <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group.groupName)">
+                <div class="randomDiv" v-for="group in randomGroups" @click="populateGroupPage(group.groupName)">
+                    <div>
                         <v-lazy-image class="randomPic" :src="require('../assets/imageArchive/' + group.imgLink)" />
                         <p class="randomName">{{ group.groupName }}</p>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -124,6 +123,7 @@ export default {
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
+            this.$router.push('/groupPage')
         },
     },
 };

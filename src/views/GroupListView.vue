@@ -6,11 +6,9 @@
   </div>
   <div class="listBox">
     <div v-for="group in currentList">
-      <div class="groupDiv">
-        <a href="/groupPage" style="text-decoration: none" @click="populateGroupPage(group)">
-          <v-lazy-image class="groupPicList" :src="require('../assets/imageArchive/' + group.imgLink)" />
-          <p class="groupNameList">{{ group.groupName }}</p>
-        </a>
+      <div class="groupDiv" @click="populateGroupPage(group)">
+        <v-lazy-image class="groupPicList" :src="require('../assets/imageArchive/' + group.imgLink)" />
+        <p class="groupNameList">{{ group.groupName }}</p>
       </div>
     </div>
   </div>
@@ -39,6 +37,7 @@ export default {
       }
       selectedGroupArray = group;
       localStorage.setItem("selectedGroup", JSON.stringify(selectedGroupArray));
+      this.$router.push('/groupPage')
     },
     switchList(list) {
       if (list === "b") {
@@ -93,6 +92,7 @@ export default {
 .groupDiv {
   /* border: 1px solid red; */
   border-radius: 8px;
+  cursor: pointer;
   float: left;
   height: fit-content;
   padding: 20px;
