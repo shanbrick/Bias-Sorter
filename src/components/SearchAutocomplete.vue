@@ -186,19 +186,21 @@ export default {
             return word.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
         },
         setResultGroup(result) {
-            this.search = result.groupName;
+            this.search = "";
             this.isOpen = false;
             if (this.selectedGroupArray === null) {
                 this.selectedGroupArray = [];
             }
             this.selectedGroupArray = result;
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
-            this.$router.push('/groupPage')
-            window.location.reload();
-            window.scrollTo(0, 0);
+            if (this.$route.path === '/groupPage') {
+                window.location.reload();
+            } else {
+                this.$router.push('/groupPage')
+            }
         },
         setResultPeople(result) {
-            this.search = result.stageName;
+            this.search = "";
             this.isOpen = false;
             if (this.selectedGroupArray === null) {
                 this.selectedGroupArray = [];
@@ -212,9 +214,11 @@ export default {
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
-            this.$router.push('/groupPage')
-            window.location.reload();
-            window.scrollTo(0, 0);
+            if (this.$route.path === '/groupPage') {
+                window.location.reload();
+            } else {
+                this.$router.push('/groupPage')
+            }
         },
         checkInArr(search, bigArr) {
             for (let i = 0; i < bigArr.length; i++) {
