@@ -194,6 +194,7 @@ export default {
             this.selectedGroupArray = result;
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
             this.$router.push('/groupPage')
+            window.location.reload();
         },
         setResultPeople(result) {
             this.search = result.stageName;
@@ -211,6 +212,7 @@ export default {
             }
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
             this.$router.push('/groupPage')
+            window.location.reload();
         },
         checkInArr(search, bigArr) {
             for (let i = 0; i < bigArr.length; i++) {
