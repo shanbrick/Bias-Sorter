@@ -468,6 +468,7 @@ export default {
 .homePeoplePics {
     border-radius: 8px;
     box-shadow: 0px 0px 5px #00000080;
+    cursor: pointer;
     margin: 0px;
     padding: 0px;
     width: 130px;

@@ -3,7 +3,7 @@
         <input v-model="search" @input="onChange" type="text" placeholder="Search..." />
         <ul v-show="isOpen" class="autocomplete-results">
             <div style="margin-bottom: 10px" v-for="result in peopleResults">
-                <div @click="setResultPeople(result)">
+                <div class="searchResultDiv" @click="setResultPeople(result)">
                     <v-lazy-image class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
                     <p class="threeDiv autocomplete-result">
                         {{ result.stageName }}
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div style="margin-bottom: 10px" v-for="result in groupResults">
-                <div @click="setResultGroup(result)">
+                <div class="searchResultDiv" @click="setResultGroup(result)">
                     <v-lazy-image class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
                     <p class="threeDiv autocomplete-result">
                         {{ result.groupName }}
@@ -219,6 +219,7 @@ export default {
                 }
             }
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
+            this.$router.push('/groupPage')
         },
         checkInArr(search, bigArr) {
             for (let i = 0; i < bigArr.length; i++) {
@@ -294,7 +295,11 @@ export default {
     clear: both;
 }
 
-a:hover {
+.searchResultDiv {
+    display: flex
+}
+
+.searchResultDiv:hover {
     background-color: #b3b8e9;
     border-radius: 5px;
 }

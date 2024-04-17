@@ -6,27 +6,27 @@
         <div class="birthdayDiv">
             <p class="monthName">{{ category.name }} - {{ category.total }}</p>
             <table class="mainTable">
-                <tr class="trtdth">
-                    <th class="trtdth">Group Name</th>
-                    <th class="trtdth">Stage Name</th>
-                    <th class="trtdth">Full Name</th>
-                    <th class="trtdth">Birthday</th>
+                <tr class="tr">
+                    <th class="th">Group Name</th>
+                    <th class="th">Stage Name</th>
+                    <th class="tdth">Full Name</th>
+                    <th class="tdth">Birthday</th>
                 </tr>
-                <tr class="trtdth" v-for="person in category.people">
-                    <td class="trtdth" @click="populateGroupPage(person.grpName)">
+                <tr class="tr" v-for="person in category.people">
+                    <td class="td" @click="populateGroupPage(person.grpName)">
                         <span v-if="person.grpName === person.stageName">Solo</span>
                         <span v-else>{{ person.grpName }}<span v-if="person.afr === 'f'"> (ex)</span></span>
                     </td>
-                    <td class="trtdth" @click="populateGroupPage(person.grpName)">
+                    <td class="td" @click="populateGroupPage(person.grpName)">
                         {{ person.stageName }}
                         <span v-if="person.birthday === 'September 30, 2002'"
                             style="font-size: 17px; line-height: 10px">
                             ★</span>
                     </td>
-                    <td class="trtdth" @click="populateGroupPage(person.grpName)">
+                    <td class="td" @click="populateGroupPage(person.grpName)">
                         {{ person.fullName }}
                     </td>
-                    <td class="trtdthB">
+                    <td class="tdB">
                         {{ person.birthday }}
                     </td>
                 </tr>
@@ -35,28 +35,28 @@
         <div class="twinDiv">
             <p class="twinTitleName">Twinnies - {{ category.twinTotal }}</p>
             <table>
-                <tr class="trtdth">
-                    <th class="trtdthTwin">Group Name</th>
-                    <th class="trtdthTwin">Stage Name</th>
-                    <th class="trtdthTwin">Birthday</th>
-                    <th class="trtdthTwin">Year</th>
+                <tr class="tr">
+                    <th class="thTwin">Group Name</th>
+                    <th class="thTwin">Stage Name</th>
+                    <th class="thTwin">Birthday</th>
+                    <th class="thTwin">Year</th>
                 </tr>
-                <tr class="trtdthTwin" v-for="twinSet in category.twinnies">
-                    <td class="trtdthTwin">
+                <tr class="trTwin" v-for="twinSet in category.twinnies">
+                    <td class="tdTwin">
                         <p v-for="twin in twinSet.twins" @click="populateGroupPage(twin.grpName)">
                             <span v-if="twin.grpName === twin.stageName">Solo</span>
                             <span v-else>{{ twin.grpName }}<span v-if="twin.afr === 'f'"> (ex)</span></span>
                         </p>
                     </td>
-                    <td class="trtdthTwin">
+                    <td class="tdTwin">
                         <p v-for="twin in twinSet.twins" @click="populateGroupPage(twin.grpName)">
                             {{ twin.stageName }}
                         </p>
                     </td>
-                    <td class="trtdthTwinB">
+                    <td class="tdTwinB">
                         <p>{{ twinSet.birthday }}</p>
                     </td>
-                    <td class="trtdthTwinB">
+                    <td class="tdTwinB">
                         <p v-for="twin in twinSet.twins">
                             {{ twin.birthday.substring(twin.birthday.length - 4) }}
                         </p>
@@ -347,32 +347,54 @@ table {
     width: 100%;
 }
 
-.trtdth {
+.tr {
+    padding: 10px;
+    text-align: left;
+}
+
+.th {
+    padding: 10px;
+    text-align: left;
+}
+
+.td {
     padding: 10px;
     text-align: left;
     cursor: pointer;
 }
 
-.trtdthB {
+.tdB {
     padding: 10px;
     text-align: left;
 }
 
-.trtdthTwin {
+.trTwin {
+    font-size: 90%;
+    padding: 10px;
+    text-align: left;
+}
+
+.thTwin {
+    font-size: 90%;
+    padding: 10px;
+    text-align: left;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.tdTwin {
     font-size: 90%;
     padding: 10px;
     text-align: left;
     cursor: pointer;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
-.trtdthTwinB {
+.tdTwinB {
     font-size: 90%;
     padding: 10px;
     text-align: left;
-}
-
-.trtdthTwin td,
-th {
     padding-top: 1px;
     padding-bottom: 1px;
 }
