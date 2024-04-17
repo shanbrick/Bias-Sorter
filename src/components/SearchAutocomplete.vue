@@ -3,7 +3,7 @@
         <input v-model="search" @input="onChange" type="text" placeholder="Search..." />
         <ul v-show="isOpen" class="autocomplete-results">
             <div style="margin-bottom: 10px" v-for="result in peopleResults">
-                <a style="display: flex" href="/groupPage" @click="setResultPeople(result)">
+                <div @click="setResultPeople(result)">
                     <v-lazy-image class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
                     <p class="threeDiv autocomplete-result">
                         {{ result.stageName }}
@@ -11,10 +11,10 @@
                         <br />
                         <span class="acrSmall">{{ result.grpName }}</span>
                     </p>
-                </a>
+                </div>
             </div>
             <div style="margin-bottom: 10px" v-for="result in groupResults">
-                <a style="display: flex" href="/groupPage" @click="setResultGroup(result)">
+                <div @click="setResultGroup(result)">
                     <v-lazy-image class="threeDiv acPic" :src="require('../assets/imageArchive/' + result.imgLink)" />
                     <p class="threeDiv autocomplete-result">
                         {{ result.groupName }}
@@ -23,7 +23,7 @@
                         <br />
                         <span class="acrSmall">{{ result.company }}</span>
                     </p>
-                </a>
+                </div>
             </div>
         </ul>
     </div>
@@ -202,6 +202,7 @@ export default {
             }
             this.selectedGroupArray = result;
             localStorage.setItem("selectedGroup", JSON.stringify(this.selectedGroupArray));
+            this.$router.push('/groupPage')
         },
         setResultPeople(result) {
             this.search = result.stageName;
