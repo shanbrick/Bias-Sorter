@@ -296,6 +296,7 @@ export default {
 }
 
 .searchResultDiv {
+    cursor: pointer;
     display: flex
 }
 
