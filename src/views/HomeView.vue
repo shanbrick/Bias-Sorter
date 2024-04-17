@@ -170,6 +170,7 @@ export default {
 
 .peopleDiv {
     border-radius: 5px;
+    cursor: pointer;
     height: fit-content;
     padding: 10px 0px 0px;
     margin-bottom: 0px;
@@ -234,6 +235,7 @@ export default {
 
 .randomDiv {
     border-radius: 10px;
+    cursor: pointer;
     height: fit-content;
     padding: 10px 20px 0px;
     margin-bottom: 0px;

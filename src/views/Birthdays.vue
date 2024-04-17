@@ -26,7 +26,7 @@
                     <td class="trtdth" @click="populateGroupPage(person.grpName)">
                         {{ person.fullName }}
                     </td>
-                    <td class="trtdth">
+                    <td class="trtdthB">
                         {{ person.birthday }}
                     </td>
                 </tr>
@@ -53,10 +53,10 @@
                             {{ twin.stageName }}
                         </p>
                     </td>
-                    <td class="trtdthTwin">
+                    <td class="trtdthTwinB">
                         <p>{{ twinSet.birthday }}</p>
                     </td>
-                    <td class="trtdthTwin">
+                    <td class="trtdthTwinB">
                         <p v-for="twin in twinSet.twins">
                             {{ twin.birthday.substring(twin.birthday.length - 4) }}
                         </p>
@@ -350,9 +350,22 @@ table {
 .trtdth {
     padding: 10px;
     text-align: left;
+    cursor: pointer;
+}
+
+.trtdthB {
+    padding: 10px;
+    text-align: left;
 }
 
 .trtdthTwin {
+    font-size: 90%;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.trtdthTwinB {
     font-size: 90%;
     padding: 10px;
     text-align: left;

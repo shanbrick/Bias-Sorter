@@ -71,9 +71,8 @@
                                         v-on:click.right="openContextMenu($event, pers)" class="homePeoplePics"
                                         :src="require('../assets/imageArchive/' + pers.imgLink)" />
                                     <p class="idolName">{{ pers.stageName }}</p>
-                                    <a href="/groupPage" @click="populateGroupPage(pers.grpName)">
-                                        <p class="groupName">{{ pers.grpName }}</p>
-                                    </a>
+                                    <p class="groupName" @click="populateGroupPage(pers.grpName)">{{ pers.grpName }}
+                                    </p>
                                 </div>
                             </template>
                         </draggable>
@@ -451,6 +450,7 @@ export default {
 }
 
 .groupName {
+    cursor: pointer;
     font-size: 0.75em;
     margin: 5px;
     text-align: center;
