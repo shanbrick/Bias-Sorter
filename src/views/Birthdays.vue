@@ -260,6 +260,7 @@ export default {
             }
             localStorage.setItem("selectedGroup", JSON.stringify(selectedGroup));
             this.$router.push('/groupPage')
+            window.scrollTo(0, 0);
         },
         switchList(list) {
             this.currentList = list;

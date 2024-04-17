@@ -190,6 +190,8 @@ export default {
             localStorage.setItem("selectedGroup", JSON.stringify(groupArray));
             this.group = JSON.parse(localStorage.getItem("selectedGroup"));
             this.$router.push('/groupPage')
+            window.location.reload();
+            window.scrollTo(0, 0);
         },
         removeFromHome(person) {
             for (let i = 0; i < this.fireSaveData.categories.length; i++) {
