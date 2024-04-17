@@ -1,4 +1,4 @@
-// harry june and sohee not showing up on month twins
+// fix cursor pointer on trtdth (separate them so bday isnt cursor pointer)
 <template>
     <button @click="switchList(months)" class="diffList">By Month</button>
     <button @click="switchList(years)" class="diffList">By Year</button>
@@ -226,9 +226,9 @@ export default {
                 }
             }
 
-            for (let j = 1; j < this.months[i].twinnies.length - 1; j++) {
+            for (let j = 0; j < this.months[i].twinnies.length - 1; j++) {
                 let tj = this.months[i].twinnies[j];
-                for (let k = 2; k < this.months[i].twinnies.length; k++) {
+                for (let k = 1; k < this.months[i].twinnies.length; k++) {
                     let tk = this.months[i].twinnies[k];
                     if (tj.birthday === tk.birthday) {
                         let merged = [...new Set([...tj.twins, ...tk.twins])];
