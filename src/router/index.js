@@ -39,6 +39,14 @@ const router = createRouter({
       meta: {
         requiresAuth: true,
       }
+    },
+    {
+      path: '/spreadsheet',
+      name: 'spreadsheet',
+      component: () => import('../views/Spreadsheet.vue'),
+      meta: {
+        requiresAuth: true,
+      }
     }
   ]
 });

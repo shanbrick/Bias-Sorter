@@ -5,6 +5,7 @@
       <router-link class="navButtons" to="/list">Lists</router-link>
       <router-link class="navButtons" to="/groups">Groups</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
+      <router-link class="navButtons" to="/spreadsheet">Spreadsheet</router-link>
       <button v-if="isLoggedIn" class="signInOut" @click="handleSignOut">Sign Out</button>
       <button v-else class="signInOut" @click="signinPopup">Sign In</button>
       <v-lazy-image v-if="isLoggedIn" class="pfp" :src="currUser.photoURL" />
