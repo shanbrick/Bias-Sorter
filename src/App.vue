@@ -2,7 +2,7 @@
   <div class="navBar">
     <nav>
       <router-link class="navButtons" to="/">Home</router-link>
-      <router-link class="navButtons" to="/list">Lists</router-link>
+      <router-link class="navButtons" to="/list">Bias Lists</router-link>
       <router-link class="navButtons" to="/groupList">Group Lists</router-link>
       <router-link class="navButtons" to="/groups">Groups</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
