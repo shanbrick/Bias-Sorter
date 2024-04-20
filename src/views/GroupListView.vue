@@ -512,7 +512,7 @@ export default {
     border-radius: 8px;
     box-shadow: 0px 0px 5px #00000080;
     cursor: pointer;
-    height: 130px;
+    height: 110px;
     margin: 0px;
     object-fit: cover;
     padding: 0px;
