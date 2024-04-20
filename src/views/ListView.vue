@@ -166,6 +166,24 @@ export default {
                                 "catName": "Regs",
                                 "people": []
                             }
+                        ],
+                        "groupCategories": [
+                            {
+                                "catName": "Unsorted",
+                                "groups": []
+                            },
+                            {
+                                "catName": "Ults",
+                                "groups": []
+                            },
+                            {
+                                "catName": "Semis",
+                                "groups": []
+                            },
+                            {
+                                "catName": "Regs",
+                                "groups": []
+                            }
                         ]
                     }
                 );

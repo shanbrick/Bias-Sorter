@@ -4,6 +4,24 @@
         <p class="groupName">{{ group.groupName }} ({{ group.groupKR }})</p>
         <p><i style="font-weight: bold">Company:</i> {{ group.company }}</p>
         <p><i style="font-weight: bold">Debut:</i> {{ group.debutDate }}</p>
+        <div v-if="group.bgs !== 's'">
+            <button v-if="checkGroup(group.imgLink)" @click="removeFromHome(group)" class="added">
+                Added
+            </button>
+            <button v-else @click="
+                addToGroupUnsorted(
+                    group.groupName,
+                    group.groupKR,
+                    group.bgs,
+                    group.imgLink,
+                    group.company,
+                    group.debutDate,
+                    group.members
+                )
+                ">
+                Add
+            </button>
+        </div>
     </div>
     <div class="bigBox">
         <div v-for="person in active" class="memberDivs">
@@ -93,6 +111,7 @@ export default {
             currUser: {},
             fireSaveData: {},
             fsdLength: 0,
+            fsdGLength: 0,
         };
     },
     mounted() {
@@ -113,6 +132,7 @@ export default {
                 const saveData = userDoc.data();
                 this.fireSaveData = saveData;
                 this.fsdLength = this.fireSaveData.categories.length;
+                this.fsdGLength = this.fireSaveData.groupCategories.length;
             } else {
                 const saveData = await this.$db
                     .collection("users")
@@ -165,9 +185,32 @@ export default {
             }
             this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
         },
+        addToGroupUnsorted(groupName, groupKR, bgs, imgLink, company, debutDate, members) {
+            this.fireSaveData.groupCategories[0].groups.push({
+                groupName: groupName,
+                groupKR: groupKR,
+                bgs: bgs,
+                imgLink: imgLink,
+                company: company,
+                debutDate: debutDate,
+                members: members,
+            });
+            this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
+        },
         checkPerson(input) {
             for (let i = 0; i < this.fsdLength; i++) {
                 let array = this.fireSaveData.categories[i].people;
+                for (let j = 0; j < array.length; j++) {
+                    if (array[j].imgLink === input) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        },
+        checkGroup(input) {
+            for (let i = 0; i < this.fsdGLength; i++) {
+                let array = this.fireSaveData.groupCategories[i].groups;
                 for (let j = 0; j < array.length; j++) {
                     if (array[j].imgLink === input) {
                         return true;
@@ -201,6 +244,21 @@ export default {
                             i
                         ].people.filter((p) => {
                             return p.imgLink !== person.imgLink;
+                        });
+                        this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
+                        break;
+                    }
+                }
+            }
+        },
+        removeFromHomeGroup(group) {
+            for (let i = 0; i < this.fireSaveData.groupCategories.length; i++) {
+                for (let j = 0; j < this.fireSaveData.groupCategories[i].groups.length; j++) {
+                    if (this.fireSaveData.groupCategories[i].groups[j].imgLink === group.imgLink) {
+                        this.fireSaveData.groupCategories[i].groups = this.fireSaveData.groupCategories[
+                            i
+                        ].groups.filter((g) => {
+                            return g.imgLink !== group.imgLink;
                         });
                         this.$db.collection("users").doc(this.currUser.uid).set(this.fireSaveData);
                         break;

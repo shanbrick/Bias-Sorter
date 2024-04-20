@@ -289,6 +289,16 @@ export default {
     transition: all 300ms ease-in-out;
 }
 
+.diffList:hover {
+    top: 0.2em;
+    box-shadow: 0 0.2em #888bb0;
+}
+
+.diffList:active {
+    top: 0.4em;
+    box-shadow: 0 0em #888bb0;
+}
+
 a {
     color: black;
     text-decoration: none;

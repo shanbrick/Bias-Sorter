@@ -1,25 +1,53 @@
 <template>
+    <div>
+        <button @click="switchList(0)" class="diffList">Everyone</button>
+        <button @click="switchList(1)" class="diffList">Categories</button>
+    </div>
     <!-- <p>{{ fireSaveData }}</p> -->
-    <table id="listTable">
-        <tr>
-            <th @click="sortTableABC(0)">Group</th>
-            <th @click="sortTableABC(1)">Stage Name</th>
-            <th @click="sortTableABC(2)"></th>
-            <th @click="sortTableABC(3)">Full Name</th>
-            <th @click="sortTableABC(4)"></th>
-            <th @click="sortTableDate(5)">Birthday</th>
-            <th @click="sortTableABC(6)">Category</th>
-        </tr>
-        <tr v-for="person in fireSaveData">
-            <td>{{ person.grpName }}</td>
-            <td>{{ person.stageName }}</td>
-            <td>{{ person.stageKR }}</td>
-            <td>{{ person.fullName }}</td>
-            <td>{{ person.fullKR }}</td>
-            <td>{{ person.birthday }}</td>
-            <td>{{ person.list }}</td>
-        </tr>
-    </table>
+    <div v-if="currentList === 0">
+        <table id="listTable">
+            <tr>
+                <th @click="sortTableABC(0)">Group</th>
+                <th @click="sortTableABC(1)">Stage Name</th>
+                <th @click="sortTableABC(2)"></th>
+                <th @click="sortTableABC(3)">Full Name</th>
+                <th @click="sortTableABC(4)"></th>
+                <th @click="sortTableDate(5)">Birthday</th>
+                <th @click="sortTableABC(6)">Category</th>
+            </tr>
+            <tr v-for="person in combinedList">
+                <td>{{ person.grpName }}</td>
+                <td>{{ person.stageName }}</td>
+                <td>{{ person.stageKR }}</td>
+                <td>{{ person.fullName }}</td>
+                <td>{{ person.fullKR }}</td>
+                <td>{{ person.birthday }}</td>
+                <td>{{ person.list }}</td>
+            </tr>
+        </table>
+    </div>
+    <div v-if="currentList === 1">
+        <table v-for="category in fireSaveData.categories" id="listTable">
+            <tr>
+                <th @click="sortTableABC(0)">Group</th>
+                <th @click="sortTableABC(1)">Stage Name</th>
+                <th @click="sortTableABC(2)"></th>
+                <th @click="sortTableABC(3)">Full Name</th>
+                <th @click="sortTableABC(4)"></th>
+                <th @click="sortTableDate(5)">Birthday</th>
+                <th @click="sortTableABC(6)">Category</th>
+            </tr>
+            <tr v-for="person in category.people">
+                <td>{{ person.grpName }}</td>
+                <td>{{ person.stageName }}</td>
+                <td>{{ person.stageKR }}</td>
+                <td>{{ person.fullName }}</td>
+                <td>{{ person.fullKR }}</td>
+                <td>{{ person.birthday }}</td>
+                <td>{{ person.list }}</td>
+            </tr>
+        </table>
+    </div>
 </template>
 
 <script>
@@ -33,7 +61,9 @@ export default {
     data() {
         return {
             currUser: {},
+            currentList: 0,
             fireSaveData: {},
+            combinedList: {}
         }
     },
     mounted() {
@@ -52,7 +82,8 @@ export default {
             const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
             if (userDoc.exists) {
                 const saveData = userDoc.data();
-                this.fireSaveData = this.combineLists(saveData);
+                this.fireSaveData = saveData;
+                this.combinedList = this.combineLists(saveData);
             } else {
                 const saveData = await this.$db.collection("users").doc(currentUser.uid).set(
                     {
@@ -197,18 +228,54 @@ export default {
                     }
                 }
             }
-        }
+        },
+        switchList(list) {
+            console.log(list);
+            if (list === 0) {
+                this.currentList = 0;
+            } else {
+                this.currentList = 1;
+            }
+        },
     }
 }
 </script>
 
 <style scoped>
+.diffList {
+    background-color: #b3b8e9;
+    border: 1px solid #b3b8e9;
+    border-radius: 5px;
+    box-shadow: 0 0.3em #888bb0;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px 10px 0px;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.diffList:hover {
+    top: 0.2em;
+    box-shadow: 0 0.2em #888bb0;
+}
+
+.diffList:active {
+    top: 0.4em;
+    box-shadow: 0 0em #888bb0;
+}
+
 table {
     border-collapse: collapse;
     border-radius: 10px;
     box-shadow: 0px 0px 5px black;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 40px;
     padding: 10px;
     max-width: 1000px;

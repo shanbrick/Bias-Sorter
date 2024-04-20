@@ -3,6 +3,7 @@
     <nav>
       <router-link class="navButtons" to="/">Home</router-link>
       <router-link class="navButtons" to="/list">Lists</router-link>
+      <router-link class="navButtons" to="/groupList">Group Lists</router-link>
       <router-link class="navButtons" to="/groups">Groups</router-link>
       <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
       <router-link class="navButtons" to="/spreadsheet">Spreadsheet</router-link>
@@ -154,7 +155,7 @@ nav {
   float: left;
   font-weight: bold;
   margin: 5px;
-  padding: 5px 20px;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
 }
