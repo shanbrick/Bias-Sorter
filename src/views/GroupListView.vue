@@ -27,8 +27,9 @@
     </div>
 
     <div id="unsorted" class="unsorted">
-        <div class="boxHeaderUnsorted">
-            <p class="categoryTitle">Unsorted</p>
+        <div class="boxHeaderUnsorted" style="display: flex;">
+            <p class="categoryTitle" style="float: left">Unsorted</p>
+            <button style="float:right">X</button>
         </div>
         <div class="unsortedPeople">
             <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
@@ -272,7 +273,7 @@ export default {
 
                         this.homePageArrays = [];
                         for (let i = 0; i < this.fireSaveData.groupCategories.length; i++) {
-                            this.homePageArrays.push(this.fireSaveData.groupCategories[i].people);
+                            this.homePageArrays.push(this.fireSaveData.groupCategories[i].groups);
                         }
                         break;
                     }

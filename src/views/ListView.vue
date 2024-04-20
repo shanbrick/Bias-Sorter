@@ -29,6 +29,7 @@
     <div id="unsorted" class="unsorted">
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
+            <button class="colUns">X</button>
         </div>
         <div class="unsortedPeople">
             <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
@@ -407,6 +408,24 @@ export default {
     padding-left: 20px;
     position: fixed;
     width: 342px;
+}
+
+.colUns {
+    background-image: linear-gradient(rgba(218, 218, 218, 1) 0px,
+            rgb(235, 235, 235) 50%,
+            rgba(218, 218, 218, 1) 100%);
+    border: 1px solid #ffffff00;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px black;
+    float: right;
+    margin: 11px;
+}
+
+.colUns:hover {
+    background-image: linear-gradient(rgb(180, 180, 180) 0px,
+            rgb(204, 204, 204) 50%,
+            rgb(180, 180, 180) 100%);
+    cursor: pointer;
 }
 
 .sideCats {
