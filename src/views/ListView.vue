@@ -406,7 +406,7 @@ export default {
     height: 60%;
     margin: 0px 20px 20px;
     overflow-x: hidden;
-    padding: 55px 0px 10px;
+    padding: 65px 10px 10px;
     position: fixed;
     width: 342px;
     z-index: 0;
@@ -421,10 +421,11 @@ export default {
 
 .boxHeaderUnsorted {
     height: 45px;
-    margin-top: -44px;
+    margin-top: -54px;
     margin-left: -1px;
     margin-bottom: 15px;
     padding-left: 20px;
+    padding-right: 10px;
     position: fixed;
     width: 342px;
 }

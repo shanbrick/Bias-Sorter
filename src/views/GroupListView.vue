@@ -26,10 +26,14 @@
         <button class="uploadButton" id="import">Upload List</button>
     </div>
 
-    <div id="unsorted" class="unsorted">
+    <button class="showUnsButton" v-show="unsortedCollapsed" @click="toggleUnsorted(1)">
+        U
+    </button>
+
+    <div id="unsorted" class="unsorted" v-show="!unsortedCollapsed">
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
-            <button class="colUns">X</button>
+            <button class="colUns" @click="toggleUnsorted(0)">X</button>
         </div>
         <div class="unsortedPeople">
             <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
@@ -117,7 +121,7 @@ export default {
             groups: groupListEdit,
             currUser: {},
             fireSaveData: {},
-            unsortedCollapsed: 0
+            unsortedCollapsed: true
         }
     },
     mounted() {
@@ -360,6 +364,20 @@ export default {
         },
         closeUploader() {
             this.showFileUploader = false;
+        },
+        toggleUnsorted(num) {
+            const sideCats = document.getElementsByClassName("sideCats");
+            if (num === 1) {
+                //unsorted shown
+                this.unsortedCollapsed = false;
+                sideCats[0].style.marginLeft = 375 + "px";
+                sideCats[0].style.marginRight = 0 + "px";
+            } else {
+                //unsorted collapsed
+                this.unsortedCollapsed = true;
+                sideCats[0].style.marginLeft = 50 + "px";
+                sideCats[0].style.marginRight = 50 + "px";
+            }
         }
     }
 }
@@ -409,7 +427,7 @@ export default {
     height: 60%;
     margin: 0px 20px 20px;
     overflow-x: hidden;
-    padding: 55px 0px 10px;
+    padding: 65px 10px 10px;
     position: fixed;
     width: 342px;
     z-index: 0;
@@ -428,6 +446,7 @@ export default {
     margin-left: -1px;
     margin-bottom: 15px;
     padding-left: 20px;
+    padding-right: 10px;
     position: fixed;
     width: 342px;
 }
@@ -440,7 +459,7 @@ export default {
     border-radius: 2px;
     box-shadow: 0px 0px 2px black;
     float: right;
-    margin: 11px;
+    margin: 2px 10px;
 }
 
 .colUns:hover {
@@ -450,8 +469,31 @@ export default {
     cursor: pointer;
 }
 
+.showUnsButton {
+    background: #747fe6;
+    background-image: linear-gradient(#b3b8e9, #747fe6);
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 5px black;
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0px;
+    padding: 10px;
+    position: fixed;
+    top: 220px;
+    left: 0px;
+    text-align: center;
+}
+
+.showUnsButton:hover {
+    background: #747fe6;
+    cursor: pointer;
+}
+
 .sideCats {
-    margin-left: 375px;
+    margin: 0px 50px;
     min-width: 500px;
 }
 
@@ -462,7 +504,7 @@ export default {
     height: fit-content;
     margin: 0px 20px 30px;
     min-height: 50px;
-    padding: 55px 0px 10px;
+    padding: 65px 10px 15px;
     position: relative;
 }
 
@@ -471,7 +513,7 @@ export default {
     font-size: 20px;
     font-weight: 700;
     position: absolute;
-    top: -9.5px;
+    top: -19.5px;
 }
 
 .categories:after {
@@ -523,7 +565,7 @@ export default {
     height: fit-content;
     padding: 5px 0px 5px;
     text-align: center;
-    width: 170px;
+    width: 160px;
 }
 
 .homePeoplePics {
