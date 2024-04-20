@@ -8,11 +8,11 @@
         <button class="topBarButton" @click="toggleEditModeOff()" v-else>&nbsp;✓&nbsp; Save Categories</button>
     </div>
 
-    <ContextMenu :display="showContextMenu" ref="menu">
+    <ContextMenu :display="showContextMenu" ref="menuGroup">
         <p class="contextButton" @click="removeFromHome()">Remove {{ clickedGroup.groupName }}</p>
     </ContextMenu>
 
-    <ContextMenu :display="showContextMenuCat" ref="menuCat">
+    <ContextMenu :display="showContextMenuCat" ref="menuCatGroup">
         <p class="contextButton" @click="removeFromHomeCat($event, true)">Remove category and move groups to
             Unsorted</p>
         <br>
@@ -27,9 +27,9 @@
     </div>
 
     <div id="unsorted" class="unsorted">
-        <div class="boxHeaderUnsorted" style="display: flex;">
-            <p class="categoryTitle" style="float: left">Unsorted</p>
-            <button style="float:right">X</button>
+        <div class="boxHeaderUnsorted">
+            <p class="categoryTitle">Unsorted</p>
+            <button class="colUns">X</button>
         </div>
         <div class="unsortedPeople">
             <draggable :list="homePageArrays[0]" group="everyone" :animation="300"
@@ -44,7 +44,6 @@
             </draggable>
         </div>
     </div>
-
 
     <div class="sideCats">
         <draggable :list="testArray" :animation="300" @change="updateCatOrder(testArray)" :disabled="!editModeOn"
@@ -118,6 +117,7 @@ export default {
             groups: groupListEdit,
             currUser: {},
             fireSaveData: {},
+            unsortedCollapsed: 0
         }
     },
     mounted() {
@@ -161,7 +161,6 @@ export default {
                         }, { merge: true }
                     );
                 }
-                console.log("group cats", this.fireSaveData.groupCategories)
 
                 for (let i = 0; i < this.fireSaveData.groupCategories.length; i++) {
                     this.homePageArrays.push(this.fireSaveData.groupCategories[i].groups);
@@ -249,18 +248,18 @@ export default {
         },
         openContextMenu(e, group) {
             this.clickedGroup = group;
-            this.$refs.menu.open(e);
+            this.$refs.menuGroup.open(e);
         },
         openContextMenuCat(e, category, index) {
             this.clickedCat = category;
             this.clickedIndex = index;
-            this.$refs.menuCat.open(e);
+            this.$refs.menuCatGroup.open(e);
         },
         openFileUploader() {
             this.showFileUploader = true;
         },
         removeFromHome(e) {
-            this.$refs.menu.close(e);
+            this.$refs.menuGroup.close(e);
             for (let i = 0; i < this.fireSaveData.groupCategories.length; i++) {
                 for (let j = 0; j < this.fireSaveData.groupCategories[i].groups.length; j++) {
                     if (this.fireSaveData.groupCategories[i].groups[j].imgLink === this.clickedGroup.imgLink) {
@@ -281,7 +280,7 @@ export default {
             }
         },
         removeFromHomeCat(e, moveToUnsorted) {
-            this.$refs.menuCat.close(e);
+            this.$refs.menuCatGroup.close(e);
             console.log(this.clickedCat);
             for (let i = 0; i < this.fireSaveData.groupCategories.length; i++) {
                 if (this.fireSaveData.groupCategories[i].catName === this.clickedCat.catName) {
@@ -431,6 +430,24 @@ export default {
     padding-left: 20px;
     position: fixed;
     width: 342px;
+}
+
+.colUns {
+    background-image: linear-gradient(rgba(218, 218, 218, 1) 0px,
+            rgb(235, 235, 235) 50%,
+            rgba(218, 218, 218, 1) 100%);
+    border: 1px solid #ffffff00;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px black;
+    float: right;
+    margin: 11px;
+}
+
+.colUns:hover {
+    background-image: linear-gradient(rgb(180, 180, 180) 0px,
+            rgb(204, 204, 204) 50%,
+            rgb(180, 180, 180) 100%);
+    cursor: pointer;
 }
 
 .sideCats {

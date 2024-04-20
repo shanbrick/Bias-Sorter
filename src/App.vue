@@ -249,7 +249,7 @@ input {
   background-color: #747fe6;
   border: 1px solid #747fe6;
   border-radius: 5px;
-  bottom: 20px;
+  bottom: 10px;
   box-shadow: 0px 0px 5px black;
   color: white;
   cursor: pointer;
@@ -258,7 +258,7 @@ input {
   font-weight: bolder;
   padding: 10px 13px 8px;
   position: fixed;
-  right: 20px;
+  right: 10px;
   z-index: 9999;
 }
 
