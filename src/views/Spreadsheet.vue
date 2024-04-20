@@ -2,13 +2,13 @@
     <!-- <p>{{ fireSaveData }}</p> -->
     <table id="listTable">
         <tr>
-            <th @click="sortTable(0)">Group</th>
-            <th @click="sortTable(1)">Stage Name</th>
-            <th @click="sortTable(2)"></th>
-            <th @click="sortTable(3)">Full Name</th>
-            <th @click="sortTable(4)"></th>
-            <th @click="sortTable(5)">Birthday</th>
-            <th @click="sortTable(6)">Category</th>
+            <th @click="sortTableABC(0)">Group</th>
+            <th @click="sortTableABC(1)">Stage Name</th>
+            <th @click="sortTableABC(2)"></th>
+            <th @click="sortTableABC(3)">Full Name</th>
+            <th @click="sortTableABC(4)"></th>
+            <th @click="sortTableDate(5)">Birthday</th>
+            <th @click="sortTableABC(6)">Category</th>
         </tr>
         <tr v-for="person in fireSaveData">
             <td>{{ person.grpName }}</td>
@@ -116,7 +116,7 @@ export default {
             }
             return combined;
         },
-        sortTable(n) {
+        sortTableABC(n) {
             var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
             table = document.getElementById("listTable");
             switching = true;
@@ -140,6 +140,47 @@ export default {
                         }
                     } else if (dir == "desc") {
                         if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        },
+        sortTableDate(n) {
+            var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+            table = document.getElementById("listTable");
+            switching = true;
+
+            dir = "asc";
+
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+
+                    if (dir == "asc") {
+                        if (new Date(x.innerHTML) > new Date(y.innerHTML)) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (new Date(x.innerHTML) < new Date(y.innerHTML)) {
                             shouldSwitch = true;
                             break;
                         }

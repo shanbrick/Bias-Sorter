@@ -38,6 +38,8 @@ export default {
       selectedGroupArray = group;
       localStorage.setItem("selectedGroup", JSON.stringify(selectedGroupArray));
       this.$router.push('/groupPage')
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     },
     switchList(list) {
       if (list === "b") {

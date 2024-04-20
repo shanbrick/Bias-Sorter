@@ -356,6 +356,16 @@
                 "birthday": "August 13, 1996",
                 "imgLink": "ACE/Byeongkwan.jpeg",
                 "afr": "a"
+            },
+            {
+                "grpName": "A.C.E",
+                "stageName": "Yuchan",
+                "stageKR": "유찬",
+                "fullName": "Kang Yuchan",
+                "fullKR": "강유찬",
+                "birthday": "December 31, 1997",
+                "imgLink": "ACE/Yuchan.jpeg",
+                "afr": "a"
             }
         ]
     },
@@ -974,7 +984,7 @@
                 "fullName": "Kim Hanbin",
                 "fullKR": "김한빈",
                 "birthday": "October 22, 1996",
-                "imgLink": "Solo/B.I.jpeg",
+                "imgLink": "Solo/BI.jpeg",
                 "afr": "a"
             }
         ]
