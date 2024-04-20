@@ -453,7 +453,7 @@ export default {
     background-image: linear-gradient(#b3b8e9, #747fe6);
     border: 1px solid rgb(121, 121, 121);
     border-radius: 0px 5px 5px 0px;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px rgb(80, 80, 80);
     color: white;
     float: left;
     font-size: 20px;
