@@ -27,7 +27,7 @@
         </table>
     </div>
     <div v-if="currentList === 1">
-        <table v-for="category in fireSaveData.categories" id="listTable">
+        <table v-for="category in fireSaveData.categories.slice(1)" id="listTable">
             <tr>
                 <th @click="sortTableABC(0)">Group</th>
                 <th @click="sortTableABC(1)">Stage Name</th>
@@ -35,7 +35,6 @@
                 <th @click="sortTableABC(3)">Full Name</th>
                 <th @click="sortTableABC(4)"></th>
                 <th @click="sortTableDate(5)">Birthday</th>
-                <th @click="sortTableABC(6)">Category</th>
             </tr>
             <tr v-for="person in category.people">
                 <td>{{ person.grpName }}</td>
@@ -44,7 +43,6 @@
                 <td>{{ person.fullName }}</td>
                 <td>{{ person.fullKR }}</td>
                 <td>{{ person.birthday }}</td>
-                <td>{{ person.list }}</td>
             </tr>
         </table>
     </div>
