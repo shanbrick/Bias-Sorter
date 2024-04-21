@@ -307,7 +307,7 @@ export default {
         },
         saveJSON() {
             var a = document.createElement("a");
-            var file = new Blob([this.fireSaveData], { type: 'application/json' });
+            var file = new Blob([JSON.stringify(this.fireSaveData)], { type: 'application/json' });
             a.href = URL.createObjectURL(file);
             a.download = 'exportSaveData.json';
             a.click();
@@ -518,7 +518,7 @@ export default {
     float: left;
     font-size: 20px;
     font-weight: 700;
-    margin: -15px -1px 10px -15px;
+    margin: -25px -1px 10px -15px;
     padding: 14px;
     position: relative;
 }
@@ -549,11 +549,17 @@ export default {
 
 .homePeoplePics {
     border-radius: 8px;
-    box-shadow: 0px 0px 5px #00000080;
     cursor: pointer;
     margin: 0px;
     padding: 0px;
     width: 130px;
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+
+.v-lazy-image-loaded {
+    filter: blur(0);
+    box-shadow: 0px 0px 5px #00000080;
 }
 
 a {

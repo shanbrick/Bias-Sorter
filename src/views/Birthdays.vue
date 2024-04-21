@@ -2,8 +2,48 @@
 <template>
     <button @click="switchList(months)" class="diffList">By Month</button>
     <button @click="switchList(years)" class="diffList">By Year</button>
+
+    <div style="margin-top: 20px" v-if="currentList === months">
+        <a href="#January">January | </a>
+        <a href="#February">February | </a>
+        <a href="#March">March | </a>
+        <a href="#April">April | </a>
+        <a href="#May">May | </a>
+        <a href="#June">June | </a>
+        <a href="#July">July | </a>
+        <a href="#August">August | </a>
+        <a href="#September">September | </a>
+        <a href="#October">October | </a>
+        <a href="#November">November | </a>
+        <a href="#December">December</a>
+    </div>
+    <div style="margin-top: 20px" v-else>
+        <a href="#1989">1989 | </a>
+        <a href="#1990">1990 | </a>
+        <a href="#1991">1991 | </a>
+        <a href="#1992">1992 | </a>
+        <a href="#1993">1993 | </a>
+        <a href="#1994">1994 | </a>
+        <a href="#1995">1995 | </a>
+        <a href="#1996">1996 | </a>
+        <a href="#1997">1997 | </a>
+        <a href="#1998">1998 | </a>
+        <a href="#1999">1999 | </a>
+        <a href="#2000">2000 | </a>
+        <a href="#2001">2001 | </a>
+        <a href="#2002">2002 | </a>
+        <a href="#2003">2003 | </a>
+        <a href="#2004">2004 | </a>
+        <a href="#2005">2005 | </a>
+        <a href="#2006">2006 | </a>
+        <a href="#2007">2007 | </a>
+        <a href="#2008">2008 | </a>
+        <a href="#2009">2009 | </a>
+        <a href="#2010">2010</a>
+    </div>
+
     <div style="display: flex; justify-content: center; margin: auto" v-for="category in currentList">
-        <div class="birthdayDiv">
+        <div class="birthdayDiv" :id="category.name">
             <p class="monthName">{{ category.name }} - {{ category.total }}</p>
             <table class="mainTable">
                 <tr class="tr">
@@ -390,8 +430,6 @@ table {
     font-size: 90%;
     padding: 10px;
     text-align: left;
-    padding-top: 1px;
-    padding-bottom: 1px;
 }
 
 .tdTwin {

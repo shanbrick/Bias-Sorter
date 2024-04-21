@@ -970,6 +970,106 @@
         ]
     },
     {
+        "groupName": "Bang Yedam",
+        "groupKR": "방예담",
+        "bgs": "s",
+        "imgLink": "Solo/BangYedamBig.jpeg",
+        "company": "GH Entertainment",
+        "debutDate": "November 23, 2023",
+        "members": [
+            {
+                "grpName": "Bang Yedam",
+                "stageName": "Bang Yedam",
+                "stageKR": "방예담",
+                "fullName": "Bang Yedam",
+                "fullKR": "방예담",
+                "birthday": "May 07, 2002",
+                "imgLink": "Solo/BangYedam.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "Bang Yongguk",
+        "groupKR": "",
+        "bgs": "s",
+        "imgLink": "Solo/BangYonggukBig.jpeg",
+        "company": "YY Entertainment",
+        "debutDate": "May 02, 2018",
+        "members": [
+            {
+                "grpName": "B.A.P",
+                "stageName": "Yongguk",
+                "stageKR": "용국",
+                "fullName": "Bang Yongguk",
+                "fullKR": "방용국",
+                "birthday": "March 31, 1990",
+                "imgLink": "BAP/Yongguk.jpeg",
+                "afr": "Bang Yongguk"
+            }
+        ]
+    },
+    {
+        "groupName": "B.A.P",
+        "groupKR": "비에이피",
+        "bgs": "b",
+        "imgLink": "BAP/group.jpeg",
+        "company": "TS Entertainment",
+        "debutDate": "January 26, 2012",
+        "members": [
+            {
+                "grpName": "B.A.P",
+                "stageName": "Yongguk",
+                "stageKR": "용국",
+                "fullName": "Bang Yongguk",
+                "fullKR": "방용국",
+                "birthday": "March 31, 1990",
+                "imgLink": "BAP/Yongguk.jpeg",
+                "afr": "Bang Yongguk"
+            },
+            {
+                "grpName": "B.A.P",
+                "stageName": "Daehyun",
+                "stageKR": "대현",
+                "fullName": "Jung Daehyun",
+                "fullKR": "정대현",
+                "birthday": "June 28, 1993",
+                "imgLink": "BAP/Daehyun.jpeg",
+                "afr": "Jung Daehyun"
+            },
+            {
+                "grpName": "B.A.P",
+                "stageName": "Youngjae",
+                "stageKR": "영재",
+                "fullName": "Yoo Youngjae",
+                "fullKR": "유영재",
+                "birthday": "January 24, 1994",
+                "imgLink": "BAP/Youngjae.jpeg",
+                "afr": "Younjae"
+            },
+            {
+                "grpName": "B.A.P",
+                "stageName": "Jongup",
+                "stageKR": "종업",
+                "fullName": "Moon Jongup",
+                "fullKR": "문종업",
+                "birthday": "February 06, 1995",
+                "imgLink": "BAP/Jongup.jpeg",
+                "afr": "Moon Jongup"
+            },
+            {
+                "grpName": "B.A.P",
+                "stageName": "Zelo",
+                "stageKR": "젤로",
+                "fullName": "Choi Junhong",
+                "fullKR": "최준홍",
+                "birthday": "October 15, 1996",
+                "imgLink": "BAP/Zelo.jpeg",
+                "afr": "Zelo"
+            }
+        ]
+    },
+    {
         "groupName": "B.I",
         "groupKR": "비아이",
         "bgs": "s",
@@ -3760,6 +3860,26 @@
         ]
     },
     {
+        "groupName": "Jung Daehyun",
+        "groupKR": "정대현",
+        "bgs": "s",
+        "imgLink": "Solo/JungDaehyunBig.jpeg",
+        "company": "MA Entertainment",
+        "debutDate": "April 05, 2019",
+        "members": [
+            {
+                "grpName": "Jung Daehyun",
+                "stageName": "Jung Daehyun",
+                "stageKR": "정대현",
+                "fullName": "Jung Daehyun",
+                "fullKR": "정대현",
+                "birthday": "June 28, 1993",
+                "imgLink": "Solo/JungDaehyun.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "JUSTB",
         "groupKR": "저스트비",
         "bgs": "b",
@@ -4685,6 +4805,26 @@
                 "fullKR": "신중민",
                 "birthday": "September 19, 1998",
                 "imgLink": "MONT/Roda.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "Moon Jongup",
+        "groupKR": "문종업",
+        "bgs": "s",
+        "imgLink": "Solo/MoonJongupBig.jpeg",
+        "company": "MA Entertainment",
+        "debutDate": "May 07, 2020",
+        "members": [
+            {
+                "grpName": "Moon Jongup",
+                "stageName": "Moon Jongup",
+                "stageKR": "문종업",
+                "fullName": "Moon Jongup",
+                "fullKR": "문종업",
+                "birthday": "February 06, 1995",
+                "imgLink": "Solo/MoonJongup.jpeg",
                 "afr": "a"
             }
         ]
@@ -6025,6 +6165,26 @@
                 "fullKR": "박수진",
                 "birthday": "July 11, 2003",
                 "imgLink": "PURPLEKISS/Swan.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "Ravi",
+        "groupKR": "라비",
+        "bgs": "s",
+        "imgLink": "Solo/RaviBig.jpeg",
+        "company": "GROOVL1N",
+        "debutDate": "January 09, 2017",
+        "members": [
+            {
+                "grpName": "Ravi",
+                "stageName": "Ravi",
+                "stageKR": "라비",
+                "fullName": "Kim Wonshik",
+                "fullKR": "김원식",
+                "birthday": "February 15, 1993",
+                "imgLink": "Solo/Ravi.jpeg",
                 "afr": "a"
             }
         ]
@@ -7465,7 +7625,7 @@
                 "fullKR": "방예담",
                 "birthday": "May 07, 2002",
                 "imgLink": "TREASURE/Yedam.jpeg",
-                "afr": "Yedam"
+                "afr": "Bang Yedam"
             },
             {
                 "grpName": "TREASURE",
@@ -8110,6 +8270,76 @@
         ]
     },
     {
+        "groupName": "VIXX",
+        "groupKR": "빅스",
+        "bgs": "b",
+        "imgLink": "VIXX/group.jpeg",
+        "company": "Jellyfish Entertainment",
+        "debutDate": "May 24, 2012",
+        "members": [
+            {
+                "grpName": "VIXX",
+                "stageName": "N",
+                "stageKR": "엔",
+                "fullName": "Cha Hakyeon",
+                "fullKR": "차학연",
+                "birthday": "June 30, 1990",
+                "imgLink": "VIXX/N.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "VIXX",
+                "stageName": "Leo",
+                "stageKR": "레오",
+                "fullName": "Jung Taekwoon",
+                "fullKR": "정택운",
+                "birthday": "November 10, 1990",
+                "imgLink": "VIXX/Leo.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "VIXX",
+                "stageName": "Ken",
+                "stageKR": "켄",
+                "fullName": "Lee Jaehwan",
+                "fullKR": "이재환",
+                "birthday": "April 06, 1992",
+                "imgLink": "VIXX/Ken.jpeg",
+                "afr": "a"
+            },
+            {
+                "grpName": "VIXX",
+                "stageName": "Ravi",
+                "stageKR": "라비",
+                "fullName": "Kim Wonshik",
+                "fullKR": "김원식",
+                "birthday": "February 15, 1993",
+                "imgLink": "VIXX/Ravi.jpeg",
+                "afr": "Ravi"
+            },
+            {
+                "grpName": "VIXX",
+                "stageName": "Hongbin",
+                "stageKR": "홍빈",
+                "fullName": "Lee Hongbin",
+                "fullKR": "이홍빈",
+                "birthday": "September 29, 1993",
+                "imgLink": "VIXX/Hongbin.jpeg",
+                "afr": "f"
+            },
+            {
+                "grpName": "VIXX",
+                "stageName": "Hyuk",
+                "stageKR": "혁",
+                "fullName": "Han Sanghyuk",
+                "fullKR": "한상혁",
+                "birthday": "July 05, 1995",
+                "imgLink": "VIXX/Hyuk.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "Weeekly",
         "groupKR": "위클리",
         "bgs": "g",
@@ -8620,26 +8850,6 @@
         ]
     },
     {
-        "groupName": "Yedam",
-        "groupKR": "예담",
-        "bgs": "s",
-        "imgLink": "Solo/YedamBig.jpeg",
-        "company": "GH Entertainment",
-        "debutDate": "November 23, 2023",
-        "members": [
-            {
-                "grpName": "Yedam",
-                "stageName": "Yedam",
-                "stageKR": "예담",
-                "fullName": "Bang Yedam",
-                "fullKR": "방예담",
-                "birthday": "May 07, 2002",
-                "imgLink": "Solo/Yedam.jpeg",
-                "afr": "a"
-            }
-        ]
-    },
-    {
         "groupName": "Yerin",
         "groupKR": "예린",
         "bgs": "s",
@@ -8660,6 +8870,26 @@
         ]
     },
     {
+        "groupName": "Youngjae",
+        "groupKR": "영재",
+        "bgs": "s",
+        "imgLink": "Solo/YoungjaeBig.jpeg",
+        "company": "JWorld Entertainment",
+        "debutDate": "April 19, 2019",
+        "members": [
+            {
+                "grpName": "Youngjae",
+                "stageName": "Youngjae",
+                "stageKR": "영재",
+                "fullName": "Yoo Youngjae",
+                "fullKR": "유영재",
+                "birthday": "January 24, 1994",
+                "imgLink": "Solo/Youngjae.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
         "groupName": "Yuju",
         "groupKR": "유주",
         "bgs": "s",
@@ -8675,6 +8905,26 @@
                 "fullKR": "최유나",
                 "birthday": "October 04, 1997",
                 "imgLink": "Solo/Yuju.jpeg",
+                "afr": "a"
+            }
+        ]
+    },
+    {
+        "groupName": "Zelo",
+        "groupKR": "젤로",
+        "bgs": "s",
+        "imgLink": "Solo/ZeloBig.jpeg",
+        "company": "Independent artist",
+        "debutDate": "June 21, 2019",
+        "members": [
+            {
+                "grpName": "Zelo",
+                "stageName": "Zelo",
+                "stageKR": "젤로",
+                "fullName": "Choi Junhong",
+                "fullKR": "최준홍",
+                "birthday": "October 15, 1996",
+                "imgLink": "Solo/Zelo.jpeg",
                 "afr": "a"
             }
         ]
