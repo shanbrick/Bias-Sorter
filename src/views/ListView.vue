@@ -144,6 +144,30 @@ export default {
             if (userDoc.exists) {
                 const saveData = userDoc.data();
                 this.fireSaveData = saveData;
+                if (this.fireSaveData.groupCategories === undefined) {
+                    this.$db.collection("users").doc(this.currUser.uid).set(
+                        {
+                            "groupCategories": [
+                                {
+                                    "catName": "Unsorted",
+                                    "groups": []
+                                },
+                                {
+                                    "catName": "Ults",
+                                    "groups": []
+                                },
+                                {
+                                    "catName": "Semis",
+                                    "groups": []
+                                },
+                                {
+                                    "catName": "Regs",
+                                    "groups": []
+                                }
+                            ]
+                        }, { merge: true }
+                    );
+                }
 
                 for (let i = 0; i < this.fireSaveData.categories.length; i++) {
                     this.homePageArrays.push(this.fireSaveData.categories[i].people);
