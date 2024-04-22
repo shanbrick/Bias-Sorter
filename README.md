@@ -1,4 +1,5 @@
 # Bias Sorter
+Link: https://shanbrick.github.io/Bias-Sorter/
 
 ## What is this project?
 This project is a website where fans of K-Pop can visually sort all of their biases into categories. 
