@@ -1,6 +1,12 @@
 <template>
-    <div>
-        <h1>Need Help?</h1>
+    <div class="helpDiv" v-show="show" ref="context">
+        <div class="top">
+            <p class="helpHeader">Help</p>
+            <button class="exit">X</button>
+        </div>
+        <div class="dropdown">
+            <button></button>
+        </div>
         <p>How do I start?</p>
         <p>
             In order to start sorting your biases, navigate to a group's page. This can be done
@@ -51,6 +57,55 @@
     </div>
 </template>
 
-<script></script>
+<script>
+export default {
+    data() {
+        return {
+            show: false,
+        }
+    },
+    methods: {
+        close() {
+            this.show = false;
+        },
+        open() {
+            this.show = true;
+        },
+    },
+}
+</script>
 
-<style></style>
+<style scoped>
+.helpDiv {
+    background: white;
+    border-radius: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 5px black;
+    height: 500px;
+    margin: auto;
+    overflow-x: hidden;
+    padding: 15px;
+    position: absolute;
+    text-align: left;
+    width: 450px;
+    z-index: 9999;
+}
+
+.top {
+    display: flow;
+    margin-bottom: 20px;
+}
+
+.helpHeader {
+    float: left;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+.exit {
+    float: right;
+}
+</style>

@@ -1,0 +1,1399 @@
+[
+    {
+        "contestents": [
+            {
+                "name": "Kim Yohan",
+                "firstElim": "1",
+                "secondElim": "3",
+                "thirdElim": "1",
+                "finalEp": "1",
+                "avgPlace": "2",
+                "group": "WEi"
+            },
+            {
+                "name": "Kim Wooseok",
+                "firstElim": "4",
+                "secondElim": "1",
+                "thirdElim": "2",
+                "finalEp": "2",
+                "avgPlace": "2",
+                "group": "UP10TION"
+            },
+            {
+                "name": "Han Seungwoo",
+                "firstElim": "30",
+                "secondElim": "9",
+                "thirdElim": "4",
+                "finalEp": "3",
+                "avgPlace": "12",
+                "group": "Han Seungwoo"
+            },
+            {
+                "name": "Song Hyeongjun",
+                "firstElim": "3",
+                "secondElim": "4",
+                "thirdElim": "8",
+                "finalEp": "4",
+                "avgPlace": "5",
+                "group": "CRAVITY"
+            },
+            {
+                "name": "Cho Seungyoun",
+                "firstElim": "28",
+                "secondElim": "17",
+                "thirdElim": "6",
+                "finalEp": "5",
+                "avgPlace": "14",
+                "group": "WOODZ"
+            },
+            {
+                "name": "Son Dongpyo",
+                "firstElim": "7",
+                "secondElim": "11",
+                "thirdElim": "12",
+                "finalEp": "6",
+                "avgPlace": "9",
+                "group": "MIRAE"
+            },
+            {
+                "name": "Lee Hangyul",
+                "firstElim": "21",
+                "secondElim": "15",
+                "thirdElim": "16",
+                "finalEp": "7",
+                "avgPlace": "15",
+                "group": "BAE173"
+            },
+            {
+                "name": "Nam Dohyon",
+                "firstElim": "6",
+                "secondElim": "7",
+                "thirdElim": "7",
+                "finalEp": "8",
+                "avgPlace": "7",
+                "group": "BAE173"
+            },
+            {
+                "name": "Cha Junho",
+                "firstElim": "11",
+                "secondElim": "13",
+                "thirdElim": "11",
+                "finalEp": "9",
+                "avgPlace": "11",
+                "group": "DRIPPIN"
+            },
+            {
+                "name": "Kang Minhee",
+                "firstElim": "22",
+                "secondElim": "23",
+                "thirdElim": "14",
+                "finalEp": "10",
+                "avgPlace": "17",
+                "group": "CRAVITY"
+            },
+            {
+                "name": "Lee Eun-sang",
+                "firstElim": "5",
+                "secondElim": "6",
+                "thirdElim": "9",
+                "finalEp": "X",
+                "avgPlace": "7",
+                "group": "Younite"
+            },
+            {
+                "name": "Kim Minkyu",
+                "firstElim": "2",
+                "secondElim": "10",
+                "thirdElim": "5",
+                "finalEp": "17",
+                "avgPlace": "9",
+                "group": "-"
+            },
+            {
+                "name": "Koo Jungmo",
+                "firstElim": "9",
+                "secondElim": "5",
+                "thirdElim": "15",
+                "finalEp": "12",
+                "avgPlace": "10",
+                "group": "CRAVITY"
+            },
+            {
+                "name": "Lee Jinhyuk",
+                "firstElim": "25",
+                "secondElim": "2",
+                "thirdElim": "3",
+                "finalEp": "11",
+                "avgPlace": "10",
+                "group": "UP10TION"
+            },
+            {
+                "name": "Song Yuvin",
+                "firstElim": "8",
+                "secondElim": "12",
+                "thirdElim": "17",
+                "finalEp": "16",
+                "avgPlace": "13",
+                "group": "-"
+            },
+            {
+                "name": "Ham Wonjin",
+                "firstElim": "10",
+                "secondElim": "14",
+                "thirdElim": "18",
+                "finalEp": "19",
+                "avgPlace": "15",
+                "group": "CRAVITY"
+            },
+            {
+                "name": "Keum Donghyun",
+                "firstElim": "17",
+                "secondElim": "19",
+                "thirdElim": "10",
+                "finalEp": "14",
+                "avgPlace": "15",
+                "group": "EPEX"
+            },
+            {
+                "name": "Hwang Yunseong",
+                "firstElim": "15",
+                "secondElim": "18",
+                "thirdElim": "13",
+                "finalEp": "15",
+                "avgPlace": "15",
+                "group": "DRIPPIN"
+            },
+            {
+                "name": "Lee Sejin",
+                "firstElim": "13",
+                "secondElim": "21",
+                "thirdElim": "20",
+                "finalEp": "18",
+                "avgPlace": "18",
+                "group": "-"
+            },
+            {
+                "name": "Tony",
+                "firstElim": "20",
+                "secondElim": "27",
+                "thirdElim": "19",
+                "finalEp": "20",
+                "avgPlace": "22",
+                "group": "-"
+            },
+            {
+                "name": "Kim Kookheon",
+                "firstElim": "16",
+                "secondElim": "22",
+                "thirdElim": "21",
+                "finalEp": "-",
+                "avgPlace": "20",
+                "group": "-"
+            },
+            {
+                "name": "Lee Jinwoo",
+                "firstElim": "12",
+                "secondElim": "8",
+                "thirdElim": "22",
+                "finalEp": "-",
+                "avgPlace": "14",
+                "group": "GHOST9"
+            },
+            {
+                "name": "Kim Dongyun",
+                "firstElim": "32",
+                "secondElim": "31",
+                "thirdElim": "23",
+                "finalEp": "-",
+                "avgPlace": "29",
+                "group": "-"
+            },
+            {
+                "name": "Lee Hyeop",
+                "firstElim": "49",
+                "secondElim": "26",
+                "thirdElim": "24",
+                "finalEp": "-",
+                "avgPlace": "33",
+                "group": "DRIPPIN"
+            },
+            {
+                "name": "Park Sunho",
+                "firstElim": "14",
+                "secondElim": "28",
+                "thirdElim": "25",
+                "finalEp": "-",
+                "avgPlace": "22",
+                "group": "-"
+            },
+            {
+                "name": "Kang Hyeonsu",
+                "firstElim": "40",
+                "secondElim": "20",
+                "thirdElim": "26",
+                "finalEp": "-",
+                "avgPlace": "29",
+                "group": "-"
+            },
+            {
+                "name": "Kim Sihun",
+                "firstElim": "18",
+                "secondElim": "24",
+                "thirdElim": "27",
+                "finalEp": "-",
+                "avgPlace": "23",
+                "group": "-"
+            },
+            {
+                "name": "Choi Suhwan",
+                "firstElim": "24",
+                "secondElim": "29",
+                "thirdElim": "28",
+                "finalEp": "-",
+                "avgPlace": "27",
+                "group": "-"
+            },
+            {
+                "name": "Joo Changuk",
+                "firstElim": "38",
+                "secondElim": "30",
+                "thirdElim": "29",
+                "finalEp": "-",
+                "avgPlace": "32",
+                "group": "DRIPPIN"
+            },
+            {
+                "name": "Kim Hyeonbin",
+                "firstElim": "23",
+                "secondElim": "25",
+                "thirdElim": "30",
+                "finalEp": "-",
+                "avgPlace": "26",
+                "group": "-"
+            },
+            {
+                "name": "Choi Byungchan",
+                "firstElim": "19",
+                "secondElim": "16",
+                "thirdElim": "31",
+                "finalEp": "-",
+                "avgPlace": "22",
+                "group": "VICTON"
+            },
+            {
+                "name": "Moon Hyunbin",
+                "firstElim": "41",
+                "secondElim": "32",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "37",
+                "group": "-"
+            },
+            {
+                "name": "Won Hyuk",
+                "firstElim": "57",
+                "secondElim": "33",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "45",
+                "group": "E'LAST"
+            },
+            {
+                "name": "Kwon Taeeun",
+                "firstElim": "46",
+                "secondElim": "34",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "40",
+                "group": "-"
+            },
+            {
+                "name": "Kang Seok-hwa",
+                "firstElim": "35",
+                "secondElim": "35",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "35",
+                "group": "WEi"
+            },
+            {
+                "name": "Baek Jin",
+                "firstElim": "45",
+                "secondElim": "36",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "41",
+                "group": "-"
+            },
+            {
+                "name": "Lee Midam",
+                "firstElim": "36",
+                "secondElim": "37",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "37",
+                "group": "-"
+            },
+            {
+                "name": "Yun Junghwan",
+                "firstElim": "31",
+                "secondElim": "38",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "35",
+                "group": "-"
+            },
+            {
+                "name": "Jung Jaehun",
+                "firstElim": "60",
+                "secondElim": "39",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "50",
+                "group": "-"
+            },
+            {
+                "name": "Yuri",
+                "firstElim": "29",
+                "secondElim": "40",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "35",
+                "group": "-"
+            },
+            {
+                "name": "Lee Woojin",
+                "firstElim": "50",
+                "secondElim": "41",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "46",
+                "group": "-"
+            },
+            {
+                "name": "Kim Dongbin",
+                "firstElim": "26",
+                "secondElim": "42",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "34",
+                "group": "-"
+            },
+            {
+                "name": "Wei Ziyue",
+                "firstElim": "34",
+                "secondElim": "43",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "39",
+                "group": "-"
+            },
+            {
+                "name": "Kim Sunghyun",
+                "firstElim": "42",
+                "secondElim": "44",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "43",
+                "group": "-"
+            },
+            {
+                "name": "Kim Sungyeon",
+                "firstElim": "59",
+                "secondElim": "45",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "52",
+                "group": "-"
+            },
+            {
+                "name": "Choi Junseong",
+                "firstElim": "39",
+                "secondElim": "46",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "43",
+                "group": "-"
+            },
+            {
+                "name": "Lee Wonjun",
+                "firstElim": "44",
+                "secondElim": "47",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "46",
+                "group": "-"
+            },
+            {
+                "name": "Park Yoonsol",
+                "firstElim": "43",
+                "secondElim": "48",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "46",
+                "group": "-"
+            },
+            {
+                "name": "Mahiro Hidaka",
+                "firstElim": "56",
+                "secondElim": "49",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "53",
+                "group": "-"
+            },
+            {
+                "name": "Peak",
+                "firstElim": "58",
+                "secondElim": "50",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "54",
+                "group": "-"
+            },
+            {
+                "name": "Hong Seongjun",
+                "firstElim": "37",
+                "secondElim": "51",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "44",
+                "group": "-"
+            },
+            {
+                "name": "Kim Minseo",
+                "firstElim": "47",
+                "secondElim": "52",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "50",
+                "group": "DRIPPIN"
+            },
+            {
+                "name": "Lee Taeseung",
+                "firstElim": "48",
+                "secondElim": "53",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "51",
+                "group": "GHOST9"
+            },
+            {
+                "name": "Woo Jewon",
+                "firstElim": "55",
+                "secondElim": "54",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "55",
+                "group": "NINE.i"
+            },
+            {
+                "name": "Lee Eugene",
+                "firstElim": "27",
+                "secondElim": "55",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "41",
+                "group": "-"
+            },
+            {
+                "name": "Kwon Heejun",
+                "firstElim": "53",
+                "secondElim": "56",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "55",
+                "group": "-"
+            },
+            {
+                "name": "Han Gichan",
+                "firstElim": "33",
+                "secondElim": "57",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "45",
+                "group": "-"
+            },
+            {
+                "name": "Wang Jyunhao",
+                "firstElim": "54",
+                "secondElim": "58",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "56",
+                "group": "-"
+            },
+            {
+                "name": "Moon Junho",
+                "firstElim": "51",
+                "secondElim": "59",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "55",
+                "group": "-"
+            },
+            {
+                "name": "Nam Donghyun",
+                "firstElim": "52",
+                "secondElim": "60",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "56",
+                "group": "-"
+            },
+            {
+                "name": "Timothée Anzardi",
+                "firstElim": "61",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "61",
+                "group": "-"
+            },
+            {
+                "name": "Kim Jingon",
+                "firstElim": "62",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "62",
+                "group": "-"
+            },
+            {
+                "name": "Lee Hamin",
+                "firstElim": "63",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "63",
+                "group": "-"
+            },
+            {
+                "name": "Jeon Hyunwoo",
+                "firstElim": "64",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "64",
+                "group": "-"
+            },
+            {
+                "name": "Kim Yeongsang",
+                "firstElim": "65",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "65",
+                "group": "-"
+            },
+            {
+                "name": "Byun Seongtae",
+                "firstElim": "66",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "66",
+                "group": "-"
+            },
+            {
+                "name": "Lee Hwan",
+                "firstElim": "67",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "67",
+                "group": "-"
+            },
+            {
+                "name": "Jung Youngbin",
+                "firstElim": "68",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "68",
+                "group": "-"
+            },
+            {
+                "name": "Oh Saebom",
+                "firstElim": "69",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "69",
+                "group": "-"
+            },
+            {
+                "name": "Yoo Gunmin",
+                "firstElim": "70",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "70",
+                "group": "-"
+            },
+            {
+                "name": "Jung Myunghoon",
+                "firstElim": "71",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "71",
+                "group": "-"
+            },
+            {
+                "name": "Steven Kim",
+                "firstElim": "72",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "72",
+                "group": "-"
+            },
+            {
+                "name": "Song Changha",
+                "firstElim": "73",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "73",
+                "group": "-"
+            },
+            {
+                "name": "Choi Jinhwa",
+                "firstElim": "74",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "74",
+                "group": "BLITZERS"
+            },
+            {
+                "name": "Lee Junhyuk",
+                "firstElim": "75",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "75",
+                "group": "-"
+            },
+            {
+                "name": "Lee Gyuhyung",
+                "firstElim": "76",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "76",
+                "group": "-"
+            },
+            {
+                "name": "Won Hyunsik",
+                "firstElim": "77",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "77",
+                "group": "-"
+            },
+            {
+                "name": "Tsai Chia Hao",
+                "firstElim": "78",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "78",
+                "group": "-"
+            },
+            {
+                "name": "Choi Sihyuk",
+                "firstElim": "79",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "79",
+                "group": "-"
+            },
+            {
+                "name": "Kim Kwanwoo",
+                "firstElim": "80",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "80",
+                "group": "-"
+            },
+            {
+                "name": "Park Jinyeol",
+                "firstElim": "81",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "81",
+                "group": "-"
+            },
+            {
+                "name": "Kim Minseo",
+                "firstElim": "82",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "82",
+                "group": "-"
+            },
+            {
+                "name": "Heo Jinho",
+                "firstElim": "83",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "83",
+                "group": "-"
+            },
+            {
+                "name": "Hwang Geumryul",
+                "firstElim": "84",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "84",
+                "group": "-"
+            },
+            {
+                "name": "Hong Sunghyun",
+                "firstElim": "85",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "85",
+                "group": "-"
+            },
+            {
+                "name": "Yu Seongjun",
+                "firstElim": "86",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "86",
+                "group": "-"
+            },
+            {
+                "name": "Sung Minseo",
+                "firstElim": "87",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "87",
+                "group": "-"
+            },
+            {
+                "name": "Lee Sangho",
+                "firstElim": "88",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "88",
+                "group": "-"
+            },
+            {
+                "name": "Kim Seunghwan",
+                "firstElim": "89",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "89",
+                "group": "-"
+            },
+            {
+                "name": "Kim Hyungmin",
+                "firstElim": "90",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "90",
+                "group": "-"
+            },
+            {
+                "name": "Jun Uehara",
+                "firstElim": "91",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "91",
+                "group": "-"
+            },
+            {
+                "name": "Yoon Minguk",
+                "firstElim": "92",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "92",
+                "group": "-"
+            },
+            {
+                "name": "Park Sion",
+                "firstElim": "93",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "93",
+                "group": "-"
+            },
+            {
+                "name": "Kim Junjae",
+                "firstElim": "94",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "94",
+                "group": "-"
+            },
+            {
+                "name": "Lee Jaebin",
+                "firstElim": "95",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "95",
+                "group": "-"
+            },
+            {
+                "name": "Yun Hyunjo",
+                "firstElim": "96",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "96",
+                "group": "-"
+            },
+            {
+                "name": "Lim Dahun",
+                "firstElim": "97",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "97",
+                "group": "-"
+            },
+            {
+                "name": "Choi Byunghoon",
+                "firstElim": "98",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "98",
+                "group": "-"
+            },
+            {
+                "name": "Kim Dongkyu",
+                "firstElim": "99",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "99",
+                "group": "-"
+            },
+            {
+                "name": "Yoon Seobin",
+                "firstElim": "100",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "100",
+                "group": "-"
+            },
+            {
+                "name": "Im Siu",
+                "firstElim": "101",
+                "secondElim": "-",
+                "thirdElim": "-",
+                "finalEp": "-",
+                "avgPlace": "101",
+                "group": "-"
+            }
+        ],
+        "rounds": [
+            {
+                "roundName": "Group Battle",
+                "performances": [
+                    {
+                        "ogArtist": "EXO",
+                        "songName": "Mama",
+                        "teamName": "배배",
+                        "contestents": [
+                            "Yoon Seobin",
+                            "Kang Seokhwa",
+                            "Tony",
+                            "Hwang Yunseong",
+                            "Kang Minhee",
+                            "Mahiro Hidaka",
+                            "Han Gichan"
+                        ]
+                    },
+                    {
+                        "ogArtist": "EXO",
+                        "songName": "Love Shot",
+                        "teamName": "Oh! 나나",
+                        "contestents": [
+                            "Cho Seungyoun",
+                            "Lee Hangyul",
+                            "Hong Seongjun",
+                            "Lee Sejin",
+                            "Kim Wooseok",
+                            "Keum Donghyun",
+                            "Kim Sihun"
+                        ]
+                    },
+                    {
+                        "ogArtist": "BTS",
+                        "songName": "No More Dream",
+                        "teamName": "P.T.S",
+                        "contestents": [
+                            "Hong Sunghyun",
+                            "Steven Kim",
+                            "Kim Hyunbin",
+                            "Won Hyunsik",
+                            "Kim Sungyeon",
+                            "Lee Sangho"
+                        ]
+                    },
+                    {
+                        "ogArtist": "BTS",
+                        "songName": "Blood, Sweat, & Tears",
+                        "teamName": "프듀쏘년단",
+                        "contestents": [
+                            "Lee Wonjun",
+                            "Lee Hwan",
+                            "Yoon Hyunjo",
+                            "Jung Youngbin",
+                            "Moon Hyunbin",
+                            "Park Yoonsol"
+                        ]
+                    },
+                    {
+                        "ogArtist": "Monsta X",
+                        "songName": "Trespass",
+                        "teamName": "피라미드 꼭대기",
+                        "contestents": [
+                            "Yoon Minguk",
+                            "Wei Ziyue",
+                            "Lee Gyuhyung",
+                            "Lee Eugene",
+                            "Yoo Seongjun",
+                            "Jung Jaehun"
+                        ]
+                    },
+                    {
+                        "ogArtist": "Monsta X",
+                        "songName": "Dramarama",
+                        "teamName": "달콤한 인생",
+                        "contestents": [
+                            "Choi Junseong",
+                            "Oh Saebom",
+                            "Nam Donghyun",
+                            "Yoo Gunmin",
+                            "Kim Kwanwoo",
+                            "Kim Donggyu"
+                        ]
+                    },
+                    {
+                        "ogArtist": "Seventeen",
+                        "songName": "Adore U",
+                        "teamName": "우하화호호호",
+                        "contestents": [
+                            "Jeon Hyunwoo",
+                            "Wang Jyunhao",
+                            "Park Sunho",
+                            "Moon Junho",
+                            "Song Changha",
+                            "Choi Jinhwa"
+                        ]
+                    },
+                    {
+                        "ogArtist": "Seventeen",
+                        "songName": "Clap",
+                        "teamName": "클래핑",
+                        "contestents": [
+                            "Lee Hyeop",
+                            "Kwon Taeeun",
+                            "Kim Jingon",
+                            "Ham Wonjin",
+                            "Nam Dohyon",
+                            "Kim Dongyoon"
+                        ]
+                    },
+                    {
+                        "ogArtist": "Wanna One",
+                        "songName": "Energetic",
+                        "teamName": "We Are The World",
+                        "contestents": [
+                            "Jung Myunghoon",
+                            "Woo Jewon",
+                            "Anzardi Timothee",
+                            "Peak",
+                            "Lee Junhyuk",
+                            "Won Hyuk"
+                        ]
+                    },
+                    {
+                        "ogArtist": "Wanna One",
+                        "songName": "Light",
+                        "teamName": "Light",
+                        "contestents": [
+                            "Choi Sihyuk",
+                            "Uehara Jun",
+                            "Tsai Chiahao",
+                            "Lee Jaebin",
+                            "Park Jinyeol",
+                            "Kwon Heejun"
+                        ]
+                    },
+                    {
+                        "ogArtist": "GOT7",
+                        "songName": "Girls Girls Girls",
+                        "teamName": "어머나",
+                        "contestents": [
+                            "Kim Kookheon",
+                            "Kang Hyeonsu",
+                            "Byun Sungtae",
+                            "Kim Hyungmin",
+                            "Choi Byungchan",
+                            "Kim Sunghyun",
+                            "Yuri"
+                        ]
+                    },
+                    {
+                        "ogArtist": "GOT7",
+                        "songName": "Lullaby",
+                        "teamName": "럴러랄라",
+                        "contestents": [
+                            "Song Yuvin",
+                            "Lee Hamin",
+                            "Choi Suhwan",
+                            "Ju Changwook",
+                            "Yoon Jeonghan",
+                            "Baek Jin",
+                            "Hwang Geumgyul"
+                        ]
+                    },
+                    {
+                        "ogArtist": "NU'EST W",
+                        "songName": "Where You At",
+                        "teamName": "Search",
+                        "contestents": [
+                            "Lee Taeseung",
+                            "Heo Jinho",
+                            "Park Sion",
+                            "Kim Minseo",
+                            "Sung Minseo",
+                            "Lee Woojin"
+                        ]
+                    },
+                    {
+                        "ogArtist": "NU'EST W",
+                        "songName": "Dejavu",
+                        "teamName": "비상탈출",
+                        "contestents": [
+                            "Kim Minseo",
+                            "Im Dahun",
+                            "Choi Byunghoon",
+                            "Kim Junjae",
+                            "Kim Seunghwan",
+                            "Kim Youngsang"
+                        ]
+                    },
+                    {
+                        "ogArtist": "NCT U",
+                        "songName": "Love Me Right",
+                        "teamName": "식스스톤",
+                        "contestents": [
+                            "Kim Dongbin",
+                            "Lee Jinwoo",
+                            "Song Hyeongjun",
+                            "Koo Jungmo",
+                            "Kim Mingyu",
+                            "Lee Midam"
+                        ]
+                    },
+                    {
+                        "ogArtist": "NCT U",
+                        "songName": "Boss",
+                        "teamName": "옐로우핑크",
+                        "contestents": [
+                            "Kim Yohan",
+                            "Lee Eunsang",
+                            "Lee Jinhyuk",
+                            "Han Seungwoo",
+                            "Son Dongpyo",
+                            "Cha Junho"
+                        ]
+                    }
+                ]
+            },
+            {
+                "roundName": "Position Evaluation",
+                "performances": [
+                    {
+                        "type": "Vocal",
+                        "pf": [
+                            {
+                                "ogArtist": "Hwasa",
+                                "songName": "Twit",
+                                "teamName": "BE 정상",
+                                "contestents": [
+                                    "Lee Eunsang",
+                                    "Yoon Jeonghwan",
+                                    "Lee Hyeop",
+                                    "Lee Midam",
+                                    "Kang Seokhwa"
+                                ]
+                            },
+                            {
+                                "ogArtist": "Paul Kim",
+                                "songName": "Me After You",
+                                "teamName": "국프 만나",
+                                "contestents": [
+                                    "Kim Yohan",
+                                    "Cha Junho",
+                                    "Kim Hyunbin",
+                                    "Han Seungwoo",
+                                    "Wei Ziyue"
+                                ]
+                            },
+                            {
+                                "ogArtist": "Wanna One",
+                                "songName": "Day by Day",
+                                "teamName": "보여보여보",
+                                "contestents": [
+                                    "Song Yuvin",
+                                    "Choi Suhwan",
+                                    "Kwon Taeeun",
+                                    "Moon Junho",
+                                    "Nam Donghyun"
+                                ]
+                            },
+                            {
+                                "ogArtist": "Bolbbalgan4",
+                                "songName": "To My Youth",
+                                "teamName": "마스터피스",
+                                "contestents": [
+                                    "Kim Mingyu",
+                                    "Kim Wooseok",
+                                    "Lee Jinwoo",
+                                    "Lee Sejin",
+                                    "Choi Byungchan"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Rap",
+                        "pf": [
+                            {
+                                "ogArtist": "Zico",
+                                "songName": "Say Yes or No",
+                                "teamName": "119",
+                                "contestents": [
+                                    "Nam Dohyon",
+                                    "Cho Seungyoun",
+                                    "Kim Sungyeon",
+                                    "Jung Jaehun"
+                                ]
+                            },
+                            {
+                                "ogArtist": "Haon, Vinxen",
+                                "songName": "Barcode",
+                                "teamName": "PICK 그리고 다음",
+                                "contestents": [
+                                    "Yuri",
+                                    "Baek Jin",
+                                    "Lee Woojin",
+                                    "Won Hyuk"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dance",
+                        "pf": [
+                            {
+                                "ogArtist": "Bruno Mars",
+                                "songName": "Finesse",
+                                "teamName": "뽐뽐",
+                                "contestents": [
+                                    "Song Hyeongjun",
+                                    "Ham Wonjin",
+                                    "Kim Sihun",
+                                    "Lee Hangyul",
+                                    "Kang Minhee",
+                                    "Kim Dongyoon",
+                                    "Ju Changwook"
+                                ]
+                            },
+                            {
+                                "ogArtist": "Jason Derulo",
+                                "songName": "Swalla",
+                                "teamName": "촬라",
+                                "contestents": [
+                                    "Choi Junseong",
+                                    "Kang Hyeonsu",
+                                    "Park Yoonsol",
+                                    "Kim Minseo",
+                                    "Lee Taeseung",
+                                    "Wang Jyunhao"
+                                ]
+                            },
+                            {
+                                "ogArtist": "Imagine Dragons",
+                                "songName": "Believer",
+                                "teamName": "늑대소년",
+                                "contestents": [
+                                    "Son Dongpyo",
+                                    "Park Sunho",
+                                    "Hwang Yunseong",
+                                    "Kim Kookheon",
+                                    "Keum Donghyun",
+                                    "Kim Dongbin"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "X",
+                        "pf": [
+                            {
+                                "ogArtist": "Charlie Puth",
+                                "songName": "Attention",
+                                "teamName": "양념 반 후라이드 반",
+                                "contestents": [
+                                    "Koo Jungmo",
+                                    "Han Gichan",
+                                    "Tony",
+                                    "Hong Seongjun",
+                                    "Moon Hyunbin",
+                                    "Kim Sunghyun",
+                                    "Mahiro Hidaka"
+                                ]
+                            },
+                            {
+                                "ogArtist": "SMTM4",
+                                "songName": "Turtle Ship",
+                                "teamName": "터틀 브라더스",
+                                "contestents": [
+                                    "Lee Jinhyuk",
+                                    "Lee Eugene",
+                                    "Lee Wonjun",
+                                    "Kwon Heejun",
+                                    "Woo Jewon",
+                                    "Peak"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "roundName": "Concept Evaluation",
+                "performances": [
+                    {
+                        "songName": "Super Special Girl",
+                        "teamName": "MamMam",
+                        "contestents": [
+                            "Song Yuvin",
+                            "Choi Suhwan",
+                            "Kang Hyeonsu",
+                            "Park Sunho",
+                            "Keum Donghyun",
+                            "Kim Sihun"
+                        ]
+                    },
+                    {
+                        "songName": "Pretty Girl",
+                        "teamName": "Crayon",
+                        "contestents": [
+                            "Kang Minhee",
+                            "Koo Jungmo",
+                            "Ham Wonjin",
+                            "Son Dongpyo",
+                            "Song Hyeongjun",
+                            "Lee Jinwoo"
+                        ]
+                    },
+                    {
+                        "songName": "Monday to Sunday",
+                        "teamName": "Daily Vitamin",
+                        "contestents": [
+                            "Lee Hyeop",
+                            "Kim Mingyu",
+                            "Lee Sejin",
+                            "Tony",
+                            "Kim Dongyoon",
+                            "Nam Dohyon",
+                            "Ju Changwook"
+                        ]
+                    },
+                    {
+                        "songName": "U Got It",
+                        "teamName": "GOT U",
+                        "contestents": [
+                            "Han Seungwoo",
+                            "Kim Wooseok",
+                            "Hwang Yunseong",
+                            "Cha Junho",
+                            "Kim Yohan",
+                            "Lee Eunsang"
+                        ]
+                    },
+                    {
+                        "songName": "MOVE",
+                        "teamName": "SIXC",
+                        "contestents": [
+                            "Kim Hyunbin",
+                            "Cho Seungyoun",
+                            "Lee Jinhyuk",
+                            "Kim Kookheon",
+                            "Lee Hangyul",
+                            "Choi Byungchan"
+                        ]
+                    }
+                ]
+            },
+            {
+                "roundName": "Debut Evaluation",
+                "performances": [
+                    {
+                        "songName": "To My World",
+                        "teamName": "-",
+                        "contestents": [
+                            "Cho Seungyoun",
+                            "Han Seungwoo",
+                            "Lee Eunsang",
+                            "Kim Mingyu",
+                            "Lee Sejin",
+                            "Hwang Yunseong",
+                            "Cha Junho",
+                            "Kim Yohan",
+                            "Song Hyeongjun",
+                            "Keum Donghyun"
+                        ]
+                    },
+                    {
+                        "songName": "Boyness",
+                        "teamName": "-",
+                        "contestents": [
+                            "Song Yuvin",
+                            "Kim Wooseok",
+                            "Ham Wonjin",
+                            "Kang Minhee",
+                            "Tony",
+                            "Koo Jungmo",
+                            "Lee Hangyul",
+                            "Lee Jinhyuk",
+                            "Nam Dohyon",
+                            "Son Dongpyo"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

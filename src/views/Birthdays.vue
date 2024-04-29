@@ -415,6 +415,10 @@ table {
     cursor: pointer;
 }
 
+.td:hover {
+    color: #3f50e7;
+}
+
 .tdB {
     padding: 10px;
     text-align: left;
@@ -439,6 +443,10 @@ table {
     cursor: pointer;
     padding-top: 1px;
     padding-bottom: 1px;
+}
+
+.tdTwin p:hover {
+    color: #3f50e7;
 }
 
 .tdTwinB {

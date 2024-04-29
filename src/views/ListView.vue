@@ -43,7 +43,8 @@
                         <v-lazy-image oncontextmenu="return false;" v-on:click.right="openContextMenu($event, element)"
                             class="homePeoplePics" :src="require('../assets/imageArchive/' + element.imgLink)" />
                         <p class="idolName">{{ element.stageName }}</p>
-                        <p class="groupName" @click="populateGroupPage(element.grpName)">{{ element.grpName }}</p>
+                        <p class="groupName" @click="populateGroupPage(element.grpName)">{{ element.grpName }}<span
+                                v-if="element.afr === 'f'"> (ex)</span></p>
                     </div>
                 </template>
             </draggable>
@@ -77,6 +78,7 @@
                                         :src="require('../assets/imageArchive/' + pers.imgLink)" />
                                     <p class="idolName">{{ pers.stageName }}</p>
                                     <p class="groupName" @click="populateGroupPage(pers.grpName)">{{ pers.grpName }}
+                                        <span v-if="pers.afr === 'f'"> (ex)</span>
                                     </p>
                                 </div>
                             </template>

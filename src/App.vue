@@ -2,17 +2,26 @@
   <div class="navBar">
     <nav>
       <router-link class="navButtons" to="/">Home</router-link>
-      <router-link class="navButtons" to="/list">Bias Lists</router-link>
-      <router-link class="navButtons" to="/groupList">Group Lists</router-link>
-      <router-link class="navButtons" to="/groups">Groups</router-link>
-      <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
-      <router-link class="navButtons" to="/spreadsheet">Spreadsheet</router-link>
+      <div v-if="isLoggedIn">
+        <div class="dropdownFull">
+          <button class="navButtons listDropBtn" @click="listDropdown">Lists ▾</button>
+          <div class="dropdown" v-show="listDropOn">
+            <router-link class="navButtons" to="/list">Bias Lists ➜</router-link>
+            <router-link class="navButtons" to="/groupList">Group Lists ➜</router-link>
+          </div>
+        </div>
+        <router-link class="navButtons" to="/groups">Groups</router-link>
+        <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
+        <router-link class="navButtons" to="/spreadsheet">Spreadsheet</router-link>
+        <router-link class="navButtons" to="/survival">Survival</router-link>
+      </div>
       <button v-if="isLoggedIn" class="signInOut" @click="handleSignOut">Sign Out</button>
       <button v-else class="signInOut" @click="signinPopup">Sign In</button>
       <v-lazy-image v-if="isLoggedIn" class="pfp" :src="currUser.photoURL" />
       <p v-if="isLoggedIn" class="greeting">
         <i>Logged in as:</i> {{ currUser.displayName }}
       </p>
+      <button class="helpButton" @click="toggleHelpMenu">i</button>
     </nav>
   </div>
   <div class="header">
@@ -23,6 +32,8 @@
       </div>
     </div>
   </div>
+
+  <Help :display="showHelp" ref="help"></Help>
   <router-view />
 
   <button class="topBtn" @click="toTop" id="topBtn">⬆</button>
@@ -32,6 +43,7 @@
 import groupListEdit from "@/groupListEdit.json";
 import SearchAutocomplete from "./components/SearchAutocomplete.vue";
 import VLazyImage from "v-lazy-image";
+import Help from './components/Help.vue';
 
 import { ref } from "vue";
 import { useRouter } from "vue-router";
@@ -50,6 +62,7 @@ export default {
   components: {
     SearchAutocomplete,
     VLazyImage,
+    Help
   },
   data() {
     return {
@@ -58,6 +71,8 @@ export default {
       isLoggedIn: ref(false),
       router: useRouter(),
       currUser: {},
+      showHelp: false,
+      listDropOn: false
     };
   },
   created() {
@@ -67,6 +82,18 @@ export default {
     window.removeEventListener("scroll", this.scrollFunction);
   },
   methods: {
+    listDropdown() {
+      this.listDropOn = true;
+    },
+    toggleHelpMenu() {
+      if (!this.showHelp) {
+        this.$refs.help.open();
+        this.showHelp = true;
+      } else {
+        this.$refs.help.close();
+        this.showHelp = false;
+      }
+    },
     handleSignOut() {
       const auth = getAuth();
       signOut(auth).then(() => {
@@ -97,6 +124,76 @@ export default {
       const auth = getAuth();
       const currentUser = auth.currentUser;
       this.currUser = currentUser;
+      // const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
+      // if (userDoc.exists) {
+      //   const saveData = userDoc.data();
+      //   this.fireSaveData = saveData;
+      //   if (this.fireSaveData.groupCategories === undefined) {
+      //     this.$db.collection("users").doc(this.currUser.uid).set(
+      //       {
+      //         "groupCategories": [
+      //           {
+      //             "catName": "Unsorted",
+      //             "groups": []
+      //           },
+      //           {
+      //             "catName": "Ults",
+      //             "groups": []
+      //           },
+      //           {
+      //             "catName": "Semis",
+      //             "groups": []
+      //           },
+      //           {
+      //             "catName": "Regs",
+      //             "groups": []
+      //           }
+      //         ]
+      //       }, { merge: true }
+      //     );
+      //   }
+      // } else {
+      //   const saveData = await this.$db.collection("users").doc(currentUser.uid).set(
+      //     {
+      //       "categories": [
+      //         {
+      //           "catName": "Unsorted",
+      //           "people": []
+      //         },
+      //         {
+      //           "catName": "Ults",
+      //           "people": []
+      //         },
+      //         {
+      //           "catName": "Semis",
+      //           "people": []
+      //         },
+      //         {
+      //           "catName": "Regs",
+      //           "people": []
+      //         }
+      //       ],
+      //       "groupCategories": [
+      //         {
+      //           "catName": "Unsorted",
+      //           "groups": []
+      //         },
+      //         {
+      //           "catName": "Ults",
+      //           "groups": []
+      //         },
+      //         {
+      //           "catName": "Semis",
+      //           "groups": []
+      //         },
+      //         {
+      //           "catName": "Regs",
+      //           "groups": []
+      //         }
+      //       ]
+      //     }
+      //   );
+      // }
     },
   },
   mounted() {
@@ -113,6 +210,7 @@ export default {
 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = this.scrollFunction();
+
   },
 };
 </script>
@@ -149,15 +247,41 @@ nav {
 }
 
 .navButtons {
+  background-color: #747fe6;
+  border: 1px solid #747fe6;
   border-radius: 5px;
   color: white;
   display: block;
   float: left;
+  font-family: Trebuchet MS;
+  font-size: 16px;
   font-weight: bold;
   margin: 5px;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
+}
+
+.navButtons:hover {
+  background-color: #505cc7;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdownFull {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown {
+  background-color: #747fe6;
+  box-shadow: 0px 0px 5px black;
+  margin-top: 45px;
+  overflow-x: hidden;
+  padding: 0px;
+  position: absolute;
+  width: 138px;
+  z-index: 9999;
 }
 
 .pfp {
@@ -191,9 +315,22 @@ nav {
   line-height: 9px;
 }
 
-.navButtons:hover {
-  background-color: #505cc7;
+.helpButton {
+  background: #747fe6;
+  border: 1px solid white;
+  border-radius: 100%;
   color: white;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+  height: 25px;
+  margin-top: 8px;
+  margin-right: 20px;
+  width: 25px;
+}
+
+.helpButton:hover {
+  background: #505cc7;
   cursor: pointer;
 }
 
