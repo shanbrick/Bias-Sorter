@@ -40,7 +40,7 @@ export default {
             nextTick(() => this.$el.focus());
             this.show = true;
         },
-    },
+    }
 };
 </script>
 

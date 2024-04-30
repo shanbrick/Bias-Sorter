@@ -31,7 +31,6 @@
 
 <script>
 import groupListEdit from "@/groupListEdit.json";
-import { getAuth, onAuthStateChanged } from "firebase/auth";
 import VLazyImage from "v-lazy-image";
 
 export default {
@@ -58,53 +57,7 @@ export default {
             fireSaveData: {},
         };
     },
-    mounted() {
-        const auth = getAuth();
-        onAuthStateChanged(auth, (user) => {
-            if (user) {
-                this.initialize();
-            }
-        });
-        document.addEventListener("click", this.handleClickOutside);
-    },
-    destroyed() {
-        document.removeEventListener("click", this.handleClickOutside);
-    },
     methods: {
-        async initialize() {
-            const auth = getAuth();
-            const currentUser = auth.currentUser;
-            this.currUser = currentUser;
-            const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
-            if (userDoc.exists) {
-                const saveData = userDoc.data();
-                this.fireSaveData = saveData;
-            } else {
-                const saveData = await this.$db
-                    .collection("users")
-                    .doc(currentUser.uid)
-                    .set({
-                        categories: [
-                            {
-                                catName: "Unsorted",
-                                people: [],
-                            },
-                            {
-                                catName: "Ults",
-                                people: [],
-                            },
-                            {
-                                catName: "Semis",
-                                people: [],
-                            },
-                            {
-                                catName: "Regs",
-                                people: [],
-                            },
-                        ],
-                    });
-            }
-        },
         onChange() {
             this.filterResults();
             this.isOpen = true;

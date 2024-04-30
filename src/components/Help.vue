@@ -1,16 +1,16 @@
 <template>
-    <div class="helpDiv" v-show="show" ref="context">
+    <div class="helpDiv" v-show="show" ref="context" tabindex="0" @blur="close">
         <div class="top">
             <p class="helpHeader">Help</p>
-            <button class="exit">X</button>
+            <button class="exit" @click="close">X</button>
         </div>
-        <div>
+        <div style="text-align: center;">
             <select v-model="helpSelection">
                 <option v-for="option in helpOptions" :value="option">{{ option }}</option>
             </select>
         </div>
 
-        <p v-if="helpSelection === 'Get Started'">
+        <p v-if="helpSelection === 'Get Started' || helpSelection === ''">
         <ol>
             <li>Sign in to the website using the Sign In button at the top right corner of the page!</li>
             <li>Once signed in, many options will appear at the top bar. Feel free to explore these on your own, or
@@ -76,39 +76,35 @@
         </ul>
         </p>
 
-        <!-- <p>
-            Once on a group's page, you will see the members of the group underneath the group's
-            picture. On each person, an <b>Add</b> button can be seen. Click this button to add
-            that idol to your <b>Unsorted</b> category. As a note, in case you want to remove an
-            Idol from any of your lists, this button, now displayed as <b>Added</b>, can be
-            clicked again to remove that Idol.
+        <p v-else-if="helpSelection === 'Edit Categories'">
+            Categories can be edited in many different ways.
+        <ul>
+            <li>Change category name: Click <b>Edit Categories</b> while either on <b>Bias List</b> or <b>Group
+                    List</b>.
+                Here, you can type in a new category title. Click <b>Save Categories</b>.</li>
+            <li>Move a category: Click <b>Edit Categories</b> while either on <b>Bias List</b> or <b>Group List</b>.
+                Click and drag on a category to swap the order. Click <b>Save Categories</b>.</li>
+            <li>Remove a category: You do not need to be "editing" the categories as the other abilities require. Right
+                click on a category. You will be prompted with two options:
+                <ul>
+                    <li>Remove category and move people to Unsorted: This will remove the category from your list, but
+                        not the people that were in it.</li>
+                    <li>Remove category and people: This will remove both the category and the people inside from your
+                        list.</li>
+                </ul>
+            </li>
+        </ul>
         </p>
-        <p>
-            Once adding all desired Idols to your <b>Unsorted</b> list, you can click on
-            <b>List</b> at the top of the page to view your lists! On the left is the
-            <b>Unsorted</b> category, where all Idols added will go by default. On the right are
-            a few categories Ults, Semis, and Regs. You can add new categories using the Add New
-            Category button. This will add a new category to the bottom of the categories.
-            Clicking on Edit Categories will then allow you to change the name of this category,
-            as well as other category names. Categories can be moved around by clicking and
-            dragging while in Edit Mode. (Note: Click and drag from the part of the box that is
-            not a text box.)
-        </p>
-        <p>
-            In order to categorize your biases, click and drag their images into the desired
-            category.
-        </p> -->
     </div>
 </template>
 
 <script>
-
 export default {
     data() {
         return {
             show: false,
             helpSelection: '',
-            helpOptions: ['Get Started', 'Search for an Idol/Group', 'Add an Idol/Group', 'Remove an Idol/Group']
+            helpOptions: ['Get Started', 'Search for an Idol/Group', 'Add an Idol/Group', 'Remove an Idol/Group', 'Edit Categories']
         }
     },
     methods: {
@@ -117,14 +113,21 @@ export default {
         },
         open() {
             this.show = true;
-        }
+        },
+        handleClickOutside(event) {
+            if (!this.$el.contains(event.target)) {
+                this.show = false;
+            }
+        },
     }
 }
 </script>
 
 <style scoped>
 .helpDiv {
-    background: white;
+    background: linear-gradient(rgba(218, 218, 218, 1) 0%,
+            rgba(255, 255, 255, 1) 50%,
+            rgba(218, 218, 218, 1) 100%);
     border-radius: 10px;
     bottom: 0;
     left: 0;
@@ -142,7 +145,6 @@ export default {
 }
 
 .top {
-    border: 1px solid red;
     display: flow;
     margin-bottom: 20px;
 }
@@ -155,14 +157,34 @@ export default {
 
 .helpHeader {
     float: left;
-    font-size: 125%;
+    font-size: 25px;
     font-weight: bolder;
-    line-height: 125%;
+    line-height: 25px;
     margin: 0px;
     padding: 0px;
 }
 
 .exit {
+    background-color: #b3b8e9;
+    border: 1px solid #b3b8e9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
     float: right;
+}
+
+select {
+    background-color: #b3b8e9;
+    border: 1px solid #b3b8e9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+li {
+    margin: 10px;
 }
 </style>
