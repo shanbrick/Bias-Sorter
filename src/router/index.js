@@ -39,9 +39,9 @@ const router = createRouter({
       component: () => import('../views/Birthdays.vue')
     },
     {
-      path: '/spreadsheet',
-      name: 'spreadsheet',
-      component: () => import('../views/Spreadsheet.vue')
+      path: '/biases',
+      name: 'biases',
+      component: () => import('../views/Biases.vue')
     },
     {
       path: '/survival',

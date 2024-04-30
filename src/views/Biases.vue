@@ -55,7 +55,7 @@ import {
 } from "firebase/auth";
 
 export default {
-    name: 'Spreadsheet',
+    name: 'Biases',
     data() {
         return {
             currUser: {},

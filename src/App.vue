@@ -4,16 +4,21 @@
       <router-link class="navButtons" to="/">Home</router-link>
       <div v-if="isLoggedIn">
         <div class="dropdownFull">
-          <button class="navButtons listDropBtn" @click="listDropdown">Lists ▾</button>
-          <div class="dropdown" v-show="listDropOn">
-            <router-link class="navButtons" to="/list">Bias Lists ➜</router-link>
-            <router-link class="navButtons" to="/groupList">Group Lists ➜</router-link>
+          <button class="navButtons listDropBtn">Lists ▾</button>
+          <div class="dropdown" style="width: 135px;">
+            <router-link class="dropNavButtons" to="/list">Bias Lists ➜</router-link>
+            <router-link class="dropNavButtons" to="/groupList">Group Lists ➜</router-link>
           </div>
         </div>
         <router-link class="navButtons" to="/groups">Groups</router-link>
-        <router-link class="navButtons" to="/birthdays">Birthdays</router-link>
-        <router-link class="navButtons" to="/spreadsheet">Spreadsheet</router-link>
-        <router-link class="navButtons" to="/survival">Survival</router-link>
+        <div class="dropdownFull">
+          <button class="navButtons listDropBtn">Spreadsheets ▾</button>
+          <div class="dropdown" style="width: 160px;">
+            <router-link class="dropNavButtons" to="/biases">Biases ➜</router-link>
+            <router-link class="dropNavButtons" to="/birthdays">Birthdays ➜</router-link>
+            <router-link class="dropNavButtons" to="/survival">Survival Shows ➜</router-link>
+          </div>
+        </div>
       </div>
       <button v-if="isLoggedIn" class="signInOut" @click="handleSignOut">Sign Out</button>
       <button v-else class="signInOut" @click="signinPopup">Sign In</button>
@@ -242,28 +247,28 @@ nav {
 .navBar {
   background-color: #747fe6;
   color: white;
-  padding: 5px;
+  /* padding: 5px; */
   text-align: center;
 }
 
 .navButtons {
   background-color: #747fe6;
   border: 1px solid #747fe6;
-  border-radius: 5px;
   color: white;
   display: block;
   float: left;
   font-family: Trebuchet MS;
   font-size: 16px;
   font-weight: bold;
-  margin: 5px;
-  padding: 5px 10px;
+  margin-right: 10px;
+  padding: 12px;
   text-align: center;
   text-decoration: none;
 }
 
 .navButtons:hover {
   background-color: #505cc7;
+  border: 1px solid #505cc7;
   color: white;
   cursor: pointer;
 }
@@ -273,15 +278,49 @@ nav {
   overflow: hidden;
 }
 
+.dropdownFull:hover .dropdown {
+  background-color: #505cc7;
+  border: 1px solid #505cc7;
+  display: block;
+}
+
+.dropdownFull:hover .navButtons {
+  background-color: #505cc7;
+  border: 1px solid #505cc7;
+  display: block;
+}
+
 .dropdown {
   background-color: #747fe6;
-  box-shadow: 0px 0px 5px black;
+  border: 1px solid black;
+  display: none;
   margin-top: 45px;
   overflow-x: hidden;
   padding: 0px;
   position: absolute;
-  width: 138px;
   z-index: 9999;
+}
+
+.dropNavButtons {
+  background-color: #505cc7;
+  border: 1px solid #505cc7;
+  color: white;
+  display: block;
+  float: left;
+  font-family: Trebuchet MS;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+}
+
+.dropNavButtons:hover {
+  background-color: #747fe6;
+  border: 1px solid #747fe6;
+  color: white;
+  cursor: pointer;
 }
 
 .pfp {
