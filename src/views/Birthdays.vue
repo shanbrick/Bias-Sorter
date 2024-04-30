@@ -3,42 +3,74 @@
     <button @click="switchList(months)" class="diffList">By Month</button>
     <button @click="switchList(years)" class="diffList">By Year</button>
 
-    <div style="margin-top: 20px" v-if="currentList === months">
-        <a href="#January">January | </a>
-        <a href="#February">February | </a>
-        <a href="#March">March | </a>
-        <a href="#April">April | </a>
-        <a href="#May">May | </a>
-        <a href="#June">June | </a>
-        <a href="#July">July | </a>
-        <a href="#August">August | </a>
-        <a href="#September">September | </a>
-        <a href="#October">October | </a>
-        <a href="#November">November | </a>
+    <div class="sideDirectory" v-if="currentList === months">
+        <a href="#January">January</a>
+        <br>
+        <a href="#February">February</a>
+        <br>
+        <a href="#March">March</a>
+        <br>
+        <a href="#April">April</a>
+        <br>
+        <a href="#May">May</a>
+        <br>
+        <a href="#June">June</a>
+        <br>
+        <a href="#July">July</a>
+        <br>
+        <a href="#August">August</a>
+        <br>
+        <a href="#September">September</a>
+        <br>
+        <a href="#October">October</a>
+        <br>
+        <a href="#November">November</a>
+        <br>
         <a href="#December">December</a>
     </div>
-    <div style="margin-top: 20px" v-else>
-        <a href="#1989">1989 | </a>
-        <a href="#1990">1990 | </a>
-        <a href="#1991">1991 | </a>
-        <a href="#1992">1992 | </a>
-        <a href="#1993">1993 | </a>
-        <a href="#1994">1994 | </a>
-        <a href="#1995">1995 | </a>
-        <a href="#1996">1996 | </a>
-        <a href="#1997">1997 | </a>
-        <a href="#1998">1998 | </a>
-        <a href="#1999">1999 | </a>
-        <a href="#2000">2000 | </a>
-        <a href="#2001">2001 | </a>
-        <a href="#2002">2002 | </a>
-        <a href="#2003">2003 | </a>
-        <a href="#2004">2004 | </a>
-        <a href="#2005">2005 | </a>
-        <a href="#2006">2006 | </a>
-        <a href="#2007">2007 | </a>
-        <a href="#2008">2008 | </a>
-        <a href="#2009">2009 | </a>
+    <div class="sideDirectory" v-else>
+        <a href="#1989">1989</a>
+        <br>
+        <a href="#1990">1990</a>
+        <br>
+        <a href="#1991">1991</a>
+        <br>
+        <a href="#1992">1992</a>
+        <br>
+        <a href="#1993">1993</a>
+        <br>
+        <a href="#1994">1994</a>
+        <br>
+        <a href="#1995">1995</a>
+        <br>
+        <a href="#1996">1996</a>
+        <br>
+        <a href="#1997">1997</a>
+        <br>
+        <a href="#1998">1998</a>
+        <br>
+        <a href="#1999">1999</a>
+        <br>
+        <a href="#2000">2000</a>
+        <br>
+        <a href="#2001">2001</a>
+        <br>
+        <a href="#2002">2002</a>
+        <br>
+        <a href="#2003">2003</a>
+        <br>
+        <a href="#2004">2004</a>
+        <br>
+        <a href="#2005">2005</a>
+        <br>
+        <a href="#2006">2006</a>
+        <br>
+        <a href="#2007">2007</a>
+        <br>
+        <a href="#2008">2008</a>
+        <br>
+        <a href="#2009">2009</a>
+        <br>
         <a href="#2010">2010</a>
     </div>
 
@@ -311,6 +343,17 @@ export default {
 </script>
 
 <style scoped>
+.sideDirectory {
+    background-image: linear-gradient(rgba(180, 185, 233, 0.777), rgba(116, 127, 230, 0.777));
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    margin: 10px;
+    padding: 10px;
+    position: fixed;
+    text-align: left;
+    width: fit-content;
+}
+
 .diffList {
     background-color: #b3b8e9;
     border: 1px solid #b3b8e9;
