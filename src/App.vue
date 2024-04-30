@@ -329,7 +329,7 @@ nav {
   width: 28px;
   vertical-align: middle;
   border-radius: 30px;
-  margin: 5px 10px;
+  margin: 6px 10px;
   padding: 0px;
 }
 
