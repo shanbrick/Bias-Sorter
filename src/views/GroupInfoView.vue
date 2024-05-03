@@ -4,7 +4,7 @@
         <p class="groupName">{{ group.groupName }} ({{ group.groupKR }})</p>
         <p><i style="font-weight: bold">Company:</i> {{ group.company }}</p>
         <p><i style="font-weight: bold">Debut:</i> {{ group.debutDate }}</p>
-        <div v-if="group.bgs !== 's'">
+        <div v-if="group.bgs !== 's' && isLoggedIn">
             <button v-if="checkGroup(group.imgLink)" @click="removeFromHome(group)" class="added">
                 Added
             </button>
@@ -36,26 +36,28 @@
             <p class="memberInfo">
                 <i style="font-weight: bold">Birthday:</i> {{ person.birthday }}
             </p>
-            <button v-if="checkPerson(person.imgLink)" @click="removeFromHome(person)" class="added">
-                Added
-            </button>
-            <button v-else-if="person.afr !== 'a' && person.afr !== 'f'" @click="populateGroupPage(person.afr)">
-                ➜
-            </button>
-            <button v-else @click="
-                addToUnsorted(
-                    person.grpName,
-                    person.stageName,
-                    person.stageKR,
-                    person.fullName,
-                    person.fullKR,
-                    person.birthday,
-                    person.imgLink,
-                    person.afr
-                )
-                ">
-                Add
-            </button>
+            <div v-if="isLoggedIn">
+                <button v-if="checkPerson(person.imgLink)" @click="removeFromHome(person)" class="added">
+                    Added
+                </button>
+                <button v-else-if="person.afr !== 'a' && person.afr !== 'f'" @click="populateGroupPage(person.afr)">
+                    ➜
+                </button>
+                <button v-else @click="
+                    addToUnsorted(
+                        person.grpName,
+                        person.stageName,
+                        person.stageKR,
+                        person.fullName,
+                        person.fullKR,
+                        person.birthday,
+                        person.imgLink,
+                        person.afr
+                    )
+                    ">
+                    Add
+                </button>
+            </div>
         </div>
     </div>
     <div class="bigBox">
@@ -98,6 +100,7 @@
 import groupListEdit from "@/groupListEdit.json";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import VLazyImage from "v-lazy-image";
+import { ref } from "vue";
 
 export default {
     name: "GroupInfoView",
@@ -112,13 +115,17 @@ export default {
             fireSaveData: {},
             fsdLength: 0,
             fsdGLength: 0,
+            isLoggedIn: ref(false),
         };
     },
     mounted() {
         const auth = getAuth();
         onAuthStateChanged(auth, (user) => {
             if (user) {
+                this.isLoggedIn = true;
                 this.initialize();
+            } else {
+                this.isLoggedIn = false;
             }
         });
     },
