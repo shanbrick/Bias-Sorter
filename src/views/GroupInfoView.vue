@@ -97,7 +97,7 @@
 </template>
 
 <script>
-import groupListEdit from "@/groupListEdit.json";
+import groupList from "@/jsons/groupList.json";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import VLazyImage from "v-lazy-image";
 import { ref } from "vue";
@@ -109,7 +109,7 @@ export default {
     },
     data() {
         return {
-            groupList: groupListEdit,
+            groupList: groupList,
             group: JSON.parse(localStorage.getItem("selectedGroup")),
             currUser: {},
             fireSaveData: {},

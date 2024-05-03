@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import groupListEdit from "@/groupListEdit.json";
+import groupList from "@/jsons/groupList.json";
 import VLazyImage from "v-lazy-image";
 
 export default {
@@ -38,7 +38,7 @@ export default {
     },
     data() {
         return {
-            groups: groupListEdit,
+            groups: groupList,
             selectedGroupArray: [],
             birthdayToday: [],
             currentDate: "",

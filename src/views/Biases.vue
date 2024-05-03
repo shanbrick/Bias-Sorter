@@ -5,15 +5,15 @@
     </div>
     <!-- <p>{{ fireSaveData }}</p> -->
     <div v-if="currentList === 0">
-        <table id="listTable">
+        <table id="everyone">
             <tr>
-                <th @click="sortTableABC(0)">Group</th>
-                <th @click="sortTableABC(1)">Stage Name</th>
-                <th @click="sortTableABC(2)"></th>
-                <th @click="sortTableABC(3)">Full Name</th>
-                <th @click="sortTableABC(4)"></th>
-                <th @click="sortTableDate(5)">Birthday</th>
-                <th @click="sortTableABC(6)">Category</th>
+                <th @click="sortTableABC(0, 'everyone')">Group</th>
+                <th @click="sortTableABC(1, 'everyone')">Stage Name</th>
+                <th @click="sortTableABC(2, 'everyone')"></th>
+                <th @click="sortTableABC(3, 'everyone')">Full Name</th>
+                <th @click="sortTableABC(4, 'everyone')"></th>
+                <th @click="sortTableDate(5, 'everyone')">Birthday</th>
+                <th @click="sortTableABC(6, 'everyone')">Category</th>
             </tr>
             <tr v-for="person in combinedList">
                 <td>{{ person.grpName }}</td>
@@ -27,14 +27,14 @@
         </table>
     </div>
     <div v-if="currentList === 1">
-        <table v-for="category in fireSaveData.categories.slice(1)" id="listTable">
+        <table v-for="category in fireSaveData.categories.slice(1)" :id="category.catName">
             <tr>
-                <th @click="sortTableABC(0)">Group</th>
-                <th @click="sortTableABC(1)">Stage Name</th>
-                <th @click="sortTableABC(2)"></th>
-                <th @click="sortTableABC(3)">Full Name</th>
-                <th @click="sortTableABC(4)"></th>
-                <th @click="sortTableDate(5)">Birthday</th>
+                <th @click="sortTableABC(0, category.catName)">Group</th>
+                <th @click="sortTableABC(1, category.catName)">Stage Name</th>
+                <th @click="sortTableABC(2, category.catName)"></th>
+                <th @click="sortTableABC(3, category.catName)">Full Name</th>
+                <th @click="sortTableABC(4, category.catName)"></th>
+                <th @click="sortTableDate(5, category.catName)">Birthday</th>
             </tr>
             <tr v-for="person in category.people">
                 <td>{{ person.grpName }}</td>
@@ -169,9 +169,9 @@ export default {
             }
             return combined;
         },
-        sortTableABC(n) {
+        sortTableABC(n, id) {
             var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-            table = document.getElementById("listTable");
+            table = document.getElementById(id);
             switching = true;
 
             dir = "asc";
@@ -210,9 +210,9 @@ export default {
                 }
             }
         },
-        sortTableDate(n) {
+        sortTableDate(n, id) {
             var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-            table = document.getElementById("listTable");
+            table = document.getElementById(id);
             switching = true;
 
             dir = "asc";

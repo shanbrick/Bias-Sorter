@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import groupListEdit from "@/groupListEdit.json";
+import groupList from "@/jsons/groupList.json";
 let selectedGroupArray = JSON.parse(localStorage.getItem("selectedGroup"));
 import VLazyImage from "v-lazy-image";
 
@@ -26,7 +26,7 @@ export default {
   },
   data: () => {
     return {
-      groupsData: groupListEdit,
+      groupsData: groupList,
       currentList: [],
     };
   },

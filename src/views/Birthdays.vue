@@ -140,13 +140,13 @@
 </template>
 
 <script>
-import groupListEdit from "@/groupListEdit.json";
+import groupList from "@/jsons/groupList.json";
 
 export default {
     name: "Birthdays",
     data() {
         return {
-            groups: groupListEdit,
+            groups: groupList,
             years: [],
             months: [],
             currentList: [],

@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import groupListEdit from "@/groupListEdit.json";
+import groupList from "@/jsons/groupList.json";
 import SearchAutocomplete from "./components/SearchAutocomplete.vue";
 import VLazyImage from "v-lazy-image";
 import Help from './components/Help.vue';
@@ -72,7 +72,7 @@ export default {
   data() {
     return {
       search: "",
-      groups: groupListEdit,
+      groups: groupList,
       isLoggedIn: ref(false),
       router: useRouter(),
       currUser: {},

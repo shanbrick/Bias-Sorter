@@ -103,7 +103,7 @@ export default {
     data() {
         return {
             show: false,
-            helpSelection: '',
+            helpSelection: 'Get Started',
             helpOptions: ['Get Started', 'Search for an Idol/Group', 'Add an Idol/Group', 'Remove an Idol/Group', 'Edit Categories']
         }
     },

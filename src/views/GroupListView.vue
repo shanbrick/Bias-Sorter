@@ -86,7 +86,7 @@
 </template>
 
 <script>
-import groupListEdit from "@/groupListEdit.json";
+import groupList from "@/jsons/groupList.json";
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 import ContextMenu from '../components/ContextMenu.vue';
@@ -118,7 +118,7 @@ export default {
             clickedGroup: {},
             clickedCat: {},
             clickedIndex: 0,
-            groups: groupListEdit,
+            groups: groupList,
             currUser: {},
             fireSaveData: {},
             unsortedCollapsed: true
