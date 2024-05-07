@@ -107,7 +107,6 @@ export default {
                     link.href = canvas.toDataURL();
 
                     const fileUrl = id.replace(/[^a-zA-Z]+/g, '');
-                    console.log(fileUrl);
                     link.download = fileUrl + '.jpeg';
 
                     //Firefox requires the link to be in the body
