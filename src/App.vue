@@ -128,77 +128,84 @@ export default {
     async initialize() {
       const auth = getAuth();
       const currentUser = auth.currentUser;
-      this.currUser = currentUser;
-      // const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
-      // if (userDoc.exists) {
-      //   const saveData = userDoc.data();
-      //   this.fireSaveData = saveData;
-      //   if (this.fireSaveData.groupCategories === undefined) {
-      //     this.$db.collection("users").doc(this.currUser.uid).set(
-      //       {
-      //         "groupCategories": [
-      //           {
-      //             "catName": "Unsorted",
-      //             "groups": []
-      //           },
-      //           {
-      //             "catName": "Ults",
-      //             "groups": []
-      //           },
-      //           {
-      //             "catName": "Semis",
-      //             "groups": []
-      //           },
-      //           {
-      //             "catName": "Regs",
-      //             "groups": []
-      //           }
-      //         ]
-      //       }, { merge: true }
-      //     );
-      //   }
-      // } else {
-      //   const saveData = await this.$db.collection("users").doc(currentUser.uid).set(
-      //     {
-      //       "categories": [
-      //         {
-      //           "catName": "Unsorted",
-      //           "people": []
-      //         },
-      //         {
-      //           "catName": "Ults",
-      //           "people": []
-      //         },
-      //         {
-      //           "catName": "Semis",
-      //           "people": []
-      //         },
-      //         {
-      //           "catName": "Regs",
-      //           "people": []
-      //         }
-      //       ],
-      //       "groupCategories": [
-      //         {
-      //           "catName": "Unsorted",
-      //           "groups": []
-      //         },
-      //         {
-      //           "catName": "Ults",
-      //           "groups": []
-      //         },
-      //         {
-      //           "catName": "Semis",
-      //           "groups": []
-      //         },
-      //         {
-      //           "catName": "Regs",
-      //           "groups": []
-      //         }
-      //       ]
-      //     }
-      //   );
-      // }
+      this.currUser = currentUser
+      const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
+      if (userDoc.exists) {
+        const saveData = userDoc.data();
+        if (saveData.groupCategories === undefined) {
+          this.$db.collection("users").doc(this.currUser.uid).set(
+            {
+              "groupCategories": [
+                {
+                  "catName": "Unsorted",
+                  "groups": []
+                },
+                {
+                  "catName": "Ults",
+                  "groups": []
+                },
+                {
+                  "catName": "Semis",
+                  "groups": []
+                },
+                {
+                  "catName": "Regs",
+                  "groups": []
+                }
+              ]
+            }, { merge: true }
+          );
+        }
+        if (saveData.aemail === undefined) {
+          this.$db.collection("users").doc(this.currUser.uid).set(
+            {
+              "aemail": this.currUser.email
+            }, { merge: true }
+          );
+        }
+      } else {
+        const saveData = await this.$db.collection("users").doc(currentUser.uid).set(
+          {
+            "email": this.currUser.email,
+            "categories": [
+              {
+                "catName": "Unsorted",
+                "people": []
+              },
+              {
+                "catName": "Ults",
+                "people": []
+              },
+              {
+                "catName": "Semis",
+                "people": []
+              },
+              {
+                "catName": "Regs",
+                "people": []
+              }
+            ],
+            "groupCategories": [
+              {
+                "catName": "Unsorted",
+                "groups": []
+              },
+              {
+                "catName": "Ults",
+                "groups": []
+              },
+              {
+                "catName": "Semis",
+                "groups": []
+              },
+              {
+                "catName": "Regs",
+                "groups": []
+              }
+            ]
+          }
+        );
+      }
     },
   },
   mounted() {

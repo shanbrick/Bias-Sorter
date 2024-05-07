@@ -78,58 +78,9 @@ export default {
             const currentUser = auth.currentUser;
             this.currUser = currentUser;
             const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
-            if (userDoc.exists) {
-                const saveData = userDoc.data();
-                this.fireSaveData = saveData;
-                if (this.fireSaveData.groupCategories === undefined) {
-                    this.$db.collection("users").doc(this.currUser.uid).set(
-                        {
-                            "groupCategories": [
-                                {
-                                    "catName": "Unsorted",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Ults",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Semis",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Regs",
-                                    "groups": []
-                                }
-                            ]
-                        }, { merge: true }
-                    );
-                }
-                this.combinedList = this.combineLists(saveData);
-            } else {
-                const saveData = await this.$db.collection("users").doc(currentUser.uid).set(
-                    {
-                        "categories": [
-                            {
-                                "catName": "Unsorted",
-                                "people": []
-                            },
-                            {
-                                "catName": "Ults",
-                                "people": []
-                            },
-                            {
-                                "catName": "Semis",
-                                "people": []
-                            },
-                            {
-                                "catName": "Regs",
-                                "people": []
-                            }
-                        ]
-                    }
-                );
-            }
+            const saveData = userDoc.data();
+            this.fireSaveData = saveData;
+            this.combinedList = this.combineLists(saveData);
         },
         combineLists(saveData) {
             let combined = [];

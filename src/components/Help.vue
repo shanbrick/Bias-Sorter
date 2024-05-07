@@ -138,7 +138,7 @@ export default {
     margin: auto;
     overflow-x: hidden;
     padding: 15px;
-    position: absolute;
+    position: fixed;
     text-align: left;
     width: 450px;
     z-index: 9999;

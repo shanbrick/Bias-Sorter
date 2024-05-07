@@ -138,82 +138,15 @@ export default {
             const currentUser = auth.currentUser;
             this.currUser = currentUser;
             const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
-            if (userDoc.exists) {
-                const saveData = userDoc.data();
-                this.fireSaveData = saveData;
-                if (this.fireSaveData.groupCategories === undefined) {
-                    this.$db.collection("users").doc(this.currUser.uid).set(
-                        {
-                            "groupCategories": [
-                                {
-                                    "catName": "Unsorted",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Ults",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Semis",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Regs",
-                                    "groups": []
-                                }
-                            ]
-                        }, { merge: true }
-                    );
-                }
+            const saveData = userDoc.data();
+            this.fireSaveData = saveData;
 
-                for (let i = 0; i < this.fireSaveData.groupCategories.length; i++) {
-                    this.homePageArrays.push(this.fireSaveData.groupCategories[i].groups);
-                }
+            for (let i = 0; i < this.fireSaveData.groupCategories.length; i++) {
+                this.homePageArrays.push(this.fireSaveData.groupCategories[i].groups);
+            }
 
-                for (let i = 1; i < this.fireSaveData.groupCategories.length; i++) {
-                    this.testArray.push(this.fireSaveData.groupCategories[i]);
-                }
-            } else {
-                const saveData = await this.$db.collection("users").doc(currentUser.uid).set(
-                    {
-                        "categories": [
-                            {
-                                "catName": "Unsorted",
-                                "people": []
-                            },
-                            {
-                                "catName": "Ults",
-                                "people": []
-                            },
-                            {
-                                "catName": "Semis",
-                                "people": []
-                            },
-                            {
-                                "catName": "Regs",
-                                "people": []
-                            }
-                        ],
-                        "groupCategories": [
-                            {
-                                "catName": "Unsorted",
-                                "groups": []
-                            },
-                            {
-                                "catName": "Ults",
-                                "groups": []
-                            },
-                            {
-                                "catName": "Semis",
-                                "groups": []
-                            },
-                            {
-                                "catName": "Regs",
-                                "groups": []
-                            }
-                        ]
-                    }
-                );
+            for (let i = 1; i < this.fireSaveData.groupCategories.length; i++) {
+                this.testArray.push(this.fireSaveData.groupCategories[i]);
             }
         },
         addNewCategory() {

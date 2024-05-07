@@ -1,6 +1,6 @@
 <template>
     <div class="topBar">
-        <button class="topBarButton" @click="openFileUploader()">&nbsp;<span
+        <button class="topBarButton" @click="openListSaver()">&nbsp;<span
                 style="font-size: 130%">↥</span>&nbsp;Upload/Save List</button>
         <button class="topBarButton" @click="addNewCategory()">&nbsp;+&nbsp; Add New Category</button>
         <button class="topBarButton" @click="toggleEditModeOn()" v-if="!editModeOn">&nbsp;✎&nbsp; Edit
@@ -19,18 +19,14 @@
         <p class="contextButton" @click="removeFromHomeCat($event, false)">Remove category and people</p>
     </ContextMenu>
 
-    <div class="upload" v-show="showFileUploader" @blur="close">
-        <button class="closeUpload" @click="closeUploader()">╳</button>
-        <button class="uploadButton" style="margin-bottom: 20px" @click="saveJSON()">Save List</button>
-        <input class="uploadButton" type="file" id="selectFiles" @click="uploadFile" />
-        <button class="uploadButton" id="import">Upload List</button>
-    </div>
+    <ListSaver :display="showListSaver" ref="listSaver">
+    </ListSaver>
 
     <button class="showUnsButton" v-show="unsortedCollapsed" @click="toggleUnsorted(1)">
         U
     </button>
 
-    <div id="unsorted" class="unsorted" v-show="!unsortedCollapsed">
+    <div id="Unsorted - Bias List" class="unsorted" v-show="!unsortedCollapsed">
         <div class="boxHeaderUnsorted">
             <p class="categoryTitle">Unsorted</p>
             <button class="colUns" @click="toggleUnsorted(0)">X</button>
@@ -52,11 +48,11 @@
     </div>
 
 
-    <div class="sideCats">
+    <div id="sidecats" class="sideCats">
         <draggable :list="testArray" :animation="300" @change="updateCatOrder(testArray)" :disabled="!editModeOn"
             item-key="b">
             <template #item="{ element: catArr, index }">
-                <div :id=catArr class="categories">
+                <div :id="catArr.catName + ' - Bias List'" class="categories">
                     <div class="boxHeaderCategories" v-on:click.right="openContextMenuCat($event, catArr, index)"
                         oncontextmenu="return false;">
                         <div v-if="!editModeOn">
@@ -95,6 +91,7 @@ import groupList from "@/jsons/groupList.json";
 import { ref } from 'vue';
 import draggable from 'vuedraggable';
 import ContextMenu from '../components/ContextMenu.vue';
+import ListSaver from '../components/ListSaver.vue';
 import VLazyImage from "v-lazy-image";
 import {
     getAuth,
@@ -107,6 +104,7 @@ export default {
     components: {
         draggable,
         ContextMenu,
+        ListSaver,
         VLazyImage
     },
     props: [
@@ -119,7 +117,7 @@ export default {
             editModeOn: false,
             showContextMenu: false,
             showContextMenuCat: false,
-            showFileUploader: false,
+            showListSaver: false,
             clickedPerson: {},
             clickedCat: {},
             clickedIndex: 0,
@@ -143,82 +141,13 @@ export default {
             const currentUser = auth.currentUser;
             this.currUser = currentUser;
             const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
-            if (userDoc.exists) {
-                const saveData = userDoc.data();
-                this.fireSaveData = saveData;
-                if (this.fireSaveData.groupCategories === undefined) {
-                    this.$db.collection("users").doc(this.currUser.uid).set(
-                        {
-                            "groupCategories": [
-                                {
-                                    "catName": "Unsorted",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Ults",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Semis",
-                                    "groups": []
-                                },
-                                {
-                                    "catName": "Regs",
-                                    "groups": []
-                                }
-                            ]
-                        }, { merge: true }
-                    );
-                }
-
-                for (let i = 0; i < this.fireSaveData.categories.length; i++) {
-                    this.homePageArrays.push(this.fireSaveData.categories[i].people);
-                }
-
-                for (let i = 1; i < this.fireSaveData.categories.length; i++) {
-                    this.testArray.push(this.fireSaveData.categories[i]);
-                }
-            } else {
-                const saveData = await this.$db.collection("users").doc(currentUser.uid).set(
-                    {
-                        "categories": [
-                            {
-                                "catName": "Unsorted",
-                                "people": []
-                            },
-                            {
-                                "catName": "Ults",
-                                "people": []
-                            },
-                            {
-                                "catName": "Semis",
-                                "people": []
-                            },
-                            {
-                                "catName": "Regs",
-                                "people": []
-                            }
-                        ],
-                        "groupCategories": [
-                            {
-                                "catName": "Unsorted",
-                                "groups": []
-                            },
-                            {
-                                "catName": "Ults",
-                                "groups": []
-                            },
-                            {
-                                "catName": "Semis",
-                                "groups": []
-                            },
-                            {
-                                "catName": "Regs",
-                                "groups": []
-                            }
-                        ]
-                    }
-                );
+            const saveData = userDoc.data();
+            this.fireSaveData = saveData;
+            for (let i = 0; i < this.fireSaveData.categories.length; i++) {
+                this.homePageArrays.push(this.fireSaveData.categories[i].people);
+            }
+            for (let i = 1; i < this.fireSaveData.categories.length; i++) {
+                this.testArray.push(this.fireSaveData.categories[i]);
             }
         },
         addNewCategory() {
@@ -264,8 +193,11 @@ export default {
             this.clickedIndex = index;
             this.$refs.menuCat.open(e);
         },
-        openFileUploader() {
-            this.showFileUploader = true;
+        openListSaver() {
+            this.$refs.listSaver.open();
+        },
+        closeListSaver() {
+            this.$refs.listSaver.close();
         },
         removeFromHome(e) {
             this.$refs.menu.close(e);
@@ -331,14 +263,6 @@ export default {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         },
-        saveJSON() {
-            var a = document.createElement("a");
-            var file = new Blob([JSON.stringify(this.fireSaveData)], { type: 'application/json' });
-            a.href = URL.createObjectURL(file);
-            a.download = 'exportSaveData.json';
-            a.click();
-            this.showFileUploader = false;
-        },
         uploadFile() {
             document.getElementById("import").onclick = () => {
                 const files = document.getElementById("selectFiles").files;
@@ -366,9 +290,6 @@ export default {
                 fr.readAsText(files.item(0));
                 this.showFileUploader = false;
             };
-        },
-        closeUploader() {
-            this.showFileUploader = false;
         },
         toggleUnsorted(num) {
             const sideCats = document.getElementsByClassName("sideCats");
@@ -591,61 +512,6 @@ export default {
 a {
     color: black;
     text-decoration: none;
-}
-
-.upload {
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px black;
-    font-size: 13px;
-    height: fit-content;
-    margin: auto;
-    padding: 5px 10px;
-    line-height: 1px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 300px;
-    z-index: 999;
-}
-
-.uploadButton {
-    background-color: #b3b8e9;
-    border: 1px solid #848484;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    padding: 7px 15px;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-}
-
-.uploadButton:hover {
-    background-color: #505cc7;
-}
-
-.closeUpload {
-    background-color: #b3b8e9;
-    border: 1px solid #848484;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    display: block;
-    float: right;
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.closeUpload:hover {
-    background-color: #505cc7;
 }
 
 .contextButton {
