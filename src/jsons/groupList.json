@@ -991,21 +991,21 @@
     },
     {
         "groupName": "Bang Yongguk",
-        "groupKR": "",
+        "groupKR": "방용국",
         "bgs": "s",
         "imgLink": "Solo/BangYonggukBig.jpeg",
         "company": "YY Entertainment",
         "debutDate": "May 02, 2018",
         "members": [
             {
-                "grpName": "B.A.P",
+                "grpName": "Bang Yongguk",
                 "stageName": "Yongguk",
                 "stageKR": "용국",
                 "fullName": "Bang Yongguk",
                 "fullKR": "방용국",
                 "birthday": "March 31, 1990",
-                "imgLink": "BAP/Yongguk.jpeg",
-                "afr": "Bang Yongguk"
+                "imgLink": "Solo/BangYongguk.jpeg",
+                "afr": "a"
             }
         ]
     },

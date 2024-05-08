@@ -49,7 +49,7 @@
         </div>
     </div>
 
-    <div class="sideCats">
+    <div id="sidecatsG" class="sideCats">
         <draggable :list="testArray" :animation="300" @change="updateCatOrder(testArray)" :disabled="!editModeOn"
             item-key="b">
             <template #item="{ element: catArr, index }">

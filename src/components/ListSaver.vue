@@ -35,7 +35,7 @@ export default {
             fireSaveData: {},
             jsonSave: false,
             imageSave: true,
-            catSelection: 'Unsorted - Bias List',
+            catSelection: 'Full List - Bias List',
             catOptions: []
         }
     },
@@ -47,6 +47,9 @@ export default {
             const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
             const saveData = userDoc.data();
             this.fireSaveData = saveData;
+
+            this.catOptions.push("Full List - Bias List");
+            this.catOptions.push("Full List - Group List");
 
             for (let i = 0; i < this.fireSaveData.categories.length; i++) {
                 let concat = this.fireSaveData.categories[i].catName + " - Bias List"
@@ -100,13 +103,25 @@ export default {
             this.showFileUploader = false;
         },
         saveAsImage(id) {
+            if (id === "Full List - Bias List") {
+                id = "sidecatsB";
+            }
+            if (id === "Full List - Group List") {
+                id = "sidecatsG";
+            }
             html2canvas(document.getElementById(id)).then(canvas => {
                 var link = document.createElement('a');
 
                 if (typeof link.download === 'string') {
                     link.href = canvas.toDataURL();
 
-                    const fileUrl = id.replace(/[^a-zA-Z]+/g, '');
+                    let fileUrl = id.replace(/[^a-zA-Z]+/g, '');
+                    if (id === "sidecatsB") {
+                        fileUrl = "FullListBias";
+                    }
+                    if (id === "sidecatsG") {
+                        fileUrl = "FullListGroup";
+                    }
                     link.download = fileUrl + '.jpeg';
 
                     //Firefox requires the link to be in the body
