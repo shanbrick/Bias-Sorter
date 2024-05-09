@@ -57,6 +57,7 @@
                         oncontextmenu="return false;">
                         <div v-if="!editModeOn">
                             <p class="categoryTitle">{{ catArr.catName }}</p>
+                            <p class="categoryLength">Total: {{ catArr.people.length }}</p>
                         </div>
                         <div v-else>
                             <input class="boxHeaderCatsInput" type="text" v-model="catArr.catName"
@@ -440,6 +441,16 @@ export default {
     font-weight: 700;
     position: absolute;
     top: -19.5px;
+}
+
+.categoryLength {
+    color: white;
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: -19.5px;
+    right: 10px;
 }
 
 .categories:after {
