@@ -137,6 +137,8 @@ export default {
             const userDoc = await this.$db.collection("users").doc(currentUser.uid).get();
             const saveData = userDoc.data();
             this.fireSaveData = saveData;
+            this.fsdLength = this.fireSaveData.categories.length;
+            this.fsdGLength = this.fireSaveData.groupCategories.length;
         },
         addToUnsorted(grpName, stageName, stageKR, fullName, fullKR, birthday, imgLink, afr) {
             if (stageName === grpName) {
